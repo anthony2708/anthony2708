@@ -8,5 +8,5 @@
 - 📮 Contact: 
   - Personal email: builetuananh27082001@gmail.com
   - Uni email: 19120163@student.hcmus.edu.vn
-  - Facebook: fb.com/buile.tuananh
+  - Facebook: [Bùi Lê Tuấn Anh](https://www.facebook.com/buile.tuananh).
   
