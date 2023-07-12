@@ -20,17 +20,14 @@ const rateLimit = (ip, timeout = 1000) => {
     return false
 }
 
-const checkUrl = (str) => {
-    const pattern = new RegExp(
-        '^(https?:\\/\\/)?' + // protocol
-        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
-        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
-        '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
-        '(\\#[-a-z\\d_]*)?$', // fragment locator
-        'i'
-    );
-    return pattern.test(str);
+const checkUrl = (string) => {
+    let url;
+    try {
+        url = new URL(string);
+        return Boolean(url.protocol === "http:" || url.protocol === "https:");
+    } catch (error) {
+        return false
+    }
 }
 
 exports.handler = async function (event) {
@@ -63,7 +60,7 @@ exports.handler = async function (event) {
                 }),
             }
         }
-        if ((!checkUrl(body.data.url)) && ((!body.data.url.startsWith("http")) || (!body.data.url.startsWith("https")))) {
+        if ((!checkUrl(body.data.url))) {
             return {
                 statusCode: 400,
                 body: JSON.stringify({
