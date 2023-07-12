@@ -75,9 +75,11 @@ exports.handler = async function (event) {
         // Check if url exists in database
         const url = await prisma.URLShortener.findMany({
             where: {
-                longUrl: body.data.url,
+                longUrl: {
+                    endsWith: body.data.url,
+                }
             }
-        });
+        })
 
         if (url.length > 0) {
             prisma.$disconnect();
@@ -121,6 +123,8 @@ exports.handler = async function (event) {
                     statusCode: 404,
                     body: JSON.stringify({
                         status: 404,
+                        error: error.message,
+                        stack: error.stack,
                         message: "Không thể tìm thấy đường dẫn mà bạn yêu cầu. Xin vui lòng thử lại.",
                     }),
                 }
