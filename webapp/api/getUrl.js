@@ -102,7 +102,7 @@ exports.handler = async function (event) {
                 },
             });
             const data = await response.json();
-            if (data.shortUrl != undefined) {
+            if (data.result_url != undefined) {
                 await prisma.URLShortener.create({
                     data: {
                         longUrl: body.data.url,
@@ -123,8 +123,6 @@ exports.handler = async function (event) {
                     statusCode: 404,
                     body: JSON.stringify({
                         status: 404,
-                        error: error.message,
-                        stack: error.stack,
                         message: "Không thể tìm thấy đường dẫn mà bạn yêu cầu. Xin vui lòng thử lại.",
                     }),
                 }
