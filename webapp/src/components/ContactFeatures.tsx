@@ -48,7 +48,7 @@ function Contact({ image, link }: ContactItem) {
         <div className="col col--3">
             <div className="text--center">
                 <div className={styles.contact}>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                         {image}
                     </a>
                 </div>
