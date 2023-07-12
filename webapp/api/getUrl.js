@@ -79,7 +79,7 @@ exports.handler = async function (event) {
             }
         });
 
-        if (url.length > 0) {
+        if (url) {
             prisma.$disconnect();
             return {
                 statusCode: 200,
