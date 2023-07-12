@@ -73,19 +73,19 @@ exports.handler = async function (event) {
             }
         }
         // Check if url exists in database
-        const url = await prisma.URLShortener.findUnique({
+        const url = await prisma.URLShortener.findMany({
             where: {
                 longUrl: body.data.url,
             }
         });
 
-        if (url) {
+        if (url.length > 0) {
             prisma.$disconnect();
             return {
                 statusCode: 200,
                 body: JSON.stringify({
                     status: 200,
-                    message: decodeURIComponent(url.shortUrl),
+                    message: decodeURIComponent(url[0].shortUrl),
                 }),
             }
         }
