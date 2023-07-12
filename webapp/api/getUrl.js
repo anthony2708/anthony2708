@@ -121,8 +121,6 @@ exports.handler = async function (event) {
                     statusCode: 404,
                     body: JSON.stringify({
                         status: 404,
-                        error: error.message,
-                        stack: error.stack,
                         message: "Không thể tìm thấy đường dẫn mà bạn yêu cầu. Xin vui lòng thử lại.",
                     }),
                 }
