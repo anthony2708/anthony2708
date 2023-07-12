@@ -1,0 +1,41 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner,
+.contact {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBanner {
+  /* background-image: url("/public/img/docusaurus/cover_dark.png"); */ /* State Funeral Mode */
+  background-image: url("/public/img/docusaurus/cover.png");
+}
+
+.contact {
+  background-image: url("/public/img/favicon/LNY.jpg");
+}
+
+html[data-theme="dark"] .contactText {
+  color: #222;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
