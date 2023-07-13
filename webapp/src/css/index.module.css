@@ -3,8 +3,7 @@
  * and scoped locally.
  */
 
-.heroBanner,
-.contact {
+.heroBanner {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,12 +19,12 @@
   background-image: url("/public/img/docusaurus/cover.png");
 }
 
-.contact {
-  background-image: url("/public/img/favicon/LNY.jpg");
+.scoreboard {
+  background-color: #fff;
 }
 
-html[data-theme="dark"] .contactText {
-  color: #222;
+html[data-theme="dark"] .scoreboard {
+  background-color: #fff;
 }
 
 @media screen and (max-width: 966px) {

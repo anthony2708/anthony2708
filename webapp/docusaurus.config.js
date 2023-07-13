@@ -170,7 +170,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          "⭐ <b>Thông báo</b>: Vui lòng gửi góp ý phiên bản mới qua email ở mục Liên hệ. Trân trọng cảm ơn. <b>Please send your reviews for this web's new version via the email button in the Contact section below. Thank you.</b>",
+          "⭐ <b>Thông báo</b>: Tra cứu điểm thi Tốt nghiệp THPT năm 2023 tại <a href='scoreboard' target='_blank' rel='noopener noreferrer'><b>đây</b></a> ⭐",
         backgroundColor: "#a4e4dc",
         textColor: "#222",
         isCloseable: false,
