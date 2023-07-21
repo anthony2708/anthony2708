@@ -4,8 +4,8 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from '../css/index.module.css';
 import Translate, { translate } from '@docusaurus/Translate';
-import HomepageFeatures from '../components/HomepageFeatures';
-import ContactFeatures from '../components/ContactFeatures';
+import HomepageFeatures from '../components/Home/HomepageFeatures';
+import ContactFeatures from '../components/Home/ContactFeatures';
 
 function HomepageHeader() {
   const [dateState, setDateState] = useState(new Date());

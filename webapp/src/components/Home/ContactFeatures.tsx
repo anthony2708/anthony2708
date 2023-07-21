@@ -2,7 +2,7 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
-import styles from '../css/HomepageFeatures.module.css';
+import styles from '../../css/HomepageFeatures.module.css';
 type ContactItem = {
     image: JSX.Element;
     link: string;

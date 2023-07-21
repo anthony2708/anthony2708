@@ -1,7 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import React from 'react';
 import clsx from 'clsx';
-import styles from '../css/HomepageFeatures.module.css';
+import styles from '../../css/HomepageFeatures.module.css';
 import Translate, { translate } from '@docusaurus/Translate';
 type FeatureItem = {
   title: string;
