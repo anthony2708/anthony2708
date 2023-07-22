@@ -1,0 +1,83 @@
+import React, { Component } from "react";
+import custom from "../../css/YoutubeFeatures.module.css";
+
+export default class CoursesScoreboard extends Component<{ data: any, id: string }, {}> {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        if (this.props.data.statusCode == 200 && this.props.data.info != null) {
+            return (
+                <>
+                    <div>
+                        <table className={custom.table_center}>
+                            <thead>
+                                <tr>
+                                    <th>Learner ID</th>
+                                    <th>Progress 1</th>
+                                    <th>Progress 2</th>
+                                    <th>Progress 3</th>
+                                    <th>Progress 4</th>
+                                    <th>Progress 5</th>
+                                    <th>Test 1</th>
+                                    <th>Test 2</th>
+                                    <th>Test 3</th>
+                                    <th>Test 4</th>
+                                    <th>Test 5</th>
+                                    <th>Final</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{this.props.id}</td>
+                                    <td>{this.props.data.info.progress[1]}</td>
+                                    <td>{this.props.data.info.progress[2]}</td>
+                                    <td>{this.props.data.info.progress[3]}</td>
+                                    <td>{this.props.data.info.progress[4]}</td>
+                                    <td>{this.props.data.info.progress[5]}</td>
+                                    <td>{this.props.data.info.test[1]}</td>
+                                    <td>{this.props.data.info.test[2]}</td>
+                                    <td>{this.props.data.info.test[3]}</td>
+                                    <td>{this.props.data.info.test[4]}</td>
+                                    <td>{this.props.data.info.test[5]}</td>
+                                    <td>{this.props.data.info.final}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </>
+            );
+        }
+        else
+            return (
+                <>
+                    <div>
+                        <table className={custom.table_center}>
+                            <thead>
+                                <tr>
+                                    <th>Learner ID</th>
+                                    <th>Progress 1</th>
+                                    <th>Progress 2</th>
+                                    <th>Progress 3</th>
+                                    <th>Progress 4</th>
+                                    <th>Progress 5</th>
+                                    <th>Test 1</th>
+                                    <th>Test 2</th>
+                                    <th>Test 3</th>
+                                    <th>Test 4</th>
+                                    <th>Test 5</th>
+                                    <th>Final</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colSpan={12}><b>No data from the learner.</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </>
+            );
+    }
+}
