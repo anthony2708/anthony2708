@@ -33,16 +33,16 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
                                 <tr>
                                     <td>{this.props.data.info.id}</td>
                                     <td>{this.props.data.info.name}</td>
+                                    <td>{this.props.data.info.progress[0]}</td>
                                     <td>{this.props.data.info.progress[1]}</td>
                                     <td>{this.props.data.info.progress[2]}</td>
                                     <td>{this.props.data.info.progress[3]}</td>
                                     <td>{this.props.data.info.progress[4]}</td>
-                                    <td>{this.props.data.info.progress[5]}</td>
+                                    <td>{this.props.data.info.test[0]}</td>
                                     <td>{this.props.data.info.test[1]}</td>
                                     <td>{this.props.data.info.test[2]}</td>
                                     <td>{this.props.data.info.test[3]}</td>
                                     <td>{this.props.data.info.test[4]}</td>
-                                    <td>{this.props.data.info.test[5]}</td>
                                     <td>{this.props.data.info.final}</td>
                                 </tr>
                             </tbody>
