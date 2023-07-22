@@ -8,6 +8,7 @@ exports.handler = async function (event) {
                 return {
                     statusCode: 200,
                     body: JSON.stringify({
+                        status: 200,
                         info: jsonScore[i],
                     }),
                 };

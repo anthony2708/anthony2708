@@ -21,10 +21,10 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
         try {
-            const res = await axios.post('/api/score', { data: { id: this.state.id } });
+            const res = await axios.post('https://www.builetuananh.name.vn/api/score', { data: { id: this.state.id } });
             this.setState({ data: res.data });
         } catch (error) {
-            this.setState({ data: error.response.data });
+            this.setState({ data: error.message });
         }
     }
 

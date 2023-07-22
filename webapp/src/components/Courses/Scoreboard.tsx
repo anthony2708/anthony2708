@@ -7,7 +7,7 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
     }
 
     render() {
-        if (this.props.data.statusCode == 200 && this.props.data.info != null) {
+        if (this.props.data.status === 200 && this.props.data.info != null) {
             return (
                 <>
                     <div>
@@ -15,6 +15,7 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
                             <thead>
                                 <tr>
                                     <th>Learner ID</th>
+                                    <th>Full Name</th>
                                     <th>Progress 1</th>
                                     <th>Progress 2</th>
                                     <th>Progress 3</th>
@@ -30,7 +31,8 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>{this.props.id}</td>
+                                    <td>{this.props.data.info.id}</td>
+                                    <td>{this.props.data.info.name}</td>
                                     <td>{this.props.data.info.progress[1]}</td>
                                     <td>{this.props.data.info.progress[2]}</td>
                                     <td>{this.props.data.info.progress[3]}</td>
@@ -57,6 +59,7 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
                             <thead>
                                 <tr>
                                     <th>Learner ID</th>
+                                    <th>Full Name</th>
                                     <th>Progress 1</th>
                                     <th>Progress 2</th>
                                     <th>Progress 3</th>
@@ -72,7 +75,7 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colSpan={12}><b>No data from the learner.</b></td>
+                                    <td colSpan={13}><b>No data from the learner.</b></td>
                                 </tr>
                             </tbody>
                         </table>
