@@ -10,7 +10,10 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
         if (this.props.data.status === 200 && this.props.data.info != null) {
             return (
                 <>
-                    <div>
+                    <div className="container">
+                        <h1 className="text--center margin--lg">Scoreboard</h1>
+                    </div>
+                    <div className="container">
                         <table className={custom.table_center}>
                             <thead>
                                 <tr>
@@ -54,7 +57,10 @@ export default class CoursesScoreboard extends Component<{ data: any, id: string
         else
             return (
                 <>
-                    <div>
+                    <div className="container">
+                        <h1 className="text--center margin--lg">Scoreboard</h1>
+                    </div>
+                    <div className="container">
                         <table className={custom.table_center}>
                             <thead>
                                 <tr>

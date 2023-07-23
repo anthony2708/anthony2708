@@ -6,6 +6,7 @@ import styles from "../css/index.module.css";
 import custom from "../css/YoutubeFeatures.module.css";
 import CoursesScoreboard from "../components/Courses/Scoreboard";
 import CourseFeatures from "../components/Courses/Features";
+import CoursesResources from "../components/Courses/Resources";
 import Link from "@docusaurus/Link";
 
 export default class Courses extends Component<{}, { id: string, data: any }> {
@@ -57,6 +58,9 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                     </div>
                     <div className="container">
                         <CourseFeatures />
+                    </div>
+                    <div className="container">
+                        <CoursesResources />
                     </div>
                 </main>
             </Layout >
