@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../../css/HomepageFeatures.module.css";
 import clsx from "clsx";
@@ -43,7 +43,7 @@ function Feature({ title, image, description, link }: FeatureItem) {
                     src={useBaseUrl(image)}
                 />
             </div>
-            <div className="text--center padding-horiz--md">
+            <div className="text--center padding-horiz--md margin-vert--md">
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <Link className="button button--primary button--md margin-vert--md"
@@ -57,7 +57,7 @@ export default function CoursesFeatures(): JSX.Element {
     return (
         <>
             <div className="container">
-                <h1 className="text--center margin--lg">Teaching Videos</h1>
+                <h1 className="text--center margin--lg">English Courses</h1>
             </div>
             <section className={styles.features}>
                 <div className="container">

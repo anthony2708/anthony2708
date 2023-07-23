@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Layout from "@theme/Layout";
+import MDXContent from "@theme/MDXContent"
 import axios from "axios";
 import clsx from "clsx";
 import styles from "../css/index.module.css";
 import custom from "../css/YoutubeFeatures.module.css";
+import CoursesAnnouncement from '../components/Courses/_announcement.mdx';
 import CoursesScoreboard from "../components/Courses/Scoreboard";
 import CourseFeatures from "../components/Courses/Features";
-import CoursesResources from "../components/Courses/Resources";
-import Link from "@docusaurus/Link";
 
 export default class Courses extends Component<{}, { id: string, data: any }> {
     constructor(props: {} | Readonly<{}>) {
@@ -57,10 +57,15 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                         <CoursesScoreboard data={this.state.data} id={this.state.id} />
                     </div>
                     <div className="container">
-                        <CourseFeatures />
+                        <MDXContent>
+                            <div className={custom.announcement}>
+
+                                <CoursesAnnouncement />
+                            </div>
+                        </MDXContent>
                     </div>
                     <div className="container">
-                        <CoursesResources />
+                        <CourseFeatures />
                     </div>
                 </main>
             </Layout >
