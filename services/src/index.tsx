@@ -1,8 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import App from './pages/App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './tests/reportWebVitals';
+
+import Game from './pages/game';
+import Gallery from './pages/gallery';
+import Home from './pages/home';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/games" element={<Game />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
