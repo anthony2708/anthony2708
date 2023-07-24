@@ -171,8 +171,10 @@ const config = {
         id: "announcement-bar",
         content:
           "⭐ <b>Thông báo</b>: Tra cứu điểm thi Tốt nghiệp THPT năm 2023 tại <a href='scoreboard' target='_blank' rel='noopener noreferrer'><b>đây</b></a> ⭐",
-        backgroundColor: "#a4e4dc",
-        textColor: "#222",
+        // backgroundColor: "#a4e4dc",
+        // textColor: "#222",
+        backgroundColor: "#222",
+        textColor: "#fff",
         isCloseable: false,
       },
       footer: {
