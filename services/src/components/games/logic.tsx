@@ -240,4 +240,5 @@ class Logic {
     }
 }
 
-export default new Logic()
+const logic = new Logic()
+export default logic

@@ -1,5 +1,10 @@
+import '../css/home/index.css'
+import '../css/home/App.css'
+
 export default function Home() {
     return (
-        <h1>Hello world</h1>
+        <div>
+            <h1>Hello world</h1>
+        </div>
     )
 }
