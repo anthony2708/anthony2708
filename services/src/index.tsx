@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './tests/reportWebVitals';
 
 import Game from './pages/game';
@@ -9,13 +9,13 @@ import Home from './pages/home';
 
 export default function App() {
   return (
-    <HashRouter future={{ v7_startTransition: true }}>
+    <BrowserRouter future={{ v7_startTransition: true }}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/games" element={<Game />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
