@@ -6,6 +6,7 @@ import reportWebVitals from './tests/reportWebVitals';
 import Game from './pages/game';
 import Gallery from './pages/gallery';
 import Home from './pages/home';
+import NotFound from './pages/notfound';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/games" element={<Game />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
