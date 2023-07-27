@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.css": "/public/css/main.2871b84e.css",
+    "main.js": "/public/js/main.a7d543cb.js",
+    "index.html": "/games.html",
+    "main.2871b84e.css.map": "/public/css/main.2871b84e.css.map",
+    "main.a7d543cb.js.map": "/public/js/main.a7d543cb.js.map"
+  },
+  "entrypoints": ["public/css/main.2871b84e.css", "public/js/main.a7d543cb.js"]
+}
