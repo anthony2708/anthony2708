@@ -9,25 +9,28 @@ Information Technology - Vietnam National University of Ho Chi Minh City, Univer
 
 ```
 .
-└── projects_v2/
+└── anthony2708/
     ├── .github/
     │   ├── ISSUE_TEMPLATE/ # All templates for issues
     │   ├── workflows/ # All workflows for Github Actions
-    │   └── bitbucket-pipelines.yml # Bitbucket Pipelines configuration file
+    │   └── bitbucket-pipelines.yml # Bitbucket Pipelines configuration file for the Graduation Thesis
     │   └── CODE_OF_CONDUCT.md # Code of Conduct file
     │   └── CONTRIBUTING.md # Contributing file
     │   └── dependabot.yml # Dependabot configuration file
-    ├── app/
+    ├── app/ # All files for the Graduation Thesis
     │   ├── aws/ # All files for the webapp
     │   ├── includes/ # All files for the states management
     │   └── scripts/ # All files for the automation scripts
+    │   └── Readme.md/ # This file
     ├── assets/ # All files for references (not used for Graduation Thesis)
     │   ├── else/
     │   ├── THPTQG/
     │   ├── python-reviewer-anthony/
     ├── .gitignore # Git ignore file
+    ├── client/ # All files for the official webapp
+    ├── docs/ # All files for the development webapp (formerly built as a part of the Graduation Thesis)
     ├── LICENSE # License file
-    └── Readme.md # This file
+    └── Readme.md # The introduction file
 ```
 
 ### Notices
