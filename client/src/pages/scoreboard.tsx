@@ -71,7 +71,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                     </div>
                     <div className={clsx("container", custom.point)}>
                         <Link className="button button--primary button--md"
-                            href="https://github.com/anthony2708/projects_v2/blob/main/assets/THPTQG/score_analysis_2023.ipynb"
+                            href="https://github.com/anthony2708/anthony2708/blob/main/assets/THPTQG/score_analysis_2023.ipynb"
                             hrefLang="en">Xem phân tích phổ điểm 📊</Link>
                     </div>
                 </main>
