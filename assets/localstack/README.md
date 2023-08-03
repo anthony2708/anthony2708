@@ -1,3 +1,3 @@
-# localstack-testing
+# localstack
 
-A new repository for testing LocalStack with AWS.
+A new folder for testing LocalStack with AWS.
