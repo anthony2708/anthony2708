@@ -15,7 +15,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: "Youtube Downloader",
-        image: "/img/docusaurus/undraw_docusaurus_mountain.svg",
+        image: "/img/english/youtube_logo.svg",
         description: (
             <>
                 Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
@@ -25,40 +25,39 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: "URL Shortener",
-        image: "/img/docusaurus/undraw_docusaurus_tree.svg",
+        image: "/img/english/url_logo.jpg",
         description: (
             <>
-                Dịch vụ rút gọn URL, giúp bạn dễ dàng chia sẻ đường dẫn với người khác.
+                Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
             </>
         ),
         link: "/services/url"
     },
     {
         title: "Scoreboard Review",
-        image: "img/docusaurus/undraw_docusaurus_react.svg",
+        image: "img/english/scoreboard.jpg",
         description: (
             <>
                 Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2023,
-                giúp bạn dễ dàng đánh giá bảng điểm của mình
-                và đưa ra quyết định chính xác nhất.
+                giúp bạn đưa ra quyết định chính xác nhất.
             </>
         ),
         link: "/services/scoreboard"
     },
     {
         title: "English L&T",
-        image: "img/docusaurus/undraw_docusaurus_mountain.svg",
+        image: "img/english/english_logo.jpg",
         description: (
             <>
                 Dịch vụ dạy và học tiếng Anh trực tuyến, phục vụ nhu cầu của
-                giáo viên và học viên. Hiện đang được xây dựng.
+                giáo viên và học viên. Hiện đang được xây dựng trên hệ thống chính.
             </>
         ),
         link: "/services/courses"
     },
     {
-        title: "Image Gallery",
-        image: "img/docusaurus/undraw_docusaurus_tree.svg",
+        title: "Images Gallery",
+        image: "img/english/gallery.jpg",
         description: (
             <>
                 Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp.
@@ -69,7 +68,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: "2048 Game",
-        image: "img/docusaurus/undraw_docusaurus_react.svg",
+        image: "img/english/2048_logo.svg",
         description: (
             <>
                 Dịch vụ chơi game 2048 trực tuyến, giúp bạn giải trí sau giờ làm việc, học tập.
@@ -82,7 +81,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, image, description, link }: FeatureItem) {
     return (
-        <div className={clsx('col col--4')}>
+        <div className={clsx('col col--4 margin-vert--md')}>
             <div className="text--center">
                 <img
                     className={styles.featureSvg}
@@ -93,7 +92,7 @@ function Feature({ title, image, description, link }: FeatureItem) {
             <div className="text--center padding-horiz--md">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <Link className="button button--primary button--md"
+                <Link className="button button--primary button--md "
                     href={link}>Truy cập</Link>
             </div>
         </div>

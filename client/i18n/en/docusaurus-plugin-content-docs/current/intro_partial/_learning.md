@@ -17,10 +17,10 @@
 
 ### 👨‍💻 Technologies & Tools
 
-1. CI/CD: Git, Github, Jenkins CI, Heroku
+1. CI/CD: Git, Github, Jenkins CI, Terraform
 2. Basic AWS (Amazon Web Services)
-3. Systems Management: Linux, Windows
-4. Virtualization: Docker, VMWare
+3. Systems Management: Linux, Windows and Network Services
+4. Virtualization: Docker, VMWare, Kubernetes
 5. Microservices
 6. Load Balancing, Caching, Queuing
 

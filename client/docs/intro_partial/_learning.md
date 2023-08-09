@@ -17,10 +17,10 @@
 
 ### 👨‍💻 Công nghệ & Kỹ thuật
 
-1. CI/CD: Git, Github, Jenkins CI, Heroku
+1. CI/CD: Git, Github, Jenkins CI, Terraform
 2. Basic AWS (Amazon Web Services)
-3. Quản trị hệ thống: Linux, Windows
-4. Công nghệ ảo hóa (Virtualization): Docker, VMWare
+3. Quản trị hệ thống: Linux, Windows và các dịch vụ mạng
+4. Công nghệ ảo hóa (Virtualization): Docker, VMWare, Kubernetes
 5. Hệ thống nhỏ (Microservices)
 6. Kỹ thuật Cân bằng tải, Caching, Hàng đợi
 

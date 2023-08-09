@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
@@ -48,9 +49,7 @@ function Contact({ image, link }: ContactItem) {
         <div className="col col--3">
             <div className="text--center">
                 <div className={styles.contact}>
-                    <a href={link} target="_blank" rel="noopener noreferrer">
-                        {image}
-                    </a>
+                    <Link href={link}>{image}</Link>
                 </div>
             </div>
         </div>
