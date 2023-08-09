@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import custom from "../css/YoutubeFeatures.module.css";
+import custom from "../../css/YoutubeFeatures.module.css";
 import Link from "@docusaurus/Link";
 
 export default class URLFeatures extends Component<{ url: string, data: any }, {}>  {

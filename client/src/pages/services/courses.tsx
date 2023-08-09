@@ -3,11 +3,11 @@ import Layout from "@theme/Layout";
 import MDXContent from "@theme/MDXContent"
 import axios from "axios";
 import clsx from "clsx";
-import styles from "../css/index.module.css";
-import custom from "../css/YoutubeFeatures.module.css";
-import CoursesAnnouncement from '../components/Courses/_announcement.mdx';
-import CoursesScoreboard from "../components/Courses/Scoreboard";
-import CourseFeatures from "../components/Courses/Features";
+import styles from "../../css/index.module.css";
+import custom from "../../css/YoutubeFeatures.module.css";
+import CoursesAnnouncement from '../../components/Courses/_announcement.mdx';
+import CoursesScoreboard from "../../components/Courses/Scoreboard";
+import CourseFeatures from "../../components/Courses/Features";
 
 export default class Courses extends Component<{}, { id: string, data: any }> {
     constructor(props: {} | Readonly<{}>) {

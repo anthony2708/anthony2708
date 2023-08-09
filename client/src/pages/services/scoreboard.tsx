@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Layout from "@theme/Layout";
 import axios from "axios";
 import clsx from "clsx";
-import styles from "../css/index.module.css";
-import custom from "../css/YoutubeFeatures.module.css";
-import ScoreboardFeatures from "../components/ScoreboardFeatures";
+import styles from "../../css/index.module.css";
+import custom from "../../css/YoutubeFeatures.module.css";
+import ScoreboardFeatures from "../../components/Services/ScoreboardFeatures";
 import Link from "@docusaurus/Link";
 
 export default class Scoreboard extends Component<{}, { sbd: string, data: any }> {

@@ -147,11 +147,11 @@ const config = {
             items: [
               {
                 label: "Youtube Downloader",
-                to: "/youtube",
+                to: "/services/youtube",
               },
               {
                 label: "URL Shortener",
-                to: "/url",
+                to: "/services/url",
               },
               {
                 label: "Cổng dịch vụ",
@@ -170,7 +170,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          "⭐ <b>Thông báo</b>: Tra cứu điểm thi Tốt nghiệp THPT năm 2023 tại <a href='scoreboard' target='_blank' rel='noopener noreferrer'><b>đây</b></a> ⭐",
+          "⭐ <b>Thông báo</b>: Hệ thống sẽ nâng cấp Cổng dịch vụ từ ngày 14 - 16/08/2023. Services Portal will be upgraded from 14-16 Aug, 2023. ⭐",
         backgroundColor: "#a4e4dc",
         textColor: "#222",
         // backgroundColor: "#222",
@@ -198,11 +198,11 @@ const config = {
             items: [
               {
                 label: "Youtube Downloader",
-                to: "/youtube",
+                to: "/services/youtube",
               },
               {
                 label: "URL Shortener",
-                to: "/url",
+                to: "/services/url",
               },
               {
                 label: "Cổng dịch vụ",
