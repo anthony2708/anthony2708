@@ -170,7 +170,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          "⭐ <b>Thông báo</b>: Hệ thống sẽ nâng cấp Cổng dịch vụ từ ngày 14 - 16/08/2023. Services Portal will be upgraded from 14-16 Aug, 2023. ⭐",
+          "⭐ <b>Thông báo</b>: Ra mắt Cổng dịch vụ mới (A brand new Service Portal is here): <a href='/services' target='_blank' rel='noopener noreferrer'><b>Truy cập/Access</b></a> ⭐",
         backgroundColor: "#a4e4dc",
         textColor: "#222",
         // backgroundColor: "#222",
