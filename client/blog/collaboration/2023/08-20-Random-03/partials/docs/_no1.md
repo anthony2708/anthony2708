@@ -15,9 +15,9 @@ _Tớ từng là một cô bé hay cãi bướng, cãi đến độ mà cọc m�
 
 _Debate dắt tớ đi trên đấu trường của những con người giống tớ, debate cho tớ biết đấu võ mồm và tranh biện là khác nhau, debate dắt tớ đi gặp nhiều người, có cả người mình đang thầm thích... và debate giúp mình biết **kết nối, biết lắng nghe và thấu hiểu mọi vấn đề! Tớ biết ơn debate lắm!**_
 
-_Và rồi, để thay cho lời cảm ơn ấy thì tớ chọn đi tham gia debate thử một lần, nhưng không phải tư cách debaters mà chỉ là administrator thôi. **Vì sao tớ không dám á?** Vì tiếng anh tớ kém, suy nghĩ về vấn đề và tư duy phản biện lại rất chậm nên làm sao mà dám (**nhưng tương lai sẽ dám nha**). Nhưng làm admin như thế thì tớ lại được tiếp xúc với nhiều người nè như debaters, OC và nhất là các adjudicators dày dặn kinh nghiệm (**để tớ gặp được người tớ thích**)._
+_Và rồi, để thay cho lời cảm ơn ấy thì tớ chọn đi tham gia debate thử một lần, nhưng không phải tư cách debaters mà chỉ là administrator thôi. **Vì sao tớ không dám á?** Vì tiếng Anh tớ kém, suy nghĩ về vấn đề và tư duy phản biện lại rất chậm nên làm sao mà dám (**nhưng tương lai sẽ dám nha**). Nhưng làm admin như thế thì tớ lại được tiếp xúc với nhiều người nè như debaters, OC và nhất là các adjudicators dày dặn kinh nghiệm (**để tớ gặp được người tớ thích**)._
 
-_Thế cậu có thắc mắc, admin sẽ làm gì? Chạy đi xếp bàn, hỗ trợ hết mình, dùng tiếng anh liên tục, canh thời gian, đi ra đi vào,... **Đúng, nhưng chỉ một phần thôi vì... tớ còn có những thứ này**:_
+_Thế cậu có thắc mắc, admin sẽ làm gì? Chạy đi xếp bàn, hỗ trợ hết mình, dùng tiếng Anh liên tục, canh thời gian, đi ra đi vào,... **Đúng, nhưng chỉ một phần thôi vì... tớ còn có những thứ này**:_
 
 ![Friends](../img/image1.png)
 
