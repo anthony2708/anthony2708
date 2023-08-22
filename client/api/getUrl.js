@@ -38,6 +38,7 @@ exports.handler = async function (event) {
                 body: JSON.stringify({
                     status: 429,
                     message: "Hệ thống đang bận. Xin vui lòng thử lại sau.",
+                    english: "Too many requests. Please try again later.",
                 }),
             }
         }
@@ -47,6 +48,7 @@ exports.handler = async function (event) {
                 body: JSON.stringify({
                     status: 405,
                     message: "Phương thức không được hỗ trợ.",
+                    english: "Method not allowed.",
                 }),
             }
         }
@@ -57,6 +59,7 @@ exports.handler = async function (event) {
                 body: JSON.stringify({
                     status: 400,
                     message: "Không có thông tin. Xin vui lòng thử lại.",
+                    english: "No information. Please try again.",
                 }),
             }
         }
@@ -66,6 +69,7 @@ exports.handler = async function (event) {
                 body: JSON.stringify({
                     status: 400,
                     message: "Đường dẫn không hợp lệ. Xin vui lòng thử lại.",
+                    english: "Invalid URL. Please try again.",
                 }),
             }
         }
@@ -121,6 +125,7 @@ exports.handler = async function (event) {
                     body: JSON.stringify({
                         status: 404,
                         message: "Không thể tìm thấy đường dẫn mà bạn yêu cầu. Xin vui lòng thử lại.",
+                        english: "Cannot find the URL you requested. Please try again.",
                     }),
                 }
             }
@@ -134,6 +139,7 @@ exports.handler = async function (event) {
                 error: error.message,
                 stack: error.stack,
                 message: "Không thể tìm thấy đường dẫn mà bạn yêu cầu. Xin vui lòng thử lại.",
+                english: "Cannot find the URL you requested. Please try again.",
             }),
         }
     }

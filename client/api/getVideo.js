@@ -20,6 +20,7 @@ exports.handler = async function (event) {
       body: JSON.stringify({
         status: 404,
         message: "Không tìm thấy video mà bạn yêu cầu.",
+        english: "Video not found.",
       }),
     };
   }

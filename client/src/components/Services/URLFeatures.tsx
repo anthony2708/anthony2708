@@ -25,6 +25,7 @@ export default class URLFeatures extends Component<{ url: string, data: any }, {
                 <>
                     <h1 className={custom.status}>{this.props.data.status}</h1>
                     <h3 className={custom.alert}>{this.props.data.message}</h3>
+                    <h3 className={custom.alert}>{this.props.data.english}</h3>
                 </>
             );
     }
