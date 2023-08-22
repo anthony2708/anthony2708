@@ -4,6 +4,7 @@ import axios from "axios";
 import clsx from "clsx";
 import styles from "../../css/index.module.css";
 import custom from "../../css/YoutubeFeatures.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 import YoutubeFeatures from "../../components/Services/YoutubeFeatures";
 
 export default class Youtube extends Component<{}, { url: string, data: any }> {
@@ -28,22 +29,38 @@ export default class Youtube extends Component<{}, { url: string, data: any }> {
 
     render() {
         return (
-            <Layout title={`Youtube Downloader`} description="Công cụ tải xuống video từ Youtube">
+            <Layout title={`Youtube Downloader`} description={
+                translate({
+                    id: 'youtube.desc',
+                    message: 'Công cụ tải xuống video từ Youtube'
+                })}>
                 {/* Header */}
-                <header className={clsx("hero hero--primary", styles.heroBanner)}>
+                < header className={clsx("hero hero--primary", styles.heroBanner)}>
                     <div className="container">
                         <h1 className="hero__title">Youtube Downloader</h1>
-                        <p className="hero__subtitle">Công cụ tải xuống video từ Youtube (Vietnamese only)</p>
+                        <p className="hero__subtitle">
+                            <Translate id='youtube.subtitle'>
+                                Công cụ tải xuống video từ Youtube
+                            </Translate>
+                        </p>
                         <form onSubmit={this.handleSubmit.bind(this)}>
                             <label>
                                 <input className={custom.url} type="text"
-                                    placeholder="Nhập địa chỉ video (ví dụ https://youtube.com)"
+                                    placeholder={translate({
+                                        id: 'youtube.placeholder',
+                                        message: 'Nhập địa chỉ video (ví dụ https://youtube.com)'
+                                    })}
                                     name="url" value={this.state.url}
                                     onChange={this.handleChange.bind(this)} required />
                             </label>
                             <div className={styles.buttons}>
                                 <input className="button button--secondary button--lg" type="submit"
-                                    value="🔍 Tìm kiếm" />
+                                    value={
+                                        translate({
+                                            id: 'youtube.submit',
+                                            message: '🔍 Tìm kiếm'
+                                        })
+                                    } />
                             </div>
                         </form>
                     </div>

@@ -2,6 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import React from 'react';
 import clsx from 'clsx';
 import styles from '../../css/HomepageFeatures.module.css';
+import Translate, { translate } from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 
 type FeatureItem = {
@@ -17,9 +18,9 @@ const FeatureList: FeatureItem[] = [
         title: "Youtube Downloader",
         image: "/img/english/youtube_logo.svg",
         description: (
-            <>
+            <Translate id='services.feature1.desc'>
                 Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
-            </>
+            </Translate>
         ),
         link: "/services/youtube"
     },
@@ -27,9 +28,9 @@ const FeatureList: FeatureItem[] = [
         title: "URL Shortener",
         image: "/img/english/url_logo.jpg",
         description: (
-            <>
+            <Translate id='services.feature2.desc'>
                 Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
-            </>
+            </Translate>
         ),
         link: "/services/url"
     },
@@ -37,10 +38,10 @@ const FeatureList: FeatureItem[] = [
         title: "Scoreboard Review",
         image: "img/english/scoreboard.jpg",
         description: (
-            <>
+            <Translate id='services.feature3.desc'>
                 Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2023,
                 giúp bạn đưa ra quyết định chính xác nhất.
-            </>
+            </Translate>
         ),
         link: "/services/scoreboard"
     },
@@ -48,10 +49,10 @@ const FeatureList: FeatureItem[] = [
         title: "English L&T",
         image: "img/english/english_logo.jpg",
         description: (
-            <>
+            <Translate id='services.feature4.desc'>
                 Dịch vụ dạy và học tiếng Anh trực tuyến, phục vụ nhu cầu của
-                giáo viên và học viên. Hiện đang được xây dựng trên hệ thống chính.
-            </>
+                giáo viên và học viên.
+            </Translate>
         ),
         link: "/services/courses"
     },
@@ -59,10 +60,9 @@ const FeatureList: FeatureItem[] = [
         title: "Images Gallery",
         image: "img/english/gallery.jpg",
         description: (
-            <>
+            <Translate id='services.feature5.desc'>
                 Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp.
-                Hiện đang tích hợp về hệ thống chính.
-            </>
+            </Translate>
         ),
         link: "https://services.builetuananh.name.vn/gallery"
     },
@@ -70,10 +70,9 @@ const FeatureList: FeatureItem[] = [
         title: "2048 Game",
         image: "img/english/2048_logo.svg",
         description: (
-            <>
+            <Translate id='services.feature6.desc'>
                 Dịch vụ chơi game 2048 trực tuyến, giúp bạn giải trí sau giờ làm việc, học tập.
-                Hiện đang được xây dựng dưới dạng ứng dụng.
-            </>
+            </Translate>
         ),
         link: "https://services.builetuananh.name.vn/games"
     }
@@ -93,7 +92,11 @@ function Feature({ title, image, description, link }: FeatureItem) {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <Link className="button button--primary button--md "
-                    href={link}>Truy cập</Link>
+                    href={link}>
+                    <Translate id='services.access'>
+                        Truy cập
+                    </Translate>
+                </Link>
             </div>
         </div>
     );

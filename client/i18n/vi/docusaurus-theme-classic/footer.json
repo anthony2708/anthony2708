@@ -1,8 +1,4 @@
 {
-  "link.title.Blog cá nhân": {
-    "message": "Blog cá nhân",
-    "description": "The title of the footer links column with title=Blog cá nhân in the footer"
-  },
   "link.item.label.Giới thiệu cá nhân": {
     "message": "Giới thiệu cá nhân",
     "description": "The label of footer link with label=Giới thiệu cá nhân linking to /docs/intro"
@@ -33,22 +29,14 @@
   },
   "link.item.label.Cổng dịch vụ": {
     "message": "Cổng dịch vụ",
-    "description": "The label of footer link with label=Cổng dịch vụ linking to https://services.builetuananh.name.vn"
+    "description": "The label of footer link with label=Cổng dịch vụ linking to /services"
   },
   "link.item.label.Câu chuyện mùa xuân": {
     "message": "Câu chuyện mùa xuân",
     "description": "The label of footer link with label=Câu chuyện mùa xuân linking to /spring"
   },
-  "link.title.Các dịch vụ": {
-    "message": "Các dịch vụ",
-    "description": "The title of the footer links column with title=Các dịch vụ in the footer"
-  },
-  "link.item.label.Youtube Downloader": {
-    "message": "Youtube Downloader",
-    "description": "The label of footer link with label=Youtube Downloader linking to /youtube"
-  },
-  "link.item.label.URL Shortener": {
-    "message": "URL Shortener",
-    "description": "The label of footer link with label=URL Shortener linking to /url"
+  "link.title.Blog": {
+    "message": "Blog",
+    "description": "The title of the footer links column with title=Blog in the footer"
   }
 }

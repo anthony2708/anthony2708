@@ -119,7 +119,7 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "Blog cá nhân",
+            label: "Blog",
             position: "left",
             items: [
               {
@@ -141,23 +141,9 @@ const config = {
             ],
           },
           {
-            type: "dropdown",
             label: "Dịch vụ",
             position: "left",
-            items: [
-              {
-                label: "Youtube Downloader",
-                to: "/services/youtube",
-              },
-              {
-                label: "URL Shortener",
-                to: "/services/url",
-              },
-              {
-                label: "Cổng dịch vụ",
-                href: "https://services.builetuananh.name.vn",
-              },
-            ],
+            to: "/services",
           },
           {
             href: "https://www.builetuananh.name.vn/blog/atom.xml",
@@ -191,27 +177,14 @@ const config = {
                 label: "Tài liệu tham khảo",
                 to: "/docs/resources",
               },
-            ],
-          },
-          {
-            title: "Các dịch vụ",
-            items: [
-              {
-                label: "Youtube Downloader",
-                to: "/services/youtube",
-              },
-              {
-                label: "URL Shortener",
-                to: "/services/url",
-              },
               {
                 label: "Cổng dịch vụ",
-                href: "https://services.builetuananh.name.vn",
+                to: "/services",
               },
             ],
           },
           {
-            title: "Blog cá nhân",
+            title: "Blog",
             items: [
               {
                 label: "Tech Blog",

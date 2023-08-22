@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import custom from "../../css/YoutubeFeatures.module.css";
+import Translate from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
 
 export default class YoutubeFeatures extends Component<{ data: any, url: string }, {}> {
@@ -11,7 +12,7 @@ export default class YoutubeFeatures extends Component<{ data: any, url: string 
         if (this.props.data.info != undefined && this.props.url.includes("youtube.com/watch?v="))
             return (
                 <>
-                    <h3 className={custom.alert}>Tìm thấy video: {this.props.data.title}</h3>
+                    <h3 className={custom.alert}><Translate id="youtube.found">Tìm thấy video</Translate>: {this.props.data.title}</h3>
                     <div className={custom.iframe_container}>
                         <iframe className={custom.center} src={this.props.data.url}></iframe>
                     </div>
@@ -19,10 +20,10 @@ export default class YoutubeFeatures extends Component<{ data: any, url: string 
                         <table className={custom.table_center}>
                             <thead>
                                 <tr>
-                                    <th>Phiên bản</th>
-                                    <th>Chất lượng hình ảnh</th>
-                                    <th>Có/Không có tiếng?</th>
-                                    <th>Đường dẫn</th>
+                                    <th><Translate id="youtube.version">Phiên bản</Translate></th>
+                                    <th><Translate id="youtube.quality">Chất lượng hình ảnh</Translate></th>
+                                    <th><Translate id="youtube.sound">Có/Không có tiếng?</Translate></th>
+                                    <th><Translate id="youtube.link">Đường dẫn</Translate></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -33,7 +34,11 @@ export default class YoutubeFeatures extends Component<{ data: any, url: string 
                                             <td>{item.hasVideo ? item.height + "p" : ""}</td>
                                             <td>{item.hasAudio ? "✔" : "❌"}</td>
                                             <td><Link className="button button--primary button--md"
-                                                href={item.url}>🔽 Tải xuống</Link></td>
+                                                href={item.url}>
+                                                <Translate id="youtube.download">
+                                                    🔽 Tải xuống
+                                                </Translate>
+                                            </Link></td>
                                         </tr>
                                     );
                                 })}

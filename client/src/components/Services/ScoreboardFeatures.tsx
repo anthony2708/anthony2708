@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import custom from "../../css/YoutubeFeatures.module.css";
+import Translate from "@docusaurus/Translate";
 
 export default class ScoreboardFeatures extends Component<{ data: any, sbd: string }, {}> {
     constructor(props) {
@@ -15,17 +16,17 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
                         <table className={custom.table_center}>
                             <thead>
                                 <tr>
-                                    <th>Số báo danh</th>
-                                    <th>Toán</th>
-                                    <th>Ngữ văn</th>
-                                    <th>Vật lý</th>
-                                    <th>Hóa học</th>
-                                    <th>Sinh học</th>
-                                    <th>Lịch sử</th>
-                                    <th>Địa lý</th>
-                                    <th>GDCD</th>
-                                    <th>Ngoại ngữ</th>
-                                    <th>Mã môn NN</th>
+                                    <th><Translate id="scoreboard.id">Số báo danh</Translate></th>
+                                    <th><Translate id="scoreboard.math">Toán</Translate></th>
+                                    <th><Translate id="scoreboard.literature">Ngữ văn</Translate></th>
+                                    <th><Translate id="scoreboard.physics">Vật lý</Translate></th>
+                                    <th><Translate id="scoreboard.chemistry">Hóa học</Translate></th>
+                                    <th><Translate id="scoreboard.biology">Sinh học</Translate></th>
+                                    <th><Translate id="scoreboard.history">Lịch sử</Translate></th>
+                                    <th><Translate id="scoreboard.geography">Địa lý</Translate></th>
+                                    <th><Translate id="scoreboard.civic">GDCD</Translate></th>
+                                    <th><Translate id="scoreboard.foreign">Ngoại ngữ</Translate></th>
+                                    <th><Translate id="scoreboard.langcode">Mã môn NN</Translate></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -55,22 +56,26 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
                         <table className={custom.table_center}>
                             <thead>
                                 <tr>
-                                    <th>Số báo danh</th>
-                                    <th>Toán</th>
-                                    <th>Ngữ văn</th>
-                                    <th>Vật lý</th>
-                                    <th>Hóa học</th>
-                                    <th>Sinh học</th>
-                                    <th>Lịch sử</th>
-                                    <th>Địa lý</th>
-                                    <th>GDCD</th>
-                                    <th>Ngoại ngữ</th>
-                                    <th>Mã môn NN</th>
+                                    <th><Translate id="scoreboard.id">Số báo danh</Translate></th>
+                                    <th><Translate id="scoreboard.math">Toán</Translate></th>
+                                    <th><Translate id="scoreboard.literature">Ngữ văn</Translate></th>
+                                    <th><Translate id="scoreboard.physics">Vật lý</Translate></th>
+                                    <th><Translate id="scoreboard.chemistry">Hóa học</Translate></th>
+                                    <th><Translate id="scoreboard.biology">Sinh học</Translate></th>
+                                    <th><Translate id="scoreboard.history">Lịch sử</Translate></th>
+                                    <th><Translate id="scoreboard.geography">Địa lý</Translate></th>
+                                    <th><Translate id="scoreboard.civic">GDCD</Translate></th>
+                                    <th><Translate id="scoreboard.foreign">Ngoại ngữ</Translate></th>
+                                    <th><Translate id="scoreboard.langcode">Mã môn NN</Translate></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colSpan={12}><b>Không có dữ liệu điểm thi.</b></td>
+                                    <td colSpan={12}><b>
+                                        <Translate id="scoreboard.nodata">
+                                            Không có dữ liệu điểm thi
+                                        </Translate>
+                                    </b></td>
                                 </tr>
                             </tbody>
                         </table>

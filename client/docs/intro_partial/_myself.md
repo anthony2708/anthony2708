@@ -4,14 +4,14 @@
 
 ## Bảng thông tin
 
-| Attributes            | Value                                                                         |
-| --------------------- | ----------------------------------------------------------------------------- |
-| 💳 Name               | **Anthony Bùi Lê Tuấn Anh**                                                   |
-| 📅 DOB                | Aug 27th, 2001 (21)                                                           |
-| 🏡 Hometown           | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
-| 📗 Currently Studying | Information Technology [**Senior (Sep 2022 - Jul 2023)**]                     |
-| 💻 Major              | **Computer Networking and Telecommunications**                                |
-| 🏫 Uni                | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
+| Attributes       | Value                                                                         |
+| ---------------- | ----------------------------------------------------------------------------- |
+| 💳 Name          | **Anthony Bùi Lê Tuấn Anh**                                                   |
+| 📅 DOB           | Aug 27th, 2001 (22)                                                           |
+| 🏡 Hometown      | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
+| 📗 Current Title | DevOps Engineer [**Fresher (Sep 2023 - Sep 2024)**]                           |
+| 💻 Company       | **KMS Technology Vietnam**                                                    |
+| 🏫 Previous Uni  | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
 
 ## 💻 Github
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import custom from "../../css/YoutubeFeatures.module.css";
+import Translate from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
 
 export default class URLFeatures extends Component<{ url: string, data: any }, {}>  {
@@ -11,7 +12,11 @@ export default class URLFeatures extends Component<{ url: string, data: any }, {
         if (this.props.data.status == 200)
             return (
                 <>
-                    <h3 className={custom.alert}>Đường dẫn rút gọn:
+                    <h3 className={custom.alert}>
+
+                        <Translate id="url.result">
+                            Địa chỉ rút gọn
+                        </Translate>:
                         <Link href={this.props.data.message}> {this.props.data.message}</Link></h3>
                 </>
             );

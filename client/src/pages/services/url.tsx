@@ -4,6 +4,7 @@ import axios from "axios";
 import clsx from "clsx";
 import styles from "../../css/index.module.css";
 import custom from "../../css/YoutubeFeatures.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 import URLFeatures from "../../components/Services/URLFeatures";
 
 export default class URL extends Component<{}, { url: string, data: any }> {
@@ -28,22 +29,41 @@ export default class URL extends Component<{}, { url: string, data: any }> {
 
     render() {
         return (
-            <Layout title={`URL Shortener`} description="Công cụ rút gọn địa chỉ URL">
+            <Layout title={`URL Shortener`} description={
+                translate({
+                    id: "url.desc",
+                    message: "Công cụ rút gọn địa chỉ URL",
+                })
+            }>
                 {/* Header */}
                 <header className={clsx("hero hero--primary", styles.heroBanner)}>
                     <div className="container">
                         <h1 className="hero__title">URL Shortener</h1>
-                        <p className="hero__subtitle">Công cụ rút gọn địa chỉ URL (Vietnamese only)</p>
+                        <p className="hero__subtitle">
+                            <Translate id="url.subtitle">
+                                Công cụ rút gọn địa chỉ URL
+                            </Translate>
+                        </p>
                         <form onSubmit={this.handleSubmit.bind(this)}>
                             <label>
                                 <input className={custom.url} type="url"
-                                    placeholder="Nhập địa chỉ cần rút gọn (ví dụ https://google.com)"
+                                    placeholder={
+                                        translate({
+                                            id: "url.placeholder",
+                                            message: "Nhập địa chỉ URL (ví dụ https://google.com)",
+                                        })
+                                    }
                                     name="url" value={this.state.url}
                                     onChange={this.handleChange.bind(this)} required />
                             </label>
                             <div className={styles.buttons}>
                                 <input className="button button--secondary button--lg" type="submit"
-                                    value="🔍 Rút gọn" />
+                                    value={
+                                        translate({
+                                            id: "url.submit",
+                                            message: "🔍 Rút gọn",
+                                        })
+                                    } />
                             </div>
                         </form>
                     </div>

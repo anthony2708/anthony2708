@@ -59,7 +59,6 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                     <div className="container">
                         <MDXContent>
                             <div className={custom.announcement}>
-
                                 <CoursesAnnouncement />
                             </div>
                         </MDXContent>

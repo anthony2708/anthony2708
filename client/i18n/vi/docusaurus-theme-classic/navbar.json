@@ -7,14 +7,6 @@
     "message": "Giới thiệu",
     "description": "Navbar item with label Giới thiệu"
   },
-  "item.label.Blog cá nhân": {
-    "message": "Blog cá nhân",
-    "description": "Navbar item with label Blog cá nhân"
-  },
-  "item.label.Cổng dịch vụ": {
-    "message": "Cổng dịch vụ",
-    "description": "Navbar item with label Cổng dịch vụ"
-  },
   "item.label.Tech Blog": {
     "message": "Tech Blog",
     "description": "Navbar item with label Tech Blog"
@@ -35,16 +27,12 @@
     "message": "Câu chuyện mùa xuân",
     "description": "Navbar item with label Câu chuyện mùa xuân"
   },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
   "item.label.Dịch vụ": {
     "message": "Dịch vụ",
     "description": "Navbar item with label Dịch vụ"
-  },
-  "item.label.Youtube Downloader": {
-    "message": "Youtube Downloader",
-    "description": "Navbar item with label Youtube Downloader"
-  },
-  "item.label.URL Shortener": {
-    "message": "URL Shortener",
-    "description": "Navbar item with label URL Shortener"
   }
 }
