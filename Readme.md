@@ -14,22 +14,22 @@
     </tr>
     <tr>
       <td>📅 DOB</td>
-      <td>Aug 27th, 2001 (21)</td>
+      <td>Aug 27th, 2001 (22)</td>
     </tr>
     <tr>
       <td>🏡 Hometown</td>
       <td>Hoa Thanh Town, Tay Ninh Province, Vietnam</td>
     </tr>
     <tr>
-      <td>📗 Currently Studying</td>
-      <td>Information Technology [<b>Senior (Sep 2022 - Jul 2023)</b>]</td>
+      <td>📗 Current Title</td>
+      <td>DevOps Engineer [<b>Fresher (Sep 2023 - Sep 2024)</b>]</td>
     </tr>
     <tr>
-      <td>💻 Major</td>
-      <td><b>Computer Networking and Telecommunications</b></td>
+      <td>💻 Company</td>
+      <td><b>KMS Technology Vietnam</b></td>
     </tr>
     <tr>
-      <td>🏫 Uni</td>
+      <td>🏫 Previous Uni</td>
       <td><b><i>Vietnam National University of Ho Chi Minh City - University of Science</i></b></td>
     </tr>
     <tr>
@@ -37,7 +37,7 @@
       <td>
         <ul>
           <li>Email: <a href="mailto:builetuananh2708@gmail.com">builetuananh2708@gmail.com</a></li>
-          <li>Uni email: <a href="mailto:19120163@student.hcmus.edu.vn">19120163@student.hcmus.edu.vn</a></li>
+          <li>Website <a href="https://www.builetuananh.name.vn">www.builetuananh.name.vn</a></li>
           <li>Facebook: <a href="https://facebook.com/buile.tuananh">Bùi Lê Tuấn Anh</a></li>
         </ul>
       </td>
