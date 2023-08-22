@@ -446,5 +446,11 @@
   },
   "scoreboard.analysis": {
     "message": "Xem phân tích phổ điểm 📊"
+  },
+  "gallery.desc": {
+    "message": "Kho lưu trữ ảnh"
+  },
+  "gallery.title": {
+    "message": "Kho lưu trữ ảnh từ VNUHCM-ITUS"
   }
 }

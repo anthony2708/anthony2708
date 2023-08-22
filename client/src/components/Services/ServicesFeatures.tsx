@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import React from 'react';
 import clsx from 'clsx';
 import styles from '../../css/HomepageFeatures.module.css';
-import Translate, { translate } from '@docusaurus/Translate';
+import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 
 type FeatureItem = {
@@ -64,7 +64,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp.
             </Translate>
         ),
-        link: "https://services.builetuananh.name.vn/gallery"
+        link: "/services/gallery"
     },
     {
         title: "2048 Game",
@@ -74,7 +74,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ chơi game 2048 trực tuyến, giúp bạn giải trí sau giờ làm việc, học tập.
             </Translate>
         ),
-        link: "https://services.builetuananh.name.vn/games"
+        link: "https://2048.builetuananh.name.vn"
     }
 ]
 

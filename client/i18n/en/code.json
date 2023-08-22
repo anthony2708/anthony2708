@@ -446,5 +446,11 @@
   },
   "scoreboard.analysis": {
     "message": "View the scoreboard analysis 📊"
+  },
+  "gallery.desc": {
+    "message": "Images gallery from VNUHCM-ITUS"
+  },
+  "gallery.title": {
+    "message": "Images gallery from VNUHCM-ITUS"
   }
 }
