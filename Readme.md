@@ -37,7 +37,7 @@
       <td>
         <ul>
           <li>Email: <a href="mailto:builetuananh2708@gmail.com">builetuananh2708@gmail.com</a></li>
-          <li>Website <a href="https://www.builetuananh.name.vn">www.builetuananh.name.vn</a></li>
+          <li>Website: <a href="https://www.builetuananh.name.vn">www.builetuananh.name.vn</a></li>
           <li>Facebook: <a href="https://facebook.com/buile.tuananh">Bùi Lê Tuấn Anh</a></li>
         </ul>
       </td>
