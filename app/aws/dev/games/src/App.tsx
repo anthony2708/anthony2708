@@ -75,8 +75,8 @@ export default class App extends React.Component<AppProps, AppState> {
 
         <div className="game-intro">
           <button className="restart-button" onClick={this.restart}>New Game</button>
-          <h2 className="subtitle">Play 2048 Game</h2>
-          Join the numbers and get to the <b>2048 tile!</b>
+          Use your <b>arrow keys</b> to move the tiles. Join the numbers and get to the <b>2048 tile!</b>
+          {/* <h2 className="subtitle">How to play:</h2> */}
         </div>
 
         <div className="game-container">
@@ -95,10 +95,10 @@ export default class App extends React.Component<AppProps, AppState> {
           <Cells cells={this.state.cells} />
         </div>
 
-        <p className="game-explanation">
+        {/* <p className="game-explanation">
           <b className="important">How to play: </b>
           Use your <b>arrow keys</b> to move the tiles. When two tiles with the same number touch, they <b>merge into one!</b>
-        </p>
+        </p> */}
       </div>
     )
   }
