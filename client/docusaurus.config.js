@@ -156,7 +156,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          "⭐ <b>Thông báo</b>: Ra mắt Cổng dịch vụ mới (A brand new Service Portal is here): <a href='/services' target='_blank' rel='noopener noreferrer'><b>Truy cập/Access</b></a> ⭐",
+          "⭐ <b>Thông báo</b>: Ra mắt Cổng trạng thái mới (A brand new Status Check is here): <a href='https://status.builetuananh.name.vn/' target='_blank' rel='noopener noreferrer'><b>Truy cập/Access</b></a> ⭐",
         backgroundColor: "#a4e4dc",
         textColor: "#222",
         // backgroundColor: "#222",
