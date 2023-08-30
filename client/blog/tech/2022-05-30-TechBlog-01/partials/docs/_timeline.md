@@ -12,8 +12,6 @@
 
 - Heroku đã thông báo về việc thiết lập lại mật khẩu cho tài khoản của tôi. Xác thực 2 bước đã được thực hiện. Tuy nhiên, cho đến khi tình hình được kiểm soát hoàn toàn, việc kết nối đến Heroku sẽ bị tạm dừng.
 
-- Tôi đã kích hoạt cơ chế dự phòng cho Youtube Downloader, bao gồm việc tiến hành đưa dịch vụ lên trên **Github Packages** (sử dụng công nghệ **_Docker_**). Mọi người có thể tải xuống Packages này qua lệnh `docker pull ghcr.io/anthony2708/youtube_downloader:latest` sau khi cài đặt Docker. Chi tiết xin xem tại website này: [Github Packages](https://github.com/anthony2708/anthony2708/pkgs/container/youtube_downloader).
-
 - Tôi sẽ theo dõi sát sao tình hình tiếp theo và sẽ tiếp tục cập nhật thông tin trên bài viết này trong thời gian sớm nhất.
 
 ### 15:40 - 28/04/2022
