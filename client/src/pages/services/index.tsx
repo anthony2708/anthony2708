@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from '@docusaurus/Link';
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import styles from "../../css/index.module.css";
@@ -21,6 +22,13 @@ export default class Services extends Component<{}, {}> {
                             <Translate id='services.subtitle'>
                                 Cổng dịch vụ tích hợp</Translate>
                         </p>
+                        <div className={styles.buttons}>
+                            <Link
+                                className="button button--secondary button--lg"
+                                to="/docs/guide">
+                                Hướng dẫn - Guide
+                            </Link>
+                        </div>
                     </div>
                 </header>
                 {/* End of Header */}

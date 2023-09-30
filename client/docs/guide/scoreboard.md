@@ -1,6 +1,7 @@
 ---
-id: guide
-title: 📖 Hướng dẫn Cổng dịch vụ
+id: scoreboard
+title: Scoreboard Review
+slug: /guide/scoreboard
 sidebar_position: 3
 ---
 
