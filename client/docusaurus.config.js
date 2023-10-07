@@ -101,7 +101,7 @@ const config = {
     ({
       navbar: {
         hideOnScroll: true,
-        title: "Bùi Lê Tuấn Anh",
+        title: "BLTA",
         logo: {
           alt: "Logo",
           src: "img/favicon/ET_Logo.png",
@@ -166,7 +166,7 @@ const config = {
       announcementBar: {
         id: "announcement-bar",
         content:
-          "⭐ <b>Thông báo</b>: Hệ thống sẽ bắt đầu cập nhật từ 07/10/2023 (System will be upgraded from Oct 7th, 2023). ⭐",
+          "⭐ <b>Thông báo</b>: Hệ thống sẽ cập nhật từ 07/10/2023 (System will be upgraded from Oct 7th, 2023). ⭐",
         backgroundColor: "#a4e4dc",
         textColor: "#222",
         // backgroundColor: "#222",
