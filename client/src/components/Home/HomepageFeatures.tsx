@@ -12,25 +12,12 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: translate({
-      message: "CN Mạng Máy tính & Truyền thông",
-      id: "homepage.feature1.network.title"
-    }),
-    image: "/img/favicon/logo_khtn_remake_1.svg",
-    description: (
-      <Translate id="homepage.feature1.network.desc">
-        Khoa Công nghệ thông tin, Trường Đại học Khoa học Tự nhiên, Đại học Quốc
-        gia Thành phố Hồ Chí Minh (VNUHCM_US, 2019 - 2023).
-      </Translate>
-    ),
-  },
-  {
-    title: translate({
-      message: "❤ Hữu xạ tự nhiên hương ❤",
-      id: "homepage.feature2.quote.title"
+      message: "Hữu xạ tự nhiên hương",
+      id: "homepage.feature1.quote.title"
     }),
     image: "/img/docusaurus/undraw_docusaurus_tree.svg",
     description: (
-      <Translate id="homepage.feature2.quote.desc">
+      <Translate id="homepage.feature1.quote.desc">
         Một người lạc quan, chăm chỉ và có trách nhiệm. Đam mê lập trình Web
         và Mạng máy tính. Thích nghe nhạc, chơi đá bóng và xem TV.
       </Translate>
@@ -38,12 +25,38 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: translate({
-      message: "Chuyên tiếng Anh - Khóa 23",
-      id: "homepage.feature3.english.title"
+      message: "Fresher DevOps Software Engineer",
+      id: "homepage.feature2.job.title"
+    }),
+    image: "/img/favicon/kms.svg",
+    description: (
+      <Translate id="homepage.feature2.job.desc">
+        Kỹ sư DevOps tại KMS Technology Vietnam (2023). Chịu trách nhiệm về
+        việc triển khai, vận hành và giám sát hệ thống phục vụ khách hàng.
+      </Translate>
+    ),
+  },
+  {
+    title: translate({
+      message: "CN Mạng Máy tính & Truyền thông",
+      id: "homepage.feature3.network.title"
+    }),
+    image: "/img/favicon/logo_khtn_remake_1.svg",
+    description: (
+      <Translate id="homepage.feature3.network.desc">
+        Khoa Công nghệ thông tin, Trường Đại học Khoa học Tự nhiên, Đại học Quốc
+        gia Thành phố Hồ Chí Minh (VNUHCM_US, 2019 - 2023).
+      </Translate>
+    ),
+  },
+  {
+    title: translate({
+      message: "Chuyên Tiếng Anh - Khóa 23",
+      id: "homepage.feature4.english.title"
     }),
     image: "img/favicon/logo_HLK.svg",
     description: (
-      <Translate id='homepage.feature3.english.desc'>
+      <Translate id='homepage.feature4.english.desc'>
         Trường Trung học phổ thông Chuyên Hoàng Lê Kha - Tây Ninh (2016 - 2019).
         Nhận học bổng khuyến khích trong cả 3 năm học.
       </Translate>
@@ -53,7 +66,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, image, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <img
           className={styles.featureSvg}

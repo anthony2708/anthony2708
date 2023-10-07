@@ -270,24 +270,6 @@
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
   },
-  "homepage.feature1.network.title": {
-    "message": "CompNet. & Telecommunications"
-  },
-  "homepage.feature1.network.desc": {
-    "message": "Faculty of Information Technology, Vietnam National University of Ho Chi Minh City - University of Science (VNUHCM_US, 2019 - 2023)."
-  },
-  "homepage.feature2.quote.title": {
-    "message": "❤ Good wine needs no bush ❤"
-  },
-  "homepage.feature2.quote.desc": {
-    "message": "A positive, hard-working, and responsible person, with a passion for Web Programming and Computer Networking. Loves listening to music, playing football (soccer in US), and watching TV."
-  },
-  "homepage.feature3.english.title": {
-    "message": "English Specialized - Class of 2019"
-  },
-  "homepage.feature3.english.desc": {
-    "message": "Hoang Le Kha High School for the Gifted, Tay Ninh Province, Vietnam (2016 - 2019). Received Merit Scholarship for all 3 years."
-  },
   "homepage.button": {
     "message": "Introduction - 5 minutes ⏱️"
   },
@@ -452,5 +434,29 @@
   },
   "gallery.title": {
     "message": "Images gallery from VNUHCM-ITUS"
+  },
+  "homepage.feature1.quote.title": {
+    "message": "Good wine needs no bush"
+  },
+  "homepage.feature1.quote.desc": {
+    "message": "A positive, hard-working, and responsible person, with a passion for Web Programming and Computer Networking. Loves listening to music, playing football (soccer in US), and watching TV."
+  },
+  "homepage.feature3.network.title": {
+    "message": "CompNet. & Telecommunications"
+  },
+  "homepage.feature3.network.desc": {
+    "message": "Faculty of Information Technology, Vietnam National University of Ho Chi Minh City - University of Science (VNUHCM_US, 2019 - 2023)."
+  },
+  "homepage.feature4.english.title": {
+    "message": "English Specialized - Class of 2019"
+  },
+  "homepage.feature4.english.desc": {
+    "message": "Hoang Le Kha High School for the Gifted, Tay Ninh Province, Vietnam (2016 - 2019). Received Merit Scholarship for all 3 years."
+  },
+  "homepage.feature2.job.title": {
+    "message": "Fresher DevOps Software Engineer"
+  },
+  "homepage.feature2.job.desc": {
+    "message": "Responsible for deploying, operating and monitoring clients' systems at KMS Technology Vietnam (2023)."
   }
 }
