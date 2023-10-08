@@ -7,8 +7,8 @@ sidebar_position: 3
 There are several ways to access the Services Portal:
 
 1. Access from [**this link**](../../en/services)
-2. From the **Navigation bar** on the top of this page, choose **Services** ➡ **Portal**
-3. From the **Footer** at the end of this page, in the **Homepage** section choose **Services Portal**
+2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
+3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
 The screen will look something like this:
 
@@ -20,7 +20,7 @@ The image above is just a sample in **Vietnamese**. The actual website will be i
 
 :::
 
-Choose a service to use, then click on **Access**. The website will be redirected to the desired service.
+Select a service to use, then click on **Access**. The website will be redirected to the desired service.
 
 From the Services Portal, users can access the guide by clicking on **Hướng dẫn - Guide**.
 
