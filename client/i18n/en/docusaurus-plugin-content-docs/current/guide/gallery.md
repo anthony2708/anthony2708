@@ -13,7 +13,7 @@ The Images Gallery service allows users to review the images uploaded from the s
 
 To use the service, there are the following ways:
 
-1. Access from [**this link**](../../en/services)
+1. Access from [**this link**](../../../en/services)
 2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
