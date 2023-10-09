@@ -26,7 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mdx-js/react": "^1.6.21",
-    "@prisma/client": "^5.3.1",
+    "@prisma/client": "^5.4.1",
     "axios": "^1.5.1",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.0.0",
@@ -41,7 +41,7 @@
     "@docusaurus/module-type-aliases": "^2.4.3",
     "@tsconfig/docusaurus": "^2.0.1",
     "dotenv": "^16.3.1",
-    "netlify-cli": "^16.4.2",
+    "netlify-cli": "^16.5.1",
     "prisma": "^5.4.1",
     "typescript": "^5.2.2"
   },
