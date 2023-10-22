@@ -9,8 +9,8 @@
 | 💳 Name          | **Anthony Bùi Lê Tuấn Anh**                                                   |
 | 📅 DOB           | Aug 27th, 2001 (22)                                                           |
 | 🏡 Hometown      | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
-| 📗 Current Title | DevOps Engineer [**Fresher (Sep 2023 - Sep 2024)**]                           |
-| 💻 Company       | **KMS Technology Vietnam**                                                    |
+| 📗 Current Title | DevOps Engineer [**Fresher**]                                                 |
+| 💻 Company       | Not applicable                                                                |
 | 🏫 Previous Uni  | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
 
 ## 💻 Github

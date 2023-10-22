@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td>DevOps Engineer [<b>Fresher (Sep 2023 - Sep 2024)</b>]</td>
+      <td>DevOps Engineer [<b>Fresher</b>]</td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td><b>KMS Technology Vietnam</b></td>
+      <td>Not applicable</td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>

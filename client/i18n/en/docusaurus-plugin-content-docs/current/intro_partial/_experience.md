@@ -8,7 +8,7 @@
 
 | No. | Position                             | Time                | Location                                       | Description                                                                                                                  |
 | --- | ------------------------------------ | ------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Fresher DevOps Software Engineer** | Sep 2023 - Present  | KMS Technology Vietnam                         | Assisting the migration and management of the client's products on cloud providers and on-premise systems.                   |
+| 1   | **Fresher DevOps Software Engineer** | Sep 2023 - Nov 2023 | KMS Technology Vietnam                         | Assisting the migration and management of the client's products on cloud providers and on-premise systems.                   |
 | 2   | **Site Reliability Engineer Intern** | Aug 2022 - Jan 2023 | OPSWAT Vietnam                                 | Assisting the migration and management of the company's products onto cloud providers.                                       |
 | 3   | **Collaborator**                     | Apr 2021 - Apr 2023 | Events & Learning Department, Youth Union      | Supporting the Youth Union for organising students' activities at the uni.                                                   |
 | 4   | **Program Host**                     | Aug 2021            | International Department, Students Union       | Guest MC for Summer Breeze 2021 - Network Meeting between VNUHCM - University of Science and Universiti Kebangsaan Malaysia. |
