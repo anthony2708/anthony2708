@@ -39,8 +39,8 @@ const ContactList: ContactItem[] = [
         link: 'mailto:builetuananh2708@gmail.com'
     },
     {
-        image: <FontAwesomeIcon icon={icon({ name: 'building', style: 'regular' })} size='2x' />,
-        link: 'mailto:anhltbui@kms-technology.com'
+        image: <FontAwesomeIcon icon={icon({ name: 'house-user', style: 'solid' })} size='2x' />,
+        link: 'mailto:builetuananh27082001@gmail.com'
     }
 ]
 
