@@ -16,6 +16,9 @@
     "typescript": "^5.1.6",
     "web-vitals": "^3.4.0"
   },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.22.11"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
