@@ -16,9 +16,6 @@
     "typescript": "^5.1.6",
     "web-vitals": "^3.4.0"
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,6 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://2048.builetuananh.name.vn"
+  }
 }

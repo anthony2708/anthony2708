@@ -11,7 +11,9 @@ The 2048 Game service allows users to play 2048 game online.
 
 ## Guide to access
 
-To use the service, there are the following ways:
+The service is currently under maintenance and will be updated as soon as possible.
+
+<!-- To use the service, there are the following ways:
 
 1. Access from [**this link**](https://2048.builetuananh.name.vn/)
 2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
@@ -25,7 +27,7 @@ Select the **2048 Game** service, then click on **Access**. The website will aut
 
 The game interface uses **English** and is currently not supported on mobile devices.
 
-:::
+::: -->
 
 ## How to play
 

@@ -8,7 +8,7 @@ _Có đợt trời mưa, khoá từ của xe mình gặp trục trặc, mình đ
 
 _Chú cho mình mượn, còn nói thêm:_
 
-> **_Cần chú xem giúp không? Chắc trời mưa nên trục trặc tí. _**
+> **_Cần chú xem giúp không? Chắc trời mưa nên trục trặc tí._**
 
 _Khi mọi thứ ổn áp mình có tặng chú ly cà phê._
 
