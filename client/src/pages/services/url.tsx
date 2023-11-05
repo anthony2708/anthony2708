@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Layout from "@theme/Layout";
 import axios from "axios";
 import clsx from "clsx";

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Layout from "@theme/Layout";
 import MDXContent from "@theme/MDXContent"
 import axios from "axios";

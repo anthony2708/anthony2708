@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Translate, { translate } from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
 import clsx from "clsx";

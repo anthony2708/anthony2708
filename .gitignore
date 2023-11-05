@@ -178,3 +178,6 @@ app/client/build/
 # Key files
 app/aws/certs/ec2_key.pub
 app/aws/certs/ec2_key
+
+# Old files
+old/

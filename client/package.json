@@ -1,6 +1,6 @@
 {
   "name": "docu-webapp",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": false,
   "license": "MIT",
   "scripts": {
@@ -18,28 +18,30 @@
   },
   "homepage": "https://www.builetuananh.name.vn",
   "dependencies": {
-    "@docusaurus/core": "^2.4.3",
-    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mdx-js/react": "^1.6.21",
+    "@mdx-js/react": "^3.0.0",
     "@prisma/client": "^5.5.2",
     "axios": "^1.6.0",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.0.0",
     "docusaurus-lunr-search": "^2.3.2",
     "node-fetch": "^3.3.2",
-    "prism-react-renderer": "^1.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "prism-react-renderer": "^2.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.3",
-    "@tsconfig/docusaurus": "^2.0.2",
+    "@docusaurus/module-type-aliases": "3.0.0",
+    "@docusaurus/tsconfig": "3.0.0",
+    "@docusaurus/types": "3.0.0",
+    "@types/react": "^18.2.29",
     "dotenv": "^16.3.1",
     "netlify-cli": "^16.9.3",
     "prisma": "^5.5.2",
@@ -52,9 +54,12 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=18.0"
   }
 }

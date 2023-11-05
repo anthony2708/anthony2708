@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../../css/HomepageFeatures.module.css";
 import clsx from "clsx";

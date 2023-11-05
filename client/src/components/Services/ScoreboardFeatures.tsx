@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import custom from "../../css/YoutubeFeatures.module.css";
 import Translate from "@docusaurus/Translate";
 

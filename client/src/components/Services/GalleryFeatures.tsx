@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import styles from '../../css/HomepageFeatures.module.css';
 import gallery from '../../css/GalleryFeatures.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
