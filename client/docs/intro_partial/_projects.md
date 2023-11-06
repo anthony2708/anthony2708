@@ -10,6 +10,4 @@
 
 <p align="center"><a href="https://github.com/anthony2708/cs101_devops"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=cs101_devops&theme=dracula" alt="CS101_DevOps" /></a></p>
 
-<p align="center"><a href="https://github.com/anthony2708/kms_internal"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=kms_internal&theme=dracula" alt="KMS_Internal" /></a></p>
-
 <p align="center"><a href="https://github.com/anthony2708/seft-101"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=seft-101&theme=dracula" alt="seft-101" /></a></p>
