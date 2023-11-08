@@ -8,39 +8,73 @@ import HomepageFeatures from '../components/Home/HomepageFeatures';
 import ContactFeatures from '../components/Home/ContactFeatures';
 
 function HomepageHeader() {
-  const [dateState, setDateState] = useState(new Date());
+  const [dateState, setDateState] = useState(null);
+  const [timeState, setTimeState] = useState(null);
+  const [engDateState, setEngDateState] = useState(null);
+
   useEffect(() => {
-    const timer = setInterval(() => { setDateState(new Date()); }, 1000);
-    return () => { clearInterval(timer); };
-  });
+    const timer = setInterval(() => {
+      setTimeState(new Date().toLocaleString('vi-VN', {
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+      }));
+    }, 1000);
+    const date = setDateState(new Date().toLocaleDateString('vi-VN', {
+      weekday: 'long',
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+    }));
+    const engDate = setEngDateState(new Date().toLocaleDateString('en', {
+      weekday: 'long',
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric',
+    }));
+    return () => {
+      clearInterval(timer);
+      engDate;
+      date;
+    };
+  }, []);
+  // const [dateState, setDateState] = useState(new Date());
+  // useEffect(() => {
+  //   const timer = setInterval(() => { setDateState(new Date()); }, 1000);
+  //   return () => { clearInterval(timer); };
+  // });
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
           {
-            dateState.toLocaleTimeString('vi-VN', {
-              hour12: false,
-              hour: '2-digit',
-              minute: '2-digit',
-              second: '2-digit',
-            })
+            timeState
+            // dateState.toLocaleTimeString('vi-VN', {
+            //   hour12: false,
+            //   hour: '2-digit',
+            //   minute: '2-digit',
+            //   second: '2-digit',
+            // })
           }
         </h1>
         <p className="hero__subtitle">
           {
-            dateState.toLocaleDateString('vi-VN', {
-              weekday: 'long',
-              day: '2-digit',
-              month: '2-digit',
-              year: 'numeric',
-            })
+            dateState
+            // dateState.toLocaleDateString('vi-VN', {
+            //   weekday: 'long',
+            //   day: '2-digit',
+            //   month: '2-digit',
+            //   year: 'numeric',
+            // })
           } ({
-            dateState.toLocaleDateString('en-US', {
-              weekday: 'long',
-              day: '2-digit',
-              month: 'long',
-              year: 'numeric',
-            })
+            engDateState
+            // dateState.toLocaleDateString('en-US', {
+            //   weekday: 'long',
+            //   day: '2-digit',
+            //   month: 'long',
+            //   year: 'numeric',
+            // })
           })
         </p>
         <div className={styles.buttons}>
