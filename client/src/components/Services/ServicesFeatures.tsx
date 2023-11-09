@@ -72,10 +72,9 @@ const FeatureList: FeatureItem[] = [
         description: (
             <Translate id='services.feature6.desc'>
                 Dịch vụ chơi game 2048 trực tuyến, giúp bạn giải trí sau giờ làm việc, học tập.
-                Hiện tại, dịch vụ đang trong quá trình bảo trì.
             </Translate>
         ),
-        link: "/services"
+        link: "https://2048.builetuananh.name.vn/"
     }
 ]
 
