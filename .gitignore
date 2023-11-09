@@ -180,4 +180,4 @@ app/aws/certs/ec2_key.pub
 app/aws/certs/ec2_key
 
 # Old files
-old/
+assets/old/
