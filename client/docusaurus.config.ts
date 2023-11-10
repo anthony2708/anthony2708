@@ -14,7 +14,7 @@ const config: Config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon/favicon.png",
   organizationName: "anthony2708", // Usually your GitHub org/user name.
-  projectName: "webapp", // Usually your repo name.
+  projectName: "anthony2708", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   i18n: {
@@ -90,12 +90,13 @@ const config: Config = {
         authorsMapPath: "../authors.yml",
       },
     ],
-    // [
-    //   require.resolve("docusaurus-lunr-search"),
-    //   {
-    //     languages: ["vi", "en"],
-    //   },
-    // ],
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["vi", "en"],
+        highlightResult: true,
+      },
+    ],
   ],
 
   themeConfig: {
@@ -107,6 +108,10 @@ const config: Config = {
         src: "img/favicon/ET_Logo.png",
       },
       items: [
+        {
+          type: "localeDropdown",
+          position: "left",
+        },
         {
           label: "Giới thiệu",
           type: "doc",
@@ -150,10 +155,6 @@ const config: Config = {
               href: "https://status.builetuananh.name.vn/",
             },
           ],
-        },
-        {
-          type: "localeDropdown",
-          position: "right",
         },
         {
           href: "https://www.builetuananh.name.vn/blog/atom.xml",
