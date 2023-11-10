@@ -20,3 +20,4 @@
 
 - [Sinh viên Việt Nam - Malaysia thảo luận trực tuyến 'Cuộc sống trong đại dịch' - Vietnamese only](https://tuoitre.vn/sinh-vien-viet-nam-malaysia-thao-luan-truc-tuyen-cuoc-song-trong-dai-dich-20210807122658403.htm)
 - [Ngày hội Công nghệ và Giáo dục Vương quốc Anh - Vietnamese/English](https://www.linkedin.com/feed/update/urn:li:activity:6792718845288292352/)
+- [Kết thúc tốt đẹp Đợt đánh giá kiểm định ASSIN tại Khoa Công nghệ thông tin - Vietnamese only](https://www.facebook.com/VNUHCM.US/posts/pfbid02ctU7UNaURaQhDuHurjoYHxgGTYWQesWco2zJPx6muHzEPDCrwnUktcuJ95CR5kcdl)
