@@ -11,9 +11,7 @@ Dịch vụ 2048 Game cho phép người dùng tham gia chơi trò chơi 2048 tr
 
 ## Hướng dẫn truy cập
 
-Dịch vụ hiện đang được bảo trì và sẽ được cập nhật trong thời gian sớm nhất.
-
-<!-- Để sử dụng dịch vụ, có các cách sau:
+Để sử dụng dịch vụ, có các cách sau:
 
 1. Truy cập vào đường dẫn [**này**](https://2048.builetuananh.name.vn/)
 2. Từ thanh điều hướng, chọn **Dịch vụ** ➡ **Cổng dịch vụ**
@@ -25,9 +23,9 @@ Chọn dịch vụ **2048 Game**, nhấn nút **Truy cập**. Hệ thống sẽ 
 
 :::note LƯU Ý
 
-Giao diện trò chơi sử dụng ngôn ngữ **tiếng Anh**, và chưa hỗ trợ trên các thiết bị di động.
+Giao diện trò chơi sử dụng ngôn ngữ **tiếng Anh**.
 
-::: -->
+:::
 
 ## Hướng dẫn chơi
 

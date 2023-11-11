@@ -167,7 +167,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Hệ thống sẽ cập nhật từ 07/10/2023 (System will be upgraded from Oct 7th, 2023). ⭐",
+        "⭐ <b>Thông báo</b>: Phiên bản mới vận hành từ 01/12/2023 (A new version will be available from Dec 1st, 2023). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",
