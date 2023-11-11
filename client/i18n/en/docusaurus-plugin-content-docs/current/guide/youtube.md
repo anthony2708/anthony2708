@@ -17,7 +17,9 @@ To use the service, there are the following ways:
 2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
-Select the **Youtube Downloader** service, then click on **Access**. The website will automatically be redirected to the service page.
+Select the **Youtube Downloader** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.
+
+![Youtube](../../../../../public/img/services/youtube.png)
 
 :::note
 

@@ -17,7 +17,9 @@ Dịch vụ Youtube Downloader cho phép người dùng xem và tải xuống c�
 2. Từ thanh điều hướng, chọn **Dịch vụ** ➡ **Cổng dịch vụ**
 3. Từ phần chân trang, mục **Trang chủ** chọn **Cổng dịch vụ**
 
-Chọn dịch vụ **Youtube Downloader**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ.
+Chọn dịch vụ **Youtube Downloader**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ như hình dưới.
+
+![Youtube](../../public/img/services/youtube.png)
 
 ## Hướng dẫn tương tác
 

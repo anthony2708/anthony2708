@@ -17,7 +17,15 @@ Dịch vụ English L&T cho phép người dùng theo dõi tiến độ học t�
 2. Từ thanh điều hướng, chọn **Dịch vụ** ➡ **Cổng dịch vụ**
 3. Từ phần chân trang, mục **Trang chủ** chọn **Cổng dịch vụ**
 
-Chọn dịch vụ **English L&T**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ.
+Chọn dịch vụ **English L&T**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ như hình dưới.
+
+![English](../../public/img/services/english.png)
+
+:::note
+
+Chỉ duy nhất trang này có sử dụng giao diện song ngữ Việt - Anh.
+
+:::
 
 ## Hướng dẫn tương tác
 

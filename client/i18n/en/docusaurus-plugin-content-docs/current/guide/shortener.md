@@ -17,7 +17,9 @@ To use the service, there are the following ways:
 2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
-Select the **URL Shortener** service, then click on **Access**. The website will automatically be redirected to the service page.
+Select the **URL Shortener** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.
+
+![url](../../../../../public/img/services/url.png)
 
 :::note
 
