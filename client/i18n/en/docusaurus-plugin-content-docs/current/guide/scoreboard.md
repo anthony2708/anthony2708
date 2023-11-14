@@ -29,4 +29,12 @@ The image above is just a sample in **Vietnamese**. The actual website will be i
 
 ## Guide to interact
 
-Updating...
+:::note
+
+The system is currently in the maintenance phase to prepare for the 2024 High School Graduation Examination, so there will be **no exam results** to look up.
+
+:::
+
+Enter the candidate's ID into the search bar, then click on **Search**. The system will automatically search and notify the result to the user. When there is no result, the system will notify the user as shown above.
+
+In addition, at the end of the page, users can view the statistics of the exam results of provinces and cities nationwide through the **View the scoreboard analysis** button (redirected to the GitHub page).

@@ -29,4 +29,15 @@ Chỉ duy nhất trang này có sử dụng giao diện song ngữ Việt - Anh.
 
 ## Hướng dẫn tương tác
 
-Nội dung đang được cập nhật...
+### Thanh tìm kiếm và mục Scoreboard
+
+Nhập mã số định danh của học viên vào thanh tìm kiếm trung tâm, sau đó nhấn nút **Search**. Hệ thống tự động tìm và thông báo kết quả bảng điểm đến người dùng. Khi chưa hoặc không có kết quả, hệ thống sẽ thông báo cho người dùng như hình trên.
+
+### Cụm mục Resources/Announcements
+
+- Mục **Resources** cập nhật các nguồn tài liệu tham khảo sử dụng cho quá trình dạy và học trên hệ thống
+- Mục **Announcements** cập nhật các thông báo mới nhất từ phía giáo viên (lịch đăng ký lớp, lịch nghỉ, đường dẫn truy cập hệ thống, ...)
+
+### Mục English Courses
+
+Mục này cập nhật các khóa học tiếng Anh hiện đang giảng dạy, cho phép người dùng có thể xem lại các bài học đã được ghi hình trước đó thông qua nền tảng YouTube chính thức của hệ thống.

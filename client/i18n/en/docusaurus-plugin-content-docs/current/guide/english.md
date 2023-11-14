@@ -29,4 +29,15 @@ The image above is using bilingual mode, the actual interface may be different.
 
 ## Guide to interact
 
-Updating...
+### Search bar and Scoreboard section
+
+Enter the learner's ID into the search bar, then click on **Search**. The system will automatically search and notify the result to the user. When there is no result, the system will notify the user as shown above.
+
+### Resources/Announcements sections
+
+- The **Resources** section updates the reference materials used for teaching and learning on the system.
+- The **Announcements** section updates the latest announcements from the teacher (class registration schedule, holidays, system access links, ...)
+
+### English Courses section
+
+This section updates the English courses that are currently being taught, allowing users to review the lessons that have been recorded previously through the system's official YouTube platform.

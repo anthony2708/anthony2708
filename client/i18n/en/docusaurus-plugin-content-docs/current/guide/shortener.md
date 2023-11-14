@@ -29,4 +29,6 @@ The image above is just a sample in **Vietnamese**. The actual website will be i
 
 ## Guide to interact
 
-Updating...
+Enter the URL that needs to be shortened into the search bar, then click on **Shorten**. The system will automatically shorten the URL and display the result to the user.
+
+In case the user enters an invalid URL, the system will **display an error message**, please check the URL and try again.

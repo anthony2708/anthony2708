@@ -23,4 +23,6 @@ Chọn dịch vụ **URL Shortener**, nhấn nút **Truy cập**. Hệ thống s
 
 ## Hướng dẫn tương tác
 
-Nội dung đang được cập nhật...
+Nhập địa chỉ cần rút gọn vào thanh tìm kiếm trung tâm, sau đó nhấn nút **Rút gọn**. Hệ thống tự động rút gọn đường dẫn và hiển thị kết quả cho người dùng.
+
+Trong trường hợp người dùng nhập đường dẫn không hợp lệ, hệ thống sẽ **thông báo lỗi**, người dùng vui lòng kiểm tra lại đường dẫn và thực hiện lại quy trình.
