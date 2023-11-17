@@ -28,7 +28,7 @@
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
-    "message": "Cảnh báo",
+    "message": "Nguy hiểm",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
@@ -205,10 +205,6 @@
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Chuyển đổi văn bản xuống dòng",
     "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Chuyển đổi danh mục thanh bên có thể thu gọn '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Ngôn ngữ",
@@ -458,5 +454,28 @@
   },
   "homepage.feature2.job.desc": {
     "message": "Kỹ sư DevOps tại KMS Technology Vietnam (2023). Chịu trách nhiệm về việc triển khai, vận hành và giám sát hệ thống phục vụ khách hàng."
+  },
+  "gallery.expand": {
+    "message": "Xem trọn vẹn"
+  },
+  "theme.admonition.warning": {
+    "message": "Cảnh báo",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Mở rộng danh mục thanh bên có thể thu gọn '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Xếp gọn danh mục thanh bên có thể thu gọn '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Trang không công khai",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Trang này không được công khai. Công cụ tìm kiếm sẽ không đánh chỉ mục cho trang này và chỉ những người có liên kết mới có thể truy cập được trang.",
+    "description": "The unlisted content banner message"
   }
 }

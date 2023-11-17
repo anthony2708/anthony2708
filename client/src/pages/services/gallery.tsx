@@ -2,6 +2,7 @@ import { Component } from "react";
 import Translate, { translate } from "@docusaurus/Translate";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
+import Link from "@docusaurus/Link";
 import styles from "../../css/index.module.css";
 import GalleryFeatures from "../../components/Services/GalleryFeatures";
 
@@ -19,6 +20,15 @@ export default class Gallery extends Component<{}, {}> {
                         <h1 className="hero__title">
                             <Translate id="gallery.title">Kho lưu trữ ảnh từ VNUHCM-ITUS</Translate>
                         </h1>
+                        <div className={styles.buttons}>
+                            <Link className="button button--secondary button--lg" type="submit"
+                                href="https://cleanuri.com/VYeGmr"
+                                target="_blank">
+                                <Translate id="gallery.expand">
+                                    Xem trọn vẹn
+                                </Translate>
+                            </Link>
+                        </div>
                     </div>
                 </header>
                 {/* End of Header */}

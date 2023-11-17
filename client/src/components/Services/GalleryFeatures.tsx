@@ -11,26 +11,26 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
-        image: "/img/english/pexels-quang-nguyen-vinh-4544171.jpg",
+        image: "/img/graduation/1.jpg",
         description: "Picture 1"
     },
     {
-        image: "/img/english/pexels-quang-nguyen-vinh-5118664.jpg",
+        image: "/img/graduation/pexels-quang-nguyen-vinh-5118664.jpg",
         description: "Picture 2"
     },
     {
-        image: "/img/english/pexels-quang-nguyen-vinh-6136262.jpg",
+        image: "/img/graduation/pexels-quang-nguyen-vinh-6136262.jpg",
         description: "Picture 3"
     },
     {
-        image: "/img/english/pexels-quang-nguyen-vinh-6877795.jpg",
+        image: "/img/graduation/pexels-quang-nguyen-vinh-6877795.jpg",
         description: "Picture 4"
     }
 ]
 
 function Feature({ image, description }: FeatureItem) {
     return (
-        <div className={clsx('col col--6')}>
+        <div className={clsx('col col--3')}>
             <div className="text--center">
                 <img
                     className={gallery.pictures}
