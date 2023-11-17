@@ -1,4 +1,4 @@
-## PHẦN 1: NGHIỆP PHẤN TRẮNG BẢNG ĐEN 👩‍🏫
+## PHẦN 1/2022: NGHIỆP PHẤN TRẮNG BẢNG ĐEN 👩‍🏫
 
 _Một buổi sớm trên giảng đường đại học, tôi vẫn đang chật vật xoay sở làm cách nào để dung nạp được lượng kiến thức hàn lâm khổng lồ từ các môn học ở đây. Chông chênh lắm chứ, mỏi mệt lắm chứ…_
 
