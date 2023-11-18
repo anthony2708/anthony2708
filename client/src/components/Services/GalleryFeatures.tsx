@@ -15,11 +15,11 @@ const FeatureList: FeatureItem[] = [
         description: "Picture 1"
     },
     {
-        image: "/img/graduation/pexels-quang-nguyen-vinh-5118664.jpg",
+        image: "/img/graduation/2.jpg",
         description: "Picture 2"
     },
     {
-        image: "/img/graduation/pexels-quang-nguyen-vinh-6136262.jpg",
+        image: "/img/graduation/3.jpg",
         description: "Picture 3"
     },
     {
