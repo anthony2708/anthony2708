@@ -43,7 +43,7 @@
     "@docusaurus/types": "3.0.0",
     "@types/react": "^18.2.37",
     "dotenv": "^16.3.1",
-    "netlify-cli": "^17.2.2",
+    "netlify-cli": "^17.5.1",
     "prisma": "^5.5.2",
     "typescript": "^5.2.2"
   },
