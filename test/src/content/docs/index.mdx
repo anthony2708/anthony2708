@@ -1,0 +1,40 @@
+---
+title: Trang chủ
+description: Trang chủ của Anthony Bùi Lê Tuấn Anh
+template: splash
+banner:
+  content: |
+    ⭐ <b>Thông báo</b>: Phiên bản mới sẽ vận hành từ 01/12/2023. ⭐		
+hero:
+  tagline: Xin chào, mình là <b>Anthony Bùi Lê Tuấn Anh</b> - một chàng trai thích "lướt trên mây"... 🌤
+  image:
+    file: ../../assets/myself.jpg
+  actions:
+    - text: Giới thiệu
+      link: /guides/intro/
+      icon: right-arrow
+      variant: primary
+    - text: Blog
+      link: /blog/
+      icon: open-book
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Thông tin cơ bản
+
+<CardGrid stagger>
+	<Card title="Hữu xạ tự nhiên hương">
+    <img src="/undraw_docusaurus_tree.svg" class="featureSvg" alt="Hữu xạ tự nhiên hương" />
+		Một người lạc quan, chăm chỉ và có trách nhiệm. Đam mê lập trình Web và Mạng máy tính. Thích nghe nhạc, chơi đá bóng và xem TV.
+	</Card>
+	<Card title="CN Mạng Máy tính & Truyền thông">
+    <img src="/logo_khtn_remake_1.svg" class="featureSvg" alt="CN Mạng Máy tính & Truyền thông" />
+    Khoa Công nghệ thông tin, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh (VNUHCM_US, 2019 - 2023).
+	</Card>
+	<Card title="Chuyên Tiếng Anh - Khóa 23">
+    <img src="/logo_HLK.svg" class="featureSvg" alt="Chuyên Tiếng Anh - Khóa 23" />
+		Trường Trung học phổ thông Chuyên Hoàng Lê Kha - Tây Ninh (2016 - 2019). Nhận học bổng khuyến khích trong cả 3 năm học.
+	</Card>
+</CardGrid>
