@@ -11,7 +11,7 @@ The Youtube Downloader service allows users to watch and download videos on YouT
 
 ## Guide to access
 
-To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/services).
+To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/).
 
 Select the **Youtube Downloader** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.
 

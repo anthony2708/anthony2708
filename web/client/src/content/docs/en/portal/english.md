@@ -11,7 +11,7 @@ The English L&T service allows users to track their English learning progress th
 
 ## Guide to access
 
-To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/services).
+To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/).
 
 Select the **English L&T** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.
 

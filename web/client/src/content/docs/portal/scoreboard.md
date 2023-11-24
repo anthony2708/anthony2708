@@ -11,7 +11,7 @@ Dịch vụ Scoreboard Review cho phép người dùng cập nhật thông tin m
 
 ## Hướng dẫn truy cập
 
-Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/services)
+Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/).
 
 Chọn dịch vụ **Scoreboard Review**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ như hình dưới.
 

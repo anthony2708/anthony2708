@@ -11,7 +11,7 @@ Dịch vụ English L&T cho phép người dùng theo dõi tiến độ học t�
 
 ## Hướng dẫn truy cập
 
-Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/services)
+Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/).
 
 Chọn dịch vụ **English L&T**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ như hình dưới.
 

@@ -11,7 +11,7 @@ The URL Shortener service allows users to shorten long URLs into short ones, whi
 
 ## Guide to access
 
-To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/services).
+To access the Services Portal, please use [**this link**](https://portal.builetuananh.name.vn/en/).
 
 Select the **URL Shortener** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.
 

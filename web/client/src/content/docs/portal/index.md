@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/services)
+Để sử dụng cổng dịch vụ, xin truy cập vào đường dẫn [**này**](https://portal.builetuananh.name.vn/).
 
 Màn hình sẽ hiện giao diện như hình dưới.
 
