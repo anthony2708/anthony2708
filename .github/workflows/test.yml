@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "assets/games/**"
+      - "web/games/**"
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -19,16 +19,16 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-          cache-dependency-path: assets/games/yarn.lock
+          cache-dependency-path: web/games/yarn.lock
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-        working-directory: assets/games
+        working-directory: web/games
 
       - name: Lint website
         run: yarn lint
-        working-directory: assets/games
+        working-directory: web/games
 
       - name: Test build website
         run: yarn build
-        working-directory: assets/games
+        working-directory: web/games
