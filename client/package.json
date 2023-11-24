@@ -16,7 +16,7 @@
     "typecheck": "tsc",
     "postinstall": "prisma generate"
   },
-  "homepage": "https://www.builetuananh.name.vn",
+  "homepage": "https://portal.builetuananh.name.vn",
   "dependencies": {
     "@docusaurus/core": "3.0.0",
     "@docusaurus/preset-classic": "3.0.0",

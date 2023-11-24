@@ -7,7 +7,7 @@ sidebar:
 
 There are several ways to access the Services Portal:
 
-1. Access from [**this link**](../../en/services)
+1. Access from [**this link**](https://portal.builetuananh.name.vn/en/services)
 2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 

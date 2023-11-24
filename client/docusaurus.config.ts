@@ -31,9 +31,10 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-        },
+        // docs: {
+        //   sidebarPath: require.resolve("./sidebars.js"),
+        // },
+        docs: false,
         blog: {
           showReadingTime: true,
           routeBasePath: "blog",
@@ -114,8 +115,7 @@ const config: Config = {
         },
         {
           label: "Giới thiệu",
-          type: "doc",
-          docId: "intro",
+          href: "https://www.builetuananh.name.vn/",
           position: "left",
         },
         {
@@ -142,22 +142,22 @@ const config: Config = {
           ],
         },
         {
-          label: "Dịch vụ",
+          // label: "Dịch vụ",
           position: "left",
-          type: "dropdown",
-          items: [
-            {
-              label: "Cổng dịch vụ",
-              to: "/services",
-            },
-            {
-              label: "Cổng trạng thái",
-              href: "https://status.builetuananh.name.vn/",
-            },
-          ],
+          // type: "dropdown",
+          // items: [
+          //   {
+          //     label: "Cổng dịch vụ",
+          //     to: "/services",
+          //   },
+          //   {
+          label: "Cổng trạng thái",
+          href: "https://status.builetuananh.name.vn/",
+          // },
+          // ],
         },
         {
-          href: "https://www.builetuananh.name.vn/blog/atom.xml",
+          href: "https://portal.builetuananh.name.vn/blog/atom.xml",
           position: "right",
           className: "header-rss-link", // custom logo in custom.css
           "aria-label": "RSS",
@@ -187,16 +187,16 @@ const config: Config = {
           items: [
             {
               label: "Giới thiệu cá nhân",
-              to: "/docs/intro",
+              href: "https://www.builetuananh.name.vn/",
             },
-            {
-              label: "Tài liệu tham khảo",
-              to: "/docs/resources",
-            },
-            {
-              label: "Cổng dịch vụ",
-              to: "/services",
-            },
+            // {
+            //   label: "Tài liệu tham khảo",
+            //   to: "/docs/resources",
+            // },
+            // {
+            //   label: "Cổng dịch vụ",
+            //   to: "/services",
+            // },
             {
               label: "Cổng trạng thái",
               href: "https://status.builetuananh.name.vn/",

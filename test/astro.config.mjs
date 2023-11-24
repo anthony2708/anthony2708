@@ -5,18 +5,18 @@ import starlightBlog from 'starlight-blog'
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
-		starlightBlog({
-			postCount: 10,
-			recentPostCount: 5,
-			authors: {
-				anthony: {
-					name: "Anthony Bùi Lê Tuấn Anh",
-					title: "VNUHCM-ITUS Alumnus/Tech Blog",
-					url: "https://www.facebook.com/buile.tuananh",
-					picture: "https://github.com/anthony2708.png"
-				}
-			}
-		}),
+		// starlightBlog({
+		// 	postCount: 10,
+		// 	recentPostCount: 5,
+		// 	authors: {
+		// 		anthony: {
+		// 			name: "Anthony Bùi Lê Tuấn Anh",
+		// 			title: "VNUHCM-ITUS Alumnus/Tech Blog",
+		// 			url: "https://www.facebook.com/buile.tuananh",
+		// 			picture: "https://github.com/anthony2708.png"
+		// 		}
+		// 	}
+		// }),
 		starlight({
 			title: 'Bùi Lê Tuấn Anh',
 			customCss: [
@@ -48,22 +48,22 @@ export default defineConfig({
 				email: 'mailto:builetuananh2708@gmail.com',
 				bitbucket: 'https://bitbucket.org/19120163/',
 			},
-			components: {
-				MarkdownContent: 'starlight-blog/overrides/MarkdownContent.astro',
-				Sidebar: 'starlight-blog/overrides/Sidebar.astro',
-				ThemeSelect: 'starlight-blog/overrides/ThemeSelect.astro',
-				Navbar: 'starlight-blog/overrides/Navbar.astro',
-				Tabs: 'starlight-blog/overrides/Tabs.astro',
-				Tab: 'starlight-blog/overrides/Tab.astro',
-				TabPanels: 'starlight-blog/overrides/TabPanels.astro',
-				TabPanel: 'starlight-blog/overrides/TabPanel.astro',
-				PostList: 'starlight-blog/overrides/PostList.astro',
-				RecentPostList: 'starlight-blog/overrides/RecentPostList.astro',
-				Post: 'starlight-blog/overrides/Post.astro',
-				PostContent: 'starlight-blog/overrides/PostContent.astro',
-				PostListContent: 'starlight-blog/overrides/PostListContent.astro',
-				RecentPostListContent: 'starlight-blog/overrides/RecentPostListContent.astro',
-			},
+			// components: {
+			// 	MarkdownContent: 'starlight-blog/overrides/MarkdownContent.astro',
+			// 	Sidebar: 'starlight-blog/overrides/Sidebar.astro',
+			// 	ThemeSelect: 'starlight-blog/overrides/ThemeSelect.astro',
+			// 	Navbar: 'starlight-blog/overrides/Navbar.astro',
+			// 	Tabs: 'starlight-blog/overrides/Tabs.astro',
+			// 	Tab: 'starlight-blog/overrides/Tab.astro',
+			// 	TabPanels: 'starlight-blog/overrides/TabPanels.astro',
+			// 	TabPanel: 'starlight-blog/overrides/TabPanel.astro',
+			// 	PostList: 'starlight-blog/overrides/PostList.astro',
+			// 	RecentPostList: 'starlight-blog/overrides/RecentPostList.astro',
+			// 	Post: 'starlight-blog/overrides/Post.astro',
+			// 	PostContent: 'starlight-blog/overrides/PostContent.astro',
+			// 	PostListContent: 'starlight-blog/overrides/PostListContent.astro',
+			// 	RecentPostListContent: 'starlight-blog/overrides/RecentPostListContent.astro',
+			// },
 			sidebar: [
 				{
 					label: '🏡 Thông tin tổng hợp',
