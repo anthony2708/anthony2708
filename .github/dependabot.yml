@@ -16,9 +16,3 @@ updates:
     schedule:
       day: "sunday"
       interval: "weekly"
-  
-  - package-ecosystem: "pip" # See documentation for possible values
-    directory: "assets/" # Location of package manifests
-    schedule:
-      day: "sunday"
-      interval: "weekly"

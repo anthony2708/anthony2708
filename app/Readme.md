@@ -25,10 +25,8 @@ Information Technology - Vietnam National University of Ho Chi Minh City, Univer
     ├── assets/ # All files for references (not used for Graduation Thesis)
     │   ├── else/
     │   ├── THPTQG/
-    │   ├── python-reviewer-anthony/
-    │   ├── localstack/
     ├── .gitignore # Git ignore file
-    ├── client/ # All files for the official webapp
+    ├── web/ # All files for the official webapp
     ├── docs/ # All files for the development webapp (formerly built as a part of the Graduation Thesis)
     ├── LICENSE # License file
     └── Readme.md # The introduction file
