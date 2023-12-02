@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
         description: "Picture 3"
     },
     {
-        image: "/img/graduation/4.jpg",
+        image: "/img/graduation/13.jpg",
         description: "Picture 4"
     },
     {
@@ -59,19 +59,19 @@ const FeatureList: FeatureItem[] = [
         description: "Picture 12"
     },
     {
-        image: "/img/graduation/13.jpg",
+        image: "/img/graduation/15.jpg",
         description: "Picture 13"
     },
     {
-        image: "/img/graduation/14.jpg",
+        image: "/img/graduation/18.jpg",
         description: "Picture 14"
     },
     {
-        image: "/img/graduation/15.jpg",
+        image: "/img/graduation/14.jpg",
         description: "Picture 15"
     },
     {
-        image: "/img/graduation/16.jpg",
+        image: "/img/graduation/17.jpg",
         description: "Picture 16"
     },
 ]
