@@ -23,9 +23,57 @@ const FeatureList: FeatureItem[] = [
         description: "Picture 3"
     },
     {
-        image: "/img/graduation/pexels-quang-nguyen-vinh-6877795.jpg",
+        image: "/img/graduation/4.jpg",
         description: "Picture 4"
-    }
+    },
+    {
+        image: "/img/graduation/5.jpg",
+        description: "Picture 5"
+    },
+    {
+        image: "/img/graduation/6.jpg",
+        description: "Picture 6"
+    },
+    {
+        image: "/img/graduation/7.jpg",
+        description: "Picture 7"
+    },
+    {
+        image: "/img/graduation/8.jpg",
+        description: "Picture 8"
+    },
+    {
+        image: "/img/graduation/9.jpg",
+        description: "Picture 9"
+    },
+    {
+        image: "/img/graduation/10.jpg",
+        description: "Picture 10"
+    },
+    {
+        image: "/img/graduation/11.jpg",
+        description: "Picture 11"
+    },
+    {
+        image: "/img/graduation/12.jpg",
+        description: "Picture 12"
+    },
+    {
+        image: "/img/graduation/13.jpg",
+        description: "Picture 13"
+    },
+    {
+        image: "/img/graduation/14.jpg",
+        description: "Picture 14"
+    },
+    {
+        image: "/img/graduation/15.jpg",
+        description: "Picture 15"
+    },
+    {
+        image: "/img/graduation/16.jpg",
+        description: "Picture 16"
+    },
 ]
 
 function Feature({ image, description }: FeatureItem) {

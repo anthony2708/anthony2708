@@ -22,7 +22,7 @@ export default class Gallery extends Component<{}, {}> {
                         </h1>
                         <div className={styles.buttons}>
                             <Link className="button button--secondary button--lg" type="submit"
-                                href="https://cleanuri.com/VYeGmr"
+                                href="https://drive.google.com/drive/folders/1WrUQBzT5piurWyWmtOloK8y4Hl8ffHEx?usp=sharing"
                                 target="_blank">
                                 <Translate id="gallery.expand">
                                     Xem trọn vẹn
