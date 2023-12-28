@@ -6,6 +6,8 @@
 
 <p align="center"><a href="https://github.com/anthony2708/status"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=status&theme=dracula" alt="Status" /></a></p>
 
+<p align="center"><a href="https://github.com/anthony2708/tech-savvy"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=tech-savvy&theme=dracula" alt="seft-101" /></a></p>
+
 <p align="center"><a href="https://github.com/mhx-thh/r2us-backend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mhx-thh&repo=r2us-backend&theme=dracula&show_owner=true" alt="GreenSummer" /></a></p>
 
 <p align="center"><a href="https://github.com/anthony2708/cs101_devops"><img src="https://github-readme-stats.vercel.app/api/pin/?username=anthony2708&repo=cs101_devops&theme=dracula" alt="CS101_DevOps" /></a></p>
