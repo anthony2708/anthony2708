@@ -24,6 +24,7 @@
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ccc;
+  border-radius: 1.625rem;
 }
 
 /* .table_center */
