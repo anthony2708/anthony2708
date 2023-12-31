@@ -14,7 +14,7 @@ The Scoreboard Review service allows users to update the latest information abou
 To use the service, there are the following ways:
 
 1. Access from [**this link**](../../../en/services)
-2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
+2. From the **Navigation bar** on the top of this page, select **Services**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
 Select the **Scoreboard Review** service, then click on **Access**. The website will automatically be redirected to the service page as shown below.

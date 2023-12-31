@@ -14,7 +14,7 @@ Dịch vụ Scoreboard Review cho phép người dùng cập nhật thông tin m
 Để sử dụng dịch vụ, có các cách sau:
 
 1. Truy cập vào đường dẫn [**này**](../../services)
-2. Từ thanh điều hướng, chọn **Dịch vụ** ➡ **Cổng dịch vụ**
+2. Từ thanh điều hướng, chọn **Dịch vụ**
 3. Từ phần chân trang, mục **Trang chủ** chọn **Cổng dịch vụ**
 
 Chọn dịch vụ **Scoreboard Review**, nhấn nút **Truy cập**. Hệ thống sẽ tự chuyển hướng đến trang của dịch vụ như hình dưới.

@@ -67,14 +67,14 @@ const FeatureList: FeatureItem[] = [
         link: "/services/gallery"
     },
     {
-        title: "2048 Game",
-        image: "img/english/2048_logo.svg",
+        title: "Status Coverage",
+        image: "img/english/status.png",
         description: (
             <Translate id='services.feature6.desc'>
-                Dịch vụ chơi game 2048 trực tuyến, giúp bạn giải trí sau giờ làm việc, học tập.
+                Dịch vụ cập nhật trạng thái trực tiếp các trang web thường xuyên truy cập.
             </Translate>
         ),
-        link: "https://2048.builetuananh.name.vn/"
+        link: "https://status.builetuananh.name.vn/"
     }
 ]
 

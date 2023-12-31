@@ -144,20 +144,10 @@ const config: Config = {
         {
           label: "Dịch vụ",
           position: "left",
-          type: "dropdown",
-          items: [
-            {
-              label: "Cổng dịch vụ",
-              to: "/services",
-            },
-            {
-              label: "Cổng trạng thái",
-              href: "https://status.builetuananh.name.vn/",
-            },
-          ],
+          to: "/services",
         },
         {
-          href: "https://portal.builetuananh.name.vn/blog/atom.xml",
+          href: "https://www.builetuananh.name.vn/blog/atom.xml",
           position: "right",
           className: "header-rss-link", // custom logo in custom.css
           "aria-label": "RSS",
@@ -167,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Phiên bản mới vận hành từ 01/12/2023 (A new version will be available from Dec 1st, 2023). ⭐",
+        "⭐ <b>Thông báo</b>: Phiên bản mới vận hành từ 01/12/2023 (A new version is available from Dec 1st, 2023). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",
@@ -196,10 +186,6 @@ const config: Config = {
             {
               label: "Cổng dịch vụ",
               to: "/services",
-            },
-            {
-              label: "Cổng trạng thái",
-              href: "https://status.builetuananh.name.vn/",
             },
           ],
         },

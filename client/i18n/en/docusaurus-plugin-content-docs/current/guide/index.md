@@ -7,7 +7,7 @@ sidebar_position: 3
 There are several ways to access the Services Portal:
 
 1. Access from [**this link**](../../en/services)
-2. From the **Navigation bar** on the top of this page, select **Services** ➡ **Portal**
+2. From the **Navigation bar** on the top of this page, select **Services**
 3. From the **Footer** at the end of this page, in the **Homepage** section select **Services Portal**
 
 The screen will look something like this:
@@ -31,4 +31,4 @@ There are currently six different services as follows:
 3. **Scoreboard Review** ([User Guide](./guide/scoreboard))
 4. **English L&T** ([User Guide](./guide/english))
 5. **Images Gallery** ([User Guide](./guide/gallery))
-6. **2048 Game** ([User Guide](./guide/games))
+6. **Status Coverage** ([User Guide](./guide/status))

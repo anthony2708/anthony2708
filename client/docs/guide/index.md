@@ -8,7 +8,7 @@ slug: /guide
 Để sử dụng cổng dịch vụ, có các cách sau:
 
 1. Truy cập vào đường dẫn [**này**](../../services)
-2. Từ thanh điều hướng, chọn **Dịch vụ** ➡ **Cổng dịch vụ**
+2. Từ thanh điều hướng, chọn **Dịch vụ**
 3. Từ phần chân trang, mục **Trang chủ** chọn **Cổng dịch vụ**
 
 Màn hình sẽ hiện giao diện như hình dưới.
@@ -26,4 +26,4 @@ Hiện tại hệ thống có sáu dịch vụ khác nhau như sau:
 3. Dịch vụ **Scoreboard Review** ([xem hướng dẫn tại đây](./guide/scoreboard))
 4. Dịch vụ **English L&T** ([xem hướng dẫn tại đây](./guide/english))
 5. Dịch vụ **Images Gallery** ([xem hướng dẫn tại đây](./guide/gallery))
-6. Dịch vụ **Trò chơi 2048** ([xem hướng dẫn tại đây](./guide/games))
+6. Dịch vụ **Status Coverage** ([xem hướng dẫn tại đây](./guide/status))
