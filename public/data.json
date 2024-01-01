@@ -1,0 +1,51 @@
+[
+  {
+    "id": "210001",
+    "name": "Phạm Thị Trang Anh",
+    "progress": [10, 4.76, 0, 0, 0],
+    "test": [7.7, 10, 0, 0, 0],
+    "final": 32.46
+  },
+  {
+    "id": "210002",
+    "name": "Lê Hồ Minh Châu",
+    "progress": [10, 10, 8.35, 6.78, 9.58],
+    "test": [10, 10, 9, 7, 6],
+    "final": 86.71
+  },
+  {
+    "id": "210003",
+    "name": "Nguyễn Hoàng Bảo Trâm",
+    "progress": [1, 2.65, 2.47, 0, 0],
+    "test": [0, 0, 0, 0, 0],
+    "final": 6.12
+  },
+  {
+    "id": "220001",
+    "name": "Trần Thị Tú Linh",
+    "progress": [8, 7, 0, 0, 0],
+    "test": [8, 7, 5.5, 0, 0],
+    "final": 35.5
+  },
+  {
+    "id": "220002",
+    "name": "Nguyễn Trần Cẩm Uyên",
+    "progress": [0, 0, 0, 0, 0],
+    "test": [0, 0, 0, 0, 0],
+    "final": 0
+  },
+  {
+    "id": "220003",
+    "name": "Nguyễn Lê Anh Minh",
+    "progress": [5, 5.25, 5.4, 4.6, 6.05],
+    "test": [5.25, 0, 0, 0, 0],
+    "final": 31.55
+  },
+  {
+    "id": "230001",
+    "name": "Võ Ngọc Tín",
+    "progress": [0, 0, 0, 0, 0],
+    "test": [0, 0, 0, 0, 0],
+    "final": 0
+  }
+]
