@@ -30,7 +30,7 @@
     "axios": "^1.6.3",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.0.0",
-    "docusaurus-lunr-search": "^3.3.0",
+    "docusaurus-lunr-search": "^3.3.2",
     "node-fetch": "^3.3.2",
     "prism-react-renderer": "^2.2.0",
     "react": "^18.0.0",
