@@ -157,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Trò chơi 2048 dừng hoạt động từ 01/01/2024 (2048 Game is closed down from Jan 1st, 2024). ⭐",
+        "⭐ <b>Thông báo</b>: Phiên bản mới sẽ được tái triển khai trong năm 2024 (A new version will be restarted in 2024). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",

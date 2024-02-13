@@ -1,4 +1,4 @@
-## Kỳ 2: Không hoàn hảo
+## Kỳ 2: KHÔNG HOÀN HẢO
 
 _Dưới đây là toàn văn bài thơ được tác giả gửi dự thi **[Giải thưởng Văn học trẻ Đại học Quốc gia TP.HCM lần II, năm 2023](https://vanhoctre.vnuhcm.edu.vn/)** ở hạng mục **Thơ**._
 
