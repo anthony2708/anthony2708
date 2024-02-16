@@ -24,9 +24,13 @@ _Rồi có nhớ cái chuỗi ngày tháng cấp 3 với đủ thứ kỉ niệm
 
 _Và rồi... cũng đến cái tuổi mà ta rời xa... "**Tri ân và trưởng thành**"..._
 
+![Growing Up](../img/image3.png)
+
 _Chúng ta sẽ chẳng thể sống mãi với một cái gì đó quá lâu, ai rồi cũng phải lớn, cũng phải đi... Đi đến một điểm khác dành cho mình..._
 
 **_Hoàng chuyên luôn đẹp... đẹp ở mỗi mùa... và đẹp khi ta thật sự nhớ về..._**
+
+![Reunion](../img/image4.png)
 
 **_Mùa "nhớ"... có thể là mùa hè ngồi bên đống deadlines dày cộm và muốn mình quay về ngày tháng cấp 3, cũng có thể là mùa xuân, trại về rồi hay lén vào chơi..._**
 

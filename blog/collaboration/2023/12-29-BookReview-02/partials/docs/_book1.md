@@ -1,5 +1,11 @@
 ## CHUYỆN CON MÈO DẠY HẢI ÂU BAY - KHI NGƯỜI LỚN CŨNG CẦN ĐƯỢC CHỮA LÀNH TÂM HỒN
 
+:::info
+
+_Đây là bài viết được **[Anna Trần Thụy Bình An](https://www.facebook.com/tran.thuy.binh.an.779857)** viết trong **Tháng chuyển đổi nội dung (12/2023)** giữa các đội hình trong The Collab Team._
+
+:::
+
 _Thế giới sẽ chẳng bao giờ ngừng lại. Điều này đồng nghĩa rằng con người buộc phải dốc hết sức lực, dồn cả tâm trí để hoàn thành đường đua cuộc đời. Tuy nhiên, nếu vòng đời của chúng ta chỉ diễn ra như thế, liệu rằng **chúng ta có thật sự sống?**_
 
 _Dẫu bạn vẫn ổn hay không ổn một tẹo nào, tâm hồn của bạn rất cần được quan tâm và bồi đắp. Đối với tôi, sách văn học luôn là liều thuốc chữa lành tâm hồn hiệu quả nhất bởi kho tàng ý nghĩa vô cùng đắt giá được trao truyền đến độc giả._
