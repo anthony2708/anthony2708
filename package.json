@@ -44,7 +44,7 @@
     "@types/react": "^18.2.64",
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.19.0",
-    "prisma": "^5.10.2",
+    "prisma": "^5.11.0",
     "typescript": "^5.4.2"
   },
   "browserslist": {
