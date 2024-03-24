@@ -1,4 +1,4 @@
-### [Huỳnh Thanh Nhàn (Latte) - Cựu thành viên](https://www.facebook.com/latte24211201)
+### [Huỳnh Thanh Nhàn (Latte) - Cựu thành viên](https://www.facebook.com/latte24th.nov)
 
 ![Latte](/img/blog/latte.jpg)
 
