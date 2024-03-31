@@ -41,7 +41,7 @@
     "@docusaurus/module-type-aliases": "^3.1.1",
     "@docusaurus/tsconfig": "^3.1.1",
     "@docusaurus/types": "^3.1.1",
-    "@types/react": "^18.2.69",
+    "@types/react": "^18.2.73",
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.19.0",
     "prisma": "^5.11.0",
