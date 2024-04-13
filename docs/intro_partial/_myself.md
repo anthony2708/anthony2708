@@ -4,14 +4,14 @@
 
 ## Bảng thông tin
 
-| Attributes       | Value                                                                         |
-| ---------------- | ----------------------------------------------------------------------------- |
-| 💳 Name          | **Anthony Bùi Lê Tuấn Anh**                                                   |
-| 📅 DOB           | Aug 27th, 2001 (22)                                                           |
-| 🏡 Hometown      | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
-| 📗 Current Title | DevOps Engineer [**Fresher**]                                                 |
-| 💻 Company       | Not applicable                                                                |
-| 🏫 Previous Uni  | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
+| Thuộc tính         | Giá trị                                                                        |
+| ------------------ | ------------------------------------------------------------------------------ |
+| 💳 Họ và tên       | **Anthony Bùi Lê Tuấn Anh**                                                    |
+| 📅 Ngày sinh       | 27 tháng 08, 2001 (22)                                                         |
+| 🏡 Quê quán        | Thị xã Hòa Thành, Tỉnh Tây Ninh, Việt Nam                                      |
+| 📗 Vị trí công tác | Chuyên viên Hỗ trợ kỹ thuật [**Fresher**]                                      |
+| 💻 Công ty         | iTechwx Vietnam                                                                |
+| 🏫 Trường học      | **_Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh_** |
 
 ## 💻 Github
 
