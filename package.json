@@ -45,7 +45,7 @@
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.21.2",
     "prisma": "^5.12.1",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "browserslist": {
     "production": [
