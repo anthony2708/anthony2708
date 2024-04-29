@@ -7,7 +7,7 @@
 
 [[redirects]]
     from = '/api/url'
-    to = '/.netlify/functions/getUrl'
+    to = '/.netlify/functions/newGetUrl'
     status = 200
     force = true
     headers = {X-From = "Netlify"}

@@ -13,6 +13,10 @@ export const handler: Handler = async (event: HandlerEvent) => {
         info: info.formats.sort((a, b) => {
           if (a.mimeType < b.mimeType) {
             return -1;
+          } else if (a.mimeType > b.mimeType) {
+            return 1;
+          } else {
+            return 0;
           }
         }),
       }),
