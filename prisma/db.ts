@@ -1,4 +1,4 @@
-const { PrismaClient } = require("@prisma/client");
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
     try {
         console.log(await prisma.widget.create({ data: {} }));
     } catch (err) {
-        console.error("error executing query:", err);
+        console.error("Error executing query:", err);
     } finally {
         prisma.$disconnect();
     }
