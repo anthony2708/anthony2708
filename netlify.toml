@@ -1,6 +1,6 @@
 [[redirects]]
     from = '/api/download'
-    to = '/.netlify/functions/getVideo'
+    to = '/.netlify/functions/newGetVideo'
     status = 200
     force = true
     headers = {X-From = "Netlify"}
