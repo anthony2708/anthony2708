@@ -14,7 +14,7 @@
 
 [[redirects]]
     from = '/api/score'
-    to = '/.netlify/functions/getScore'
+    to = '/.netlify/functions/newGetScore'
     status = 200
     force = true
     headers = {X-From = "Netlify"}
