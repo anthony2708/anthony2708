@@ -2234,18 +2234,6 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@mswjs/interceptors@0.27.2":
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/@mswjs/interceptors/-/interceptors-0.27.2.tgz#220df9a48fdfdc61b7e0519ad51ab07967941324"
-  integrity sha512-mE6PhwcoW70EX8+h+Y/4dLfHk33GFt/y5PzDJz56ktMyaVGFXMJ5BYLbUjdmGEABfE0x5GgAGyKbrbkYww2s3A==
-  dependencies:
-    "@open-draft/deferred-promise" "^2.2.0"
-    "@open-draft/logger" "^0.3.0"
-    "@open-draft/until" "^2.0.0"
-    is-node-process "^1.2.0"
-    outvariant "^1.2.1"
-    strict-event-emitter "^0.5.1"
-
 "@netlify/binary-info@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
@@ -2438,12 +2426,12 @@
     cpy "^9.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^2.6.0":
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-2.6.3.tgz#1d7aa3da289b5519369cda7abd0e6244963d8cba"
-  integrity sha512-7Z9gWyAuPI2NnBOvpYPD66KIWOgNznLz9BkyZ0c7qeRE6p23UCMVZ2VsrJpjPDgoJtKplGSBzASl6fQD7iEeWw==
+"@netlify/functions@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-2.7.0.tgz#a9506191dc2c6fe888a50de28bcab1537b5b4161"
+  integrity sha512-4pXC/fuj3eGQ86wbgPiM4zY8+AsNrdz6vcv6FEdUJnZW+LqF8IWjQcY3S0d1hLeLKODYOqq4CkrzGyCpce63Nw==
   dependencies:
-    "@netlify/serverless-functions-api" "1.18.0"
+    "@netlify/serverless-functions-api" "1.18.1"
 
 "@netlify/git-utils@^5.1.1":
   version "5.1.1"
@@ -2561,12 +2549,11 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/serverless-functions-api@1.18.0":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.0.tgz#83542c0ec29602e55871744e1539ad761b7fd308"
-  integrity sha512-VCU5btoGZ8M6iI7HSwpfZXCpBLKWFmRtq5xYt0K7dY96BZWVBmaZY6Tn+w4L2DrGXwAsIeOFNp8CHjVXfuCAkg==
+"@netlify/serverless-functions-api@1.18.1", "@netlify/serverless-functions-api@^1.18.0":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.1.tgz#6b4b7995b7bb58dc14cc4215b0f6eea5675f8e6b"
+  integrity sha512-DrSvivchuwsuQW03zbVPT3nxCQa5tn7m4aoPOsQKibuJXIuSbfxzCBxPLz0+LchU5ds7YyOaCc9872Y32ngYzg==
   dependencies:
-    "@mswjs/interceptors" "0.27.2"
     "@netlify/node-cookies" "^0.1.0"
     "@opentelemetry/core" "^1.23.0"
     "@opentelemetry/otlp-transformer" "^0.50.0"
@@ -2758,24 +2745,6 @@
   integrity sha512-D4iHGTdAnEEVsB8fl95m1hiz7D5YiRdQ9b/OEb3BYRVwbLsGHcRVPz+u+BgRLNk0Q0/4iZCBqDN96j2XNxfXrA==
   dependencies:
     "@octokit/openapi-types" "^18.0.0"
-
-"@open-draft/deferred-promise@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@open-draft/deferred-promise/-/deferred-promise-2.2.0.tgz#4a822d10f6f0e316be4d67b4d4f8c9a124b073bd"
-  integrity sha512-CecwLWx3rhxVQF6V4bAgPS5t+So2sTbPgAzafKkVizyi7tlwpcFpdFqq+wqF2OwNBmqFuu6tOyouTuxgpMfzmA==
-
-"@open-draft/logger@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@open-draft/logger/-/logger-0.3.0.tgz#2b3ab1242b360aa0adb28b85f5d7da1c133a0954"
-  integrity sha512-X2g45fzhxH238HKO4xbSr7+wBS8Fvw6ixhTDuvLd5mqh6bJJCFAPwU9mPDxbcrRtfxv4u5IHCEH77BmxvXmmxQ==
-  dependencies:
-    is-node-process "^1.2.0"
-    outvariant "^1.4.0"
-
-"@open-draft/until@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@open-draft/until/-/until-2.1.0.tgz#0acf32f470af2ceaf47f095cdecd40d68666efda"
-  integrity sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==
 
 "@opentelemetry/api-logs@0.50.0":
   version "0.50.0"
@@ -8456,11 +8425,6 @@ is-interactive@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-interactive/-/is-interactive-2.0.0.tgz#40c57614593826da1100ade6059778d597f16e90"
   integrity sha512-qP1vozQRI+BMOPcjFzrjXuQvdak2pHNUMZoeG2eRbiSqyvbEf/wQtEOTOX1guk6E3t36RkaqiSt8A/6YElNxLQ==
 
-is-node-process@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/is-node-process/-/is-node-process-1.2.0.tgz#ea02a1b90ddb3934a19aea414e88edef7e11d134"
-  integrity sha512-Vg4o6/fqPxIjtxgUH5QLJhwZ7gW5diGCVlXpuUfELC62CuxM1iHcRe51f2W1FDy04Ai4KJkagKjx3XaqyfRKXw==
-
 is-npm@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/is-npm/-/is-npm-6.0.0.tgz#b59e75e8915543ca5d881ecff864077cba095261"
@@ -10834,11 +10798,6 @@ os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
-
-outvariant@^1.2.1, outvariant@^1.4.0:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/outvariant/-/outvariant-1.4.2.tgz#f54f19240eeb7f15b28263d5147405752d8e2066"
-  integrity sha512-Ou3dJ6bA/UJ5GVHxah4LnqDwZRwAmWxrG3wtrHrbGnP4RnLCtA64A4F+ae7Y8ww660JaddSoArUR5HjipWSHAQ==
 
 p-cancelable@^3.0.0:
   version "3.0.0"
