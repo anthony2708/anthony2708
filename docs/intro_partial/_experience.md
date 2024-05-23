@@ -6,11 +6,11 @@
 
 ## 🏫 Kinh nghiệm
 
-| STT | Vị trí                                     | Thời gian          | Nơi cộng tác           | Mô tả                                                                                                                                   |
-| --- | ------------------------------------------ | ------------------ | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Chuyên viên Hỗ trợ kỹ thuật**            | 01/2024 - Hiện tại | iTechwx Vietnam        | Hỗ trợ kỹ thuật cho khách hàng của Microsoft trên khắp thế giới                                                                         |
-| 2   | **Kỹ sư DevOps**                           | 09/2023 - 11/2023  | KMS Technology Vietnam | Hỗ trợ kỹ thuật trong quá trình giám sát vận hành các sản phẩm của công ty thông qua các nền tảng điện toán đám mây và hệ thống tại chỗ |
-| 3   | **Thực tập sinh (Kỹ sư tin cậy hệ thống)** | 08/2022 - 01/2023  | OPSWAT Vietnam         | Hỗ trợ kỹ thuật trong quá trình giám sát vận hành các sản phẩm của công ty thông qua các nền tảng điện toán đám mây                     |
+| STT | Vị trí                                     | Thời gian         | Nơi cộng tác           | Mô tả                                                                                                                                   |
+| --- | ------------------------------------------ | ----------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Chuyên viên Hỗ trợ kỹ thuật**            | 01/2024 - 05/2024 | iTechwx Vietnam        | Hỗ trợ kỹ thuật cho khách hàng của Microsoft trên khắp thế giới                                                                         |
+| 2   | **Kỹ sư vận hành và phát triển**           | 09/2023 - 11/2023 | KMS Technology Vietnam | Hỗ trợ kỹ thuật trong quá trình giám sát vận hành các sản phẩm của công ty thông qua các nền tảng điện toán đám mây và hệ thống tại chỗ |
+| 3   | **Thực tập sinh (Kỹ sư tin cậy hệ thống)** | 08/2022 - 01/2023 | OPSWAT Vietnam         | Hỗ trợ kỹ thuật trong quá trình giám sát vận hành các sản phẩm của công ty thông qua các nền tảng điện toán đám mây                     |
 
 ## 📣 Hoạt động
 

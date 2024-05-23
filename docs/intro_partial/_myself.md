@@ -9,8 +9,8 @@
 | 💳 Họ và tên       | **Anthony Bùi Lê Tuấn Anh**                                                    |
 | 📅 Ngày sinh       | 27 tháng 08, 2001 (22)                                                         |
 | 🏡 Quê quán        | Thị xã Hòa Thành, Tỉnh Tây Ninh, Việt Nam                                      |
-| 📗 Vị trí công tác | Chuyên viên Hỗ trợ kỹ thuật [**Fresher**]                                      |
-| 💻 Công ty         | iTechwx Vietnam                                                                |
+| 📗 Vị trí công tác | Kỹ sư vận hành và phát triển [**Associate**]                                   |
+| 💻 Công ty         | Không khả dụng                                                                 |
 | 🏫 Trường học      | **_Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh_** |
 
 ## 💻 Github

@@ -8,7 +8,7 @@
 
 | No. | Position                             | Time                | Location               | Description                                                                                                |
 | --- | ------------------------------------ | ------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 1   | **Technical Support Engineer**       | 01/2024 - Present   | iTechwx Vietnam        | Assisting Microsoft customers all over the world (Security and Compliance Team)                            |
+| 1   | **Technical Support Engineer**       | Jan 2024 - May 2024 | iTechwx Vietnam        | Assisting Microsoft customers all over the world (Security and Compliance Team)                            |
 | 2   | **Fresher DevOps Software Engineer** | Sep 2023 - Nov 2023 | KMS Technology Vietnam | Assisting the migration and management of the client's products on cloud providers and on-premise systems. |
 | 3   | **Site Reliability Engineer Intern** | Aug 2022 - Jan 2023 | OPSWAT Vietnam         | Assisting the migration and management of the company's products onto cloud providers.                     |
 

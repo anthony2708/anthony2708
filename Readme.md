@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td>Technical Support Engineer [<b>Fresher</b>]</td>
+      <td>DevOps Engineer [<b>Associate</b>]</td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td>iTechwx Vietnam</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>

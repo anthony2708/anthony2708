@@ -23,19 +23,19 @@ const FeatureList: FeatureItem[] = [
       </Translate>
     ),
   },
-  {
-    title: translate({
-      message: "Technical Support Engineer",
-      id: "homepage.feature2.job.title"
-    }),
-    image: "/img/favicon/itechwx.png",
-    description: (
-      <Translate id="homepage.feature2.job.desc">
-        Chuyên viên hỗ trợ kỹ thuật tại iTechwx Vietnam (2024). Chịu trách nhiệm về
-        việc phục vụ khách hàng của Microsoft trên phạm vi toàn cầu.
-      </Translate>
-    ),
-  },
+  // {
+  //   title: translate({
+  //     message: "Technical Support Engineer",
+  //     id: "homepage.feature2.job.title"
+  //   }),
+  //   image: "/img/favicon/itechwx.png",
+  //   description: (
+  //     <Translate id="homepage.feature2.job.desc">
+  //       Chuyên viên hỗ trợ kỹ thuật tại iTechwx Vietnam (2024). Chịu trách nhiệm về
+  //       việc phục vụ khách hàng của Microsoft trên phạm vi toàn cầu.
+  //     </Translate>
+  //   ),
+  // },
   {
     title: translate({
       message: "CN Mạng Máy tính & Truyền thông",
@@ -66,7 +66,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, image, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
         <img
           className={styles.featureSvg}

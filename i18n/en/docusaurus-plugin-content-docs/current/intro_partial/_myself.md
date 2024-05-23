@@ -9,8 +9,8 @@
 | 💳 Name          | **Anthony Bùi Lê Tuấn Anh**                                                   |
 | 📅 DOB           | Aug 27th, 2001 (22)                                                           |
 | 🏡 Hometown      | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
-| 📗 Current Title | Technical Support Engineer [**Fresher**]                                      |
-| 💻 Company       | iTechwx Vietnam                                                               |
+| 📗 Current Title | DevOps Engineer [**Associate**]                                               |
+| 💻 Company       | N/A                                                                           |
 | 🏫 Previous Uni  | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
 
 ## 💻 Github
