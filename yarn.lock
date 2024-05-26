@@ -2049,10 +2049,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.5.2"
 
-"@fortawesome/react-fontawesome@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.1.tgz#0bd69e89bd7548b4903ffa989ebf50cc82ba091c"
-  integrity sha512-ldr5QO2MneAX5W5WBCYB2pZp/PiHDD1hy9YEBLcXUyJb0qnO86oP8RU+CgmYVSH/R4Dbe2ernhcWOrcgaKD9NQ==
+"@fortawesome/react-fontawesome@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.2.tgz#68b058f9132b46c8599875f6a636dad231af78d4"
+  integrity sha512-EnkrprPNqI6SXJl//m29hpaNzOp1bruISWaOiRtkMi/xSvHJlzc2j2JAYS7egxt/EbjSNV/k6Xy0AQI6vB2+1g==
   dependencies:
     prop-types "^15.8.1"
 
@@ -2549,20 +2549,7 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/serverless-functions-api@1.18.1", "@netlify/serverless-functions-api@^1.18.0":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.1.tgz#6b4b7995b7bb58dc14cc4215b0f6eea5675f8e6b"
-  integrity sha512-DrSvivchuwsuQW03zbVPT3nxCQa5tn7m4aoPOsQKibuJXIuSbfxzCBxPLz0+LchU5ds7YyOaCc9872Y32ngYzg==
-  dependencies:
-    "@netlify/node-cookies" "^0.1.0"
-    "@opentelemetry/core" "^1.23.0"
-    "@opentelemetry/otlp-transformer" "^0.50.0"
-    "@opentelemetry/resources" "^1.23.0"
-    "@opentelemetry/sdk-trace-base" "^1.23.0"
-    "@opentelemetry/semantic-conventions" "^1.23.0"
-    urlpattern-polyfill "8.0.2"
-
-"@netlify/serverless-functions-api@^1.18.1":
+"@netlify/serverless-functions-api@1.18.1", "@netlify/serverless-functions-api@^1.18.1":
   version "1.18.1"
   resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.1.tgz#6b4b7995b7bb58dc14cc4215b0f6eea5675f8e6b"
   integrity sha512-DrSvivchuwsuQW03zbVPT3nxCQa5tn7m4aoPOsQKibuJXIuSbfxzCBxPLz0+LchU5ds7YyOaCc9872Y32ngYzg==
@@ -13085,11 +13072,6 @@ streamx@^2.15.0, streamx@^2.16.1:
     queue-tick "^1.0.1"
   optionalDependencies:
     bare-events "^2.2.0"
-
-strict-event-emitter@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/strict-event-emitter/-/strict-event-emitter-0.5.1.tgz#1602ece81c51574ca39c6815e09f1a3e8550bd93"
-  integrity sha512-vMgjE/GGEPEFnhFub6pa4FmJBRBVOLpIII2hvCZ8Kzb7K0hlHo7mQv6xYrBvCL2LtAIBwFUK8wvuJgTVSQ5MFQ==
 
 "string-width-cjs@npm:string-width@^4.2.0":
   version "4.2.3"
