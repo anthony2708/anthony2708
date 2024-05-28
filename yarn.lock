@@ -2562,19 +2562,6 @@
     "@opentelemetry/semantic-conventions" "^1.23.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/serverless-functions-api@^1.18.2":
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.2.tgz#f3ed62542e95419747c8512e63c903881a64d910"
-  integrity sha512-KHhcNWP1B+8Io2aAobzRRuT1FSWb7Bfsih16dxKgaU9IgP/OxMVvssbmhRAmoR01rVGhQEiNN0vk6juMzOafOw==
-  dependencies:
-    "@netlify/node-cookies" "^0.1.0"
-    "@opentelemetry/core" "^1.23.0"
-    "@opentelemetry/otlp-transformer" "^0.50.0"
-    "@opentelemetry/resources" "^1.23.0"
-    "@opentelemetry/sdk-trace-base" "^1.23.0"
-    "@opentelemetry/semantic-conventions" "^1.23.0"
-    urlpattern-polyfill "8.0.2"
-
 "@netlify/zip-it-and-ship-it@9.33.0":
   version "9.33.0"
   resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.33.0.tgz#84420ac6eebc49faaaed97c186082a458d84d810"
@@ -4318,10 +4305,10 @@ avvio@^8.3.0:
     debug "^4.0.0"
     fastq "^1.17.1"
 
-axios@^1.6.8:
-  version "1.6.8"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
-  integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
+axios@^1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.2.tgz#b625db8a7051fbea61c35a3cbb3a1daa7b9c7621"
+  integrity sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
