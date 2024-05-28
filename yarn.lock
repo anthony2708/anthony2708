@@ -2562,10 +2562,10 @@
     "@opentelemetry/semantic-conventions" "^1.23.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/zip-it-and-ship-it@9.33.0":
-  version "9.33.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.33.0.tgz#84420ac6eebc49faaaed97c186082a458d84d810"
-  integrity sha512-xHXX5lPM4p3GPRFi90yDCSwJVsS5tYb9n80Yk1YrHhBTDopO93X7ZvE1Xf5wC9WulflUyMrje/13nib7/NIbzA==
+"@netlify/zip-it-and-ship-it@9.32.2":
+  version "9.32.2"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.32.2.tgz#c787e86c7fc65d4bbe489e9f1e1286ec9658828e"
+  integrity sha512-0AHtKKTWlVgbYD46/8ns3/55uVefbPgun8omYEoVYeW50t2j380D+sq3O+2x6cH9a6zjuxH1IDvRoppBZGWAkw==
   dependencies:
     "@babel/parser" "^7.22.5"
     "@babel/types" "7.24.5"
@@ -3490,10 +3490,10 @@
     "@types/history" "^4.7.11"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.3.2":
-  version "18.3.2"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.2.tgz#462ae4904973bc212fa910424d901e3d137dbfcd"
-  integrity sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==
+"@types/react@*", "@types/react@^18.3.3":
+  version "18.3.3"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.3.tgz#9679020895318b0915d7a3ab004d92d33375c45f"
+  integrity sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
