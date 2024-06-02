@@ -1666,10 +1666,10 @@
     fs-extra "^11.1.1"
     tslib "^2.6.0"
 
-"@docusaurus/tsconfig@^3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.3.2.tgz#55c0cbe92930c6b8a071e657077a612f4265e637"
-  integrity sha512-2MQXkLoWqgOSiqFojNEq8iPtFBHGQqd1b/SQMoe+v3GgHmk/L6YTTO/hMcHhWb1hTFmbkei++IajSfD3RlZKvw==
+"@docusaurus/tsconfig@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.4.0.tgz#2b6ea208e580facc6e3330433e9b4321ef0eb3f5"
+  integrity sha512-0qENiJ+TRaeTzcg4olrnh0BQ7eCxTgbYWBnWUeQDc84UYkt/T3pDNnm3SiQkqPb+YQ1qtYFlC0RriAElclo8Dg==
 
 "@docusaurus/types@3.3.2", "@docusaurus/types@^3.3.2":
   version "3.3.2"
@@ -2562,10 +2562,23 @@
     "@opentelemetry/semantic-conventions" "^1.23.0"
     urlpattern-polyfill "8.0.2"
 
-"@netlify/zip-it-and-ship-it@9.32.2":
-  version "9.32.2"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.32.2.tgz#c787e86c7fc65d4bbe489e9f1e1286ec9658828e"
-  integrity sha512-0AHtKKTWlVgbYD46/8ns3/55uVefbPgun8omYEoVYeW50t2j380D+sq3O+2x6cH9a6zjuxH1IDvRoppBZGWAkw==
+"@netlify/serverless-functions-api@^1.18.2":
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.2.tgz#f3ed62542e95419747c8512e63c903881a64d910"
+  integrity sha512-KHhcNWP1B+8Io2aAobzRRuT1FSWb7Bfsih16dxKgaU9IgP/OxMVvssbmhRAmoR01rVGhQEiNN0vk6juMzOafOw==
+  dependencies:
+    "@netlify/node-cookies" "^0.1.0"
+    "@opentelemetry/core" "^1.23.0"
+    "@opentelemetry/otlp-transformer" "^0.50.0"
+    "@opentelemetry/resources" "^1.23.0"
+    "@opentelemetry/sdk-trace-base" "^1.23.0"
+    "@opentelemetry/semantic-conventions" "^1.23.0"
+    urlpattern-polyfill "8.0.2"
+
+"@netlify/zip-it-and-ship-it@9.33.0":
+  version "9.33.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-9.33.0.tgz#84420ac6eebc49faaaed97c186082a458d84d810"
+  integrity sha512-xHXX5lPM4p3GPRFi90yDCSwJVsS5tYb9n80Yk1YrHhBTDopO93X7ZvE1Xf5wC9WulflUyMrje/13nib7/NIbzA==
   dependencies:
     "@babel/parser" "^7.22.5"
     "@babel/types" "7.24.5"
