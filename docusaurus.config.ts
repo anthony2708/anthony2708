@@ -157,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Phiên bản mới sẽ được tái triển khai trong năm 2024 (A new version will be restarted in 2024). ⭐",
+        "⭐ <b>Thông báo</b>: 90 ngày cùng DevOps đã chính thức bắt đầu, Truy cập ngay (90 days of DevOps is now available, Access now). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",
@@ -216,7 +216,7 @@ const config: Config = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
-      additionalLanguages: ["docker"],
+      additionalLanguages: ["docker", "csharp", "bash", "java"],
     },
   } satisfies Preset.ThemeConfig,
 };
