@@ -29,21 +29,14 @@
   },
   {
     "id": "220002",
-    "name": "Nguyễn Trần Cẩm Uyên",
-    "progress": [0, 0, 0, 0, 0],
-    "test": [0, 0, 0, 0, 0],
-    "final": 0
-  },
-  {
-    "id": "220003",
     "name": "Nguyễn Lê Anh Minh",
     "progress": [5, 5.25, 5.4, 4.6, 6.05],
     "test": [5.25, 0, 0, 0, 0],
     "final": 31.55
   },
   {
-    "id": "230001",
-    "name": "Võ Ngọc Tín",
+    "id": "240001",
+    "name": "Lại Thị Đức Khánh",
     "progress": [0, 0, 0, 0, 0],
     "test": [0, 0, 0, 0, 0],
     "final": 0
