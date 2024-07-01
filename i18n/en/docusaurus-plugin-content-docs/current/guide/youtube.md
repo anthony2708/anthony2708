@@ -5,6 +5,12 @@ slug: /guide/youtube
 sidebar_position: 1
 ---
 
+:::warning
+
+**_This service is currently unavailable for maintainence from 01st - 15th July 2024._**
+
+:::
+
 ## Introduction
 
 The Youtube Downloader service allows users to watch and download videos on YouTube quickly and easily, while supporting many different video/audio formats.

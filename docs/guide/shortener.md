@@ -5,6 +5,12 @@ slug: /guide/shortener
 sidebar_position: 2
 ---
 
+:::warning
+
+**_Dịch vụ này hiện đang được tạm dừng để tiến hành bảo trì từ ngày 01 - 15/07/2024._**
+
+:::
+
 ## Giới thiệu
 
 Dịch vụ URL Shortener cho phép người dùng rút gọn đường dẫn của một trang web bất kỳ để có thể dễ dàng chia sẻ và truy cập.

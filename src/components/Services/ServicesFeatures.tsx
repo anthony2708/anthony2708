@@ -14,37 +14,38 @@ type FeatureItem = {
 
 
 const FeatureList: FeatureItem[] = [
-    {
-        title: "Youtube Downloader",
-        image: "/img/english/youtube_logo.svg",
-        description: (
-            <Translate id='services.feature1.desc'>
-                Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
-            </Translate>
-        ),
-        link: "/services/youtube"
-    },
-    {
-        title: "URL Shortener",
-        image: "/img/english/url_logo.jpg",
-        description: (
-            <Translate id='services.feature2.desc'>
-                Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
-            </Translate>
-        ),
-        link: "/services/url"
-    },
-    {
-        title: "Scoreboard Review",
-        image: "img/english/scoreboard.jpg",
-        description: (
-            <Translate id='services.feature3.desc'>
-                Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2023,
-                giúp bạn đưa ra quyết định chính xác nhất.
-            </Translate>
-        ),
-        link: "/services/scoreboard"
-    },
+    // {
+    //     title: "Youtube Downloader",
+    //     image: "/img/english/youtube_logo.svg",
+    //     description: (
+    //         <Translate id='services.feature1.desc'>
+    //             Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
+    //         </Translate>
+    //     ),
+    //     link: "/services/youtube"
+    // },
+    // {
+    //     title: "URL Shortener",
+    //     image: "/img/english/url_logo.jpg",
+    //     description: (
+    //         <Translate id='services.feature2.desc'>
+    //             Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
+    //         </Translate>
+    //     ),
+    //     link: "/services/url"
+    // },
+    // {
+    //     title: "Scoreboard Review",
+    //     image: "img/english/scoreboard.jpg",
+    //     description: (
+    //         <Translate id='services.feature3.desc'>
+    //             Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2024,
+    //             giúp bạn đưa ra quyết định chính xác nhất. Dịch vụ 
+    //             đang được bảo trì.
+    //         </Translate>
+    //     ),
+    //     link: "/services"
+    // },
     {
         title: "English L&T",
         image: "img/english/english_logo.jpg",

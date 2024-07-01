@@ -157,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: 90 ngày cùng DevOps đã chính thức bắt đầu, Truy cập ngay (90 days of DevOps is now available, Access now). ⭐",
+        "⭐ <b>Thông báo</b>: Tạm dừng một số dịch vụ từ ngày 01 - 15/07/2024 (Some services will be unavailable from 1st - 15th July 2024). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",
