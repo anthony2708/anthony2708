@@ -36,7 +36,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
             <Layout title={`Scoreboard Review`} description={
                 translate({
                     id: "scoreboard.desc",
-                    message: "Tra cứu điểm thi Tốt nghiệp THPT 2023"
+                    message: "Tra cứu điểm thi Tốt nghiệp THPT 2024"
                 })
             }>
                 {/* Header */}
@@ -45,7 +45,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                         <h1 className="hero__title">Scoreboard Review</h1>
                         <p className="hero__subtitle">
                             <Translate id="scoreboard.subtitle">
-                                Tra cứu điểm thi Tốt nghiệp THPT 2023
+                                Tra cứu điểm thi Tốt nghiệp THPT 2024
                             </Translate>
                         </p>
                         <form onSubmit={this.handleSubmit.bind(this)}>
@@ -80,7 +80,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                     <div className="container">
                         <p>
                             <Translate id="scoreboard.note">
-                                Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2023
+                                Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2024
                             </Translate>
                         </p>
                         <ul>
@@ -95,7 +95,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                     </div>
                     <div className={clsx("container", custom.point)}>
                         <Link className="button button--primary button--md"
-                            href="https://github.com/anthony2708/tech-savvy/blob/main/assets/THPTQG/score_analysis_2023.ipynb"
+                            href="https://github.com/anthony2708/tech-savvy/blob/main/assets/THPTQG/score_analysis_2024.ipynb"
                             hrefLang="en">
                             <Translate id="scoreboard.analysis">
                                 Xem phân tích phổ điểm 📊

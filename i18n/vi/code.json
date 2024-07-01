@@ -387,10 +387,10 @@
     "message": "Không có dữ liệu điểm thi"
   },
   "scoreboard.desc": {
-    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2023"
+    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
   },
   "scoreboard.subtitle": {
-    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2023"
+    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
   },
   "scoreboard.placeholder": {
     "message": "Nhập số báo danh"
@@ -399,7 +399,7 @@
     "message": "🔍 Tra cứu"
   },
   "scoreboard.note": {
-    "message": "Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2023"
+    "message": "Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2024"
   },
   "scoreboard.english": {
     "message": "Tiếng Anh"
