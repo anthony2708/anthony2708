@@ -40,5 +40,12 @@
     "progress": [0, 0, 0, 0, 0],
     "test": [0, 0, 0, 0, 0],
     "final": 0
+  },
+  {
+    "id": "240002",
+    "name": "Nguyễn Hoàng Xuân Yến",
+    "progress": [0, 0, 0, 0, 0],
+    "test": [0.47, 0, 0, 0, 0],
+    "final": 0.47
   }
 ]
