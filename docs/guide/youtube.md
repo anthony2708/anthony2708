@@ -5,12 +5,6 @@ slug: /guide/youtube
 sidebar_position: 1
 ---
 
-:::warning
-
-**_Dịch vụ này hiện đang được tạm dừng để tiến hành bảo trì từ ngày 01 - 15/07/2024._**
-
-:::
-
 ## Giới thiệu
 
 Dịch vụ Youtube Downloader cho phép người dùng xem và tải xuống các video trên YouTube một cách nhanh chóng và dễ dàng, đồng thời hỗ trợ nhiều định dạng video/âm thanh khác nhau.

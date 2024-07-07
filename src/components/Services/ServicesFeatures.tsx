@@ -14,16 +14,16 @@ type FeatureItem = {
 
 
 const FeatureList: FeatureItem[] = [
-    // {
-    //     title: "Youtube Downloader",
-    //     image: "/img/english/youtube_logo.svg",
-    //     description: (
-    //         <Translate id='services.feature1.desc'>
-    //             Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
-    //         </Translate>
-    //     ),
-    //     link: "/services/youtube"
-    // },
+    {
+        title: "Youtube Downloader",
+        image: "/img/english/youtube_logo.svg",
+        description: (
+            <Translate id='services.feature1.desc'>
+                Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
+            </Translate>
+        ),
+        link: "/services/youtube"
+    },
     // {
     //     title: "URL Shortener",
     //     image: "/img/english/url_logo.jpg",
@@ -81,7 +81,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, image, description, link }: FeatureItem) {
     return (
-        <div className={clsx('col col--4 margin-vert--md')}>
+        <div className={clsx('col col--3 margin-vert--md')}>
             <div className="text--center">
                 <img
                     className={styles.featureSvg}
