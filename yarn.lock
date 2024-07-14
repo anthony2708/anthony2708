@@ -2576,23 +2576,18 @@
   dependencies:
     execa "^6.0.0"
 
-"@netlify/serverless-functions-api@1.18.4":
-  version "1.18.4"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.18.4.tgz#975ed58b5df0afbb56986e6b553cef88d89bd0dd"
-  integrity sha512-5R0kOKrOqhlFFrA7oduzJS+LQRjnX2CX8kJaYI9PQKIpNvzF18n+LNGWTS42YxPfIpAE64yaHbppeAigms2QTw==
-  dependencies:
-    "@netlify/node-cookies" "^0.1.0"
-    "@opentelemetry/core" "^1.23.0"
-    "@opentelemetry/otlp-transformer" "^0.52.0"
-    "@opentelemetry/resources" "^1.23.0"
-    "@opentelemetry/sdk-node" "^0.52.0"
-    "@opentelemetry/sdk-trace-node" "^1.24.1"
-    urlpattern-polyfill "8.0.2"
-
-"@netlify/serverless-functions-api@1.19.1", "@netlify/serverless-functions-api@^1.18.5":
+"@netlify/serverless-functions-api@1.19.1":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.19.1.tgz#f195d18dd9ef14c656225287abb57c333df3880f"
   integrity sha512-2KYkyluThg1AKfd0JWI7FzpS4A/fzVVGYIf6AM4ydWyNj8eI/86GQVLeRgDoH7CNOxt243R5tutWlmHpVq0/Ew==
+  dependencies:
+    "@netlify/node-cookies" "^0.1.0"
+    urlpattern-polyfill "8.0.2"
+
+"@netlify/serverless-functions-api@^1.19.1":
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-1.20.0.tgz#a38559cabaf0397e4bd0cb2d6d8ca0b7d11db704"
+  integrity sha512-MsPw/753mUWCWYuaBvL6dkMa5uAh6o5hOSdjN16IhVuAQMrLLgZweSI9q2TW+C8QnQEgdtb5TV7iL8xAuxGsdA==
   dependencies:
     "@netlify/node-cookies" "^0.1.0"
     urlpattern-polyfill "8.0.2"
@@ -2881,10 +2876,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.25.tgz#f077fdc0b5d0078d30893396ff4827a13f99e817"
   integrity sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==
 
-"@prisma/client@^5.16.1":
-  version "5.16.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.16.1.tgz#65c5649b4701c097e7fa943c91a3140ce8bf053d"
-  integrity sha512-wM9SKQjF0qLxdnOZIVAIMKiz6Hu7vDt4FFAih85K1dk/Rr2mdahy6d3QP41K62N9O0DJJA//gUDA3Mp49xsKIg==
+"@prisma/client@^5.16.2":
+  version "5.16.2"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.16.2.tgz#21df4c092eac29dcc4431ebed8c92579ffc9d8bd"
+  integrity sha512-+1lmkhR9gHWcTC5oghm2ZKpWljyWdzfazCVlLKUWXVmwHSf52g81aZ8qb6Km5Bs025yBi7puLp3qSLEvktoUtw==
 
 "@prisma/debug@5.16.1":
   version "5.16.1"
