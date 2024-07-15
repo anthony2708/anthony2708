@@ -5,12 +5,6 @@ slug: /guide/scoreboard
 sidebar_position: 3
 ---
 
-:::warning
-
-**_This service is currently unavailable for maintainence from 01st - 15th July 2024._**
-
-:::
-
 ## Introduction
 
 The Scoreboard Review service allows users to update the latest information about the results of the High School Graduation Examination as well as view the analysis of the exam results of provinces and cities nationwide.

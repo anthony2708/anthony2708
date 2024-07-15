@@ -5,12 +5,6 @@ slug: /guide/shortener
 sidebar_position: 2
 ---
 
-:::warning
-
-**_This service is currently unavailable for maintainence from 01st - 15th July 2024._**
-
-:::
-
 ## Introduction
 
 The URL Shortener service allows users to shorten long URLs into short ones, which are easier to share and remember.

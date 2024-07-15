@@ -24,28 +24,27 @@ const FeatureList: FeatureItem[] = [
         ),
         link: "/services/youtube"
     },
-    // {
-    //     title: "URL Shortener",
-    //     image: "/img/english/url_logo.jpg",
-    //     description: (
-    //         <Translate id='services.feature2.desc'>
-    //             Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
-    //         </Translate>
-    //     ),
-    //     link: "/services/url"
-    // },
-    // {
-    //     title: "Scoreboard Review",
-    //     image: "img/english/scoreboard.jpg",
-    //     description: (
-    //         <Translate id='services.feature3.desc'>
-    //             Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2024,
-    //             giúp bạn đưa ra quyết định chính xác nhất. Dịch vụ 
-    //             đang được bảo trì.
-    //         </Translate>
-    //     ),
-    //     link: "/services"
-    // },
+    {
+        title: "URL Shortener",
+        image: "/img/english/url_logo.jpg",
+        description: (
+            <Translate id='services.feature2.desc'>
+                Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
+            </Translate>
+        ),
+        link: "/services/url"
+    },
+    {
+        title: "Scoreboard Review",
+        image: "img/english/scoreboard.jpg",
+        description: (
+            <Translate id='services.feature3.desc'>
+                Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2024,
+                giúp bạn đưa ra quyết định chính xác nhất. 
+            </Translate>
+        ),
+        link: "/services/scoreboard"
+    },
     {
         title: "English L&T",
         image: "img/english/english_logo.jpg",
@@ -81,7 +80,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, image, description, link }: FeatureItem) {
     return (
-        <div className={clsx('col col--3 margin-vert--md')}>
+        <div className={clsx('col col--4 margin-vert--md')}>
             <div className="text--center">
                 <img
                     className={styles.featureSvg}

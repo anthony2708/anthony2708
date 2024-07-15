@@ -157,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Tạm dừng một số dịch vụ từ ngày 01 - 15/07/2024 (Some services will be unavailable from 1st - 15th July 2024). ⭐",
+        "⭐ <b>Thông báo</b>: Theo dõi kết quả kỳ thi THPT năm 2024 tại website này (Follow the coverage of 2024 National High School Graduation Exam on this website). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",

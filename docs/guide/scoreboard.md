@@ -5,12 +5,6 @@ slug: /guide/scoreboard
 sidebar_position: 3
 ---
 
-:::warning
-
-**_Dịch vụ này hiện đang được tạm dừng để tiến hành bảo trì từ ngày 01 - 15/07/2024._**
-
-:::
-
 ## Giới thiệu
 
 Dịch vụ Scoreboard Review cho phép người dùng cập nhật thông tin mới nhất về kết quả kỳ thi Tốt nghiệp Trung học phổ thông cũng như xem những phân tích về kết quả thi của các tỉnh, thành phố trên cả nước.
