@@ -21,7 +21,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
         try {
-            const res = await axios.get("https://api.viettimes.vn/api/diem-thi",
+            const res = await axios.get("/api/scoreboard",
                 {
                     params: {
                         type: 0,
@@ -29,9 +29,6 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                         kythi: "THPT",
                         nam: 2024,
                         cumthi: 0
-                    },
-                    headers: {
-                        "Access-Control-Allow-Origin": "*"
                     }
                 })
             this.setState({ data: res.data });

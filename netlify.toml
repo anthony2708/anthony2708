@@ -19,6 +19,12 @@
     force = true
     headers = {X-From = "Netlify"}
 
+[[redirects]]
+    from = '/api/scoreboard'
+    to = 'https://api.viettimes.vn/api/diem-thi'
+    status = 200
+    force = true
+
 [functions]
     directory = "api"
 
