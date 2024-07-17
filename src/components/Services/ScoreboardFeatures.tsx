@@ -51,6 +51,40 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
                         </>
                     );
                 }
+            else if (scoreData[0][0] === undefined){
+                return (
+                    <>
+                        <div>
+                            <table className={custom.table_center}>
+                                <thead>
+                                    <tr>
+                                        <th><Translate id="scoreboard.id">Số báo danh</Translate></th>
+                                        <th><Translate id="scoreboard.math">Toán</Translate></th>
+                                        <th><Translate id="scoreboard.literature">Ngữ văn</Translate></th>
+                                        <th><Translate id="scoreboard.physics">Vật lý</Translate></th>
+                                        <th><Translate id="scoreboard.chemistry">Hóa học</Translate></th>
+                                        <th><Translate id="scoreboard.biology">Sinh học</Translate></th>
+                                        <th><Translate id="scoreboard.history">Lịch sử</Translate></th>
+                                        <th><Translate id="scoreboard.geography">Địa lý</Translate></th>
+                                        <th><Translate id="scoreboard.civic">GDCD</Translate></th>
+                                        <th><Translate id="scoreboard.foreign">Ngoại ngữ</Translate></th>
+                                        <th><Translate id="scoreboard.langcode">Mã môn NN</Translate></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td colSpan={12}><b>
+                                        <Translate id="scoreboard.nodata">
+                                            Không tìm thấy thí sinh
+                                        </Translate>
+                                    </b></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </>
+                );
+            }
         }
         else
             return (
