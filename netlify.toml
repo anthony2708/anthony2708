@@ -21,7 +21,7 @@
 
 [[redirects]]
     from = '/api/scoreboard'
-    to = 'https://s6.tuoitre.vn/api/diem-thi-thpt.htm'
+    to = 'https://api.viettimes.vn/api/diem-thi'
     status = 200
     force = true
 
