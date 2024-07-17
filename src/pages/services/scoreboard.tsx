@@ -21,9 +21,15 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
         try {
-            const res = await axios.post("https://diemthi.tuoitre.vn/csv-thpt-score",
+            const res = await axios.get("https://s6.tuoitre.vn/api/diem-thi-thpt.htm",
                 {
-                    data: this.state.sbd
+                    params: {
+                        sbd: this.state.sbd,
+                        year: 2024
+                    },
+                    headers: {
+                        "Access-Control-Allow-Origin": "*"
+                    }
                 })
             this.setState({ data: res.data });
         } catch (error) {

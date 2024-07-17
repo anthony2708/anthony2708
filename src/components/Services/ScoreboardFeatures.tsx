@@ -8,8 +8,8 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
     }
 
     render() {
-        if (this.props.data.success == true && this.props.data.info != null) {
-            let scoreData = Object.values(this.props.data.info);
+        if (this.props.data.success == true && this.props.data.data != null) {
+            let scoreData = Object.values(this.props.data.data);
             return (
                 <>
                     <div>
@@ -31,16 +31,16 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><b>{scoreData[1].toString()}</b></td>
-                                    <td>{scoreData[2].toString()}</td>
-                                    <td>{scoreData[3].toString()}</td>
-                                    <td>{scoreData[4].toString()}</td>
-                                    <td>{scoreData[5].toString()}</td>
-                                    <td>{scoreData[6].toString()}</td>
-                                    <td>{scoreData[7].toString()}</td>
-                                    <td>{scoreData[8].toString()}</td>
-                                    <td>{scoreData[9].toString()}</td>
-                                    <td>{scoreData[10].toString()}</td>
+                                    <td><b>{scoreData[0].toString()}</b></td>
+                                    <td>{scoreData[12].toString()}</td>
+                                    <td>{scoreData[13].toString()}</td>
+                                    <td>{scoreData[14].toString()}</td>
+                                    <td>{scoreData[15].toString()}</td>
+                                    <td>{scoreData[16].toString()}</td>
+                                    <td>{scoreData[17].toString()}</td>
+                                    <td>{scoreData[18].toString()}</td>
+                                    <td>{scoreData[19].toString()}</td>
+                                    <td>{scoreData[20].toString()}</td>
                                     <td>{scoreData[11].toString()}</td>
                                 </tr>
                             </tbody>
