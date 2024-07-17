@@ -21,7 +21,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
         try {
-            const res = await axios.get("https://s6.tuoitre.vn/api/diem-thi-thpt.htm",
+            const res = await axios.get("/api/scoreboard",
                 {
                     params: {
                         // type: 0,
