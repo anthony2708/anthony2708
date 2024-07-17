@@ -56,7 +56,7 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                         </p>
                         <form onSubmit={this.handleSubmit.bind(this)}>
                             <label>
-                                <input className={custom.url} type="text"
+                                <input className={custom.url} type="number"
                                     placeholder={
                                         translate({
                                             id: "scoreboard.placeholder",
