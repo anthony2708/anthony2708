@@ -29,6 +29,9 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
                         kythi: "THPT",
                         nam: 2024,
                         cumthi: 0
+                    },
+                    headers: {
+                        "Access-Control-Allow-Origin": "*"
                     }
                 })
             this.setState({ data: res.data });
