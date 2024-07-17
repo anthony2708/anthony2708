@@ -21,14 +21,14 @@ export default class Scoreboard extends Component<{}, { sbd: string, data: any }
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
         try {
-            const res = await axios.get("https://s6.tuoitre.vn/api/diem-thi-thpt.htm",
+            const res = await axios.get("https://api.viettimes.vn/api/diem-thi",
                 {
                     params: {
-                        sbd: this.state.sbd,
-                        year: 2024
-                    },
-                    headers: {
-                        "Access-Control-Allow-Origin": "*"
+                        type: 0,
+                        keyword: this.state.sbd,
+                        kythi: "THPT",
+                        nam: 2024,
+                        cumthi: 0
                     }
                 })
             this.setState({ data: res.data });

@@ -8,7 +8,7 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
     }
 
     render() {
-        if (this.props.data.success == true && this.props.data.data != null) {
+        if (this.props.data.error_message == "Success" && this.props.data.data != null) {
             let scoreData = Object.values(this.props.data.data);
             return (
                 <>
@@ -31,17 +31,17 @@ export default class ScoreboardFeatures extends Component<{ data: any, sbd: stri
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><b>{scoreData[0].toString()}</b></td>
-                                    <td>{scoreData[12].toString()}</td>
-                                    <td>{scoreData[13].toString()}</td>
-                                    <td>{scoreData[14].toString()}</td>
-                                    <td>{scoreData[15].toString()}</td>
-                                    <td>{scoreData[16].toString()}</td>
-                                    <td>{scoreData[17].toString()}</td>
-                                    <td>{scoreData[18].toString()}</td>
-                                    <td>{scoreData[19].toString()}</td>
-                                    <td>{scoreData[20].toString()}</td>
-                                    <td>{scoreData[11].toString()}</td>
+                                    <td><b>{scoreData[0][0]["sbd"]}</b></td>
+                                    <td>{scoreData[0][0]["dm01"] < 0 ? "" : scoreData[0][0]["dm01"]}</td>
+                                    <td>{scoreData[0][0]["dm02"] < 0 ? "" : scoreData[0][0]["dm02"]}</td>
+                                    <td>{scoreData[0][0]["dm03"] < 0 ? "" : scoreData[0][0]["dm03"]}</td>
+                                    <td>{scoreData[0][0]["dm04"] < 0 ? "" : scoreData[0][0]["dm04"]}</td>
+                                    <td>{scoreData[0][0]["dm05"] < 0 ? "" : scoreData[0][0]["dm05"]}</td>
+                                    <td>{scoreData[0][0]["dm08"] < 0 ? "" : scoreData[0][0]["dm08"]}</td>
+                                    <td>{scoreData[0][0]["dm09"] < 0 ? "" : scoreData[0][0]["dm09"]}</td>
+                                    <td>{scoreData[0][0]["dm10"] < 0 ? "" : scoreData[0][0]["dm10"]}</td>
+                                    <td>{scoreData[0][0]["dm07"] < 0 ? "" : scoreData[0][0]["dm07"]}</td>
+                                    <td>{scoreData[0][0]["dmText"] == "" ? "" : scoreData[0][0]["dmText"]}</td>
                                 </tr>
                             </tbody>
                         </table>
