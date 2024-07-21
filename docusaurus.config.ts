@@ -157,7 +157,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Quốc tang TBT Nguyễn Phú Trọng - Dừng mọi hoạt động trên hệ thống (State Funeral of General-Secretary Nguyen Phu Trong - All the activities are suspended). ⭐",
+        "⭐ <b>Thông báo</b>: Quốc tang TBT Nguyễn Phú Trọng - Dừng mọi hoạt động trên hệ thống (State Funeral of H.E General-Secretary Nguyen Phu Trong - All activities are suspended). ⭐",
       backgroundColor: "#a4e4dc",
       textColor: "#222",
       // backgroundColor: "#222",
