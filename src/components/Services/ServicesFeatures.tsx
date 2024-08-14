@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
             </Translate>
         ),
-        link: "/services/url"
+        link: "/"
     },
     {
         title: "Scoreboard Review",
