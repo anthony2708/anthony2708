@@ -1,18 +1,9 @@
 import type { Handler, HandlerEvent } from "@netlify/functions";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
-import { PrismaClient } from "@prisma/client";
 
 dotenv.config();
 const history: { [key: string]: number } = {};
-
-const prisma = new PrismaClient({
-  datasources: {
-    db: {
-      url: process.env.DATABASE_URL + "&application_name=$ url_shortener",
-    },
-  },
-});
 
 const rateLimit = (ip: string, timeout: number = 1000): boolean => {
   if (history[ip] > Date.now() - timeout) {
@@ -75,26 +66,7 @@ const handler: Handler = async (event: HandlerEvent) => {
         }),
       };
     }
-    // Check if url exists in database
-    const url = await prisma.uRLShortener.findMany({
-      where: {
-        longUrl: {
-          endsWith: body.data.url,
-        },
-      },
-    });
-
-    if (url.length > 0) {
-      prisma.$disconnect();
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          status: 200,
-          message: decodeURIComponent(url[0].shortUrl),
-        }),
-      };
-    } else {
-      // If not exists, fetch and save to database
+      // Fetch and return
       const response = await fetch("https://spoo.me/", {
         method: "POST",
         body: `url=${encodeURIComponent(body.data.url)}`,
@@ -105,13 +77,6 @@ const handler: Handler = async (event: HandlerEvent) => {
       });
       const data: any = await response.json();
       if (data.short_url != undefined) {
-        await prisma.uRLShortener.create({
-          data: {
-            longUrl: body.data.url,
-            shortUrl: decodeURIComponent(data.short_url),
-          },
-        });
-        prisma.$disconnect();
         return {
           statusCode: 200,
           body: JSON.stringify({
@@ -120,7 +85,6 @@ const handler: Handler = async (event: HandlerEvent) => {
           }),
         };
       } else {
-        prisma.$disconnect();
         return {
           statusCode: 404,
           body: JSON.stringify({
@@ -132,8 +96,7 @@ const handler: Handler = async (event: HandlerEvent) => {
         };
       }
     }
-  } catch (error) {
-    prisma.$disconnect();
+  catch (error) {
     return {
       statusCode: 404,
       body: JSON.stringify({
