@@ -95,19 +95,20 @@ const handler: Handler = async (event: HandlerEvent) => {
       };
     } else {
       // If not exists, fetch and save to database
-      const response = await fetch("https://cleanuri.com/api/v1/shorten", {
+      const response = await fetch("https://spoo.me/", {
         method: "POST",
         body: `url=${encodeURIComponent(body.data.url)}`,
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
+          "Accept": "	application/json"
         },
       });
       const data: any = await response.json();
-      if (data.result_url != undefined) {
+      if (data.short_url != undefined) {
         await prisma.uRLShortener.create({
           data: {
             longUrl: body.data.url,
-            shortUrl: decodeURIComponent(data.result_url),
+            shortUrl: decodeURIComponent(data.short_url),
           },
         });
         prisma.$disconnect();
@@ -115,7 +116,7 @@ const handler: Handler = async (event: HandlerEvent) => {
           statusCode: 200,
           body: JSON.stringify({
             status: 200,
-            message: decodeURIComponent(data.result_url),
+            message: decodeURIComponent(data.short_url),
           }),
         };
       } else {
