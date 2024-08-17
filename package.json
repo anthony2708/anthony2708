@@ -13,8 +13,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc",
-    "postinstall": "prisma generate"
+    "typecheck": "tsc"
   },
   "homepage": "https://www.builetuananh.name.vn",
   "dependencies": {
