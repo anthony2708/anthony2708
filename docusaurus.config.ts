@@ -93,7 +93,6 @@ const config: Config = {
     ],
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      // require.resolve("docusaurus-lunr-search"),
       {
         language: ["vi", "en"],
         hashed: true,
