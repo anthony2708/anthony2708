@@ -92,10 +92,15 @@ const config: Config = {
       },
     ],
     [
-      require.resolve("docusaurus-lunr-search"),
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      // require.resolve("docusaurus-lunr-search"),
       {
-        languages: ["vi", "en"],
-        highlightResult: true,
+        language: ["vi", "en"],
+        hashed: true,
+        blogRouteBasePath: ["/blog", "/hlk", "/collab", "/spring"],
+        searchResultLimits: 5,
+        searchBarShortcutHint: false
+        // highlightResult: true,
       },
     ],
   ],
