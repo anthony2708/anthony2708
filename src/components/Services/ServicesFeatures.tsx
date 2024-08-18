@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn.
             </Translate>
         ),
-        link: "/services/youtube"
+        link: "/services"
     },
     {
         title: "URL Shortener",
