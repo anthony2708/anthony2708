@@ -99,8 +99,8 @@ const config: Config = {
         hashed: true,
         blogRouteBasePath: ["/blog", "/hlk", "/collab", "/spring"],
         searchResultLimits: 5,
-        searchBarShortcutHint: false
-        // highlightResult: true,
+        searchBarShortcutHint: false,
+        highlightSearchTermsOnTargetPage: true,
       },
     ],
   ],
