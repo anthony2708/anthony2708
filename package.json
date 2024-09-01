@@ -28,7 +28,7 @@
     "@mdx-js/react": "^3.0.1",
     "@netlify/functions": "^2.8.1",
     "@prisma/client": "^5.18.0",
-    "axios": "^1.7.5",
+    "axios": "^1.7.7",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.1.1",
     "node-fetch": "^3.3.2",
