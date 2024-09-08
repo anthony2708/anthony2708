@@ -27,7 +27,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mdx-js/react": "^3.0.1",
     "@netlify/functions": "^2.8.1",
-    "@prisma/client": "^5.19.0",
+    "@prisma/client": "^5.19.1",
     "axios": "^1.7.7",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.1.1",
@@ -43,8 +43,8 @@
     "@docusaurus/types": "^3.5.2",
     "@types/react": "^18.3.5",
     "dotenv": "^16.4.5",
-    "netlify-cli": "^17.34.3",
-    "prisma": "^5.18.0",
+    "netlify-cli": "^17.35.0",
+    "prisma": "^5.19.1",
     "typescript": "^5.5.4"
   },
   "browserslist": {
