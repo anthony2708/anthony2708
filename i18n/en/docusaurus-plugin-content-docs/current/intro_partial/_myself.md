@@ -7,10 +7,10 @@
 | Attributes       | Value                                                                         |
 | ---------------- | ----------------------------------------------------------------------------- |
 | 💳 Name          | **Anthony Bùi Lê Tuấn Anh**                                                   |
-| 📅 DOB           | Aug 27th, 2001 (22)                                                           |
+| 📅 DOB           | Aug 27th, 2001 (23)                                                           |
 | 🏡 Hometown      | Hoa Thanh Town, Tay Ninh Province, Vietnam                                    |
-| 📗 Current Title | DevOps Engineer [**Associate**]                                               |
-| 💻 Company       | N/A                                                                           |
+| 📗 Current Title | **IT Helpdesk Engineer**                                                      |
+| 💻 Company       | **The Five Group Pty Ltd, Australia**                                         |
 | 🏫 Previous Uni  | **_Vietnam National University of Ho Chi Minh City - University of Science_** |
 
 ## 💻 Github

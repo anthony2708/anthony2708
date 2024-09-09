@@ -14,7 +14,7 @@
     </tr>
     <tr>
       <td>📅 DOB</td>
-      <td>Aug 27th, 2001 (22)</td>
+      <td>Aug 27th, 2001 (23)</td>
     </tr>
     <tr>
       <td>🏡 Hometown</td>
@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td>DevOps Engineer [<b>Associate</b>]</td>
+      <td><b>IT Helpdesk Engineer<b></td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td>N/A</td>
+      <td><b>The Five Group Pty Ltd, Australia<b></td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>
