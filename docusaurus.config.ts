@@ -34,28 +34,28 @@ const config: Config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
         },
-        // docs: false,
-        blog: {
-          showReadingTime: true,
-          routeBasePath: "blog",
-          path: "./blog/tech",
-          authorsMapPath: "../authors.yml",
-          feedOptions: {
-            type: "all",
-            language: "vi-VN",
-            title: "Tech Blog",
-            description: "Tech Blog từ Anthony Bùi Lê Tuấn Anh.",
-            copyright: `Copyright © ${new Date().getFullYear()} Anthony Bui Le Tuan Anh.`,
-            createFeedItems: async (params) => {
-              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-              return defaultCreateFeedItems({
-                // keep only the 5 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 5),
-                ...rest,
-              });
-            },
-          },
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   routeBasePath: "blog",
+        //   path: "./blog/tech",
+        //   authorsMapPath: "../authors.yml",
+        //   feedOptions: {
+        //     type: "all",
+        //     language: "vi-VN",
+        //     title: "Tech Blog",
+        //     description: "Tech Blog từ Anthony Bùi Lê Tuấn Anh.",
+        //     copyright: `Copyright © ${new Date().getFullYear()} Anthony Bui Le Tuan Anh.`,
+        //     createFeedItems: async (params) => {
+        //       const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+        //       return defaultCreateFeedItems({
+        //         // keep only the 5 most recent blog posts in the feed
+        //         blogPosts: blogPosts.filter((item, index) => index < 5),
+        //         ...rest,
+        //       });
+        //     },
+        //   },
+        // },
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
         },
@@ -64,39 +64,39 @@ const config: Config = {
   ],
 
   plugins: [
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "second-blog",
-        routeBasePath: "collab",
-        path: "./blog/collaboration",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "third-blog",
-        routeBasePath: "hlk",
-        path: "./blog/HLK_MyYouth",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "fourth-blog",
-        routeBasePath: "spring",
-        path: "./blog/SpringStories",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-content-blog",
+    //   {
+    //     id: "second-blog",
+    //     routeBasePath: "collab",
+    //     path: "./blog/collaboration",
+    //     authorsMapPath: "../authors.yml",
+    //   },
+    // ],
+    // [
+    //   "@docusaurus/plugin-content-blog",
+    //   {
+    //     id: "third-blog",
+    //     routeBasePath: "hlk",
+    //     path: "./blog/HLK_MyYouth",
+    //     authorsMapPath: "../authors.yml",
+    //   },
+    // ],
+    // [
+    //   "@docusaurus/plugin-content-blog",
+    //   {
+    //     id: "fourth-blog",
+    //     routeBasePath: "spring",
+    //     path: "./blog/SpringStories",
+    //     authorsMapPath: "../authors.yml",
+    //   },
+    // ],
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         language: ["vi", "en"],
         hashed: true,
-        blogRouteBasePath: ["/blog", "/hlk", "/collab", "/spring"],
+        // blogRouteBasePath: ["/blog", "/hlk", "/collab", "/spring"],
         searchResultLimits: 5,
         searchBarShortcutHint: false,
         highlightSearchTermsOnTargetPage: true,
@@ -122,29 +122,29 @@ const config: Config = {
           to: "/docs/intro",
           position: "left",
         },
-        {
-          type: "dropdown",
-          label: "Blog",
-          position: "left",
-          items: [
-            {
-              label: "Tech Blog",
-              to: "/blog",
-            },
-            {
-              label: "The Collab Team",
-              to: "/collab",
-            },
-            {
-              label: "Hồi ký Hoàng chuyên",
-              to: "/hlk",
-            },
-            {
-              label: "Câu chuyện mùa xuân",
-              to: "/spring",
-            },
-          ],
-        },
+        // {
+        //   type: "dropdown",
+        //   label: "Blog",
+        //   position: "left",
+        //   items: [
+        //     {
+        //       label: "Tech Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "The Collab Team",
+        //       to: "/collab",
+        //     },
+        //     {
+        //       label: "Hồi ký Hoàng chuyên",
+        //       to: "/hlk",
+        //     },
+        //     {
+        //       label: "Câu chuyện mùa xuân",
+        //       to: "/spring",
+        //     },
+        //   ],
+        // },
         {
           label: "Dịch vụ",
           position: "left",
@@ -193,27 +193,27 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: "Blog",
-          items: [
-            {
-              label: "Tech Blog",
-              to: "/blog",
-            },
-            {
-              label: "The Collab Team",
-              to: "/collab",
-            },
-            {
-              label: "Hồi ký Hoàng chuyên",
-              to: "/hlk",
-            },
-            {
-              label: "Câu chuyện mùa xuân",
-              to: "/spring",
-            },
-          ],
-        },
+        // {
+        //   title: "Blog",
+        //   items: [
+        //     {
+        //       label: "Tech Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "The Collab Team",
+        //       to: "/collab",
+        //     },
+        //     {
+        //       label: "Hồi ký Hoàng chuyên",
+        //       to: "/hlk",
+        //     },
+        //     {
+        //       label: "Câu chuyện mùa xuân",
+        //       to: "/spring",
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },

@@ -39,3 +39,8 @@ html[data-theme="dark"] .scoreboard {
   align-items: center;
   justify-content: center;
 }
+
+.special{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

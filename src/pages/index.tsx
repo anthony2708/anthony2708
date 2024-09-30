@@ -100,10 +100,31 @@ export default function Home(): JSX.Element {
                 id: 'homepage.desc',
                 message: 'Anthony Bùi Lê Tuấn Anh',
             })}>
-            <HomepageHeader />
+            {/* <HomepageHeader /> */}
             <main>
-                <HomepageFeatures />
-                <ContactFeatures />
+                {/* <HomepageFeatures /> */}
+                <div className="text--center padding-horiz--md margin-horiz--lg">
+                    <p className={styles.special}>
+                        Hiện tại website đang trong quá trình bảo trì diện rộng từ <b>01/10 - 31/12/2024</b>. 
+                    </p>
+                    <h3>
+                        Quý vị có thể truy cập vào trang web <a href="https://90days.builetuananh.name.vn">này </a> 
+                        để tiếp tục theo dõi các bài viết mới nhất.
+                    </h3>
+                </div>
+                
+                <div className="text--center padding-horiz--md margin-horiz--lg">
+                    <p className={styles.special}>
+                        This website is currently under maintainence from <b>01/Oct - 31/Dec/2024</b>. 
+                    </p>
+                    
+                    <h3>
+                        To continue watching the latest posts, 
+                        visit <a href="https://90days.builetuananh.name.vn">this website</a>. 
+                        
+                    </h3>
+                </div>
+                {/* <ContactFeatures /> */}
             </main>
         </ Layout>
     );
