@@ -115,7 +115,7 @@ export default function Home(): JSX.Element {
                 
                 <div className="text--center padding-horiz--md margin-horiz--lg">
                     <p className={styles.special}>
-                        This website is currently under maintainence from <b>01/Oct - 31/Dec/2024</b>. 
+                        This website is currently under maintenance from <b>01/Oct - 31/Dec/2024</b>. 
                     </p>
                     
                     <h3>
