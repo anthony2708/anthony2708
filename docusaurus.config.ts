@@ -150,12 +150,12 @@ const config: Config = {
           position: "left",
           to: "/services",
         },
-        {
-          href: "https://www.builetuananh.name.vn/blog/atom.xml",
-          position: "right",
-          className: "header-rss-link", // custom logo in custom.css
-          "aria-label": "RSS",
-        },
+        // {
+        //   href: "https://www.builetuananh.name.vn/blog/atom.xml",
+        //   position: "right",
+        //   className: "header-rss-link", // custom logo in custom.css
+        //   "aria-label": "RSS",
+        // },
       ],
     },
     announcementBar: {
