@@ -19,7 +19,7 @@
   "dependencies": {
     "@docusaurus/core": "^3.5.2",
     "@docusaurus/preset-classic": "^3.5.2",
-    "@easyops-cn/docusaurus-search-local": "^0.44.5",
+    "@easyops-cn/docusaurus-search-local": "^0.45.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
@@ -43,9 +43,9 @@
     "@docusaurus/types": "^3.5.2",
     "@types/react": "^18.3.11",
     "dotenv": "^16.4.5",
-    "netlify-cli": "^17.36.4",
+    "netlify-cli": "^17.37.0",
     "prisma": "^5.20.0",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "browserslist": {
     "production": [
