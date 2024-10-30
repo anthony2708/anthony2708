@@ -80,7 +80,7 @@ function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        href="https://90days.builetuananh.name.vn">
+                        to="./docs/90days">
                         <Translate id='homepage.button'>90 ngày DevOps ♾</Translate>
                     </Link>
                 </div>
@@ -100,10 +100,10 @@ export default function Home(): JSX.Element {
                 id: 'homepage.desc',
                 message: 'Anthony Bùi Lê Tuấn Anh',
             })}>
-            {/* <HomepageHeader /> */}
+            <HomepageHeader />
             <main>
-                {/* <HomepageFeatures /> */}
-                <div className="text--center padding-horiz--md margin-horiz--lg">
+                <HomepageFeatures />
+                {/* <div className="text--center padding-horiz--md margin-horiz--lg">
                     <p className={styles.special}>
                         Hiện tại website đang trong quá trình bảo trì diện rộng từ <b>01/10 - 31/12/2024</b>. 
                     </p>
@@ -123,8 +123,8 @@ export default function Home(): JSX.Element {
                         visit <a href="https://90days.builetuananh.name.vn">this website</a>. 
                         
                     </h3>
-                </div>
-                {/* <ContactFeatures /> */}
+                </div> */}
+                <ContactFeatures />
             </main>
         </ Layout>
     );
