@@ -1,4 +1,4 @@
-## Trách nhiệm của một kỹ sư DevOps 👨‍💻
+## Ngày 2: Trách nhiệm của một kỹ sư DevOps 👨‍💻
 
 _Ở bài viết này, chúng ta sẽ đi sâu vào hai quá trình cơ bản: **Phát triển (Dev - Development)**,
 nơi kỹ sư phát triển phần mềm sẽ lập trình và kiểm thử ứng dụng, và **Vận hành (Ops - Operations)**,

@@ -111,10 +111,6 @@
     "message": "chế độ sáng",
     "description": "The name for the light color mode"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} mục",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Thanh điều hướng của trang tài liệu",
     "description": "The ARIA label for the docs pagination"
@@ -470,12 +466,59 @@
     "message": "Xếp gọn danh mục thanh bên có thể thu gọn '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.unlistedContent.title": {
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} mục",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Không tìm thấy kết quả nào"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Xem tất cả kết quả bên ngoài \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Xem tất cả kết quả bên trong \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Xem tất cả kết quả được tìm thấy"
+  },
+  "theme.SearchBar.label": {
+    "message": "Tìm kiếm...",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề: \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Mọi nơi"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Có {count} kết quả được tìm thấy",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Không tìm thấy kết quả nào",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
     "message": "Trang không công khai",
     "description": "The unlisted content banner title"
   },
-  "theme.unlistedContent.message": {
+  "theme.contentVisibility.unlistedBanner.message": {
     "message": "Trang này không được công khai. Công cụ tìm kiếm sẽ không đánh chỉ mục cho trang này và chỉ những người có liên kết mới có thể truy cập được trang.",
     "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Trang nháp",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Đây là một trang nháp. Trang này sẽ chỉ xuất hiện ở môi trường phát triển và bị loại bỏ khỏi môi trường vận hành.",
+    "description": "The draft content banner message"
   }
 }

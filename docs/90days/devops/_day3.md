@@ -1,5 +1,5 @@
 
-## Vòng đời của DevOps - Lấy ứng dụng làm trung tâm 📱
+## Ngày 3: Vòng đời của DevOps - Lấy ứng dụng làm trung tâm 📱
 
 _Chào mừng quý vị và các bạn đến với ngày thứ ba của hành trình **90 ngày cùng DevOps**._
 

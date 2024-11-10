@@ -1,4 +1,4 @@
-## DevOps ngoài đời thực 🏘
+## Ngày 6: DevOps ngoài đời thực 🏘
 
 _Xin chào mọi người. Cuối cùng thì chúng ta đã đến với **ngày cuối cùng của giai đoạn 1** rồi. Chúng ta đã tìm hiểu rất nhiều, 
 gần như tất tần tật mọi thứ về DevOps, cũng như những khó khăn mà một người làm DevOps gặp phải. Ngày hôm nay, chúng ta sẽ đi

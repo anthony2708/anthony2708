@@ -1,4 +1,4 @@
-## DevOps & Agile
+## Ngày 4: DevOps & Agile
 
 _Xin chào mọi người, cuối cùng thì sau một khoảng thời gian khắc phục sự cố liên quan đến thiết bị thì chặng hành trình của
 chúng ta lại tiếp tục với ngày thứ tư. Lần này chúng ta sẽ ghé thăm một điểm đến **hoàn toàn mới**, và cùng nhau chiêm nghiệm, 

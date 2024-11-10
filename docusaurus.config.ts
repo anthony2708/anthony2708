@@ -34,28 +34,7 @@ const config: Config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
         },
-        // blog: false,
-        blog: {
-          showReadingTime: true,
-          routeBasePath: "blog",
-          path: "./blog/tech",
-          authorsMapPath: "../authors.yml",
-          feedOptions: {
-            type: "all",
-            language: "vi-VN",
-            title: "Tech Blog",
-            description: "Tech Blog từ Anthony Bùi Lê Tuấn Anh.",
-            copyright: `Copyright © ${new Date().getFullYear()} Anthony Bui Le Tuan Anh.`,
-            createFeedItems: async (params) => {
-              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-              return defaultCreateFeedItems({
-                // keep only the 5 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 5),
-                ...rest,
-              });
-            },
-          },
-        },
+        blog: false,
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
         },
@@ -65,38 +44,10 @@ const config: Config = {
 
   plugins: [
     [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "second-blog",
-        routeBasePath: "collab",
-        path: "./blog/collaboration",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "third-blog",
-        routeBasePath: "hlk",
-        path: "./blog/HLK_MyYouth",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-blog",
-      {
-        id: "fourth-blog",
-        routeBasePath: "spring",
-        path: "./blog/SpringStories",
-        authorsMapPath: "../authors.yml",
-      },
-    ],
-    [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         language: ["vi", "en"],
         hashed: true,
-        blogRouteBasePath: ["/blog", "/hlk", "/collab", "/spring"],
         searchResultLimits: 5,
         searchBarShortcutHint: false,
         highlightSearchTermsOnTargetPage: true,
@@ -123,38 +74,14 @@ const config: Config = {
           position: "left",
         },
         {
-          type: "dropdown",
-          label: "Blog",
+          label: "Station",
+          href: "https://station.builetuananh.name.vn",
           position: "left",
-          items: [
-            {
-              label: "Tech Blog",
-              to: "/blog",
-            },
-            {
-              label: "The Collab Team",
-              to: "/collab",
-            },
-            {
-              label: "Hồi ký Hoàng chuyên",
-              to: "/hlk",
-            },
-            {
-              label: "Câu chuyện mùa xuân",
-              to: "/spring",
-            },
-          ],
         },
         {
           label: "Dịch vụ",
           position: "left",
           to: "/services",
-        },
-        {
-          href: "https://www.builetuananh.name.vn/blog/atom.xml",
-          position: "right",
-          className: "header-rss-link", // custom logo in custom.css
-          "aria-label": "RSS",
         },
       ],
     },
@@ -184,36 +111,32 @@ const config: Config = {
               to: "/docs/intro",
             },
             {
-              label: "Tài liệu tham khảo",
-              to: "/docs/resources",
+              label: "Collab Station",
+              href: "https://station.builetuananh.name.vn",
             },
             {
-              label: "Cổng dịch vụ",
-              to: "/services",
+              label: "Tài liệu tham khảo",
+              to: "/docs/resources",
             },
           ],
         },
         {
-          title: "Blog",
+          title: "Cổng dịch vụ",
           items: [
             {
-              label: "Tech Blog",
-              to: "/blog",
+              label: "URL Shortener",
+              to: "/services/url",
             },
             {
-              label: "The Collab Team",
-              to: "/collab",
+              label: "English L&T",
+              to: "/services/courses",
             },
             {
-              label: "Hồi ký Hoàng chuyên",
-              to: "/hlk",
+              label: "Dịch vụ khác",
+              to: "/services",
             },
-            {
-              label: "Câu chuyện mùa xuân",
-              to: "/spring",
-            },
-          ],
-        },
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },
