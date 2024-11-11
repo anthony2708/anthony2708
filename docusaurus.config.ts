@@ -66,7 +66,7 @@ const config: Config = {
       items: [
         {
           type: "localeDropdown",
-          position: "left",
+          position: "right",
         },
         {
           label: "Giới thiệu",
