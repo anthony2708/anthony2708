@@ -17,7 +17,7 @@
   },
   "homepage": "https://www.builetuananh.name.vn",
   "dependencies": {
-    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/core": "^3.6.1",
     "@docusaurus/preset-classic": "^3.6.1",
     "@easyops-cn/docusaurus-search-local": "^0.45.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -34,13 +34,12 @@
     "node-fetch": "^3.3.2",
     "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
-    "react-dom": "^18.2.0",
-    "ytdl-core": "^4.11.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.6.1",
-    "@docusaurus/tsconfig": "^3.5.2",
-    "@docusaurus/types": "^3.5.2",
+    "@docusaurus/tsconfig": "^3.6.1",
+    "@docusaurus/types": "^3.6.1",
     "@types/react": "^18.3.12",
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.37.2",
