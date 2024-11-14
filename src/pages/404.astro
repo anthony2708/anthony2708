@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="404 - Not found/Không tìm thấy | Anthony Bùi Lê Tuấn Anh">
+    <main>
+        <h1>Oops, <span class="text-gradient">not found</span>!</h1>
+        <p class="instructions">
+			Đã có gì đó nhầm lẫn ở đây. <br/> 
+            <strong>Anthony Bùi Lê Tuấn Anh</strong> không hề hay biết sự tồn tại của 
+            chiều không gian này! <br />
+			<strong>Lưu ý</strong>: Hãy bấm vào nút bên dưới để quay về Trang chủ!
+		</p>
+        <Card
+			href="https://www.builetuananh.name.vn"
+			title="Trở về Trang chủ"
+			body="Nhà của mình ở đây mà! Please come home... 🏡"
+		/>
+    </main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	/* .instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	} */
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+</style>
+
