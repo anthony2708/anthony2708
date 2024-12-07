@@ -1,0 +1,17 @@
+{
+  "page.previousLink": "Trước",
+  "page.nextLink": "Tiếp",
+  "themeSelect.auto": "Máy",
+  "skipLink.label": "Nhảy tới nội dung",
+  "search.ctrlKey": "Ctrl",
+  "search.cancelLabel": "Cancel",
+  "themeSelect.accessibleLabel": "Chọn chủ đề",
+  "languageSelect.accessibleLabel": "Chọn ngôn ngữ",
+  "menuButton.accessibleLabel": "Menu",
+  "sidebarNav.accessibleLabel": "Trang chính",
+  "fileTree.directory": "Thư mục",
+  "builtWithStarlight.label": "Dựng bởi Starlight",
+  "expressiveCode.copyButtonCopied": "Đã sao chép!",
+  "expressiveCode.copyButtonTooltip": "Sao chép vào bộ nhớ tạm",
+  "expressiveCode.terminalWindowFallbackTitle": "Cửa sổ dòng lệnh"
+}
