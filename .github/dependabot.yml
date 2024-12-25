@@ -6,10 +6,11 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/official" # Location of package manifests
     schedule:
       day: "sunday"
       interval: "weekly"
+
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "tech-savvy/docker/localstack/" # Location of package manifests
     schedule:
@@ -35,7 +36,7 @@ updates:
       interval: "weekly"
 
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "tech-savvy/coding/anthony2708" # Location of package manifests
+    directory: "tech-savvy/coding/portal" # Location of package manifests
     schedule:
       day: "sunday"
       interval: "weekly"
