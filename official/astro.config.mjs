@@ -65,8 +65,14 @@ export default defineConfig({
 				autogenerate: { directory: '90days/cloud' }
 			},
 			{
-				label: 'Quản lý phiên bản',
-				autogenerate: { directory: '90days/git' }
+				label: 'Giai đoạn 6 - Quản lý phiên bản',
+				link: '/90days/git',
+				badge: { text: 'Mới', variant: 'tip' },
+			},
+			{
+				label: 'Giai đoạn 7 - Bộ chứa và Ảo hóa',
+				link: '/90days/containers',
+				badge: { text: 'Chưa hoàn thiện', variant: 'caution' },
 			}
 		]
 		}, {
@@ -97,8 +103,9 @@ export default defineConfig({
 				autogenerate: { directory: '90days/reference/cloud' }
 			},
 			{
-				label: 'Quản lý phiên bản',
-				autogenerate: { directory: '90days/reference/git' }
+				label: 'Giai đoạn 6 - Quản lý phiên bản',
+				link: '/90days/reference/git',
+				badge: { text: 'Mới', variant: 'tip' },
 			}
 		]}]
 	}),
