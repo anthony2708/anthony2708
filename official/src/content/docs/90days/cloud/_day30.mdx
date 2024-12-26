@@ -1,8 +1,6 @@
----
-title: Ngày 30 - Mô hình mạng AWS và quản lý hạ tầng
----
+import { Steps } from '@astrojs/starlight/components';
 
-import { LinkCard, Steps } from '@astrojs/starlight/components';
+## Ngày 30 - Mô hình mạng AWS và quản lý hạ tầng
 
 _Xin chào. Đây là ngày thứ 30 của hành trình. Một tháng trôi qua, à không, phải là hai tháng mới đúng,
 chúng ta đã tìm hiểu được rất nhiều những chủ đề thú vị về DevOps. Bây giờ sẽ là những điểm đến cuối
@@ -11,7 +9,7 @@ lý hạ tầng với nền tảng này._
 
 **_Hãy sẵn sàng để cùng lạc vào mê cung nào!_** 🏞
 
-## Đám mây ảo riêng tư - VPC
+### Đám mây ảo riêng tư - VPC
 
 _Đây là điểm đến đầu tiên của AWS khi nhắc đến Cloud. VPC có những điểm đáng chú ý sau đây._
 
@@ -36,7 +34,7 @@ công cộng). Để sử dụng thì việc đầu tiên phải làm đó là *
 _Ngoài ra AWS cũng hỗ trợ **VPC Peering** - đồng nghĩa với việc kết nối giữa các thiết bị ở 
 các VPC khác nhau cũng trở nên đơn giản và dễ dàng hơn._
 
-## Nhóm bảo mật - Security Group
+### Nhóm bảo mật - Security Group
 
 _Cơ chế nhóm bảo mật của AWS đơn giản khá giống như **tường lửa** của máy tính, ngăn chặn 
 hoặc cho phép truy cập thông qua địa chỉ hoặc cổng nào đó. Mỗi nhóm bảo mật xác định 
@@ -44,49 +42,49 @@ hoặc cho phép truy cập thông qua địa chỉ hoặc cổng nào đó. M�
 
 _Dưới đây là một bảng thông tin quen thuộc, một nhóm bảo mật thực thụ trong AWS._
 
-### Ví dụ về Nhóm bảo mật
+#### Ví dụ về Nhóm bảo mật
 
 _Đây là ví dụ điển hình, tất nhiên trên thực tế, AWS cũng hỗ trợ chúng ta trong việc tạo
 nhóm theo từng dịch vụ như **Web, Cơ sở dữ liệu**, v.v..._
 
 _Hai nhóm bảo mật dưới đây nằm trên **cùng một VPC**._
 
-#### Nhóm bảo mật thứ nhất - Group A
+##### Nhóm bảo mật thứ nhất - Group A
 
 **_Nhóm này nằm ở mạng con thứ nhất._**
 
-##### Chiều vào (Inbound)
+###### Chiều vào (Inbound)
 
 |      **Nguồn**       | **Giao thức** | **Cổng** |
 |:--------------------:|:-------------:|:--------:|
 | **192.168.100.0/28** |      TCP      |    22    |
 |    **10.0.0.0/24**   |     HTTPS     |   443    |
 
-##### Chiều ra (Outbound)
+###### Chiều ra (Outbound)
 
 |    **Đích**     | **Giao thức** | **Cổng** |
 |:---------------:|:-------------:|:--------:|
 |  **0.0.0.0/0**  |     Tất cả    |  Tất cả  |
 
-#### Nhóm bảo mật thứ hai - Group B
+##### Nhóm bảo mật thứ hai - Group B
 
 **_Nhóm này nằm ở mạng con thứ hai._**
 
-##### Chiều vào (Inbound)
+###### Chiều vào (Inbound)
 
 |      **Nguồn**       | **Giao thức** | **Cổng** |
 |:--------------------:|:-------------:|:--------:|
 | **192.168.100.0/28** |      TCP      |    22    |
 |    **10.2.0.0/24**   |    Tất cả     |  Tất cả  |
 
-##### Chiều ra (Outbound)
+###### Chiều ra (Outbound)
 
 |    **Đích**     | **Giao thức** | **Cổng** |
 |:---------------:|:-------------:|:--------:|
 |  **0.0.0.0/0**  |     Tất cả    |  Tất cả  |
 
 
-## Cân bằng tải - LB
+### Cân bằng tải - LB
 
 _Cái tên nói lên tất cả, cân bằng tải là một việc chúng ta **chia lưu lượng truy cập** vào nhiều máy
 ảo khác nhau thay vì chỉ dồn lên một máy gây quá tải dẫn đến sập hệ thống. Với AWS có ba giải 
@@ -102,18 +100,18 @@ nội dung dựa trên đường dẫn_
 
 </Steps>
 
-## Công cụ quản lý
+### Công cụ quản lý
 
 _Dưới đây là một số công cụ làm việc hữu dụng với AWS mà mọi người cần phải lưu tâm._
 
-### Cửa sổ Quản trị (AWS Management Console)
+#### Cửa sổ Quản trị (AWS Management Console)
 
 _Dưới dạng Web, đây là một dạng thức giúp chúng ta kiểm soát mọi thứ trên AWS một cách đơn giản và tiện
 lợi nhất._
 
 ![Console](../../../../assets/cloud/aws_console.png)
 
-### AWS CLI - Giao diện dòng lệnh
+#### AWS CLI - Giao diện dòng lệnh
 
 _Một cách tương tác nhanh chóng và dễ dàng với các dịch vụ của AWS - thực chất việc tương tác với AWS CLI
 cũng tương tự việc ta g**ọi đến API xử lý dịch vụ** của AWS vậy._
@@ -121,12 +119,12 @@ cũng tương tự việc ta g**ọi đến API xử lý dịch vụ** của AWS
 _Để sử dụng, ta cần phải tải bộ cài về máy, truy cập tại **[đây](https://aws.amazon.com/vi/cli/)** để biết thêm 
 thông tin chi tiết - nếu cần hướng dẫn xin liên hệ ngay cho mình._
 
-### Visual Studio Code 
+#### Visual Studio Code 
 
 _IDE - Không cần nói cũng biết nó là gì, đó là nơi mà bài viết này được viết lên và đăng tải trên website
 của series này._
 
-### AWS Cloud9
+#### AWS Cloud9
 
 _Không biết mọi người có nghe câu **"Vui như trên chín tầng mây"** chưa nhỉ? Trong tiếng Anh có một câu tương tự
 là **"On the cloud nine"**, mà Cloud9 thật trùng hợp lại là chiếc IDE ngay trên giao diện Web của AWS. Ngoài ra,
@@ -144,16 +142,3 @@ triển, chi tiết mọi người có thể xem tại
 :::
 
 **_Đó là những dấu ấn của ngày 30, và hành trình sẽ được tiếp tục với ngày 31 ngay sau đây._**
-
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 5, 
-để giúp bản thân có được những tài liệu hữu ích về Điện toán đám mây trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 30 - Tham khảo"
-  href="../../reference/cloud/day26"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo._ 🚀

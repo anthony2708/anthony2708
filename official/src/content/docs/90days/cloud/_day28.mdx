@@ -1,8 +1,6 @@
----
-title: Ngày 28 - Các dịch vụ trong AWS (phần 1)
----
+import { Steps } from '@astrojs/starlight/components';
 
-import { LinkCard, Steps } from '@astrojs/starlight/components';
+## Ngày 28 - Các dịch vụ trong AWS (phần 1)
 
 _Xin chào mọi người, đây là một mục **hoàn toàn khác biệt** đối với bản Việt của series 90 ngày này.
 Đây là lúc chúng ta khai thác những dịch vụ đang được cung cấp bởi AWS cũng như các tiện ích kèm
@@ -11,7 +9,7 @@ theo._
 _Nếu bạn đã sẵn sàng rồi thì đem theo đèn pin, bởi những góc khuất của AWS sẽ được giới thiệu đây.
 **Đi thôi!**_ 🚗
 
-## Quản trị dịch vụ
+### Quản trị dịch vụ
 
 _Các dịch vụ trong AWS hay bất kỳ nhà cung cấp khác đều mang đến ba yêu cầu quan trọng, đó là 
 **tam giác CIA**. Tam giác này bao gồm ba trụ cột sau._
@@ -29,11 +27,11 @@ dù ở bất kỳ đâu, miễn là sử dụng dịch vụ trong khu vực nà
 _Với AWS, thì khái niệm **Regions (Khu vực), AZ (Vùng khả dụng)** cũng như các định nghĩa kèm theo góp 
 phần quan trọng trong định hình việc quản trị các dịch vụ cung cấp._
 
-## Các dịch vụ cơ bản
+### Các dịch vụ cơ bản
 
 **_Ngay sau đây là màn quảng cáo trá hình cho các dịch vụ của AWS._** 🤣
 
-### Máy ảo (VM)
+#### Máy ảo (VM)
 
 _Điểm khởi phát của điện toán đám mây. Ở AWS người ta gọi đó là **EC2**._
 
@@ -43,7 +41,7 @@ _Điểm khởi phát của điện toán đám mây. Ở AWS người ta gọi 
 mạng ảo khác. Người ta thường gọi là **VPC - Đám mây ảo công cộng**._
 - _Các dòng máy ảo hỗ trợ các phiên bản Linux và Windows **(tất nhiên có cả bản Server rồi)**._
 
-### Dựng mẫu
+#### Dựng mẫu
 
 _Cái này thường người ta hay nói là **WORM (Viết một lần, tái sử dụng nhiều lần)**, giống như một chú sâu 
 cần mẫn. Mọi kết nối từ giao diện màn hình (UI) hay qua API đều sử dụng mẫu với định dạng **JSON (JavaScript 
@@ -53,7 +51,7 @@ Object Notation)**. Do đó, thường người sử dụng muốn làm nhanh s�
 _Ở AWS, dịch vụ này là **CloudFormation**. Đối với sử dụng theo dạng **Đa đám mây (multi-cloud)**, chúng ta sẽ 
 nhắc tới **Terraform** - thứ đã làm nên vinh quang cho Khóa luận mà mình đã thực hiện._
 
-### Thay đổi quy mô
+#### Thay đổi quy mô
 
 _Ahh, AutoScaling, đây là một tính năng cực kỳ quan trọng mà tất thảy chỉ Điện toán đám mây mới làm được, đó là
 tự động thay đổi quy mô sao cho phù hợp với nhu cầu thực tế._
@@ -62,7 +60,7 @@ _Ở AWS người ta gọi đây là **AutoScaling Groups**. Một số dịch v
 **ECS (dành cho Docker)** hay thậm chí là **Lambda (một dịch vụ phi máy chủ)** cũng được xem như đã tích hợp 
 tính năng này._
 
-### Containers
+#### Containers
 
 _**Nghe tên là đoán được rồi đúng không nhỉ? Thùng chứa hàng** - Nơi chứa mã nguồn và được vận chuyển đi khắp nơi 
 (ship). Với AWS, tất nhiên chúng ta vừa nhắc đến nó ngay phía trên xong - dưới đây là ba thứ quan trọng nhất._
@@ -77,7 +75,7 @@ quyết._
 3. _**Container Registry** - Nơi lưu trữ các bản dựng (image) Docker._
 </Steps>
 
-### Hosting (Dựng trang mạng)
+#### Hosting (Dựng trang mạng)
 
 _Ở AWS có một dịch vụ gần như làm hết cho mọi người các bước quan trọng trong việc dựng một trong web, đó là 
 **Elastic Beanstalk**._
@@ -87,7 +85,7 @@ _Ở AWS có một dịch vụ gần như làm hết cho mọi người các bư
 - _Phục vụ từ ứng dụng web, di động, API, v.v..._
 - _Hỗ trợ kiểm thử ứng dụng trước khi triển khai._
 
-### Điện toán phi máy chủ
+#### Điện toán phi máy chủ
 _Không cần nói cũng biết. Phi máy chủ - nhưng thật ra là **vẫn có máy chủ**, chỉ là **chạy khi cần** chứ không phải 
 vận hành quanh năm, suốt tháng. Thay vì viết mã nguồn theo khối cồng kềnh, **chỉ cần viết hàm**, có đầu vào và đầu ra 
 tương ứng. Khi gọi tới thì nó sẽ đưa hàm lên máy ảo chạy ra kết quả và **hủy máy**. **Hết - cực kỳ đơn giản và thuận lợi**._
@@ -104,15 +102,3 @@ chạy cùng **100GB luồng truyền HTTP** miễn phí sau khi vượt 6MB/yê
 :::
 
 **_Đó là tất cả những gì mà AWS gửi đến bạn trong ngày 28. Phần 2 sẽ tiếp tục vào ngày 29_** ✅
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 5, 
-để giúp bản thân có được những tài liệu hữu ích về Điện toán đám mây trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 28 - Tham khảo"
-  href="../../reference/cloud/day26"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo._ 🚀

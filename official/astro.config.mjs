@@ -57,12 +57,12 @@ export default defineConfig({
 				autogenerate: { directory: '90days/linux' }
 			},
 			{
-				label: 'Mạng máy tính',
-				autogenerate: { directory: '90days/network' }
+				label: 'Giai đoạn 4 - Mạng máy tính',
+				link: '90days/network' 
 			},
 			{
-				label: 'Điện toán đám mây',
-				autogenerate: { directory: '90days/cloud' }
+				label: 'Giai đoạn 5 - Điện toán đám mây',
+				link: '90days/cloud' 
 			},
 			{
 				label: 'Giai đoạn 6 - Quản lý phiên bản',
@@ -95,12 +95,12 @@ export default defineConfig({
 				autogenerate: { directory: '90days/reference/linux' }
 			},
 			{
-				label: 'Mạng máy tính',
-				autogenerate: { directory: '90days/reference/network' }
+				label: 'Giai đoạn 4 - Mạng máy tính',
+				link: '90days/reference/network' 
 			},
 			{
-				label: 'Điện toán đám mây',
-				autogenerate: { directory: '90days/reference/cloud' }
+				label: 'Giai đoạn 5 - Điện toán đám mây',
+				link: '90days/reference/cloud' 
 			},
 			{
 				label: 'Giai đoạn 6 - Quản lý phiên bản',

@@ -1,14 +1,12 @@
----
-title: Ngày 31 - Thực hành cùng AWS
----
+import { Steps } from '@astrojs/starlight/components';
 
-import { LinkCard, Steps } from '@astrojs/starlight/components';
+## Ngày 31 - Thực hành cùng AWS
 
 _Xin chào. Đây là ngày thứ 31 của hành trình. Cuối cùng thì mình cũng có thời gian để quay lại
 với đam mê viết lách của mình. Đây là điểm đến cuối cùng của Giai đoạn 5, và hãy cùng mình **xách
 ba lô lên và đi vào thực hành với AWS thôi!**_ 🎒
 
-## Khởi tạo Đám mây riêng tư ảo
+### Khởi tạo Đám mây riêng tư ảo
 
 _Vào Cửa sổ quản lý, gõ vào thanh tìm kiếm VPC và chọn dịch vụ VPC. Xuất hiện giao diện như dưới,
 chọn **Tạo VPC** (Create VPC)._
@@ -25,7 +23,7 @@ _Đối với bài Lab này, ta sẽ không cần tạo IPv6, do đó, bỏ tr�
 
 ![vpc_advanced](../../../../assets/cloud/vpc_advanced.png)
 
-## Khởi tạo Nhóm bảo mật
+### Khởi tạo Nhóm bảo mật
 
 _Tiếp theo, sau khi quay lại giao diện chính của VPC, ở thanh điều hướng bên trái, mục 
 **Bảo mật (Security)**, chọn **Nhóm bảo mật**. Tại đây ta sẽ tạo mới một nhóm bảo mật._
@@ -42,7 +40,7 @@ của chúng ta, ví dụ như hình dưới, sau đó bấm nút **Tạo**._
 
 ![sec_grouprules](../../../../assets/cloud/secgroup_rules.png)
 
-## Khởi tạo máy chủ ảo
+### Khởi tạo máy chủ ảo
 
 _Việc tạo máy ảo cũng tương tự là quay về mục EC2, bấm nút **Tạo**. Điền đầy đủ thông tin và 
 **tạo cặp khóa** để kết nối vào hệ thống. Ở mục **Cài đặt mạng**, chọn VPC đã tạo và cập nhật
@@ -56,7 +54,7 @@ một mạng con thuộc nhóm **Công cộng**._
 
 ![ec2](../../../../assets/cloud/ec2.png)
 
-## Khởi tạo ứng dụng web phi máy chủ
+### Khởi tạo ứng dụng web phi máy chủ
 
 _Mọi người có thể tham khảo chiếc kho lưu trữ **[này](https://bitbucket.org/19120163/graduation/)** 
 để hiểu thêm về quy trình xây dựng một ứng dụng web phi máy chủ trên nền tảng AWS như thế nào._
@@ -81,16 +79,3 @@ _Đó là một số bài thực hành đơn giản mà mọi người có thể
 kỳ khó khăn gì, xin đừng ngần ngại liên hệ với mình để nhận được sự hỗ trợ tốt nhất._
 
 **_Hành trình thứ năm về Điện toán đám mây đã khép lại tại đây. Xin trân trọng cảm ơn._** ✅
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 5, 
-để giúp bản thân có được những tài liệu hữu ích về Điện toán đám mây trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 31 - Tham khảo"
-  href="../../reference/cloud/day26"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo, nơi mà chúng ta sẽ đến với **Git và GitHub - hai công 
-cụ quản lý phiên bản mã nguồn** giúp đưa website này vận hành tốt nhất._ 🚀
