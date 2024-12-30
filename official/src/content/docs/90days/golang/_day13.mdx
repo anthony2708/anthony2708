@@ -1,26 +1,22 @@
----
-title: Ngày 13 - Thực hiện chương trình
-sidebar:
-  order: 7
----
-
-import { LinkCard, Code, FileTree, Steps } from '@astrojs/starlight/components';
+import { Code, FileTree, Steps } from '@astrojs/starlight/components';
 import importedCode from '/src/assets/code/src/web/main.go?raw';
 import htmlCode from '/src/assets/code/src/web/index.html?raw';
 import txtfile from '/src/assets/code/src/web/note.txt?raw';
+
+## Ngày 13 - Thực hiện chương trình
 
 _Xin chào mọi người, như vậy là sau những ngày bận rộn với nhiều việc thi nhật trình ngày 13
 cũng đã sẵn sàng để cho lên sóng rồi đây. Hãy sẵn sàng để chứng kiến ứng dụng của chúng ta
 **lên sóng chính thức thôi nào!**_ ✈
 
-## Chỉnh sửa mã nguồn
+### Chỉnh sửa mã nguồn
 
 _Hãy nhìn đoạn mã nguồn hậu chỉnh sửa ngay sau đây. Với mã nguồn này, chúng ta sẽ xây dựng 
 một trang web chứa các thông tin liên quan đến hành trình của chúng ta._
 
 <Code code={importedCode} lang="go" title="src/main.go" />
 
-## Cây thư mục
+### Cây thư mục
 
 _Với mã nguồn này, cây thư mục ```web``` của chúng ta sẽ có tất cả ba tập tin như sau._
 
@@ -34,7 +30,7 @@ _Với mã nguồn này, cây thư mục ```web``` của chúng ta sẽ có tấ
     - main.go
 </FileTree>
 
-### Tập tin index.html 💻
+#### Tập tin index.html 💻
 _Một tập tin có phần mở rộng kết thúc bằng .html là một **trang web**. Điểm đặc biệt của tập tin 
 này chính là, nếu ta mở nó ở trình duyệt, ta sẽ thấy trọn vẹn trang web đó (giống như web 90 ngày
 DevOps chẳng hạn). Tuy nhiên, nếu ta mở ở trình chỉnh sửa tập tin, nó sẽ có cấu trúc như thế này._
@@ -59,7 +55,7 @@ chúng ta. Cụ thể nó như thế này._
 - _Các nội dung còn lại vẫn tương tự như cũ, tuy nhiên vẫn có những chỗ lạ lẫm mà ta có thể không rõ như 
 ```{{ .FacebookName }}``` hay ```{{ .DaysCompleted }}```, ta sẽ lưu ý nó sau._
 
-### Tập tin note.txt 📝
+#### Tập tin note.txt 📝
 
 _Đây là nội dung của tập tin._
 
@@ -69,9 +65,9 @@ _Có 3 trường thông tin, gồm **tên [facebook](https://facebook.com/buile.
 hoàn thành (13)** và **số ngày còn lại (77)**, ngăn cách với nhau bằng dấu phẩy. Tập tin này 
 có thể điều chỉnh tùy ý._
 
-### Tập tin main.go
+#### Tập tin main.go
 
-#### Đoạn mã nguồn đầu tiên
+##### Đoạn mã nguồn đầu tiên
 _Hãy chú ý đoạn mã nguồn này._
 
 ```go
@@ -97,7 +93,7 @@ trong quá trình vận hành ứng dụng._
 - _```strconv``` và ```strings```: Cặp thư viện liên quan đến xử lý **kiểu dữ liệu dạng
 chuỗi**, trong đó ```strconv``` là chuyển đổi một biến bất kỳ sang chuỗi hoặc ngược lại._
 
-#### Khối cấu trúc định hình
+##### Khối cấu trúc định hình
 
 _Ta tạo một khối cấu trúc như sau._
 
@@ -112,7 +108,7 @@ type Page struct {
 _Khối này định hình trang web của chúng ta chứa những thông tin gì. Kiểu dữ liệu và tên gọi
 có thể mọi người đã quen thuộc, nếu chưa, hãy quay lại những ngày trước để xem lại nhé._
 
-#### Hàm xử lý nội dung trang web
+##### Hàm xử lý nội dung trang web
 
 ```go
 func loadPage(title string) (*Page, error) {
@@ -166,7 +162,7 @@ chuỗi để kiểm tra đầu vào**)._
 4. _Truyền **tham chiếu (con trỏ)** chứa toàn bộ thông tin tương ứng để chờ tạo một trang web._
 </Steps>
 
-#### Hàm xử lý giao diện web
+##### Hàm xử lý giao diện web
 ```go
 func viewController(w http.ResponseWriter, r *http.Request) {
 	title := r.URL.Path[len("/view/"):]
@@ -207,7 +203,7 @@ chúng ta ở phần đầu như ```{{ .FacebookName }}``` hay ```{{ .DaysComple
 dữ liệu._
 </Steps>
 
-#### Hàm chính và kết quả cuối cùng
+##### Hàm chính và kết quả cuối cùng
 ```go
 func main() {
 	http.HandleFunc("/view/", viewController)
@@ -238,16 +234,3 @@ còn có thể làm được nhiều điều hơn, ví dụ chỉnh sửa tổng
 trình nào đó để người dùng có thể tự nhập vào hệ thống._
 
 **_Hy vọng, tất cả mọi người đã có được những trải nghiệm tuyệt vời cùng điểm dừng chân này._**
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 2, 
-để giúp bản thân có được những tài liệu hữu ích về Golang trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 13 - Tham khảo"
-  href="../../reference/golang/day7"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo, nơi mà chúng ta sẽ bắt đầu làm việc với Linux - một
-hệ điều hành cực kỳ gần gũi với các lập trình viên cũng như kỹ sư DevOps._ 🚀

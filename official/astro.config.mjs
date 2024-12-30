@@ -45,12 +45,12 @@ export default defineConfig({
 				link: '/90days/day1',
 			},
 			{
-				label: 'Tại sao lại phải DevOps?',
-				autogenerate: { directory: '90days/devops' }
+				label: 'Giai đoạn 1 - Tại sao lại phải DevOps?',
+				link: '90days/devops' 
 			},
 			{
-				label: 'Học lập trình với DevOps',
-				autogenerate: { directory: '90days/golang' }
+				label: 'Giai đoạn 2 - Học lập trình với DevOps',
+				link: '90days/golang' 
 			},
 			{
 				label: 'Giai đoạn 3 - Linux và DevOps',
@@ -73,41 +73,13 @@ export default defineConfig({
 				label: 'Giai đoạn 7 - Bộ chứa và Ảo hóa',
 				link: '/90days/containers',
 				badge: { text: 'Chưa hoàn thiện', variant: 'caution' },
+			},
+			{
+				label: 'Tài liệu tham khảo',
+				autogenerate: { directory: '90days/reference' },
 			}
 		]
-		}, {
-		label: 'Tài liệu tham khảo',
-		items: [
-			{
-				label: 'Ngày 1 - Giới thiệu',
-				link: '/90days/reference/day1',
-			},
-			{
-				label: 'Tại sao lại phải DevOps?',
-				autogenerate: { directory: '90days/reference/devops' }
-			},
-			{
-				label: 'Học lập trình với DevOps',
-				autogenerate: { directory: '90days/reference/golang' }
-			},
-			{
-				label: 'Giai đoạn 3 - Linux và DevOps',
-				link: '90days/reference/linux' 
-			},
-			{
-				label: 'Giai đoạn 4 - Mạng máy tính',
-				link: '90days/reference/network' 
-			},
-			{
-				label: 'Giai đoạn 5 - Điện toán đám mây',
-				link: '90days/reference/cloud' 
-			},
-			{
-				label: 'Giai đoạn 6 - Quản lý phiên bản',
-				link: '/90days/reference/git',
-				badge: { text: 'Mới', variant: 'tip' },
-			}
-		]}]
+		},]
 	}),
 	tailwind({
 		applyBaseStyles: false,
