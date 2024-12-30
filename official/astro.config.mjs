@@ -53,8 +53,8 @@ export default defineConfig({
 				autogenerate: { directory: '90days/golang' }
 			},
 			{
-				label: 'Linux và DevOps',
-				autogenerate: { directory: '90days/linux' }
+				label: 'Giai đoạn 3 - Linux và DevOps',
+				link: '90days/linux', 
 			},
 			{
 				label: 'Giai đoạn 4 - Mạng máy tính',
@@ -91,8 +91,8 @@ export default defineConfig({
 				autogenerate: { directory: '90days/reference/golang' }
 			},
 			{
-				label: 'Linux và DevOps',
-				autogenerate: { directory: '90days/reference/linux' }
+				label: 'Giai đoạn 3 - Linux và DevOps',
+				link: '90days/reference/linux' 
 			},
 			{
 				label: 'Giai đoạn 4 - Mạng máy tính',

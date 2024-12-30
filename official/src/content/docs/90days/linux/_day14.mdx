@@ -1,29 +1,16 @@
----
-title: Ngày 14 - Bức tranh lớn của Linux
----
-
-import { LinkCard, FileTree, Code } from '@astrojs/starlight/components';
+import { FileTree, Code } from '@astrojs/starlight/components';
 import importedCode from '/src/assets/linux/code/Vagrantfile?raw';
 
-_Xin chào mọi người, đây là ngày thứ 14 của hành trình 90 ngày. Như vậy là hành trình của chúng
-ta đã đi qua được hai điểm đến đầu tiên, và **chào mừng mọi người đến với điểm đến thứ ba - 
-Linux**, nơi chúng ta sẽ có rất nhiều những câu chuyện thú vị liên quan đến hệ điều hành này 
-và cách chúng ta tương tác với nó._
+## Ngày 14 - Bức tranh lớn của Linux
 
-**_Nếu mọi người đã sẵn sàng, hãy khám phá điểm đến thôi!_** 🚎
-
-![Journey](../../../../assets/linux/journey-in-life.jpg)
-
-> **Nguồn**: [Business & Branding Tips](https://www.blogbrandz.com/tips/journey-in-life/)
-
-## Khởi động
+### Khởi động
 _Linux và DevOps có những thứ khiến chúng ta liên tưởng đến những sự liên quan mật thiết lẫn nhau:
 đó là **khả năng tùy biến** và **khả năng mở rộng**. Rất nhiều công cụ liên quan đến DevOps đã và đang 
 được phát triển trên các **máy chủ vận hành bằng Linux**. Và do vậy, cho dù bài viết này đang được 
 biên soạn bằng **một máy tính dùng Windows**, thế nhưng Linux vẫn sẽ là trọng tâm phát triển của 
 chúng ta trong ít nhất là 1 tuần tới, vì đơn giản, chúng là **mã nguồn mở** và **hoàn toàn miễn phí**._
 
-## Bắt đầu với máy ảo
+### Bắt đầu với máy ảo
 _Cái gì cũng cần phải có môi trường, và tất nhiên là phải phục dựng được môi trường sao cho hợp lý nhất.
 Ở đây chúng ta sẽ sử dụng một máy ảo Linux cho việc thao tác. Nhưng nếu bạn thích sử dụng máy tính thật,
 hãy kích hoạt chế độ **Dual Boot** - cài thêm một **distro (phiên bản) Linux** phù hợp lên máy này, và 
@@ -34,7 +21,7 @@ hệ điều hành đó. Mọi người có thể tự mình tải xuống một
 làm tự động hóa nhanh chóng, hiệu quả hơn, **đúng không?** Thế thì hãy gặp người bạn mới của chúng ta: 
 **Hashicorp Vagrant**._
 
-## Thao tác với Hashicorp Vagrant
+### Thao tác với Hashicorp Vagrant
 
 _Với Vagrant, chúng ta có một công cụ có thể dùng để tương tác với tất tần tật tất cả các loại máy ảo trên 
 nhiều nền tảng khác nhau._
@@ -44,7 +31,7 @@ với Ubuntu - một Linux distro được nhiều người quen dùng, cũng nh
 **[Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)** cho việc quản lý các máy ảo. Mọi người 
 có thể chọn vào hai đường dẫn để tải cả hai xuống máy của mình._
 
-### Vagrantfile
+#### Vagrantfile
 
 _Đây là một tập tin định hình cấu trúc máy ảo mà chúng ta sẽ cài đặt. Mỗi Vagrantfile sẽ nằm trong một thư
 mục duy nhất, giúp dễ dàng quản lý cấu hình hơn. Cây thư mục chủ đạo của một máy ảo sẽ như thế này._
@@ -68,7 +55,7 @@ tại **[đây](https://app.vagrantup.com/boxes/search)**._
 - _Để ngăn ngừa các sự cố liên quan đến đồ họa, cấu hình tùy chỉnh **vRAM (RAM ảo)** được sử dụng 
 là **128MB**._
 
-### Khởi động máy ảo
+#### Khởi động máy ảo
 
 _Sau khi viết xong cấu hình, chạy lệnh sau tại thư mục chứa Vagrantfile để khởi tạo máy ảo._
 
@@ -83,7 +70,7 @@ vagrant up
 _Về cấu hình mạng, máy ảo này sẽ sử dụng **kiểu mạng NAT** - tuy nhiên, chúng ta có thể tùy biến kiểu mạng
 mà máy ảo sẽ sử dụng. Tham khảo thêm tại **[đây](https://www.virtualbox.org/manual/ch06.html#network_nat)**._
 
-### Đăng nhập máy ảo
+#### Đăng nhập máy ảo
 
 _Sau khi hoàn thành, kết nối đến máy ảo bằng SSH với một câu lệnh cũng được Vagrant hỗ trợ._
 
@@ -119,16 +106,3 @@ vagrant halt
 
 ```
 :::
-
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 3, 
-để giúp bản thân có được những tài liệu hữu ích về Linux trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 14 - Tham khảo"
-  href="../../reference/linux/day14"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo._ 🚀

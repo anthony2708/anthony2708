@@ -1,18 +1,15 @@
----
-title: Ngày 15 - Linux101
+import { Steps } from '@astrojs/starlight/components';
 
----
-
-import { LinkCard, Steps } from '@astrojs/starlight/components';
+## Ngày 15 - Linux101
 
 _Xin chào, đã đến lúc Linux lên sóng rồi. Bây giờ sẽ là lúc mà chúng ta sẽ học các câu lệnh Linux một cách chỉnh chu
 nhất. Đây là ngày thứ 15 của hành trình, và **mời mọi người đi cùng mình nào!**_ 🚓
 
-## Dạo quanh làng "Command"
+### Dạo quanh làng "Command"
 
 _Làng này có rất nhiều "command" - nhưng để tiện di chuyển hơn, chúng ta sẽ chỉ đi qua một số "command" chính thôi._
 
-### Lệnh ```man```
+#### Lệnh ```man```
 
 _Lệnh xem hướng dẫn sử dụng. Cách dùng đơn giản như sau._
 
@@ -24,7 +21,7 @@ man <command>
 
 ![man page](../../../../assets/linux/man_page.png)
 
-### Từ khóa ```sudo```
+#### Từ khóa ```sudo```
 
 _```sudo``` là một từ khóa đặc biệt - nó cấp cho người dùng quyền ```root``` tạm thời để thực hiện các yêu cầu khác 
 nhau, khá giống **Run as Administator - Chạy với quyền Quản trị viên** trên Windows._
@@ -48,7 +45,7 @@ sudo su
 exit
 ```
 
-### Xóa màn hình
+#### Xóa màn hình
 
 _Với Linux, người ta có câu: **Sạch gàu như Clear...** à nhầm, sạch command như ```clear```. 
 Windows thì dùng ```cls```._
@@ -59,12 +56,12 @@ clear
 
 ![sudo exit](../../../../assets/linux/sudo_exit.png)
 
-### Xử lý với thư mục và tập tin
+#### Xử lý với thư mục và tập tin
 
 _Chùm câu lệnh xử lý bao gồm tạo thư mục, tạo tập tin, xóa thư mục, thay đổi thư mục, kiểm 
 tra thư mục hiện thời và thao tác với các tập tin chứa trong thư mục._
 
-#### Thư mục
+##### Thư mục
 
 ```bash title="Creating folder..."
 mkdir <name>
@@ -92,7 +89,7 @@ ls
 
 :::
 
-#### Tập tin
+##### Tập tin
 
 ```bash title="Creating files..."
 touch <filename>
@@ -151,7 +148,7 @@ cat <filename> | grep "Xin chào"
 
 ![grep](../../../../assets/linux/grep.png)
 
-### Tìm lại bản đồ
+#### Tìm lại bản đồ
 _**Thất lạc trong làng và không biết mình đã đi đâu?** Dùng các câu lệnh sau để tìm lại._
 
 ```bash title="Checking history..."
@@ -176,11 +173,11 @@ echo 'export HISTFILESIZE=10000000' >> ~/.bash_profile
 
 ![history](../../../../assets/linux/history.png)
 
-### Thao tác với người dùng
+#### Thao tác với người dùng
 
 _Các thao tác bao gồm thêm và điều chỉnh người dùng, nhóm cũng như đổi mật khẩu._
 
-#### Đổi mật khẩu
+##### Đổi mật khẩu
 
 ```bash title="Changing password"
 passwd # Đổi password không lộ thông tin trên lịch sử
@@ -189,7 +186,7 @@ passwd -p <password> # Đổi password lưu vết trên lịch sử
 
 ![password](../../../../assets/linux/password.png)
 
-#### Thêm người dùng và nhóm
+##### Thêm người dùng và nhóm
 
 ```bash
 sudo useradd NewUser # Thêm người dùng NewUser
@@ -201,7 +198,7 @@ usermod -a -G sudo NewUser # Thêm NewUser vào nhóm sudo, hiếm gặp
 ![adduser](../../../../assets/linux/adduser.png)
 ![moduser](../../../../assets/linux/moduser.png)
 
-## Quyền hạn của người dùng
+### Quyền hạn của người dùng
 
 _Đây là cách mà chúng ta hiểu về quyền hạn trên Linux._
 
@@ -244,7 +241,7 @@ sudo chgrp -R <name> # Đổi nhóm quản lý cho toàn thư mục
 ```
 ![chown](../../../../assets/linux/chown.png)
 
-## Thao tác trên luồng dữ liệu
+### Thao tác trên luồng dữ liệu
 
 _Chúng ta khởi động bằng câu lệnh ```awk``` này. Đây là câu lệnh chỉ lấy một phần thông tin 
 từ câu lệnh khác._
@@ -280,15 +277,3 @@ cut -d " " -f 2 list.txt
 _Nếu bấm nhầm, nhấn ```Ctrl + C``` để ngừng lệnh._
 
 **_Chúng ta kết thúc ngày 15 của hành trình tại đây._**
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 3, 
-để giúp bản thân có được những tài liệu hữu ích về Linux trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 15 - Tham khảo"
-  href="../../reference/linux/day14"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo._ 🚀

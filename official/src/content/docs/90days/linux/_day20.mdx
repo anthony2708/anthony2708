@@ -1,8 +1,6 @@
----
-title: Ngày 20 - Xây dựng máy trạm cho riêng bạn
----
+import { FileTree } from '@astrojs/starlight/components';
 
-import { LinkCard, FileTree } from '@astrojs/starlight/components';
+## Ngày 20 - Xây dựng máy trạm cho riêng bạn
 
 _Thực ra đây sẽ là một ngày mà mình sẽ tập trung nhiều vào ZSH và những thứ liên quan. Đối với 
 câu chuyện máy trạm thì ngay ở **[đây](https://youtu.be/jeEslAtHfKc)** có một video để mọi người 
@@ -13,7 +11,7 @@ _Hành trình của mình trong ngày thứ 20 sẽ đi qua các nội dung liê
 
 **_Nào, chúng ta bắt đầu ngày thứ 20 của hành trình thôi!_** 🚕
 
-## .dotfiles
+### .dotfiles
 
 _Các tập tin có dấu chấm phía trước tên thường là những tập tin cấu hình quan trọng đối với hệ điều
 hành Linux._
@@ -31,12 +29,12 @@ _Ví dụ như cây thư mục sau._
 - ...
 </FileTree>
 
-## ZSH 🖥
+### ZSH 🖥
 
 _Đây là một Shell tương tự như Bash nhưng có tính năng tốt hơn: Tự hoàn thành câu lệnh, tự động tìm
 kiếm tập tin, tích hợp biểu diễn thông dụng (regex), câu lệnh rút gọn và một số hỗ trợ về giao diện._
 
-### Cài đặt và sử dụng
+#### Cài đặt và sử dụng
 _Để cài đặt ZSH, sử dụng câu lệnh sau để cài đặt và sử dụng._
 
 ```bash title="Installing zsh..."
@@ -57,7 +55,7 @@ which $SHELL
 
 ![shell_change](../../../../assets/linux/change_shell.png)
 
-### Trang trí với 0hMyZSH
+#### Trang trí với 0hMyZSH
 
 _Để có một số giao diện đẹp hơn, hãy sử dụng OhMyZSH, và mọi người có thể tìm hiểu tại 
 **[đây](https://ohmyz.sh/)**._
@@ -74,7 +72,7 @@ nano ~/.zshrc
 ```
 _Ở tập tin ```.zshrc```, điều chỉnh như sau: ```plugins=(git zsh-autosuggestions zsh-syntax-highlighting)```_
 
-## Tiện ích mở rộng
+### Tiện ích mở rộng
 
 _Mọi người có thể cài thêm một số tiện ích mở rộng kèm theo như trong đường dẫn 
 **[này](https://extensions.gnome.org/)**. Các tiện ích được lựa chọn bao gồm danh sách sau._
@@ -85,7 +83,7 @@ _Mọi người có thể cài thêm một số tiện ích mở rộng kèm the
 - _Desktop Icons_
 - _User Themes_
 
-## Các phần mềm được cài đặt ⚙
+### Các phần mềm được cài đặt ⚙
 
 _Hãy sử dụng câu lệnh quen thuộc để cài đặt toàn bộ các tiện ích dưới đây._
 
@@ -105,7 +103,7 @@ _Hãy sử dụng câu lệnh quen thuộc để cài đặt toàn bộ các ti�
 sudo apt install [name]
 ```
 
-## Giao diện tối 🌃
+### Giao diện tối 🌃
 
 _Giao diện **[Dracula](https://draculatheme.com/)** sẽ là một giao diện phù hợp cho việc 
 tiếp tục theo đuổi hành trình của chúng ta. Sau khi cài đặt xong, hãy cấu hình tập tin 
@@ -117,16 +115,3 @@ _Cuối cùng là cấu hình giao diện cho cửa sổ lệnh theo hướng d�
 **[đây](https://draculatheme.com/gnome-terminal)**._
 
 **_Hoàn thành chặng đường một tuần tại làng Linux._**
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 3, 
-để giúp bản thân có được những tài liệu hữu ích về Linux trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 20 - Tham khảo"
-  href="../../reference/linux/day14"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo, nơi mà chúng ta sẽ nói về Mạng máy tính và các vấn
-đề liên quan đến DevOps._ 🚀

@@ -1,8 +1,6 @@
----
-title: Ngày 18 - SSH và Máy chủ Web
----
+import { Steps } from '@astrojs/starlight/components';
 
-import { LinkCard, Steps } from '@astrojs/starlight/components';
+## Ngày 18 - SSH và Máy chủ Web
 
 _Xin chào, như vậy là bây giờ chúng ta sẽ đến với ngày thứ 18 của hành trình. Để quản lý số
 lượng lớn máy chủ chạy Linux, chúng ta cần phải có một giải pháp an toàn và hiệu quả. **SSH 
@@ -10,7 +8,7 @@ lượng lớn máy chủ chạy Linux, chúng ta cần phải có một giải 
 
 **_Nếu bạn đã sẵn sàng thì lên đường thôi!!!_** 🚗  
 
-## Giới thiệu điểm đến SSH
+### Giới thiệu điểm đến SSH
 
 _5 điểm nhấn của vị trí này bao gồm:_
 
@@ -31,7 +29,7 @@ các tác nhân xấu can thiệp vào đường truyền và gây ảnh hưởn
 _SSH trên mỗi máy chủ luôn được chạy ở **giao thức TCP, cổng số 22**. Chúng ta cần được cấp mã 
 khóa hoặc thông tin truy nhập trước khi sử dụng SSH để giao tiếp với máy chủ._
 
-### Thêm chút điểm nhấn...
+#### Thêm chút điểm nhấn...
 
 Chúng ta thêm một card mạng vào máy ảo để thử sức, bằng cách tắt máy ảo. Mở cài đặt của máy ảo
 trong VirtualBox rồi chọn Mạng (Networking).
@@ -44,7 +42,7 @@ Khởi động lại máy ảo. Chạy câu lệnh sau để kiểm tra sự t�
 ip addr
 ```
 
-### Kiểm tra SSH
+#### Kiểm tra SSH
 
 _Chạy câu lệnh sau để xem trạng thái SSH._
 
@@ -63,12 +61,12 @@ sudo ufw allow ssh
 sudo ufw reload
 ```
 
-### Kết nối SSH
+#### Kết nối SSH
 
 _Đối với hệ điều hành Windows, để sử dụng SSH chúng ta có hai cách, một là **kết nối qua dòng 
 lệnh**, cách còn lại là sử dụng **Putty**._
 
-#### Putty
+##### Putty
 
 _Cài đặt Putty vô cùng đơn giản bằng hướng dẫn **[này](https://www.cuit.columbia.edu/putty)**._ 
 
@@ -81,7 +79,7 @@ vì đây là hệ thống của chúng ta._
 
 _Nhập tên đăng nhập và mật khẩu vào để kết nối. **Hoàn tất**._
 
-#### Kết nối qua dòng lệnh
+##### Kết nối qua dòng lệnh
 
 _Một cách kết nối an toàn hơn đó là sử dụng mã khóa, bởi lẽ trong trường hợp nếu **lộ tên đăng nhập
 hoặc mật khẩu (hoặc cả hai)** thì tin tặc có thể chiếm quyền kiểm soát máy chủ ngay lập tức._
@@ -126,7 +124,7 @@ chỉnh về ```no``` và lưu cấu hình. Chạy lại dịch vụ SSH bằng 
 
 </Steps>
 
-## Giới thiệu về máy chủ Web
+### Giới thiệu về máy chủ Web
 
 _Thực ra có rất nhiều cách để nói về máy chủ Web, nhưng trong phạm trù của bài viết này, ta sẽ đá
 sang máy chủ Web với các công nghệ thuộc dạng **LAMP (Linux, Apache, MySQL, PHP)**._
@@ -154,16 +152,3 @@ qua địa chỉ IP để tiến hành cài đặt WordPress._
 ![wp](../../../../assets/linux/wp_language_select.png)
 
 **_Hoàn thành ngày thứ 18 của hành trình. Xin chân thành cảm ơn._**
-
-
-## Tài liệu tham khảo 📚
-
-_Mời mọi người chuyển sang trang này để theo dõi tất cả tài liệu liên quan trong giai đoạn 3, 
-để giúp bản thân có được những tài liệu hữu ích về Linux trong làm việc với DevOps._
-
-<LinkCard
-  title="Ngày 18 - Tham khảo"
-  href="../../reference/linux/day14"
-/>
-
-_Hẹn gặp mọi người ở những ngày tiếp theo._ 🚀
