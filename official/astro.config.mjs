@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import starlightImageZoom from 'starlight-image-zoom'
 import starlight from '@astrojs/starlight';
 import tailwind from "@astrojs/tailwind";
 
@@ -9,6 +10,11 @@ export default defineConfig({
   site: 'https://www.builetuananh.name.vn',
 
   integrations: [starlight({
+	plugins: [
+		starlightImageZoom({
+			showCaptions: false
+		})
+	],
     title: "BLTA",
     customCss: ['./src/tailwind.css'],
     logo: {
