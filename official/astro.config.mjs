@@ -73,12 +73,12 @@ export default defineConfig({
 			{
 				label: 'Giai đoạn 6 - Quản lý phiên bản',
 				link: '/90days/git',
-				badge: { text: 'Mới', variant: 'tip' },
 			},
 			{
 				label: 'Giai đoạn 7 - Bộ chứa và Ảo hóa',
 				link: '/90days/containers',
-				badge: { text: 'Chưa hoàn thiện', variant: 'caution' },
+				badge: { text: 'Mới', variant: 'tip' },
+				// badge: { text: 'Chưa hoàn thiện', variant: 'caution' },
 			},
 			{
 				label: 'Tài liệu tham khảo',
