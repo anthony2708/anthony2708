@@ -18,6 +18,9 @@ type Page struct {
 }
 
 func loadPage(title string) (*Page, error) {
+	if strings.Contains(title, "/") || strings.Contains(title, "\\") || strings.Contains(title, "..") {
+		return nil, fmt.Errorf("Invalid file name: %s", title)
+	}
 	filename := title + ".txt"
 	data, err := os.ReadFile(filename)
 	if err != nil {
