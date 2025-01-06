@@ -4188,10 +4188,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-starlight-image-zoom@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.10.0.tgz#2bd512390905ff307ea8a8d7c87f063651e0da74"
-  integrity sha512-m1Q0j+xY0uzEmzLVZg/1AA6wVfWDTKLozsaii7n3x0K3Qle6rwQlQgro8ng9epi9gygcLY0fOq/OHwU7n3Nx3w==
+starlight-image-zoom@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.10.1.tgz#0ccde96fd94706f780a634c8a7b353b5357f0a0a"
+  integrity sha512-1uEwijShhFFcYA++lDmFV32WmZkpp/VMvD4+PC5h+7InnyPGMiT+mSVJzbddNEit44OxM5kxbO6/OqcBtjKpOA==
   dependencies:
     rehype-raw "^7.0.0"
     unist-util-visit "^5.0.0"
