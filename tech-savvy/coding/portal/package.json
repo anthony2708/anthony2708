@@ -41,7 +41,7 @@
     "@babel/core": "^7.26.0",
     "@docusaurus/module-type-aliases": "^3.6.3",
     "@docusaurus/tsconfig": "^3.6.3",
-    "@docusaurus/types": "^3.6.3",
+    "@docusaurus/types": "^3.7.0",
     "@types/react": "^18.3.12",
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.38.1",
