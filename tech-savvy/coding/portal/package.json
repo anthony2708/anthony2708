@@ -17,9 +17,9 @@
   },
   "homepage": "https://portal.builetuananh.name.vn",
   "dependencies": {
-    "@docusaurus/core": "^3.6.3",
-    "@docusaurus/plugin-pwa": "^3.6.3",
-    "@docusaurus/preset-classic": "^3.6.3",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-pwa": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
     "@easyops-cn/docusaurus-search-local": "^0.46.1",
     "@fortawesome/fontawesome-svg-core": "6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
