@@ -116,10 +116,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-3.0.0.tgz#bb0844ae47bcdf790398382136c1f055ecc08ca3"
   integrity sha512-oYHG9RY+VaOSeAhheVZfm9HDA892qvcQA82VT86POYmg1OsgBuWwdf1ZbofV8iq/z5kO06ajcSdzhPE8lhEx8g==
 
-"@astrojs/starlight@^0.30.3":
-  version "0.30.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.30.3.tgz#1274c73c69bb9f25e79f80cc7749fb492d4b4fa0"
-  integrity sha512-HbGYYIR2Rnrvvc2jD0dUpp8zUzv3jQYtG5im3aulDgE4Jo21Ahw0yXlb/Y134G3LALLbqhImmlbt/h/nDV3yMA==
+"@astrojs/starlight@^0.30.6":
+  version "0.30.6"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.30.6.tgz#0dc02bab2fc1be4dd142c3bd310b6fd6d4fedc7f"
+  integrity sha512-/AoLXjPPD1MqixkTd2Lp3qahSzfCejePWHZQ3+fDjj1CuXI7Gjrr5bR3zNV0b9tynloPAIBM0HOyBNEGAo9uAQ==
   dependencies:
     "@astrojs/mdx" "^4.0.1"
     "@astrojs/sitemap" "^3.1.6"
@@ -1302,10 +1302,10 @@ astro-expressive-code@^0.38.3:
   dependencies:
     rehype-expressive-code "^0.38.3"
 
-astro@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.1.1.tgz#c47ccf6c48d7d0db56ba605cc42efc65525f212e"
-  integrity sha512-prpWC2PRs4P3FKQg6gZaU+VNMqbZi5pDvORGB2nrjfRjkrvF6/l4BqhvkJ6YQ0Ohm5rIMVz8ljgaRI77mLHbwg==
+astro@^5.1.5:
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.1.5.tgz#97582eb8da13452a89dcea96f7dc70c560f30ccc"
+  integrity sha512-Q9TE4aNlczxVoPDoXR3UcjLezL+70z0KbTRXovE4ybpx0mgNL1jsmSWtF3UFXB5+GTf9JK7om5fbIaaMReKcUg==
   dependencies:
     "@astrojs/compiler" "^2.10.3"
     "@astrojs/internal-helpers" "0.4.2"
@@ -4188,10 +4188,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-starlight-image-zoom@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.10.0.tgz#2bd512390905ff307ea8a8d7c87f063651e0da74"
-  integrity sha512-m1Q0j+xY0uzEmzLVZg/1AA6wVfWDTKLozsaii7n3x0K3Qle6rwQlQgro8ng9epi9gygcLY0fOq/OHwU7n3Nx3w==
+starlight-image-zoom@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.10.1.tgz#0ccde96fd94706f780a634c8a7b353b5357f0a0a"
+  integrity sha512-1uEwijShhFFcYA++lDmFV32WmZkpp/VMvD4+PC5h+7InnyPGMiT+mSVJzbddNEit44OxM5kxbO6/OqcBtjKpOA==
   dependencies:
     rehype-raw "^7.0.0"
     unist-util-visit "^5.0.0"
@@ -4415,10 +4415,10 @@ typescript-auto-import-cache@^0.3.3:
   dependencies:
     semver "^7.3.8"
 
-typescript@^5.7.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.7.2.tgz#3169cf8c4c8a828cde53ba9ecb3d2b1d5dd67be6"
-  integrity sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==
+typescript@^5.7.3:
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.7.3.tgz#919b44a7dbb8583a9b856d162be24a54bf80073e"
+  integrity sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==
 
 ufo@^1.5.4:
   version "1.5.4"
