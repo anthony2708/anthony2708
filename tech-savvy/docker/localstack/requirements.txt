@@ -19,7 +19,7 @@ localstack-core==4.1.1
 localstack-ext==4.1.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
-pbr==6.1.0
+pbr==6.1.1
 plux==1.12.1
 psutil==6.1.1
 pyaes==1.6.1
