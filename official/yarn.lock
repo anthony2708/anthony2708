@@ -1134,10 +1134,10 @@ astro-expressive-code@^0.40.0:
   dependencies:
     rehype-expressive-code "^0.40.1"
 
-astro@^5.2.5:
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.2.5.tgz#3f7e2a2e79c6d0492609efdaaae8027bacd3ae0f"
-  integrity sha512-AYXyYkc+c5xbKTm48FyQA91y81nXyNPAaoyafR0LUugE4lAwuvIUcXDBfMzmbuP1lGRvsE33G2oypv6gbGaPFg==
+astro@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.3.0.tgz#20a2772c019448f6797396f9dbabe72615877842"
+  integrity sha512-e88l/Yk/6enR/ZDddLbqtM+oblBFk5mneNSmNesyVYGL/6Dj4UA67GPAZOk79VxT5dbLlclZSyyw/wlxN1aj3A==
   dependencies:
     "@astrojs/compiler" "^2.10.3"
     "@astrojs/internal-helpers" "0.5.1"
