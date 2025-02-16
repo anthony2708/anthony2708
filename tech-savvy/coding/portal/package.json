@@ -38,7 +38,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
+    "@babel/core": "^7.26.9",
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/tsconfig": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
