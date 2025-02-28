@@ -36,9 +36,15 @@
       <td>📮 Contact</td>
       <td>
         <ul>
-          <li>Email: <a href="mailto:builetuananh2708@gmail.com">builetuananh2708@gmail.com</a></li>
-          <li>Website: <a href="https://www.builetuananh.name.vn">www.builetuananh.name.vn</a></li>
-          <li>Facebook: <a href="https://facebook.com/buile.tuananh">Bùi Lê Tuấn Anh</a></li>
+          <li>Social media:
+            <a href="https://www.facebook.com/buile.tuananh"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/facebook.svg"></a>
+            <a href="https://www.instagram.com/yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg"></a>
+            <a href="https://www.github.com/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg"></a>
+            <a href="https://www.linkedin.com/in/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg"></a>
+            <a href="https://www.youtube.com/@yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg"></a>
+          </li>
+          <li>Website: <a href="https://www.builetuananh.name.vn/">https://www.builetuananh.name.vn</a></li>
+          <li>Telephone: <a href="tel:+84937826135">(+84/0) 937-826-135</a> (available in VN only)</li>
         </ul>
       </td>
     </tr>
