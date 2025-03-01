@@ -28,12 +28,12 @@ export default defineConfig({
 			},
 			{
 				label: '90 ngày cùng DevOps',
-				link: '/90days/start',
+				link: '/90days',
 				icon: 'confluence',
 				items:[
 					{
 						label: 'Trang nhà',
-						autogenerate: { directory: '90days/home' },
+						items: ['90days'],
 					},
 					{ 
 						label: 'Nội dung chính',
