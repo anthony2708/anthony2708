@@ -60,7 +60,7 @@ export default defineConfig({
 		])
 	],
     title: "Anthony Bùi Lê Tuấn Anh",
-    // customCss: ['./src/tailwind.css'],
+    customCss: ['./src/tailwind.css'],
     logo: {
     	src: './public/ET_Logo.png',
 		replacesTitle: true
