@@ -29,7 +29,7 @@
     "@mdx-js/react": "^3.1.0",
     "@netlify/functions": "^3.0.0",
     "@prisma/client": "^6.4.1",
-    "axios": "^1.7.9",
+    "axios": "^1.8.1",
     "babel-plugin-macros": "^3.1.0",
     "clsx": "^2.1.1",
     "node-fetch": "^3.3.2",
@@ -44,9 +44,9 @@
     "@docusaurus/types": "^3.7.0",
     "@types/react": "^18.3.12",
     "dotenv": "^16.4.5",
-    "netlify-cli": "^18.1.0",
+    "netlify-cli": "^19.0.0",
     "prisma": "^6.4.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "browserslist": {
     "production": [
