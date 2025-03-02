@@ -1,10 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-// import tailwind from "@astrojs/tailwind";
+import tailwind from "@astrojs/tailwind";
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
 import starlightSidebarTopics from 'starlight-sidebar-topics';
-import catppuccin from "starlight-theme-catppuccin";
+// import catppuccin from "starlight-theme-catppuccin";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +13,7 @@ export default defineConfig({
 
   integrations: [starlight({
 	plugins: [
-		catppuccin({ dark: 'mocha-yellow', light: 'latte-green' }),
+		// catppuccin({ dark: 'mocha-yellow', light: 'latte-green' }),
 		starlightImageZoom({
 			showCaptions: false
 		}),
@@ -131,7 +131,7 @@ export default defineConfig({
 	// 	]
 	// 	},]
 	}),
-	// tailwind({
-		// applyBaseStyles: false,
-  	// })
+	tailwind({
+		applyBaseStyles: false,
+  	})
 ],});
