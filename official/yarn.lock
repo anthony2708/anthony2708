@@ -609,12 +609,12 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lorenzo_lewis/starlight-utils@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@lorenzo_lewis/starlight-utils/-/starlight-utils-0.2.0.tgz#a1128d6660d8290a63f9878559396e49ad51b370"
-  integrity sha512-RAOhqhA5axe9+MXb6r/QwY6mulbTU1hCmtu2lImU3OyFqyV6ClPhAxqqEY7wMHHEHds8UaXGVPUPMST2FZcyZQ==
+"@lorenzo_lewis/starlight-utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@lorenzo_lewis/starlight-utils/-/starlight-utils-0.3.0.tgz#84d706c4f300b9b70638921d72f2870ecf55ff48"
+  integrity sha512-AvSlhScuED6okZZAWrgKwg3CBy8d5xuzDvyLohgbxsxokIU3xokhoaAsUF4UEWw2FU1fbfKgwHE4ABxgM6soiw==
   dependencies:
-    astro-integration-kit "^0.16.1"
+    astro-integration-kit "^0.18.0"
 
 "@mdx-js/mdx@^3.1.0":
   version "3.1.0"
@@ -1149,10 +1149,10 @@ astro-expressive-code@^0.40.0:
   dependencies:
     rehype-expressive-code "^0.40.1"
 
-astro-integration-kit@^0.16.1:
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/astro-integration-kit/-/astro-integration-kit-0.16.1.tgz#3dab764308dfb3a76c6501519714fbc420ac34e9"
-  integrity sha512-N/iam0PAFrRT9azYZqscP1HowQhC77Dwlp912P0/72k+kwUVgO3m73F26XXukHYoZBsrHgrUrfsWBxuCH3kEUg==
+astro-integration-kit@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/astro-integration-kit/-/astro-integration-kit-0.18.0.tgz#a0def1627caeb602e8a4a6843d7ce61628ea49f6"
+  integrity sha512-Z0QW5IQjosuKQDEGYYkvUX6EhEtrmE4/oViqWz23QveV8U7AuyFsTdg00WRNPevWZl/5a4lLUeDpv4bCRynRRg==
   dependencies:
     pathe "^1.1.2"
     recast "^0.23.7"
