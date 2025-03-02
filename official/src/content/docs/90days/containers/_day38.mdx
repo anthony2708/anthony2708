@@ -1,0 +1,72 @@
+import { Steps } from '@astrojs/starlight/components';
+
+## Ngày 38 - Dáng hình của Docker 🖼
+
+_Xin chào, cuối cùng thì chúng ta cũng đã sẵn sàng cho ngày tiếp theo của hành trình đầy chông gai này. Hôm nay chúng ta 
+sẽ tìm hiểu về Docker image, bản ảnh của Docker, và cách tạo ra một bản ảnh từ một Dockerfile._
+
+**_Nếu bạn đã đóng gói đầy đủ tư trang, hãy cùng nhau bắt đầu hành trình mới này nhé!_** 🚋
+
+### Khởi động
+
+_Sau khi cài đặt Docker, chúng ta sẽ bắt đầu bằng việc chạy câu lệnh sau._
+
+```bash title="Running a container"
+
+docker run -d -p 80:80 docker/getting-started
+
+```
+
+**_Khi các bạn chạy lệnh này, những việc sau đây sẽ xảy ra._**
+
+<Steps>
+1. _Docker sẽ tìm kiếm image `docker/getting-started` trên máy tính của bạn. Nếu không tìm thấy, Docker sẽ **tải image** 
+này từ DockerHub hoặc bất kỳ registry lưu trữ nào có bản ảnh này. Việc này cũng sẽ diễn ra tương tự với các bản ảnh khác._
+2. _Docker sẽ tạo một container từ image này. Trong trường hợp này, container sẽ chạy một ứng dụng web trên cổng 80._
+3. _Docker sẽ **chuyển tiếp** cổng 80 của máy tính của bạn tới cổng 80 của container (```-p``` - port)._
+4. _Việc chạy container này sẽ diễn ra ở **chế độ nền** (background mode) (```-d``` - detach)._
+5. _Kết quả cuối cùng, bạn sẽ có một ứng dụng hoàn chỉnh, khi truy cập vào `http://localhost/tutorial` trên trình duyệt._
+</Steps>
+
+![tutorial](../../../../assets/containers/tutorial.png)
+
+_Đối với các bản ảnh, chúng ta có thể phân loại làm ba nhóm như sau._
+
+- _**Official Image**: Là những bản ảnh được Docker cung cấp, chúng ta có thể tìm thấy trên 
+[DockerHub](https://hub.docker.com/)._
+- _**Verified Publisher**: Là những bản ảnh được xác thực bởi Docker, cung cấp bởi các nhà cung cấp phần mềm._
+- _**User-defined images**: Là những bản ảnh được tạo ra bởi người dùng và đăng tải trên DockerHub hoặc các 
+registry khác._
+
+![image](../../../../assets/containers/image.png)
+
+_Để dừng container đang chạy, cần phải xác định `container ID` hoặc `container name` và chạy lệnh sau._
+
+```bash title="Stopping a container"
+
+docker ps
+docker stop <container ID or container name>
+
+```
+
+### Tham vọng to lớn với cả một hệ điều hành...
+
+```bash title="Running a container with OS"
+
+docker run -it ubuntu bash
+
+```
+_Khi bạn chạy lệnh này, ngay lập tức bạn có một bản ảnh của Ubuntu trên Docker với Bash._
+
+_**Bạn có tin được không, nhưng đó là sự thật**. Khi bạn chạy xong lệnh trên, bạn sẽ thấy một dấu nhắc mới, đó chính là
+một cửa sổ dòng lệnh của Ubuntu. Tất nhiên Ubuntu trên Docker chỉ **cỡ đâu đó 30MB** thôi, nhưng tất nhiên là bạn có 
+thể thêm các gói phần mềm khác vào bản ảnh này._
+
+![ubuntu](../../../../assets/containers/ubuntu.png)
+
+![apt](../../../../assets/containers/apt.png)
+
+### Tìm hiểu về Dockerfile
+
+**_Chúng ta sẽ tiếp tục tìm hiểu khái niệm về Dockerfile, ở phần tiếp theo của bài viết này, được cập nhật vào 
+ngày mai. Mời quý vị và các bạn đón xem!_**
