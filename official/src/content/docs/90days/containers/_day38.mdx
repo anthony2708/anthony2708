@@ -1,4 +1,4 @@
-import { Steps } from '@astrojs/starlight/components';
+import { Steps, Aside } from '@astrojs/starlight/components';
 
 ## Ngày 38 - Dáng hình của Docker 🖼
 
@@ -68,5 +68,80 @@ thể thêm các gói phần mềm khác vào bản ảnh này._
 
 ### Tìm hiểu về Dockerfile
 
-**_Chúng ta sẽ tiếp tục tìm hiểu khái niệm về Dockerfile, ở phần tiếp theo của bài viết này, được cập nhật vào 
-ngày mai. Mời quý vị và các bạn đón xem!_**
+_Dockerfile là một tập tin văn bản chứa một loạt các hướng dẫn để tạo ra một bản ảnh. Mỗi hướng dẫn trong Dockerfile
+thường được tổ chức theo dạng một **"lớp" (layer)** và mỗi lớp này sẽ tạo ra một image mới._
+
+_Cấu trúc của các lớp, sẽ đi theo phương thức **xếp chồng (stacked)** và mỗi lớp sẽ kế thừa từ lớp trước đó._
+
+![layers](../../../../assets/containers/layers.png)
+
+_Theo thứ tự, chúng ta sẽ có **Dockerfile dựng thành image**, và c**ontainer thì chạy từ image đó**. Mỗi bản ảnh sẽ còn 
+có manifest. Manifest trong tiếng Anh có nghĩa là "bản thể", và nó chứa thông tin về các lớp, cấu trúc, và metadata của
+bản ảnh._
+
+#### Ví dụ về Dockerfile
+
+```bash title="Dockerfile"
+
+FROM node:18-alpine
+WORKDIR /app/
+COPY ./sources/ .
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
+
+```
+
+**_Dưới đây là một số từ khóa hiệu lệnh của Dockerfile mà bạn sẽ thường xuyên gặp._**
+
+|    Lệnh          |                                        Mục đích                                      |
+|:----------------:|:------------------------------------------------------------------------------------:|
+| ```FROM```       | _Để chỉ định bản ảnh gốc._                                                           |
+| ```WORKDIR```    | _Để đặt thư mục làm việc cho bất kỳ lệnh nào phía sau trong Dockerfile._             |
+| ```RUN```        | _Để chạy lệnh giúp cài đặt bất kỳ ứng dụng và gói phụ trợ cần thiết cho container._  |
+| ```COPY```       | _Để sao chép các tệp hoặc thư mục từ một vị trí cụ thể._                             |
+| ```ADD```        | _Là COPY, nhưng cũng có thể xử lý các URL và giải nén các tệp nén._                  |
+| ```ENTRYPOINT``` | _Lệnh sẽ thực thi khi container khởi động. Mặc định là ```/bin/sh -c```_             |
+| ```CMD```        | _Các đối số truyền vào. Nếu ENTRYPOINT mặc định, CMD là lệnh thực thi._              |
+| ```EXPOSE```     | _Để xác định cổng truy cập ứng dụng container._                                      |
+| ```LABEL```      | _Để thêm metadata vào bản ảnh._                                                      |
+
+_Dựa trên Dockerfile phía trên ta sẽ có những bước sau._
+
+<Steps>
+
+1. _Lấy bản ảnh gốc (base image) từ `node:18-alpine`, tức là một bản ảnh của Node.js trên Alpine Linux._
+2. _Đặt thư mục làm việc cho container là `/app/`._
+3. _Sao chép tất cả các tệp từ thư mục `./sources/` vào thư mục làm việc của container._
+4. _Cài đặt các gói phụ trợ cần thiết cho ứng dụng Node.js._
+5. _Mở cổng 3000 để truy cập ứng dụng._
+6. _Chạy ứng dụng Node.js bằng lệnh `npm start`._
+
+</Steps>
+
+_Lúc này, ta có thể truy cập ứng dụng Node.js thông qua cổng 3000 của máy tính 
+(đúng hơn là ```http://localhost:3000```)._
+
+#### Dựng Dockerfile
+Chạy câu lệnh sau để dựng Dockerfile này thành bản ảnh mới.
+
+```bash title="Building a Dockerfile"
+
+docker build -t my-node-app:1.0 .
+# -t: tag cho bản ảnh
+# .: thư mục chứa Dockerfile
+
+```
+
+**_Và đó là cách bạn có một bản ảnh mới toanh, tự dựng từ một Dockerfile._** 🎉
+
+<Aside type="tip" title="Chưa dừng lại ở đó...">
+
+**_Nếu bạn nghĩ chỉ một Dockerfile là đủ, thì bạn đã lầm to._**
+
+_Nếu bạn nghĩ rằng việc chỉ có một Dockerfile là quá đơn giản, thì bạn hoàn toàn có thể tạo ra một cụm các container.
+Với Docker Compose, bạn có thể tạo ra một tập hợp các container, cùng chạy một ứng dụng lớn._
+
+**_Chúng ta sẽ còn gặp lại nhau trong ngày mai, với nhiều điều thú vị hơn nữa về Compose. Byebye!!!_** 🚀
+
+</Aside>
