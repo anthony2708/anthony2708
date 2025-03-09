@@ -69,9 +69,9 @@ thể thêm các gói phần mềm khác vào bản ảnh này._
 ### Tìm hiểu về Dockerfile
 
 _Dockerfile là một tập tin văn bản chứa một loạt các hướng dẫn để tạo ra một bản ảnh. Mỗi hướng dẫn trong Dockerfile
-thường được tổ chức theo dạng một **"lớp" (layer)** và mỗi lớp này sẽ tạo ra một image mới._
+thường được tổ chức theo dạng một **"lớp" (layer)** và mỗi lớp sẽ tạo ra một image mới._
 
-_Cấu trúc của các lớp, sẽ đi theo phương thức **xếp chồng (stacked)** và mỗi lớp sẽ kế thừa từ lớp trước đó._
+_Cấu trúc của các lớp, sẽ đi theo phương thức **xếp chồng (stacked)** và mỗi lớp sẽ kế thừa lớp trước đó._
 
 ![layers](../../../../assets/containers/layers.png)
 
@@ -123,7 +123,8 @@ _Lúc này, ta có thể truy cập ứng dụng Node.js thông qua cổng 3000 
 (đúng hơn là ```http://localhost:3000```)._
 
 #### Dựng Dockerfile
-Chạy câu lệnh sau để dựng Dockerfile này thành bản ảnh mới.
+
+_Chạy câu lệnh sau để dựng Dockerfile này thành bản ảnh mới._
 
 ```bash title="Building a Dockerfile"
 
@@ -135,13 +136,107 @@ docker build -t my-node-app:1.0 .
 
 **_Và đó là cách bạn có một bản ảnh mới toanh, tự dựng từ một Dockerfile._** 🎉
 
-<Aside type="tip" title="Chưa dừng lại ở đó...">
+### Compose - Sức mạnh của sự đoàn kết
 
-**_Nếu bạn nghĩ chỉ một Dockerfile là đủ, thì bạn đã lầm to._**
+_Trường hợp khó hơn là đây - về mặt nguyên tắc, một ứng dụng không nên chỉ tập trung trên một container mà còn phải
+phân tán trên nhiều container để ngăn tình trạng **Điểm chết duy nhất - Single Point of Failure**. Điều này đặt ra một 
+thách thức lớn với việc quản lý nhiều container cùng một lúc._
 
-_Nếu bạn nghĩ rằng việc chỉ có một Dockerfile là quá đơn giản, thì bạn hoàn toàn có thể tạo ra một cụm các container.
-Với Docker Compose, bạn có thể tạo ra một tập hợp các container, cùng chạy một ứng dụng lớn._
+_Docker Compose giúp chúng ta giải quyết vấn đề này bằng cách cho phép chúng ta định nghĩa và chạy nhiều container cùng
+một thời điểm. Sử dụng Compose cũng cực kỳ đơn giản, bởi chúng ta có thể tải xuống tại 
+**[đây](https://docs.docker.com/compose/install/)**. Trong nội dung của bài viết này, chúng ta sẽ tạo một website đơn giản
+sử dụng WordPress và MySQL, và chúng ta sẽ dựa trên bài viết **[này](https://docs.docker.com/samples/wordpress/)** dể bắt 
+đầu. **Okay, thử nghiệm thôi**._
 
-**_Chúng ta sẽ còn gặp lại nhau trong ngày mai, với nhiều điều thú vị hơn nữa về Compose. Byebye!!!_** 🚀
+#### Gọi Compose
+
+```bash title="Checking Compose version"
+
+docker-compose
+
+```
+
+![compose_version](../../../../assets/containers/compose_version.png)
+
+_Lệnh này, sau khi cài đặt Compose và chạy lên, sẽ giúp ta kiểm tra xem ứng dụng đã được cài đặt chuẩn xác hay chưa._
+
+#### Tập tin Compose
+
+```yaml title="docker-compose.yml"
+
+version: "3.9"
+
+services:
+  DB:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: somewordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    volumes:
+      - wordpress_data:/var/www/html
+    ports:
+      - "8000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+volumes:
+  db_data: {}
+  wordpress_data: {}
+
+```
+
+_**YAML - YAML Ain't Markup Language** (YAML chả phải ngôn ngữ đánh dấu) là một ngôn ngữ tuần tự hóa dữ liệu dùng để biểu 
+diễn dữ liệu dưới dạng cấu trúc dữ liệu (**chả hiểu sao đã lấy tên YAML, mà nó lại còn có tên đầy đủ có chữ YAML ở trong 
+đó nữa**). Nếu mọi người đã quen với các tập tin XML để biểu diễn cấu hình, thì YAML là một cách đơn giản hơn._
+
+_YAML trong những năm gần đây đang có xu hướng thay thế **JSON - JavaScript Object Notation**, vì nó dễ đọc hơn, dễ viết 
+hơn, và dễ hiểu hơn._
+
+<Aside type="tip" title="Tản mạn">
+
+_Cái tên ban đầu của YAML là **Yet Another Markup Language** (Một ngôn ngữ đánh dấu khác), nhưng sau đó nó được đổi thành
+**YAML Ain't Markup Language** (YAML chả phải ngôn ngữ đánh dấu) - thật là khó hiểu_ 🤣 
 
 </Aside>
+
+_Phía trên ta có thể thấy, cấu trúc tập tin YAML này chứa hai dịch vụ: `DB` và `wordpress`. Mỗi dịch vụ sẽ chứa các thông
+số cấu hình như `image` - bản ảnh, `volumes`, `ports` - cổng, `environment` - biến môi trường, và `restart` - tái khởi 
+động. Sau khi chạy lệnh sau, chúng ta sẽ có một website WordPress chạy trên cổng 8000._
+
+```bash title="Running Compose"
+
+docker-compose up -d # -d: chạy ở chế độ nền
+
+```
+
+![wordpress](../../../../assets/containers/wordpress.png)
+
+_Làm theo hướng dẫn, chúng ta sẽ có một website hoàn chỉnh. Dọn dẹp tất cả container bằng lệnh sau._
+
+```bash title="Cleaning up"
+
+docker-compose down 
+docker-compose down --volumes # xóa cả volumes
+
+```
+_Vì các bản ảnh đã có sẵn trên máy, chúng ta khi chạy lại lệnh `docker-compose up -d` sẽ không cần phải tải lại bản ảnh
+nữa, mà chỉ cần chạy container từ bản ảnh đã có sẵn._
+
+_Có một nguồn tài nguyên rất đỉnh cho Compose mà mọi người có thể khám phá tại 
+[dây](https://github.com/docker/awesome-compose)._
+
+_Website nàynày cũng sẽ cập nhật một dạng thức khác của Docker Compose - đó là việc xây dựng **ELK Stack (Elasticsearch, 
+Logstash, Kibana)** trong một bài viết khác. **Để biết thêm thông tin, mọi người hãy theo dõi trên website nhé!**_ 🚀
