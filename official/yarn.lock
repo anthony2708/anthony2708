@@ -4007,10 +4007,12 @@ starlight-image-zoom@^0.11.1:
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 
-starlight-sidebar-topics@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/starlight-sidebar-topics/-/starlight-sidebar-topics-0.4.1.tgz#0987e765d13a085e8117c297a5d4ba11ab137895"
-  integrity sha512-fzYVgccxUDBjdxgGXPDQzNI/GghEMhcdaxlDkkOFXzKvZQVX71/LAB/ZffGAB+EKkS3n9bF5YggYYBMuO6wKAw==
+starlight-sidebar-topics@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/starlight-sidebar-topics/-/starlight-sidebar-topics-0.5.0.tgz#7cfc15105e610b6440072df840d5567f714e3723"
+  integrity sha512-oQZH4TZcn8Bhh7sezweJYXimyENXayCD6eRbspTuEvg0g5v+oEMKOLhtlLCXmwYjqUuSm8EXSYzNNHn7myOZog==
+  dependencies:
+    picomatch "^4.0.2"
 
 starlight-theme-catppuccin@^2.0.0:
   version "2.0.0"
