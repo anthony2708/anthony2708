@@ -39,7 +39,8 @@ export default defineConfig({
 					},
 					{ 
 						label: 'Nội dung chính',
-					  	items: ['90days/day0', '90days/day1', '90days/devops', '90days/golang', '90days/linux', '90days/network', '90days/cloud', '90days/git', '90days/containers'],
+					  	items: ['90days/day0', '90days/day1', '90days/devops', '90days/golang', '90days/linux', '90days/network', '90days/cloud', '90days/git', 
+							'90days/containers', '90days/kubernetes'],
 					},
 					{
 						label: 'Tài liệu tham khảo',
