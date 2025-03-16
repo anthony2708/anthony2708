@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
       message: "Hữu xạ tự nhiên hương",
       id: "homepage.feature1.quote.title"
     }),
-    image: "/img/docusaurus/undraw_docusaurus_tree.svg",
+    image: "/img/favicon/favicon.jpg",
     description: (
       <Translate id="homepage.feature1.quote.desc">
         Một người lạc quan, chăm chỉ và có trách nhiệm. Đam mê lập trình Web

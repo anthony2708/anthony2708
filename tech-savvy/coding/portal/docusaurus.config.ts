@@ -12,7 +12,7 @@ const config: Config = {
   staticDirectories: ["public"],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon/favicon.png",
+  favicon: "img/favicon/favicon.jpg",
   organizationName: "anthony2708", // Usually your GitHub org/user name.
   projectName: "anthony2708", // Usually your repo name.
   deploymentBranch: "gh-pages",
@@ -91,7 +91,7 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/ET_Logo.jpg',
           },
           {
             tagName: 'link',
@@ -116,18 +116,18 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/ET_Logo.jpg',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/favicon/ET_Logo.png',
+            href: '/img/favicon/ET_Logo.jpg',
             color: 'rgb(255, 237, 174)',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: '/img/favicon/favicon.png',
+            content: '/img/favicon/favicon.jpg',
           },
           {
             tagName: 'meta',
@@ -145,7 +145,7 @@ const config: Config = {
       title: "BLTA",
       logo: {
         alt: "Logo",
-        src: "img/favicon/ET_Logo.png",
+        src: "img/favicon/ET_Logo.jpg",
       },
       items: [
         {
