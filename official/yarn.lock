@@ -3948,10 +3948,10 @@ starlight-image-zoom@^0.11.1:
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 
-starlight-sidebar-topics@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/starlight-sidebar-topics/-/starlight-sidebar-topics-0.5.1.tgz#6d517c2305a3c72b7791586f6d3db29600d84627"
-  integrity sha512-jjdZVus2/NvAazMn8l0RxlnmjtIIg/7hcA91+tKhC8AtJ9kdYjWd5jPMnbj54HelZ305LwDp+Qo2S6vexfVSoA==
+starlight-sidebar-topics@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/starlight-sidebar-topics/-/starlight-sidebar-topics-0.6.0.tgz#20334cd5c2e53df091f2bb7da8ee85db83b7f148"
+  integrity sha512-ysmOR7zaHYKtk18/mpW4MbEMDioR/ZBsisu9bdQrq0v9BlHWpW7gAdWlqFWO9zdv1P7l0Mo1WKd0wJ0UtqOVEQ==
   dependencies:
     picomatch "^4.0.2"
 
