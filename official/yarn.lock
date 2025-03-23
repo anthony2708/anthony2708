@@ -194,10 +194,10 @@
     stream-replace-string "^2.0.0"
     zod "^3.23.8"
 
-"@astrojs/starlight-tailwind@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-3.0.0.tgz#bb0844ae47bcdf790398382136c1f055ecc08ca3"
-  integrity sha512-oYHG9RY+VaOSeAhheVZfm9HDA892qvcQA82VT86POYmg1OsgBuWwdf1ZbofV8iq/z5kO06ajcSdzhPE8lhEx8g==
+"@astrojs/starlight-tailwind@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight-tailwind/-/starlight-tailwind-3.0.1.tgz#f4d8860d49148e8218a4fcab15092bb786f7e834"
+  integrity sha512-9gPBaglNYuD3gLSF+4RvmbO3DxMMMby/AYFuwZkS+BLo67WQWyBIdYtmof814Gi750qSnt0sCvhqFAURqbA1Cw==
 
 "@astrojs/starlight@^0.30.0":
   version "0.30.6"
