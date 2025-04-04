@@ -173,10 +173,10 @@ const config: Config = {
       id: "announcement-bar",
       content:
         "⭐ <b>Thông báo</b>: Theo dõi series 90 ngày DevOps trên website <b>www.builetuananh.name.vn</b> (Catch up with 90Days on our official website.) ⭐",
-      backgroundColor: "#a4e4dc",
-      textColor: "#222",
-      // backgroundColor: "#222",
-      // textColor: "#fff",
+      // backgroundColor: "#a4e4dc",
+      // textColor: "#222",
+      backgroundColor: "#222",
+      textColor: "#fff",
       isCloseable: false,
     },
     docs: {

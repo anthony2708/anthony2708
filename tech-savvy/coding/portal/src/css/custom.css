@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 /* Normal */
-:root {
+/* :root {
   --ifm-color-primary: #bb2865;
   --ifm-color-primary-dark: #a8245b;
   --ifm-color-primary-darker: #9f2256;
@@ -25,11 +25,11 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #ffdf6c;
   --ifm-color-primary-lighter: #ffe37c;
   --ifm-color-primary-lightest: #ffedae;
-}
+} */
 
 /* State Funeral */
 
-/* :root {
+:root {
   --ifm-color-primary: #222222;
   --ifm-color-primary-dark: #1f1f1f;
   --ifm-color-primary-darker: #1d1d1d;
@@ -48,7 +48,7 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #ffffff;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
-} */
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
