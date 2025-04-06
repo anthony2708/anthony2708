@@ -16,8 +16,8 @@
 
 .heroBanner {
   /* State Funeral Mode */
-  background-image: url("/public/img/docusaurus/cover_dark.png");
-  /* background-image: url("/public/img/docusaurus/cover.png"); */
+  /* background-image: url("/public/img/docusaurus/cover_dark.png"); */
+  background-image: url("/public/img/docusaurus/cover.png");
 }
 
 .scoreboard {
