@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, passthroughImageService } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
@@ -10,7 +10,9 @@ import starlightSidebarTopics from 'starlight-sidebar-topics';
 export default defineConfig({
   // base: 'anthony2708',
   site: 'https://www.builetuananh.name.vn',
-
+  image: {
+	service: passthroughImageService(),
+  },
   integrations: [starlight({
 	plugins: [
 		// catppuccin({ dark: 'mocha-yellow', light: 'latte-green' }),
