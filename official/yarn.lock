@@ -4197,10 +4197,10 @@ space-separated-tokens@^2.0.0:
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
-starlight-image-zoom@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.11.1.tgz#e6f6ea03677961f4512b54c421b7492309328c83"
-  integrity sha512-TmnAyS+MWWV6h1fjuezrMFA36REd+7QzcjDFFFyC4ws5FDMoHsjQn0MlHM0cUaHEKfQ9y1PpL9LijCvRFuGbuw==
+starlight-image-zoom@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.12.0.tgz#0c6ae7496e67ae5d6689997e60fe434da14d0e07"
+  integrity sha512-Zt9DuqXEw4JBBRc67wL9EP7DE9cSa+o2nyjQU6Xq+gRp388Wcu9C9FPROLuaYXbxpE93bbj5oyrhhMaiEWOZzg==
   dependencies:
     mdast-util-mdx-jsx "^3.1.3"
     rehype-raw "^7.0.0"
