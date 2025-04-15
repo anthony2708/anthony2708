@@ -69,15 +69,16 @@ export default defineConfig({
 		replacesTitle: true
     },
     favicon: './favicon.png',
-    social: {
-		facebook: 'https://www.facebook.com/buile.tuananh',
-		instagram: 'https://www.instagram.com/yourlove.anthony2708/',
-		linkedin: 'https://www.linkedin.com/in/anthony2708/',
-		github: 'https://github.com/anthony2708',
-		youtube: 'https://www.youtube.com/@yourlove.anthony2708',
-		bitbucket: 'https://bitbucket.org/19120163/',
-		email: 'mailto:builetuananh2708@gmail.com'
-	},
+    social: [
+		{icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/buile.tuananh'},
+		{icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/yourlove.anthony2708/'},
+		{icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/anthony2708/'},
+		{icon: 'github', label: 'Github', href: 'https://github.com/anthony2708'},
+		{icon: 'youtube', label: 'Youtube', href: 'https://www.youtube.com/@yourlove.anthony2708'},
+		{icon: 'bitbucket', label: 'Bitbucket', href: 'https://bitbucket.org/19120163/'},
+		{icon: 'email', label: 'Email', href: 'mailto:builetuananh2708@gmail.com'},
+		{icon: 'phone', label: 'Phone', href: 'tel:+84937826135'},
+	],
     defaultLocale: 'root',
 		locales: {
 			root: {
