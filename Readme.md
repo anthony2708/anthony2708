@@ -36,7 +36,7 @@
       <td>📮 Contact</td>
       <td>
         <ul>
-          <li>Social media:
+          <li>Social:
             <a href="https://www.facebook.com/buile.tuananh"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/facebook.svg"></a>
             <a href="https://www.instagram.com/yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg"></a>
             <a href="https://www.github.com/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg"></a>
@@ -57,4 +57,4 @@
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthony2708&layout=compact&langs_count=10&card_width=445&theme=dracula" alt="Language Stats" /></p>
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com?user=anthony2708&theme=dracula" alt="GitHub Streak" /></p>
+<p align="center"><img src="https://streak-stats.demolab.com?user=anthony2708&theme=dracula" alt="GitHub Streak" /></p>
