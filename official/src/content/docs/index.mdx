@@ -21,7 +21,36 @@ hero:
       icon: open-book
 ---
 
-import { LinkButton, Icon } from '@astrojs/starlight/components';
+import { LinkButton, Icon, CardGrid, Card } from '@astrojs/starlight/components';
+
+## Dịch vụ - Services
+
+<CardGrid>
+  <Card title="Quản trị máy chủ - Server Administration" icon="linux">
+    _Quản trị máy chủ Linux, Windows, cài đặt và cấu hình các dịch vụ: Web, Mail, DNS, VPN, Proxy, Firewall..._
+    <LinkButton href="https://www.fiverr.com/s/zW2qlGe" variant="primary" icon="random">
+      Xem chi tiết - Details
+    </LinkButton>
+  </Card>
+  <Card title="Bản ghi thư điện tử - Email DNS" icon="email">
+    _Hỗ trợ thiết lập các bản ghi DNS: SPF, DKIM, DMARC cho các tên miền, phục vụ gửi thư điện tử._
+    <LinkButton href="https://www.fiverr.com/s/ak82oXW" variant="primary" icon="random">
+      Xem chi tiết - Details
+    </LinkButton>
+  </Card>
+  <Card title="Hỗ trợ kỹ thuật - Helpdesk Services" icon="seti:windows">
+    _Hỗ trợ kỹ thuật, cài đặt và khắc phục cho các vấn đề liên quan đến máy tính, dịch vụ, ứng dụng._
+    <LinkButton href="https://www.fiverr.com/s/kLvNbNw" variant="primary" icon="random">
+      Xem chi tiết - Details
+    </LinkButton>
+  </Card>
+  <Card title="OpenVPN" icon="seti:lock">
+    _Hỗ trợ cài đặt OpenVPN cho máy chủ trực tiếp hoặc qua Docker._
+    <LinkButton href="https://www.fiverr.com/s/WEmxdqQ" variant="primary" icon="random">
+      Xem chi tiết - Details
+    </LinkButton>
+  </Card>
+</CardGrid>
 
 ## Trạng thái - Status
 
@@ -32,7 +61,7 @@ import { LinkButton, Icon } from '@astrojs/starlight/components';
 
 <LinkButton 
   href="https://status.builetuananh.name.vn"
-  variant="secondary"
+  variant="primary"
   icon="random">
 Xem chi tiết - Details
 </LinkButton>
