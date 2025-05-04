@@ -4510,10 +4510,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.25.tgz#f077fdc0b5d0078d30893396ff4827a13f99e817"
   integrity sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==
 
-"@prisma/client@^6.6.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.6.0.tgz#21e8cf507091b6cffc8453970f782cb6adef0004"
-  integrity sha512-vfp73YT/BHsWWOAuthKQ/1lBgESSqYqAWZEYyTdGXyFAHpmewwWL2Iz6ErIzkj4aHbuc6/cGSsE6ZY+pBO04Cg==
+"@prisma/client@^6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.7.0.tgz#69f913b0a8cfb6aa5de5dca6aa57bfd4e91e7e95"
+  integrity sha512-+k61zZn1XHjbZul8q6TdQLpuI/cvyfil87zqK2zpreNIXyXtpUv3+H/oM69hcsFcZXaokHJIzPAt5Z8C8eK2QA==
 
 "@prisma/config@6.6.0":
   version "6.6.0"
@@ -4971,6 +4971,13 @@
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.4.tgz#7eb47726c391b7345a6ec35ad7f4de469cf5ba4f"
   integrity sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==
+
+"@types/http-proxy@^1.17.15":
+  version "1.17.16"
+  resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.16.tgz#dee360707b35b3cc85afcde89ffeebff7d7f9240"
+  integrity sha512-sdWoUajOB1cd0A8cRRQ1cfyWNbmFKLAqBB89Y8x5iYyG/mkJHc0YUH8pdWBy2omi9qtCpiIgGjuwO0dQST2l5w==
+  dependencies:
+    "@types/node" "*"
 
 "@types/http-proxy@^1.17.8":
   version "1.17.14"
@@ -7437,7 +7444,7 @@ debug@2.6.9, debug@^2.6.0:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.4.0, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.4:
+debug@4, debug@4.4.0, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.4, debug@^4.3.6:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.0.tgz#2b3f2aea2ffeb776477460267377dc8710faba8a"
   integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
@@ -9785,6 +9792,18 @@ http-proxy-middleware@2.0.9, http-proxy-middleware@^2.0.3:
     is-plain-obj "^3.0.0"
     micromatch "^4.0.2"
 
+http-proxy-middleware@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-3.0.5.tgz#9dcde663edc44079bc5a9c63e03fe5e5d6037fab"
+  integrity sha512-GLZZm1X38BPY4lkXA01jhwxvDoOkkXqjgVyUzVxiEK4iuRu03PZoYHhHRwxnfhQMDuaxi3vVri0YgSro/1oWqg==
+  dependencies:
+    "@types/http-proxy" "^1.17.15"
+    debug "^4.3.6"
+    http-proxy "^1.18.1"
+    is-glob "^4.0.3"
+    is-plain-object "^5.0.0"
+    micromatch "^4.0.8"
+
 http-proxy@1.18.1, http-proxy@^1.18.1:
   version "1.18.1"
   resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
@@ -10357,6 +10376,11 @@ is-plain-object@^2.0.4:
   integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
   dependencies:
     isobject "^3.0.1"
+
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
 
 is-reference@^3.0.0:
   version "3.0.2"
