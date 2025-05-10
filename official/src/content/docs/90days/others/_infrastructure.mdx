@@ -14,3 +14,94 @@ giảm thiểu những sai lệch không đáng có._
 _Bài viết dưới đây sẽ giúp bạn có cái nhìn tổng quan về IaC, cũng như những công cụ phổ biến nhất hiện nay, trong
 đó có Terraform._
 
+### Tính thân thiện với con người
+
+**_Đây là một quy trình thực hiện các tác vụ khởi tạo liên quan đến máy chủ._**
+
+<Steps>
+1. _Triển khai máy ảo. Trước khi có công nghệ ảo hóa thì sẽ là các máy chủ vật lý và cài đặt hệ điều hành_
+2. _Cài đặt, cấu hình mạng_
+3. _Cài đặt, cấu hình bảng định tuyến_
+4. _Cài đặt các phần mềm, thư viện cần thiết và cập nhật chúng_
+5. _Cấu hình phần mềm_
+6. _Cài đặt cơ sở dữ liệu_
+</Steps>
+
+_Trước đây, một kỹ sư hệ thống sẽ phải thực hiện tất cả các bước trên bằng tay. Điều này dẫn đến việc có thể xảy ra
+những sai sót trong quá trình thực hiện, và nếu có nhiều máy chủ thì việc này sẽ rất tốn thời gian. Hơn nữa, việc thực hiện 
+thủ công không đảm bảo tính nhất quán giữa các máy chủ, dẫn đến khó khăn trong việc quản lý và bảo trì._
+
+**_Cụ thể những tác vụ sau đây sẽ được thực hiện bằng tay trong quá trình bảo trì._**
+
+<Steps>
+1. _Cập nhật các phiên bản mới_
+2. _Triển khai các phiên bản mới này_
+3. _Quản lý dữ liệu_
+4. _Khôi phục ứng dụng nếu có sự cố_
+5. _Loại bỏ, thêm/bớt và mở rộng các máy chủ, tài nguyên phần cứng trong trường hợp cần thiết_
+6. _Cấu hình mạng_
+</Steps>
+
+_Nếu những việc này lặp đi lặp lại cho nhiều môi trường khác nhau thì sẽ là một **cơn ác mộng**._
+
+_**Cơ sở hạ tầng dưới dạng mã (IaC)** là một giải pháp giúp tự động hóa các tác vụ này. Chúng ta có thể viết mã nguồn và
+chả cần phải quan tâm đến việc triển khai nó như thế nào, dịch vụ có tên là gì. Cứ theo đúng mã nguồn mà chạy thôi._
+
+_IaC được sử dụng ở hầu hết mọi nền tảng, công nghệ ảo hóa, công nghệ điện toán đám mấy và công nghệ ứng dụng khai thác 
+lợi ích của điện toán đám mây (Cloud Native) như Kubernetes hay containers._
+
+### Khởi tạo hạ tầng
+
+_Trên thực tế, có rất nhiều công cụ khác nhau để thực hiện IaC. Một số công cụ phổ biến nhất hiện nay là **Terraform,
+Ansible, Chef, Puppet,...** Các công cụ này sẽ có thể thực hiện những tác vụ như sau._
+
+<Steps>
+1. _Khởi tạo máy chủ mới_
+2. _Cấu hình mạng máy tính_
+3. _Cấu hình bộ cân bằng tải ứng dụng_
+4. _**Cấu hình ở mức hạ tầng**: Bao gồm việc cài đặt các ứng dụng, phần mềm theo yêu cầu lên máy chủ 
+(các phần mềm để chạy được ứng dụng, Ví dụ: Python, Go...) và chuẩn bị hàng loạt máy chủ để triển khai ứng dụng 
+(lặp lại các bước trên trên rất nhiều máy chủ)._
+</Steps>
+
+#### Triển khai phần mềm
+
+_Sau khi bốn bước trên được thực hiện, chúng ta sẽ có một hạ tầng hoàn chỉnh để triển khai ứng dụng. Các ứng dụng
+sẽ được triển khai theo quy trình sau._
+
+<Steps>
+1. _Triển khai, quản lý ứng dụng (bao gồm ứng dụng, thư viện hỗ trợ)_
+2. _Bảo trì ứng dụng_
+3. _Cập nhật phần mềm (cũng có thể là các thư viện phụ thuộc)_
+4. _Xác định lại cấu hình trong trường hợp cần thiết_
+</Steps>
+
+#### Phân loại các công cụ IaC
+
+**_Có thể phân loại các công cụ IaC thành hai loại chính như sau._**
+
+<Steps>
+1. _**Công cụ IaC theo dạng Khai báo (Declarative IaC)**: Là những công cụ mà bạn chỉ cần khai báo trạng thái mong muốn 
+của hạ tầng, và công cụ sẽ tự động thực hiện các bước cần thiết để đạt được trạng thái đó. 
+**Ví dụ**: Terraform, CloudFormation._
+2. _**Công cụ IaC theo dạng Trình tự (Procedual IaC)**: Là những công cụ mà bạn cần chỉ định từng bước cụ thể để đạt 
+được trạng thái mong muốn. Ví dụ: **Ansible, Chef, Puppet**._
+</Steps>
+
+_Các công cụ này có thể tạo ra các tệp cấu hình cho các tài nguyên hạ tầng khác nhau, những tài nguyên có thể có những 
+yếu tố sau._
+
+<Steps>
+1. _**Tính khả biến**: Có thể thay đổi cấu hình, thêm bớt tài nguyên. Vòng đời lâu dài._
+2. _**Tính bất biến**: Không thay đổi cấu hình, không thể thay đổi tài nguyên, chỉ có xóa bỏ/tạo mới. Vòng đời ngắn._
+</Steps>
+
+_Ví dụ điển hình là xô S3 của AWS. Chúng ta có thể tạo ra một xô S3 với tên là `bucket-1`, **không thể thay đổi tên** 
+của nó, nhưng **có thể thay đổi nhãn** (tag) của nó. Còn nếu so với bản ảnh container, chúng ta chỉ có thể **thay mới 
+bản ảnh** sau khi cập nhật mã nguồn._
+
+> **_Không có công cụ nào là tốt nhất, mà chỉ có công cụ phù hợp nhất với nhu cầu của bạn._**
+
+_Nếu bạn muốn khởi đầu với IaC, hãy bắt đầu với Terraform. Đây là một công cụ mã nguồn mở, dễ sử dụng và có cộng đồng lớn.
+Có rất nhiều tài liệu và hướng dẫn ở đường dẫn phía dưới để bạn có thể tham khảo. Tất nhiên chúng ta sẽ không thể đi sâu
+vào Terraform vì thời gian không cho phép. Nhưng hy vọng bạn sẽ tìm thấy những thông tin hữu ích trong bài viết này._
