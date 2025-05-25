@@ -1,21 +1,21 @@
 // Normal color: Ocean
 
-// import starlightPlugin from '@astrojs/starlight-tailwind';
+import starlightPlugin from '@astrojs/starlight-tailwind';
 
-// // Generated color palettes
-// const accent = { 200: '#92d1fe', 600: '#0073aa', 900: '#003653', 950: '#00273d' };
-// const gray = { 100: '#f3f7f9', 200: '#e7eff2', 300: '#bac4c8', 400: '#7b8f96', 500: '#495c62', 700: '#2a3b41', 800: '#182a2f', 900: '#121a1c' };
+// Generated color palettes
+const accent = { 200: '#92d1fe', 600: '#0073aa', 900: '#003653', 950: '#00273d' };
+const gray = { 100: '#f3f7f9', 200: '#e7eff2', 300: '#bac4c8', 400: '#7b8f96', 500: '#495c62', 700: '#2a3b41', 800: '#182a2f', 900: '#121a1c' };
 
-// /** @type {import('tailwindcss').Config} */
-// export default {
-// 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-// 	theme: {
-// 		extend: {
-// 			colors: { accent, gray },
-// 		},
-// 	},
-// 	plugins: [starlightPlugin()],
-// };
+/** @type {import('tailwindcss').Config} */
+export default {
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	theme: {
+		extend: {
+			colors: { accent, gray },
+		},
+	},
+	plugins: [starlightPlugin()],
+};
 
 // Lunar New Year: Pink (Peach blossom - Contrast AAA)
 
@@ -37,19 +37,19 @@
 // };
 
 // State Funeral: Black (Black - Contrast AAA)
-import starlightPlugin from '@astrojs/starlight-tailwind';
+// import starlightPlugin from '@astrojs/starlight-tailwind';
 
-// Generated color palettes
-const accent = { 200: '#c8c8c8', 600: '#4e4e4e', 900: '#323232', 950: '#242424' };
-const gray = { 100: '#f5f6f8', 200: '#ebeef2', 300: '#bec2c7', 400: '#858c96', 500: '#525961', 700: '#323941', 800: '#21272f', 900: '#16181c' };
+// // Generated color palettes
+// const accent = { 200: '#c8c8c8', 600: '#4e4e4e', 900: '#323232', 950: '#242424' };
+// const gray = { 100: '#f5f6f8', 200: '#ebeef2', 300: '#bec2c7', 400: '#858c96', 500: '#525961', 700: '#323941', 800: '#21272f', 900: '#16181c' };
 
-/** @type {import('tailwindcss').Config} */
-export default {
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-	theme: {
-		extend: {
-			colors: { accent, gray },
-		},
-	},
-	plugins: [starlightPlugin()],
-};
+// /** @type {import('tailwindcss').Config} */
+// export default {
+// 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+// 	theme: {
+// 		extend: {
+// 			colors: { accent, gray },
+// 		},
+// 	},
+// 	plugins: [starlightPlugin()],
+// };

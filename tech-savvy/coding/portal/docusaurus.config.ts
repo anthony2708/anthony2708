@@ -105,7 +105,7 @@ const config: Config = {
           },
           {
             tagName: 'meta',
-            name: 'apple-mobile-web-app-capable',
+            name: 'mobile-web-app-capable',
             content: 'yes',
           },
           {
@@ -172,12 +172,12 @@ const config: Config = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        "⭐ <b>Thông báo</b>: Quốc tang Nguyên Chủ tịch nước Trần Đức Lương (Từ ngày 24-25/05/2025) (State Funeral for former President Tran Duc Luong from May 24-25, 2025) ⭐",
-        // "⭐ <b>Thông báo</b>: Theo dõi series 90 ngày DevOps trên website <b>www.builetuananh.name.vn</b> (Catch up with 90Days on our official website.) ⭐",
-      // backgroundColor: "#a4e4dc",
-      // textColor: "#222",
-      backgroundColor: "#222",
-      textColor: "#fff",
+        // "⭐ <b>Thông báo</b>: Quốc tang Nguyên Chủ tịch nước Trần Đức Lương (Từ ngày 24-25/05/2025) (State Funeral for former President Tran Duc Luong from May 24-25, 2025) ⭐",
+        "⭐ <b>Thông báo</b>: Theo dõi series 90 ngày DevOps trên website <b>www.builetuananh.name.vn</b> (Catch up with 90Days on our official website.) ⭐",
+      backgroundColor: "#a4e4dc",
+      textColor: "#222",
+      // backgroundColor: "#222",
+      // textColor: "#fff",
       isCloseable: false,
     },
     docs: {
