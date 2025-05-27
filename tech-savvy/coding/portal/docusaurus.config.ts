@@ -12,6 +12,11 @@ const config: Config = {
   staticDirectories: ["public"],
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  // future: {
+  //   // Remove this to disable the warning about the future config
+  //   v4: true,
+  //   experimental_faster: true
+  // },
   favicon: "img/favicon/favicon.jpg",
   organizationName: "anthony2708", // Usually your GitHub org/user name.
   projectName: "anthony2708", // Usually your repo name.
