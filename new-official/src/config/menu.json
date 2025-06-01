@@ -1,0 +1,61 @@
+{
+  "main": [
+    {
+      "name": "Trang chủ",
+      "url": "/"
+    },
+    {
+      "name": "Giới thiệu",
+      "url": "/about"
+    },
+    {
+      "name": "Liên hệ",
+      "url": "/contact"
+    },
+    {
+      "name": "Trang",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Tác giả",
+          "url": "/authors"
+        },
+        {
+          "name": "Danh mục",
+          "url": "/categories"
+        },
+        {
+          "name": "Thẻ",
+          "url": "/tags"
+        },
+        {
+          "name": "Mẫu",
+          "url": "/elements"
+        },
+        {
+          "name": "Chính sách bảo vệ",
+          "url": "/privacy-policy"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Giới thiệu",
+      "url": "/about"
+    },
+    {
+      "name": "Liên hệ",
+      "url": "/contact"
+    },
+    {
+      "name": "Mẫu",
+      "url": "/elements"
+    },
+    {
+      "name": "Chính sách bảo vệ",
+      "url": "/privacy-policy"
+    }
+  ]
+}

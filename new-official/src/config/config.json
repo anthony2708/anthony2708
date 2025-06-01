@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Trang chủ | Anthony Bùi Lê Tuấn Anh",
+    "base_url": "https://bookworm-light-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "Bookworm Light"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Anthony Bùi Lê Tuấn Anh",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Trang chủ - Anthony Bùi Lê Tuấn Anh"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "© Bản quyền thuộc về [Anthony Bùi Lê Tuấn Anh](https://www.builetuananh.name.vn). Thực hiện năm 2025"
+  },
+
+  "contactinfo": {
+    "address": "",
+    "email": "builetuananh2708@gmail.com",
+    "phone": "+84 937 826 135"
+  }
+}

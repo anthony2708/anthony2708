@@ -4,7 +4,9 @@ import tailwind from "@astrojs/tailwind";
 import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
 import starlightSidebarTopics from 'starlight-sidebar-topics';
+// import starlightBlog from 'starlight-blog'
 // import catppuccin from "starlight-theme-catppuccin";
+import starlightCoolerCredit from 'starlight-cooler-credit'
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,17 +15,39 @@ export default defineConfig({
   image: {
 	service: passthroughImageService(),
   },
+  redirects: {
+	'/': '/home',
+  },
   integrations: [starlight({
 	plugins: [
 		// catppuccin({ dark: 'mocha-yellow', light: 'latte-green' }),
+		// starlightBlog(),
+		starlightCoolerCredit({
+			// credit: 'Made with ❤️ by Anthony Bùi Lê Tuấn Anh',
+			credit: {
+				title: '© Copyright 2025',
+				href: 'https://www.builetuananh.name.vn',
+				description: 'Bản quyền thuộc về Bùi Lê Tuấn Anh. Thực hiện năm 2025',
+			}
+		}),
 		starlightImageZoom({
 			showCaptions: false
 		}),
 		starlightSidebarTopics([
 			{
 				label: "Trang chủ",
-				link: '/',
+				link: '/home',
 				icon: 'heart',
+				items: [
+					{
+						label: "🌟 Giao diện mới!",
+						items: ['home']
+					}, 
+					{
+						label: "Thử nghiệm Giao diện 2026",
+						link: 'https://beta.builetuananh.name.vn',
+					}
+				]
 			},
 			{
 				label: "Wiki & Resources",
@@ -36,7 +60,7 @@ export default defineConfig({
 				icon: 'confluence',
 				items:[
 					{
-						label: 'Trang nhà',
+						label: 'Giới thiệu',
 						items: ['90days'],
 					},
 					{ 
@@ -137,5 +161,5 @@ export default defineConfig({
 	}),
 	tailwind({
 		applyBaseStyles: false,
-  	})
+  	}),
 ],});
