@@ -84,7 +84,9 @@ export default defineConfig({
 				link: 'https://status.builetuananh.name.vn',
 				icon: 'random',
 			}
-		])
+		],{
+		exclude: ['/blog/test'],}
+	)
 	],
     title: "Anthony Bùi Lê Tuấn Anh",
     customCss: ['./src/tailwind.css'],
