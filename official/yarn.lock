@@ -7,6 +7,13 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
+"@astro-community/astro-embed-youtube@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@astro-community/astro-embed-youtube/-/astro-embed-youtube-0.5.6.tgz#f0e8cf1f45c64b7c14ba6b8bd6c848d5e0e8a011"
+  integrity sha512-/mRfCl/eTBUz0kmjD1psOy0qoDDBorVp0QumUacjFcIkBullYtbeFQ2ZGZ+3N/tA6cR/OIyzr2QA4dQXlY6USg==
+  dependencies:
+    lite-youtube-embed "^0.3.3"
+
 "@astrojs/check@^0.9.4":
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.9.4.tgz#6a5310eca7ba57c8f3bd65c8ea0c7be79106c30f"
@@ -2852,6 +2859,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+iso8601-duration@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/iso8601-duration/-/iso8601-duration-2.1.2.tgz#b13f14068fe5890c91b91e1f74e474a49f355028"
+  integrity sha512-yXteYUiKv6x8seaDzyBwnZtPpmx766KfvQuaVNyPifYOjmPdOo3ajd4phDNa7Y5mTQGnXsNEcXFtVun1FjYXxQ==
+
 jackspeak@^3.1.2:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-3.4.3.tgz#8833a9d89ab4acde6188942bd1c53b6390ed5a8a"
@@ -2912,6 +2924,11 @@ lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
+lite-youtube-embed@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/lite-youtube-embed/-/lite-youtube-embed-0.3.3.tgz#2d9885c8f9c56eea4690cfe8bb44149630317815"
+  integrity sha512-gFfVVnj6NRjxVfJKo3qoLtpi0v5mn3AcR4eKD45wrxQuxzveFJUb+7Cr6uV6n+DjO8X3p0UzPPquhGt0H/y+NA==
 
 lodash@4.17.21:
   version "4.17.21"
@@ -4519,6 +4536,11 @@ space-separated-tokens@^2.0.0:
   resolved "https://registry.yarnpkg.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz#1ecd9d2350a3844572c3f4a312bceb018348859f"
   integrity sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==
 
+srt-parser-2@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/srt-parser-2/-/srt-parser-2-1.2.3.tgz#54bf41b8bb576471ae1f92f156e3e29e3aa7873d"
+  integrity sha512-dANP1AyJTI503H0/kXwRza+7QxDB3BqeFvEKTF4MI9lQcBe8JbRUQTKVIGzGABJCwBovEYavZ2Qsdm/s8XKz8A==
+
 starlight-blog@^0.23.2:
   version "0.23.2"
   resolved "https://registry.yarnpkg.com/starlight-blog/-/starlight-blog-0.23.2.tgz#5715fb415eaa4055c2c37a56b1a348c43e4dd405"
@@ -4565,6 +4587,17 @@ starlight-theme-catppuccin@^2.0.0:
   integrity sha512-bc7Rx6z6arTN7qykavedUiuhtAMcwBv/Hg3M36mk/AYFoDa890lJ7aKuUxVr0pxpnDm8sWvKEf+XyFyc/HjJlw==
   dependencies:
     "@astrojs/starlight" "^0.30.0"
+
+starlight-videos@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/starlight-videos/-/starlight-videos-0.3.0.tgz#cc064701eaea93f140317e469c46d62d336f2717"
+  integrity sha512-1yvFUEn3P+ZjuGr5COswQp14cZdIvsGjg9lqDIyW5clCrZaBiDMSNPLYngyQozaDbrublEp6/V9HbJR6sGnSOA==
+  dependencies:
+    "@astro-community/astro-embed-youtube" "^0.5.6"
+    hastscript "^9.0.0"
+    iso8601-duration "^2.1.2"
+    srt-parser-2 "^1.2.3"
+    unist-util-visit "^5.0.0"
 
 stream-replace-string@^2.0.0:
   version "2.0.0"

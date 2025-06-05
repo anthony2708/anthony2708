@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 import starlightImageZoom from 'starlight-image-zoom';
 import starlightSidebarTopics from 'starlight-sidebar-topics';
 // import starlightBlog from 'starlight-blog'
+// import starlightVideos from 'starlight-videos'
 // import catppuccin from "starlight-theme-catppuccin";
 import starlightCoolerCredit from 'starlight-cooler-credit'
 
@@ -22,6 +23,7 @@ export default defineConfig({
 	plugins: [
 		// catppuccin({ dark: 'mocha-yellow', light: 'latte-green' }),
 		// starlightBlog(),
+		// starlightVideos(),
 		starlightCoolerCredit({
 			// credit: 'Made with ❤️ by Anthony Bùi Lê Tuấn Anh',
 			credit: {
@@ -85,9 +87,8 @@ export default defineConfig({
 				icon: 'random',
 			}
 		],{
-		exclude: ['/blog/test'],}
-	)
-	],
+		// exclude: ['/videos','/videos/**/*'],
+	})],
     title: "Anthony Bùi Lê Tuấn Anh",
     customCss: ['./src/tailwind.css'],
     logo: {
