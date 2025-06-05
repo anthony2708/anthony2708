@@ -141,9 +141,9 @@ export default function SearchBar({ searchList }: Props) {
                 {item.data.title}
               </a>
             </h3>
-            <p className="text-text">
+            {/* <p className="text-text">
               {item.content?.slice(0, Number(summary_length))}...
-            </p>
+            </p> */}
           </div>
         ))}
       </div>

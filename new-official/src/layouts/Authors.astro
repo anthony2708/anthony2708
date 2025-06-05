@@ -33,9 +33,9 @@ const { authors } = Astro.props;
             {author.data.title}
           </a>
         </h3>
-        {author.body && (
+        {/* {author.body && (
           <p class="mb-3" set:text={markdownify(author.body.slice(0, 100))} />
-        )}
+        )} */}
 
         <a
           href={`/authors/${author.id}`}
