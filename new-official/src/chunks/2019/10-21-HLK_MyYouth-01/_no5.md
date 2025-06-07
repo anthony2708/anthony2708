@@ -1,6 +1,6 @@
 ## Kỳ 5: 📚BÀI HỌC ĐẦU TIÊN 📚
 
-![HLK_MyYouth 2](../img/HLK7.jpg)
+![HLK_MyYouth 2](../../../../public/images/posts/2019/10-21-HLK_MyYouth-01/HLK7.jpg)
 
 🎵 "Bài học đầu tiên, có bóng hình núi sông
 

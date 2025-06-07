@@ -1,9 +1,9 @@
 ---
 title: Bùi Lê Tuấn Anh
 slug: anthony
-meta_title: ""
+meta_title: "Bùi Lê Tuấn Anh"
 image: https://github.com/anthony2708.png
-description: this is meta description
+description: VNUHCM-ITUS Alumnus/Tech Blog
 social:
   facebook: https://www.facebook.com/buile.tuananh
   instagram: https://www.instagram.com/yourlove.anthony2708

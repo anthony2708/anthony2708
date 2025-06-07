@@ -1,6 +1,6 @@
 ## Kỳ 2: ✉ NHỮNG CÁNH THƯ XUÂN...
 
-![HLK_MyYouth 2](../img/HLK2.jpg)
+![HLK_MyYouth 2](../../../../public/images/posts/2019/10-21-HLK_MyYouth-01/HLK2.jpg)
 
 📆 Ngày 27/01/2019, sự kiện #HLK_LNYCamping cuối cùng trong đời học sinh của tôi. Vẫn như thường lệ, khối chuyên Anh có một sự kiện đồng hành mang tên "Love Confession - Nơi tình yêu lan tỏa", ở đó bất cứ ai cũng có thể gửi những lời yêu thương tới những người xung quanh thông qua những lá thư "ẩn danh" kia. Năm vừa rồi, #HLK_AK23 đảm nhận vai trò "chủ xị" của sự kiện này và điều bất ngờ nhất đã đến với tôi, một trong những thành viên của AK23...
 

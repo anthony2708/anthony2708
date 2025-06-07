@@ -1,6 +1,6 @@
 ## Ngoại truyện: 🔙 XƯA VÀ NAY 🔜
 
-![HLK_MyYouth 3](../img/HLK4.jpg)
+![HLK_MyYouth 3](../../../../public/images/posts/2019/11-07-HLK_MyYouth-02/HLK4.jpg)
 
 🤔 Chắc là mọi người cũng sẽ thắc mắc là tại sao tôi lại lên bài vào một khung giờ đêm. Bởi lẽ đây là những bài viết cuối cùng trong chùm bài viết về ngày Nhà giáo Việt Nam 20/11. Và có lẽ sẽ không có nhiều hơn những bài viết tản mạn như thế này vào dịp này những năm sau đâu, nên tôi muốn biến nó thành những kỉ niệm, những ký ức thật sự vui vẻ trong cuộc đời mà có thể mọi người sẽ không bao giờ quên. Còn bây giờ, tôi sẽ nói về lí do chọn cái tên này cho bài viết của tôi.
 

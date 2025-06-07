@@ -1,6 +1,6 @@
 ## Kỳ 4: 🍁 ƯỚC HẸN MÙA THU 🍁
 
-![HLK_MyYouth](../img/HLK6.jpg)
+![HLK_MyYouth](../../../../public/images/posts/2019/10-21-HLK_MyYouth-01/HLK6.jpg)
 
 👋 Xin chào các bạn, đã đến lúc tôi kể cho các bạn nghe sương sương về lớp tôi - lớp chuyên Anh khóa 23 (2016-2019) của Trường THPT chuyên Hoàng Lê Kha, tỉnh Tây Ninh đây.
 

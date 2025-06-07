@@ -1,6 +1,6 @@
 ## Kỳ 1: 🏫 CÓ MỘT NƠI ĐƯỢC GỌI LÀ NHÀ
 
-![HLK_MyYouth](../img/HLK1.jpg)
+![HLK_MyYouth](../../../../public/images/posts/2019/10-21-HLK_MyYouth-01/HLK1.jpg)
 
 👣 Ở đó, tôi có thể sống hết mình với tuổi trẻ, với những đam mê, khát khao cháy bỏng mà không bị vấn đề cơm áo gạo tiền đặt nặng lên đôi vai mình...
 
