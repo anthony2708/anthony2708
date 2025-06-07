@@ -1,82 +1,33 @@
 ---
-title: Hello, Anthony!
-description: Anthony Bùi Lê Tuấn Anh - Hữu xạ tự nhiên hương
+title: 90 ngày cùng DevOps
+description: Khởi động hành trình lịch sử cùng DevOps.
 template: doc
-slug: docs
+slug: 90days
 tableOfContents: false
-prev: false
-next: false
-banner: 
-  content: <b>90 ngày cùng DevOps đã trở lại với tên miền mới, tại đây! 🏡</b>
-  # content: ⭐ <b>Quốc tang nguyên Chủ tịch nước Trần Đức Lương (24 - 25/05/2025)</b> ⭐
 hero:
-  tagline: ❤ Hữu xạ tự nhiên hương... ❤
+  tagline: Khởi động hành trình lịch sử cùng DevOps
   image:
-    html: '<img src="https://github.com/anthony2708.png" alt="Anthony Bùi Lê Tuấn Anh" style="margin-left: auto; margin-right: auto; border-radius: 50%; width: 250px; height: 250px;"/>'
-  # actions:
-  #   - text: 90 ngày cùng DevOps
-  #     link: /90days
-  #     icon: confluence
-  #   - text: Wiki & Resources
-  #     link: https://github.com/anthony2708/anthony2708/wiki
-  #     icon: document
-  #   - text: Portal/Station
-  #     link: https://portal.builetuananh.name.vn
-  #     icon: open-book
+    file: ../../assets/devops.png
+    alt: DevOps
 ---
 
-import { LinkButton, Icon, CardGrid, Card } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Dịch vụ - Services
+## Theo dõi hành trình
 
-<CardGrid>
-  <Card title="Quản trị máy chủ - Server Administration" icon="linux">
-    _Quản trị máy chủ Linux, Windows, cài đặt và cấu hình các dịch vụ: Web, Mail, DNS, VPN, Proxy, Firewall..._
-    <LinkButton href="https://www.fiverr.com/s/zW2qlGe" variant="primary" icon="random">
-      Xem chi tiết - Details
-    </LinkButton>
-  </Card>
-  <Card title="Bản ghi thư điện tử - Email DNS" icon="email">
-    _Hỗ trợ thiết lập các bản ghi DNS: SPF, DKIM, DMARC cho các tên miền, phục vụ gửi thư điện tử._
-    <LinkButton href="https://www.fiverr.com/s/ak82oXW" variant="primary" icon="random">
-      Xem chi tiết - Details
-    </LinkButton>
-  </Card>
-  <Card title="Hỗ trợ kỹ thuật - Helpdesk Services" icon="seti:windows">
-    _Hỗ trợ kỹ thuật, cài đặt và khắc phục cho các vấn đề liên quan đến máy tính, dịch vụ, ứng dụng._
-    <LinkButton href="https://www.fiverr.com/s/kLvNbNw" variant="primary" icon="random">
-      Xem chi tiết - Details
-    </LinkButton>
-  </Card>
-  <Card title="OpenVPN" icon="seti:lock">
-    _Hỗ trợ cài đặt OpenVPN cho máy chủ trực tiếp hoặc qua Docker._
-    <LinkButton href="https://www.fiverr.com/s/WEmxdqQ" variant="primary" icon="random">
-      Xem chi tiết - Details
-    </LinkButton>
-  </Card>
+<CardGrid stagger>
+	<Card title="Ghi chép" icon="pencil">
+		_Một quyển sổ tay và một chiếc bút để ghi chép những điều quan trọng như vẽ một vòng tròn vô cực hay đơn giản là 
+		một sơ đồ cực kỳ vô tri._
+	</Card>
+	<Card title="Góp ý" icon="add-document">
+		_Tham khảo khắp nơi, làm khó chủ nhân trang web, để họ đau đầu suy nghĩ và giúp bạn giải ngố._
+	</Card>
+	<Card title="Cấu hình" icon="setting">
+		_Một chiếc laptop/PC có đủ phần mềm cần thiết và một tách cà phê để tạo ra một môi trường đậm chất IT, luôn thiếu
+		ngủ trong mọi hoàn cảnh._
+	</Card>
+	<Card title="Tài liệu" icon="open-book">
+		_Đọc tài liệu và thực hành theo hướng dẫn, đặc biệt không ngừng hỏi ngốc, càng ngốc càng tốt._
+	</Card>
 </CardGrid>
-
-## Trạng thái - Status
-
-|   Trang   | Thời gian | Tỷ lệ |
-|:---------:|:---------:|-------|
-|   Home    |![Time](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanthony2708%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fapi%2Fmain-website%2Fresponse-time.json)|![Rate](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanthony2708%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fapi%2Fmain-website%2Fuptime.json)|
-|  Station  |![Time](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanthony2708%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fapi%2Fservice-portal%2Fresponse-time.json)|![Rate](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fanthony2708%2Fstatus%2Frefs%2Fheads%2Fmaster%2Fapi%2Fservice-portal%2Fuptime.json)|
-
-<LinkButton 
-  href="https://status.builetuananh.name.vn"
-  variant="primary"
-  icon="random">
-Xem chi tiết - Details
-</LinkButton>
-
-{/* ## Mạng xã hội - Social
-<LinkButton href="https://facebook.com/buile.tuananh" icon="facebook">Facebook</LinkButton>
-<LinkButton href="https://instagram.com/yourlove.anthony2708" icon="instagram">Instagram</LinkButton>
-<LinkButton href="https://linkedin.com/in/anthony2708" icon="linkedin">Linkedin</LinkButton>
-<LinkButton href="https://github.com/anthony2708" icon="github">Github</LinkButton>
-<LinkButton href="https://youtube.com/@yourlove.anthony2708" icon="youtube">Youtube</LinkButton>
-<LinkButton href="mailto:builetuananh2708@gmail.com" icon="email">Email</LinkButton> */}
-
-
-© **Bản quyền thuộc về [Bùi Lê Tuấn Anh](https://www.builetuananh.name.vn). Thực hiện năm 2025.**

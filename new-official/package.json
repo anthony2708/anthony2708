@@ -19,6 +19,7 @@
     "@tailwindcss/vite": "^4.1.7",
     "astro": "5.8.0",
     "astro-auto-import": "^0.4.4",
+    "astro-expressive-code": "^0.41.2",
     "astro-font": "^1.1.0",
     "date-fns": "^4.1.0",
     "fuse.js": "^7.1.0",
@@ -29,6 +30,8 @@
     "react-icons": "^5.5.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
+    "starlight-cooler-credit": "^0.4.0",
+    "starlight-image-zoom": "^0.12.0",
     "vite": "^6.3.5"
   },
   "devDependencies": {
