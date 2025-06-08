@@ -29,10 +29,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.10.4.tgz#883e469600d06d101d77829c91c4215b270cd503"
   integrity sha512-86B3QGagP99MvSNwuJGiYSBHnh8nLvm2Q1IFI15wIUJJsPeQTO3eb2uwBmrqRsXykeR/mBzH8XCgz5AAt1BJrQ==
 
-"@astrojs/compiler@^2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.11.0.tgz#4f9d92c64848bcf0d2ff6e7fd0dc3ce47caa0cd2"
-  integrity sha512-zZOO7i+JhojO8qmlyR/URui6LyfHJY6m+L9nwyX5GiKD78YoRaZ5tzz6X0fkl+5bD3uwlDHayf6Oe8Fu36RKNg==
+"@astrojs/compiler@^2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.12.1.tgz#5939988a6961b222f89562863b6b3dff00fa9ae9"
+  integrity sha512-WDSyVIiz7sNcJcCJxJFITu6XjfGhJ50Z0auyaWsrM+xb07IlhBLFtQuDkNy0caVHWNcKTM2LISAaHhgkRqGAVg==
 
 "@astrojs/internal-helpers@0.6.0":
   version "0.6.0"
@@ -1590,12 +1590,12 @@ astro-remote@^0.3.3:
     marked-smartypants "^1.1.6"
     ultrahtml "^1.5.3"
 
-astro@^5.8.1:
-  version "5.8.1"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.8.1.tgz#4945dfc4da4aeed4932ee1b119ab1aeaabc627ce"
-  integrity sha512-lkBg1smMRFW+FQ6i92SgEN53o4+ItRjlRt6Ck+rEjmTcb57Bid7faTNKUQNYuNnxiesTWw3NJDyVPQPbfKDyfw==
+astro@^5.9.1:
+  version "5.9.1"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.9.1.tgz#8fa74fadac97f149a15a59ea7e8a74faf5174a2c"
+  integrity sha512-wxoJcTbuDZNFSv6EaL0PAlrp0Wx6VnOAULCXvy0scsV70oWMeUkdxuBxfO54JxO5Qgyvwj9h99y6E0elqOpGtA==
   dependencies:
-    "@astrojs/compiler" "^2.11.0"
+    "@astrojs/compiler" "^2.12.1"
     "@astrojs/internal-helpers" "0.6.1"
     "@astrojs/markdown-remark" "6.3.2"
     "@astrojs/telemetry" "3.3.0"
@@ -4541,10 +4541,10 @@ srt-parser-2@^1.2.3:
   resolved "https://registry.yarnpkg.com/srt-parser-2/-/srt-parser-2-1.2.3.tgz#54bf41b8bb576471ae1f92f156e3e29e3aa7873d"
   integrity sha512-dANP1AyJTI503H0/kXwRza+7QxDB3BqeFvEKTF4MI9lQcBe8JbRUQTKVIGzGABJCwBovEYavZ2Qsdm/s8XKz8A==
 
-starlight-blog@^0.23.2:
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/starlight-blog/-/starlight-blog-0.23.2.tgz#5715fb415eaa4055c2c37a56b1a348c43e4dd405"
-  integrity sha512-ymyCOsohNb7xomYEL0+S6kV+RWE8uN3FJs6IqgKu2+930nt31zem+NYTCu81BO1wIXx3aF/qPK04RWLZ3wXhIg==
+starlight-blog@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/starlight-blog/-/starlight-blog-0.24.0.tgz#96be49a5858f842208bb77cab7373359e6a7bafa"
+  integrity sha512-judPLTD+hyeKyiX//0x6adcOs4QR3EqmNxzFJNP+2sauUDA/ux1CS+wNzwMkHAadxdCir13rj9YsA3l8X0h9fQ==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.0.8"
@@ -4554,7 +4554,7 @@ starlight-blog@^0.23.2:
     marked "^15.0.4"
     marked-plaintify "^1.1.1"
     mdast-util-mdx-expression "^2.0.1"
-    ultrahtml "^1.5.3"
+    ultrahtml "^1.6.0"
     unist-util-visit "^5.0.0"
 
 starlight-cooler-credit@^0.4.0:
