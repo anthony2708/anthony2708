@@ -3,7 +3,7 @@
 Tôi viết những dòng này, hai năm sau cái buổi lễ ấy, kể lại những điều chưa từng kể,
 về sự thay đổi so với hai năm trước...
 
-![Regular Stories](../img/may.jpg)
+![Regular Stories](../../../../public/images/posts/2021/05-23-RegularStories-2021/may.jpg)
 
 ### 3 mùa tri ân
 

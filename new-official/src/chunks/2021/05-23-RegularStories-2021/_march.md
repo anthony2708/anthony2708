@@ -2,7 +2,7 @@
 
 Có đôi lần, bạn từng hỏi bản thân những câu như: Bạn là ai?, Bạn đang làm gì cho cuộc đời của mình?, Bạn có đang chọn đúng con đường mà mình đi???, vân vân..., rất nhiều câu hỏi khiến chúng ta trăn trở không biết làm sao có thể giải đáp trong ngày một, ngày hai... 📆
 
-![Regular Stories](../img/march.jpg)
+![Regular Stories](../../../../public/images/posts/2021/05-23-RegularStories-2021/march.jpg)
 
 Cho đến khi những vấn đề phát sinh trong cuộc sống vượt quá khả năng giải quyết của mình, ta mới bắt đầu thấm thía đáp án cho những thứ ở trên kia. 📚 Nghe có vẻ khá là trừu tượng, nhưng cũng phải nói thật, khi mỗi con người có một khối óc riêng biệt, một trái tim riêng biệt thì tính cách và cảm xúc của mỗi người cũng trở nên khác biệt, người thế này người thế kia...
 

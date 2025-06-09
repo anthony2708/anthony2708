@@ -4,7 +4,7 @@ Hello, lâu rồi không viết lách. Quá nhiều thứ xảy ra với mình t
 
 ⚠ Cảnh báo: Bài này có tính chất dễ gây sôi máu, hãy giữ bình tĩnh trước, trong và sau khi đọc nhé.
 
-![Regular Stories](../img/april.jpg)
+![Regular Stories](../../../../public/images/posts/2021/05-23-RegularStories-2021/april.jpg)
 
 ### Đầu tháng
 

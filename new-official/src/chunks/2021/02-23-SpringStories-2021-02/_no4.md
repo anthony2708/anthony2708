@@ -2,7 +2,7 @@
 
 🕰 Tết - điều tuyệt vời mỗi năm chỉ đến một lần. Và chỉ còn khoảng chưa đầy 30 tiếng đồng hồ nữa thôi, năm Tân Sửu sẽ bắt đầu. Đáng lẽ ra là sẽ có một bài tổng kết, nhưng mà do tháng 12 đã viết rồi nên là thôi, hôm nay sẽ chia sẻ những dự tính mới toanh cho năm mới 🎍 đi, cho nó lạc quan xíu nè 😊.
 
-![Spring Stories](../img/SpringStories4.jpg)
+![Spring Stories](../../../../public/images/posts/2021/02-23-SpringStories-2021-02/SpringStories4.jpg)
 
 ### Wishlist cho năm mới
 

@@ -2,7 +2,7 @@
 
 Xin chào, tôi đang viết bài này vào ngày 30/12/2020, một ngày gần cuối năm...
 
-![Spring Stories](../img/SpringStories1.jpg)
+![Spring Stories](../../../../public/images/posts/2021/02-16-SpringStories-2021-01/SpringStories1.jpg)
 
 ### Mở đầu
 

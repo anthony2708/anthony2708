@@ -2,7 +2,7 @@
 
 📆 Hôm nay lại nổi hứng viết vài dòng. Và tấm hình này cộng với cụm từ chủ đề bài viết hiện ra gần như cùng lúc trong đầu tôi..
 
-![Spring Stories](../img/SpringStories2.jpg)
+![Spring Stories](../../../../public/images/posts/2021/02-16-SpringStories-2021-01/SpringStories2.jpg)
 
 😕 Cũng lạ, ngày trước tôi cười cũng nhiều lắm, nhưng nhiều người bảo tôi khó vì ít thấy tôi cười. Còn bây giờ, chả khác lắm, chỉ khác ở chỗ số người thấy tôi cười ít lại. Giữa hàng vạn con người lướt qua trong cuộc đời, có mấy ai chịu dừng lại để nhìn thấy nụ cười ấy...
 

@@ -2,7 +2,7 @@
 
 🎆Tết năm nay lạ thật. Dịch bệnh hoành hành, ai nấy cũng phải hạn chế di chuyển. Nhưng vì là Tết nên ai ai cũng hân hoan...
 
-![Spring Stories](../img/SpringStories5.jpg)
+![Spring Stories](../../../../public/images/posts/2021/02-23-SpringStories-2021-02/SpringStories5.jpg)
 
 ### Năm Sửu - Cày bừa vất vả
 

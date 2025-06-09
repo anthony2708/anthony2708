@@ -2,7 +2,7 @@
 
 📚 Nhanh nhỉ, 1 tuần nữa là năm mới gõ cửa từng nhà rồi. Hòa trong những dòng cảm xúc đặc biệt của đất trời, tôi mới lại có dịp được viết nên những lời chia sẻ thật nhất của mình...
 
-![Spring Stories](../img/SpringStories3.jpg)
+![Spring Stories](../../../../public/images/posts/2021/02-16-SpringStories-2021-01/SpringStories3.jpg)
 
 ### Những ngày không bình thường
 
