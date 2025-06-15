@@ -5689,11 +5689,6 @@
   resolved "https://registry.yarnpkg.com/@types/prismjs/-/prismjs-1.26.3.tgz#47fe8e784c2dee24fe636cab82e090d3da9b7dec"
   integrity sha512-A0D0aTXvjlqJ5ZILMz3rNfDBOx9hHxLZYv2by47Sm/pqW35zzjusrZTryatjN/Rf8Us2gZrJD+KeHbUSTux1Cw==
 
-"@types/prop-types@*":
-  version "15.7.12"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.12.tgz#12bb1e2be27293c1406acb6af1c3f3a1481d98c6"
-  integrity sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==
-
 "@types/qs@*":
   version "6.9.15"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.15.tgz#adde8a060ec9c305a82de1babc1056e73bd64dce"
@@ -5730,18 +5725,10 @@
     "@types/history" "^4.7.11"
     "@types/react" "*"
 
-"@types/react@*":
-  version "18.3.12"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.12.tgz#99419f182ccd69151813b7ee24b792fe08774f60"
-  integrity sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiuzljDGZ2hTZHIkrTLUI+AF3WMeKkEZ9nN2fkBAlcktT6vcZjDFiIhMYEQw==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
-
-"@types/react@^19.1.6":
-  version "19.1.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.6.tgz#dee39f3e1e9a7d693f156a5840570b6d57f325ea"
-  integrity sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==
+"@types/react@*", "@types/react@^19.1.8":
+  version "19.1.8"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.8.tgz#ff8395f2afb764597265ced15f8dddb0720ae1c3"
+  integrity sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==
   dependencies:
     csstype "^3.0.2"
 
