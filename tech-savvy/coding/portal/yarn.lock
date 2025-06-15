@@ -4121,6 +4121,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
+"@netlify/blobs@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.0.tgz#aee6c6e5b667869dd22d3fee4714a7e515d5f420"
+  integrity sha512-+sECjk88bi+USJ89XmiwWJOrJ5m7qgajhmUYzb1kD25NLZN9AxfewlHlnm2T5iIB9wEZ0XqSr65ycqWxX4SE1A==
+  dependencies:
+    "@netlify/dev-utils" "3.2.0"
+    "@netlify/runtime-utils" "2.1.0"
+
 "@netlify/blobs@9.1.5":
   version "9.1.5"
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-9.1.5.tgz#abdde9d348aa5c0147a9885615406db5fce1b7fe"
@@ -4129,7 +4137,7 @@
     "@netlify/dev-utils" "3.1.1"
     "@netlify/runtime-utils" "2.1.0"
 
-"@netlify/blobs@9.1.6", "@netlify/blobs@^9.1.5":
+"@netlify/blobs@^9.1.5":
   version "9.1.6"
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-9.1.6.tgz#91d471c2b7cd7bc9f7d20f2766a9ec64093af0c9"
   integrity sha512-RR3t5fv7CkGVJiylOTLf/YaHPyrcWmhHW3zX3EK/9UQsnTi8jPxP7B2nyjgRjAx5S4YTzJQP+FmbQlGKdogALQ==
@@ -4350,12 +4358,12 @@
     cpy "^11.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.4.tgz#893dc9473a7afbef8a000aff26ec6273ac75985e"
-  integrity sha512-NIBaH8+rZTj2ONv6GDEQ+sCTeGZoRJjfw6lMkU7xtLwD1LLF8V2YMbmfJrWtS1eUwV11aK41XT+wn+htdhGbNg==
+"@netlify/functions@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.5.tgz#407d5420304586cbaca9c0d2af25996e32c1be9e"
+  integrity sha512-yJuK3dEIPauruTmDRKZcNKlDOnggBy14StCJp7u4QYlcVD5cxP0p0HPByaidvj3mXrqEDUR4mYWYfGZXqCyeCg==
   dependencies:
-    "@netlify/blobs" "9.1.6"
+    "@netlify/blobs" "10.0.0"
     "@netlify/dev-utils" "3.2.0"
     "@netlify/serverless-functions-api" "2.1.1"
     "@netlify/zip-it-and-ship-it" "^12.1.4"
