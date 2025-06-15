@@ -163,11 +163,11 @@ const config: Config = {
           href: "https://www.builetuananh.name.vn",
           position: "left",
         },
-        {
-          label: "Station",
-          to: "/station",
-          position: "left",
-        },
+        // {
+        //   label: "Station",
+        //   to: "/station",
+        //   position: "left",
+        // },
         {
           label: "Dịch vụ",
           position: "left",
@@ -201,10 +201,10 @@ const config: Config = {
               label: "Giới thiệu cá nhân",
               href: "https://linkedin.com/in/anthony2708",
             },
-            {
-              label: "Collab Station",
-              to: "/station"
-            },
+            // {
+            //   label: "Collab Station",
+            //   to: "/station"
+            // },
             {
               label: "Tài liệu tham khảo",
               href: "https://shorturl.at/kduuJ",
