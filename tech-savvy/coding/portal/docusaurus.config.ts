@@ -39,33 +39,34 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.js",
         },
-        blog: {
-          showReadingTime: true,
-          postsPerPage: 10,
-          blogSidebarCount: 10,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-            title: "Station",
-            description: "Khơi nguồn cảm hứng văn chương...",
-            copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh.`,
-            createFeedItems: async (params) => {
-              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
-              return defaultCreateFeedItems({
-                // keep only the 5 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 5),
-                ...rest,
-              });
-            },
-          },
-          routeBasePath: '/station',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-          blogTitle: 'Station',
-          blogDescription: 'Khơi nguồn cảm hứng văn chương...',
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   postsPerPage: 10,
+        //   blogSidebarCount: 10,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //     title: "Station",
+        //     description: "Khơi nguồn cảm hứng văn chương...",
+        //     copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh.`,
+        //     createFeedItems: async (params) => {
+        //       const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+        //       return defaultCreateFeedItems({
+        //         // keep only the 5 most recent blog posts in the feed
+        //         blogPosts: blogPosts.filter((item, index) => index < 5),
+        //         ...rest,
+        //       });
+        //     },
+        //   },
+        //   routeBasePath: '/station',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        //   blogTitle: 'Station',
+        //   blogDescription: 'Khơi nguồn cảm hứng văn chương...',
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },

@@ -8,7 +8,7 @@ _Xa Hoàng chuyên một thời gian, hẳn bạn đã nhớ da diết **chuỗi
 
 _Đối với tôi, một trong vô số khoảnh khắc đáng nhớ ấy chính là những buổi tối hiếm hoi ở lại Hoàng chuyên. Những buổi tối gắn liền với biết bao sự kiện, từ đây đã mở ra vô vàn câu chuyện **rất dễ thương**..._
 
-![At night](../img/image6.jpg)
+![At night](../../../../public/images/posts/2023/11-11-HLK-MyYouth-2023-Spec/image6.jpg)
 
 _Đó là những ngày miệt mài tập văn nghệ khối chuyên năm lớp mười từ chiều tà đến tối muộn. Tuy mồ hôi nhễ nhại, cả người đau nhức nhưng đính kèm với đó là những kỉ niệm "**đắt trời cho**". Đây là mùa văn nghệ khối chuyên duy nhất của tôi nên nghiễm nhiên trở thành **một cột mốc đặc biệt xuyên suốt quãng thanh xuân**._
 

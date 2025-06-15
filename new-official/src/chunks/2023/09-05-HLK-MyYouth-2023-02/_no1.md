@@ -8,7 +8,7 @@ _Sau một thời gian dừng chân, tôi đã có thể quay trở lại và b�
 
 **_Này, bạn của tôi ơi, bạn đã sẵn sàng cho chặng đường mới chưa?_**
 
-![New journey](../img/image1.jpg)
+![New journey](../../../../public/images/posts/2023/09-05-HLK-MyYouth-2023-02/image1.jpg)
 
 _Vậy là cột mốc năm hai trong đời sinh viên đã sắp đến rồi đấy, tôi cũng sắp phải trở lại trường, sắp bước vào chuỗi ngày mệt mỏi vô tận bên hàng loạt bài tập, công việc, đính kèm bao nỗi sợ về một tương lai vô định, mông lung. Đương nhiên, tôi vẫn chưa thật sự sẵn sàng vẫy vùng giữa dòng đời bao la._
 

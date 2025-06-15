@@ -1,47 +1,44 @@
-## Kỳ 3: Recap 2022 ⏪
+## Kỳ 3: Xuân muộn 🌸
 
-Cuối cùng thì ngày này lại tới, một lần nữa. Hôm nay, ngày 01/01/2023, có nhiều thời gian hơn mọi ngày, tôi quyết định mở lại những tấm hình đẹp nhất và chiêm nghiệm lại một năm 2022 đầy cảm xúc của chính mình.
+Định là qua Tết 2023 sẽ viết luôn bài này, nhưng mà hay sao lịch trình nó bận sấp mặt luôn nên thành ra để tới bây giờ
+mới bắt đầu viết, nên là cái tên **Xuân muộn** này cũng sẽ là tựa đề cho kỳ cuối của series 🌸 Câu chuyện mùa xuân 2022/23 🏵 này. Bắt đầu thôi...
 
-### Chiếc điểm rèn luyện Xuất sắc
+![A late spring](../../../../public/images/posts/2023/01-01-SpringStories-2023/SpringStories7.jpg)
 
-![SpringStories2023](../img/SpringStories3.png)
+### Chuyện của những lần đầu tiên...
 
-- Nói thật tôi cũng không nghĩ mình sẽ có cơ hội quay lại chiếc điểm rèn luyện Xuất sắc đâu, nhưng lại một lần nữa, con điểm 9️⃣0️⃣/💯 tiếp tục khiến mình tự hào thêm một lần nữa. Hy vọng năm 2023 sẽ có thêm cơ hội để lụm điểm rèn luyện Xuất sắc 😂.
+Lần đầu tiên, tôi dấn thân vào thứ được gọi là trải nghiệm "**Dậy sớm để thành công**" (Early Morning Routine). Tôi đã thức dậy lúc 5h sáng vào hai ngày trong tuần, đu xe bus từ Quận 3 xuống Thủ Đức chỉ để học hai môn còn sót lại. Thật sự
+đó là một cảm giác rất khủng khiếp, nếu ai đó không quen với những ngày kiểu như thế này. Cơ mà, giờ thì khi mọi thứ trở nên quen thuộc cũng là lúc mình chuẩn bị kết thúc một cuộc hành trình dài bốn năm trời...
 
-### TESOL và hành trình bất tận
+Lần đầu tiên, tôi thử cảm giác đánh cược với chính mình để cùng lúc **vừa học hai môn, cày bốn, năm chiếc đồ án xen kẽ với đấu trí cùng Khóa luận tốt nghiệp**. Vốn là một người không thích sự liều lĩnh nếu không có sự chuẩn bị trước, nhưng mà lần này thì tôi đã làm điều đó. Cảm giác của hồi năm lớp 10 và hồi chờ kết quả vào Đại học lại hiện về y nguyên. Kết quả của hai lần trước là hai chiến thắng, còn lần này thì chưa biết thế nào, chỉ biết rằng phải cố gắng
+hết sức...
 
-![TESOL](../img/SpringStories4.jpg)
+Lần đầu tiên, tôi thử lại trải nghiệm đi chơi một mình. Chuyến đi chơi một mình gần nhất của bản thân cũng đã là cách đây bốn năm trời. Lần trở lại này, thật sự khiến cho bản thân cảm nhận được những góc khuất của chốn thành phố. Và vẫn là câu nói đó:
 
-- Lại một mùa hè khói lửa nữa, khi sau 1 năm nỗ lực không ngừng, TESOL là mục tiêu tiếp theo được hoàn thành trong năm 2022 ✅. Với việc nhận được chứng chỉ TESOL, con đường đi theo nghề tay trái của mình 👨‍🏫 cũng sẽ trở nên dễ dàng hơn đôi chút, bởi lẽ cũng đến lúc mình phải chọn một con đường cho riêng mình rồi...
+> **_Có lẽ thành phố này rất phồn hoa, nhưng nó không dành cho mình..._**
 
-### Mùa thu và chiếc trải nghiệm đời đầu 🏢
+**_Bốn năm dài đằng đẳng, mọi thứ đã thay đổi, lòng người cũng đã đổi thay..._**
 
-![OPSWAT](../img/SpringStories6.jpg)
+### Đến câu chuyện của những lần cuối cùng...
 
-- Ngày **24/08/2022** 📆 sẽ được ghi dấu ấn đặc biệt, bởi lần đầu tiên, tôi cũng được trở thành 1 thực tập sinh tại OPSWAT Vietnam 👨‍💻. Tuy thực tập trong thời gian ngắn, nhưng đối với tôi, đó chính xác là những trải nghiệm vô cùng quý báu để tôi có thể vững bước trên con đường tiếp theo của mình - một con đường tuy gian lao vất vả nhưng vẫn rực lửa 🔥 niềm đam mê với CNTT.
+**_Có những lần cuối cùng mà tôi sẽ không thể nào quên. Đó là lúc tôi cảm nhận được rằng, thời gian đang không chờ đợi mình..._**
 
-### Đông ấm cùng chiếc Học bổng 🎓
+Lần cuối cùng tôi được ngồi trong lớp học hay giảng đường. Cái cảm giác được trêu mấy đứa bạn hay lắng nghe những lời tâm sự của các giảng viên thật sự đặc biệt lắm...
 
-![HocBong](../img/SpringStories5.jpg)
+Lần cuối cùng tôi được dự một sự kiện ở trường học với vai trò của một thành viên trong Ban tổ chức. Cháy hết mình đến mức bầm dập tay chân, đến quên mất thời gian nhưng lại khiến tôi sống lại những ngày tháng máu lửa của mình...
 
-- Ngày **22/12/2022**, ngày Thành lập QĐND Việt Nam, 2 ngày trước Giáng sinh 🎄 và 10 ngày trước năm mới 🎆, tôi cũng có cơ hội trở thành 1 người tham gia trực tiếp vào Lễ tuyên dương của Khoa, nhận được chiếc Học bổng sau nhiều năm cố gắng và nỗ lực không biết mệt mỏi 🎉. Lần đầu tiên, tôi được ngồi cùng các bạn, các em và chứng kiến giây phút từng người được xướng tên. Hình ảnh ấy làm tôi nhớ lại thời kì đỉnh cao trước đây của chính mình 💭, và tiếp thêm động lực cho tôi để tiếp tục mạnh mẽ hơn nữa trong năm 2️⃣0️⃣2️⃣3️⃣.
+Đến lần cuối cùng trải nghiệm cảm giác được ngồi trong văn phòng nơi mình thực tập. Được tâm sự với các đồng nghiệp, rồi lặng lẽ rời khỏi văn phòng, kết thúc một cuộc hành trình tuy ngắn ngủi nhưng thật sự thú vị. Tất cả những lần cuối cùng này, đều khiến cho tôi có cảm xúc thật bồi hồi.
 
-### Wishlist
+Không biết sẽ còn bao nhiêu khoảnh khắc cuối cùng nữa, chỉ biết rằng **_cuộc vui nào cũng sẽ có lúc tàn, bữa tiệc nào cũng sẽ có lúc tan, và mọi thứ đều sẽ có lúc kết thúc_**. Có lẽ, đó là một phần của cuộc sống, một phần tuy rất nhỏ thôi nhưng cũng làm cho lòng người lắng lại đôi chút...
 
-Wishlist của năm sau, chắc sẽ như thế này:
+### Rồi thì Xuân hạ thu đông rồi lại Xuân...
 
-✅ Thi IELTS (và lập đội thi TT, nếu có thể). Trời ơi, chiếc check kéo dài 2 năm nay rồi mà chưa thực hiện được nữa, mọi người xem lại kỳ 1/2022 đi rồi hiểu tại sao tôi lại phải đưa nó lên đây nhé 😂.
+Thời gian trôi qua, nhưng vòng tròn của bốn mùa vẫn ở đó. Xuân, Hạ, Thu, Đông rồi lại Xuân, mỗi mùa mang đến cho mỗi người một dòng cảm xúc khác nhau. Xuân dịu dàng như khởi đầu một thời kỳ mới, Hạ rực cháy như những chuyến hành trình sôi nổi, Thu lặng lẽ như những ngày lắng mình suy nghĩ về tương lai, Đông lạnh lẽo nhưng gợi nhắc tất cả về sự đoàn tụ ấm cúng.
 
-✅ Qua môn, Bảo vệ thành công và Tốt nghiệp đúng hạn. Khoa hủy môn 2 lần nên chiếc check này còn nguyên nha 😂
+Rồi thì mọi thứ vẫn sẽ thay đổi, nhưng mà **_có những thứ vẫn sẽ mãi vẹn nguyên_**, đó là chính bản thân mình. Là tôi của một thời oanh liệt, là tôi của những ngày sôi nổi nhất. Nhưng cũng sẽ là tôi, trưởng thành và bản lĩnh, kiên cường và bất khuất, vững vàng vượt qua những khó khăn. Ai cũng sẽ có những ngày buồn bã vì những bộn bề lo toan, nhưng những lúc như vậy, hãy suy nghĩ chậm lại một chút và tự hỏi bản thân rằng:
 
-✅ Đi du lịch (có thể là 1 chuyến du lịch nội địa, hoặc 1 chuyến du lịch nước ngoài, tùy theo tình hình dịch bệnh). Đã rất lâu rồi chưa được đi du lịch trở lại, hy vọng sau khi bảo vệ Khóa luận xong sẽ có cơ hội vi vu khắp nơi.
+> **_Mình là ai?_**
 
-✅ Tìm kiếm một công việc theo dạng Hybrid hoặc Remote toàn thời gian. Xu hướng và cũng như mong muốn của bản thân thúc đẩy việc này, sau Tốt nghiệp sẽ tính tiếp vụ này.
+**_Chúng ta có thể không phải là những người hoàn hảo nhất. Nhưng chắc chắn, khi mùa xuân trở lại, chúng ta chắc chắn sẽ là những người thành công nhất trên con đường mình đã chọn._**
 
-### Tổng kết
-
-Hết phần recap. Một lần nữa, chân thành cảm ơn tất cả mọi người đã giúp đỡ để tôi có thể vượt qua năm 2️⃣0️⃣2️⃣2️⃣ đầy đặc biệt này. Hy vọng năm 2️⃣0️⃣2️⃣3️⃣, tất cả chúng ta sẽ có nhiều sức khỏe và thành công. Mọi thứ đã trở lại bình thường, và tất cả sẽ không ngừng phát triển hơn nữa.
-
-🏡 2️⃣0️⃣2️⃣2️⃣, một năm đầy cảm xúc đã kết thúc. Chúng ta chia tay nhau từ đây. Chào từ biệt 2️⃣0️⃣2️⃣2️⃣, và xin chào 2️⃣0️⃣2️⃣3️⃣.
-
-🌸 Câu chuyện mùa xuân 2️⃣0️⃣2️⃣2️⃣/2️⃣3️⃣ 🌼 - Kỳ 4️⃣ sẽ lên sóng trong vài ngày nữa. Goodbye mọi người, tôi đi làm Khóa luận tiếp 😂
+Cảm ơn mọi người đã lựa chọn **🌸 Câu chuyện mùa xuân 2️⃣0️⃣2️⃣2️⃣/2️⃣3️⃣ 🏵** cho những phút giây lắng mình cùng những cảm xúc đặc biệt. Hẹn gặp lại quý vị vào **🌸 Câu chuyện mùa xuân 2️⃣0️⃣2️⃣4️⃣/2️⃣5️⃣ 🏵**

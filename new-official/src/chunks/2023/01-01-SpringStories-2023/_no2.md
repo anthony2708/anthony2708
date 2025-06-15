@@ -24,9 +24,9 @@ _Mỗi dịp Tết đến xuân về, rất nhiều sự kiện hấp dẫn và 
 
 **_Vâng, đó chính là trại xuân!_**
 
-![LNY Camping](../img/image3.jpg)
+![LNY Camping](../../../../public/images/posts/2023/01-01-SpringStories-2023/SpringStories2.jpg)
 
-> **_Nguồn: Khuyết danh_**
+**_Nguồn: Khuyết danh_**
 
 _Chà, vừa nghe tên sự kiện thôi cũng có thể cảm nhận được âm hưởng của ngày xuân rồi đấy nhỉ! Trại xuân thường diễn ra trước Tết tầm một đến hai tuần. Sự kiện chỉ diễn ra vỏn vẹn hai ngày và một đêm. Có thể nói quãng thời gian không dài nhưng cũng không quá ngắn ngủi để lưu giữ chút sắc xuân, lưu giữ thước phim kỉ niệm tuyệt đẹp cùng bạn bè, thầy cô tại mái trường thân yêu._
 

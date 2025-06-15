@@ -8,7 +8,7 @@ _Khi ngắm nhìn lại những tấm ảnh chụp cùng lớp, bao cung bậc c
 
 **_Này bạn của tôi ơi, bạn có biết không? Biết rằng nỗi nhớ Nguồn 1, nhớ Hoàng chuyên chưa bao giờ nguôi ngoai trong tôi..._**
 
-![Special](../img/image2.jpg)
+![Special](../../../../public/images/posts/2023/05-07-HLK-MyYouth-2023-01/image2.jpg)
 
 _**Tôi sẽ nhớ lắm giây phút vỡ òa khi đón nhận danh sách kết quả trúng tuyển, khi được xếp lớp**. Cuối cùng, tôi có thể thực hiện ước mơ của mình dưới danh phận là học sinh lớp Nguồn 1, trường THPT Chuyên Hoàng Lê Kha._
 

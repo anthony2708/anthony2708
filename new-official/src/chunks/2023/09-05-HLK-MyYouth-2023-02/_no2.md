@@ -2,9 +2,9 @@
 
 _Dưới đây là toàn văn bài thơ được tác giả gửi dự thi **[Giải thưởng Văn học trẻ Đại học Quốc gia TP.HCM lần II, năm 2023](https://vanhoctre.vnuhcm.edu.vn/)** ở hạng mục **Thơ**._
 
-![Youth Literature](../img/image2.jpg)
+![Youth Literature](../../../../public/images/posts/2023/09-05-HLK-MyYouth-2023-02/image2.jpg)
 
-> **Nguồn**: [Giải thưởng Văn học trẻ ĐHQG TP.HCM](https://www.facebook.com/vanhoctre.vnuhcm/)
+_**Nguồn**: [Giải thưởng Văn học trẻ ĐHQG TP.HCM](https://www.facebook.com/vanhoctre.vnuhcm/)_
 
 ### Không hoàn hảo
 

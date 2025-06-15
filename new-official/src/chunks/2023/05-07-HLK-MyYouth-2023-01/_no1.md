@@ -8,7 +8,7 @@ _Có ai đã và đang học tập ở lớp không chuyên trong trường chuy
 
 **_Này bạn của tôi ơi, hãy cùng tôi quay trở về gặp tôi của thuở niên thiếu, khi tôi còn là thành viên lớp Nguồn 1 Khóa 26 - Trường THPT Chuyên Hoàng Lê Kha nhé!_**
 
-![HLK](../img/image1.jpg)
+![HLK](../../../../public/images/posts/2023/05-07-HLK-MyYouth-2023-01/image1.jpg)
 
 _Trường THPT Chuyên Hoàng Lê Kha đã từ lâu là niềm tự hào của quê nhà tôi, là khu vườn sạch đẹp nuôi dưỡng rất nhiều bông hoa ở tuổi mười lăm. Nơi đây đã chắp đôi cánh để các bạn học sinh được thỏa sức bay cao, bay xa với đam mê, với hoài bão mà chẳng phải màng đến chuyện cơm áo gạo tiền đè lên tấm vai của mình._
 

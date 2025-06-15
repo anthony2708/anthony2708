@@ -1,10 +1,6 @@
 ## Kỳ 3: GỬI HOÀNG CHUYÊN CHO MỘT MÙA "NHỚ"...
 
-:::info
-
-_Đây là bài viết được **[Jolie Nguyễn Ngọc Khánh Phương](https://www.facebook.com/profile.php?id=100066615586116)** viết trong **Tháng chuyển đổi nội dung (12/2023)** giữa các đội hình trong The Collab Team._
-
-:::
+> Đây là bài viết được **[Jolie Nguyễn Ngọc Khánh Phương](https://www.facebook.com/profile.php?id=100066615586116)** viết trong **Tháng chuyển đổi nội dung (12/2023)** giữa các đội hình trong The Collab Team._
 
 _Ai trong chúng ta cũng có cho mình cái thời thanh xuân tươi đẹp nhất. Đó có thể gắn với những mối tình tuổi đôi mươi, đó có thể gắn với sự vỡ òa của những giấc mơ biến thành sự thật... hay gắn với ba năm cấp 3 thật đẹp đẽ!!! Nhưng có lẽ sẽ đẹp hơn nếu đó là mục tiêu của mỗi chúng ta ngày tháng cấp 2..._
 
@@ -24,13 +20,13 @@ _Rồi có nhớ cái chuỗi ngày tháng cấp 3 với đủ thứ kỉ niệm
 
 _Và rồi... cũng đến cái tuổi mà ta rời xa... "**Tri ân và trưởng thành**"..._
 
-![Growing Up](../img/image3.png)
+![Growing Up](../../../../public/images/posts/2023/09-05-HLK-MyYouth-2023-02/image3.png)
 
 _Chúng ta sẽ chẳng thể sống mãi với một cái gì đó quá lâu, ai rồi cũng phải lớn, cũng phải đi... Đi đến một điểm khác dành cho mình..._
 
 **_Hoàng chuyên luôn đẹp... đẹp ở mỗi mùa... và đẹp khi ta thật sự nhớ về..._**
 
-![Reunion](../img/image4.png)
+![Reunion](../../../../public/images/posts/2023/09-05-HLK-MyYouth-2023-02/image4.png)
 
 **_Mùa "nhớ"... có thể là mùa hè ngồi bên đống deadlines dày cộm và muốn mình quay về ngày tháng cấp 3, cũng có thể là mùa xuân, trại về rồi hay lén vào chơi..._**
 
