@@ -3573,10 +3573,10 @@
     cssesc "^3.0.0"
     immediate "^3.2.3"
 
-"@easyops-cn/docusaurus-search-local@^0.50.0":
-  version "0.50.0"
-  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.50.0.tgz#e7392893187e2061cbade12c4bc210afea071725"
-  integrity sha512-wJQNa1jc1bGy8hLTnCynIjpAmldYEcwWVqqSQfKhBlIu0Px9Fw3i1PIbnbG5D1Da4Ep+FkOdWWsqFZqkiBah1Q==
+"@easyops-cn/docusaurus-search-local@^0.51.0":
+  version "0.51.0"
+  resolved "https://registry.yarnpkg.com/@easyops-cn/docusaurus-search-local/-/docusaurus-search-local-0.51.0.tgz#3d47ac95b3369a82e52fe466e2c0d8d3e00f4dee"
+  integrity sha512-D/S1rWjyxgHAFC9brdT4FR9NUCIL2i62ZYeOOZ7xZL/5bqHKWp7zcLjEhXPC86IlBVXx8PGEBYX9jzPtz/7Dxg==
   dependencies:
     "@docusaurus/plugin-content-docs" "^2 || ^3"
     "@docusaurus/theme-translations" "^2 || ^3"
@@ -4121,6 +4121,14 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
+"@netlify/blobs@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.0.tgz#aee6c6e5b667869dd22d3fee4714a7e515d5f420"
+  integrity sha512-+sECjk88bi+USJ89XmiwWJOrJ5m7qgajhmUYzb1kD25NLZN9AxfewlHlnm2T5iIB9wEZ0XqSr65ycqWxX4SE1A==
+  dependencies:
+    "@netlify/dev-utils" "3.2.0"
+    "@netlify/runtime-utils" "2.1.0"
+
 "@netlify/blobs@9.1.5":
   version "9.1.5"
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-9.1.5.tgz#abdde9d348aa5c0147a9885615406db5fce1b7fe"
@@ -4129,7 +4137,7 @@
     "@netlify/dev-utils" "3.1.1"
     "@netlify/runtime-utils" "2.1.0"
 
-"@netlify/blobs@9.1.6", "@netlify/blobs@^9.1.5":
+"@netlify/blobs@^9.1.5":
   version "9.1.6"
   resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-9.1.6.tgz#91d471c2b7cd7bc9f7d20f2766a9ec64093af0c9"
   integrity sha512-RR3t5fv7CkGVJiylOTLf/YaHPyrcWmhHW3zX3EK/9UQsnTi8jPxP7B2nyjgRjAx5S4YTzJQP+FmbQlGKdogALQ==
@@ -4350,12 +4358,12 @@
     cpy "^11.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.4.tgz#893dc9473a7afbef8a000aff26ec6273ac75985e"
-  integrity sha512-NIBaH8+rZTj2ONv6GDEQ+sCTeGZoRJjfw6lMkU7xtLwD1LLF8V2YMbmfJrWtS1eUwV11aK41XT+wn+htdhGbNg==
+"@netlify/functions@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.5.tgz#407d5420304586cbaca9c0d2af25996e32c1be9e"
+  integrity sha512-yJuK3dEIPauruTmDRKZcNKlDOnggBy14StCJp7u4QYlcVD5cxP0p0HPByaidvj3mXrqEDUR4mYWYfGZXqCyeCg==
   dependencies:
-    "@netlify/blobs" "9.1.6"
+    "@netlify/blobs" "10.0.0"
     "@netlify/dev-utils" "3.2.0"
     "@netlify/serverless-functions-api" "2.1.1"
     "@netlify/zip-it-and-ship-it" "^12.1.4"
@@ -5738,10 +5746,10 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
-"@types/react@^19.1.6":
-  version "19.1.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.6.tgz#dee39f3e1e9a7d693f156a5840570b6d57f325ea"
-  integrity sha512-JeG0rEWak0N6Itr6QUx+X60uQmN+5t3j9r/OVDtWzFXKaj6kD1BwJzOksD0FF6iWxZlbE1kB0q9vtnU2ekqa1Q==
+"@types/react@^19.1.8":
+  version "19.1.8"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.1.8.tgz#ff8395f2afb764597265ced15f8dddb0720ae1c3"
+  integrity sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==
   dependencies:
     csstype "^3.0.2"
 
@@ -6637,10 +6645,10 @@ avvio@^8.3.0:
     debug "^4.0.0"
     fastq "^1.17.1"
 
-axios@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.9.0.tgz#25534e3b72b54540077d33046f77e3b8d7081901"
-  integrity sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==
+axios@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.10.0.tgz#af320aee8632eaf2a400b6a1979fa75856f38d54"
+  integrity sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
