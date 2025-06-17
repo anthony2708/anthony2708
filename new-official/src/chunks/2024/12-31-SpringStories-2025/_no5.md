@@ -1,4 +1,4 @@
-## Kỳ 5 - Vị Tết, vị quê hương, vị đoàn tụ... 🏡
+## Kỳ 2 - Vị Tết, vị quê hương, vị đoàn tụ... 🏡
 
 _Xin chào, đây là bài viết thứ hai của năm 2025 trong series Câu chuyện mùa xuân. Hiếm khi có năm nào mà thời gian cho việc viết lách lại được dư dả nhiều như năm nay. **Bởi Tết mà, không sợ thiếu, chỉ sợ không đủ vui**..._ 
 
@@ -10,7 +10,7 @@ _**Bạn nghĩ gì về vị Tết?** Đó có thể là mùi hương của bán
 
 **_Nói đúng hơn thì cái vị Tết đúng nghĩa thường xuất hiện vào những ngày trước Giao thừa._**
 
-![Hanoi](../img/SpringStories14.jpg)
+![Hanoi](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories14.jpg)
 
 > **Nguồn**: [VTC News](https://vtcnews.vn/nhung-chiec-xe-hoa-cho-mua-xuan-tren-pho-ha-noi-ngay-giap-tet-ar736506.html)
 
@@ -34,7 +34,7 @@ _Cái vị Tết nó lan tỏa khắp mọi ngả phố, khắp mọi không gia
 
 _Nếu ai đó hỏi mình câu hỏi kia mà chỉ đến ngôi nhà thứ hai, chắc chắn câu trả lời chỉ có một: **Quá lâu cho một chuyến trở về**..._
 
-![LNYCamping2025](../img/SpringStories17.jpg)
+![LNYCamping2025](../../../../public/images/posts/2023/12-31-SpringStories-2024/SpringStories17.jpg)
 
 _Ắt hẳn, khát vọng lớn nhất của mỗi con người dịp năm mới, đó là được về nhà - tất nhiên là không có ngoại lệ rồi. Ấy vậy, khi cuộc sống trở nên bận rộn, việc dành cho ngôi nhà thứ hai ấy một vài tiếng thôi, **đôi khi là một sự xa xỉ**..._
 
@@ -48,9 +48,9 @@ _Chả biết tự bao giờ, những chuyến xe về quê trở thành một p
 
 _Cái tĩnh lặng luôn xen lẫn với bình yên. Bởi, **bình yên là khi trở về**..._
 
-![Reunion](../img/SpringStories15.jpg)
+![Reunion](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories15.jpg)
 
-> **Nguồn**: [Tuổi trẻ](https://tuoitre.vn/tet-doan-vien-thong-diep-thoi-thuc-moi-nguoi-viet-ve-nha-don-tet-1044691.htm)
+- **Nguồn**: [Tuổi trẻ](https://tuoitre.vn/tet-doan-vien-thong-diep-thoi-thuc-moi-nguoi-viet-ve-nha-don-tet-1044691.htm)
 
 _Đoàn tụ - cái hương vị ấy luôn làm cho con người ta bùi ngùi, xúc động. **Không một thứ gì và không một ai có thể ngăn cản những cuộc đoàn tụ**. Bởi cuộc sống luôn có những khoảnh khắc thăng trầm - người ta thường gọi đây là **những gia vị của cuộc sống**. Nếu chẳng có hương vị này, chắc chắn cuộc sống sẽ vô cùng **tẻ nhạt**..._
 

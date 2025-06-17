@@ -1,4 +1,4 @@
-## Kỳ 4: Recap 2024 - Xin chào Việt Nam
+## Kỳ 1: Recap 2024 - Xin chào Việt Nam
 
 _Xin chào. Do hàng loạt những thay đổi trong lịch trình nên phải hoãn tới tận gần cả năm. Thôi thì, tặng lại cho mọi người chiếc bài viết này thay cho lời cảm ơn và xin lỗi gửi đến tất cả quý độc giả._
 
@@ -8,11 +8,11 @@ _Chuyến hành trình của năm 2024 có thể nói là một chuyến hành t
 
 _Đầu năm 2024, mình nhận được một công việc mới. Ngỡ rằng đó sẽ là một cú đào thoát ngoạn mục cho một năm 2023 đầy biến động **nhưng không - đó lại là khởi đầu cho hàng loạt những bi kịch mới**. Mình gặp phải tai nạn giao thông trên đường trở về thành phố đi làm sau Tết năm nay..._
 
-![Accident](../img/SpringStories5.jpg)
+![Accident](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories5.jpg)
 
 _Những cơn đau như cứa vào tâm can mình - khiến mình gần như chỉ biết khóc. Mình cũng từng nghĩ, mình sẽ trụ lại được thật lâu trên hành trình học hỏi không ngừng về Công nghệ thông tin nhưng không - áp lực quá lớn đã buộc mình phải dừng lại công việc mới kia, chỉ sau có hơn 4 tháng. Thêm một lần, mình nhìn lên bầu trời đêm của **Sài Gòn đầy hoa lệ - nhưng là hoa cho người giàu, lệ cho người nghèo...** - mà khóc như một đứa trẻ._
 
-![Quit](../img/SpringStories6.jpg)
+![Quit](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories6.jpg)
 
 _Mình buông bỏ hết tất cả mọi thứ ở cái thành phố này, thậm chí còn tuyên bố là sẽ **ngừng lại hết mọi đam mê cháy bỏng về Công nghệ thông tin**, để trở về quê nhà và biến thành **một nhà giáo** - cái nghề mà bản thân còn không nghĩ sẽ phải làm. Ấy vậy mà, đó mới thật sự là cú chuyển mình mà ông Trời muốn nó diễn ra trên người mình._
 
@@ -30,15 +30,15 @@ _Không biết mọi người còn nhớ chiếc "**Danh sách mơ ước**" c�
 
 _Lần đầu bay ra Đà Nẵng thì sau đó đi thi Đại học gặp ngay dòng sông Hương thơ mộng của **Thành phố Huế (Trực thuộc Trung ương từ 2025)** trong đề thi Văn năm đó._ 
 
-![Hue](../img/SpringStories9.jpg)
+![Hue](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories9.jpg)
 
 _Lần thứ hai đi Singapore thì về đi học Đại học luôn._ 
 
-![Singapore](../img/SpringStories8.jpg)
+![Singapore](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories8.jpg)
 
 _Lần thứ ba này thì ra Vũng Tàu chơi nhưng lại phải **vác laptop đi phỏng vấn** để rồi **ăn mừng trúng tuyển ngay trên bãi biển** luôn._ 😂
 
-![VungTau](../img/SpringStories7.jpg)
+![VungTau](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories7.jpg)
 
 ❎ _**Kiếm được nhiều tiền, và có thể triển khai một dự án gì đó. Thực ra thì cũng chưa biết là dự án gì, nhưng ít ra là có liên quan đến Công nghệ thông tin và Tiếng Anh - hai đối trọng mà mình cùng lúc theo đuổi**. Mục tiêu này hỏng một phần - tiền thì vẫn có dư - đầu tư cổ phiếu cũng có lời nhưng mà dự án thì chưa làm được._
 
@@ -60,23 +60,23 @@ _Thực ra chuyến hành trình của mình có một phần giống như cuộ
 
 **_Nhưng họ đã làm ra Đất Nước..._**
 
-> _Đất Nước - Nguyễn Khoa Điềm_
+- _Đất Nước - Nguyễn Khoa Điềm_
 
-![NuTown](../img/SpringStories10.jpg)
+![NuTown](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories10.jpg)
 
-> **Nguồn**: [The Investor](https://theinvestor.vn/insurance-payout-in-vietnam-after-typhoon-yagi-estimated-at-285-mln-d12248.html)
+- **Nguồn**: [The Investor](https://theinvestor.vn/insurance-payout-in-vietnam-after-typhoon-yagi-estimated-at-285-mln-d12248.html)
 
-![Bridge](../img/SpringStories11.png)
+![Bridge](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories11.png)
 
-> **Nguồn**: [Tuổi Trẻ](https://tuoitrenews.vn/news/society/20240909/solidarity-and-affection-unbreakable-amidst-typhoon-yagi-in-vietnam/81857.html)
+- **Nguồn**: [Tuổi Trẻ](https://tuoitrenews.vn/news/society/20240909/solidarity-and-affection-unbreakable-amidst-typhoon-yagi-in-vietnam/81857.html)
 
-![StateFuneral](../img/SpringStories12.jpg)
+![StateFuneral](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories12.jpg)
 
-> **Nguồn**: [VNExpress](https://e.vnexpress.net/photo/news/48-hours-of-vietnams-state-funeral-for-party-leader-nguyen-phu-trong-4774719.html)
+- **Nguồn**: [VNExpress](https://e.vnexpress.net/photo/news/48-hours-of-vietnams-state-funeral-for-party-leader-nguyen-phu-trong-4774719.html)
 
-![ASEANCup](../img/SpringStories13.jpg)
+![ASEANCup](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories13.jpg)
 
-> **Nguồn**: [Vietnam.vn](https://www.vietnam.vn/en/viet-tri-ruc-do-tiep-lua-cho-doi-tuyen-viet-nam-trong-tran-ban-ket-luot-ve)
+- **Nguồn**: [Vietnam.vn](https://www.vietnam.vn/en/viet-tri-ruc-do-tiep-lua-cho-doi-tuyen-viet-nam-trong-tran-ban-ket-luot-ve)
 
 _Chiếc "**Danh sách mơ ước**" của năm 2025 - xin dành một phần cho đất nước Việt Nam này - cho Tổ quốc thân yêu, cho những con người đã làm nên đất nước, đã đoàn kết, sẻ chia, qua biết bao thế hệ để giữ gìn truyền thống tốt đẹp, kế thừa những giá trị mà bản sắc Việt vẫn đang mang lại - đó là tôn trọng lịch sử, tôn trọng những người đi trước đã cống hiến để làm nên một **Việt Nam đa sắc**..._
 

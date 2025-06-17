@@ -10,9 +10,9 @@ _3... 2... 1..._
 
 **_Vâng, Trại xuân 2024 đã chính thức quay trở lại rồi đây!_**
 
-![LNYCamping2024](../img/SpringStories17.jpg)
+![LNYCamping2024](../../../../public/images/posts/2023/12-31-SpringStories-2024/SpringStories17.jpg)
 
-> **_Nguồn: [Jolie Nguyễn Ngọc Khánh Phương - Đội hình Tản văn/Book Review](https://www.facebook.com/joliephuongnguyen.147/)_**
+- **_Nguồn: [Jolie Nguyễn Ngọc Khánh Phương - Đội hình Tản văn/Book Review](https://www.facebook.com/joliephuongnguyen.147/)_**
 
 _Mỗi một mùa xuân sang, Hoàng chuyên của chúng ta trở nên tươm tất và rạng rỡ hơn bình thường, như một cô gái chớm xuân xanh với nụ cười hết sức tươi tắn. Tạm gác lại trang sách, bài vở dày cộm, giờ đây các bạn học sinh đều dốc cạn tâm huyết chuẩn bị cho khu trại bé bé xinh xinh, cho những tiết mục trình diễn bừng cháy hơn cả ngọn lửa trại về đêm. Âm thanh của mùa xuân đã vang vọng tại Hoàng chuyên rồi đấy, **bạn đã nghe chưa?**_
 
