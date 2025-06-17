@@ -1,12 +1,14 @@
+import Shell from '../../../layouts/components/Shell.astro';
+
 ## Welcome Onboard! - Containerd, Docker, Podman
 
 _Xin chào. Đã đến lúc chúng ta vận động một chút rồi. Hãy cùng theo chân mình, bước vào một chuyến hành trình đặc biệt, ở đó, bạn sẽ được gặp gỡ rất nhiều những người bạn đặc biệt, mà có khi bạn chưa từng gặp qua. **Are you ready? Welcome Onboard!**_
 
-![All](../img/image0.png)
+![All](../../../../public/images/posts/2024/03-22-TechBlog-04/image0.png)
 
 ### Người bạn đầu tiên: [Con thuyền Docker](https://www.docker.com/)
 
-![Docker](../img/image3.png)
+![Docker](../../../../public/images/posts/2024/03-22-TechBlog-04/image3.png)
 
 _Chà, **chắc hẳn bạn đã từng nghe qua về Docker rồi đúng không?** Docker là một công cụ giúp bạn có thể đóng gói ứng dụng của mình vào các container, và chạy chúng trên môi trường máy chủ một cách dễ dàng. Điều này giúp cho việc triển khai và quản lý ứng dụng trở nên nhanh chóng và hiệu quả hơn._
 
@@ -16,7 +18,7 @@ _Nếu để tìm một điểm để chê bai chiếc thuyền thì chắc sẽ
 
 ### Người bạn thứ hai: [Containerd - Thuyền trưởng mới](https://containerd.io/)
 
-![Containerd](../img/image4.jpg)
+![Containerd](../../../../public/images/posts/2024/03-22-TechBlog-04/image4.jpg)
 
 _"**Hello world**" - **Containerd** chào mọi người. Đây là một thuyền trưởng mới, một gương mặt mới trong thế giới container. Được phát triển từ Docker, Containerd giúp bạn quản lý các container một cách hiệu quả hơn, đồng thời giúp bạn tận dụng tối đa khả năng của con thuyền Docker. Điểm giống nhau và cũng là khác nhau giữa hai vị thuyền trưởng cũ và mới là yếu tố daemon. Containerd là một dự án **CNCF (Cloud Native Computing Foundation)**, tức là có thể tương thích với các dự án như Kubernetes, Prometheus và CoreDNS._
 
@@ -24,40 +26,35 @@ _Containerd có thể chạy như một **daemon riêng biệt**, hoặc là m�
 
 ### Người bạn thứ ba: [Podman - Những chú hải cẩu tinh nghịch](https://podman.io/)
 
-![Podman](../img/image5.png)
+![Podman](../../../../public/images/posts/2024/03-22-TechBlog-04/image5.png)
 
 _À, người bạn mới đây rồi... **Podman** - một công cụ quản lý container mà không cần daemon. Người ta bảo, một nhóm hải cẩu hợp lại với nhau sẽ thành một pod (và **trông chúng thật dễ thương**_ 😂 _). Podman giúp bạn có một nơi quản lý container, vừa đơn giản, vừa gọn nhẹ, lại còn dễ sử dụng và an toàn cho mình. Tất nhiên, vì đây là những người bạn khá lạ lẫm - **tụi nó là hải cẩu chứ có phải con người hay đồ vật đâu** - nên vẫn còn đó nhiều thiếu sót. Nhưng hãy nhìn cái cách đàn hải cẩu **thích nghi với môi trường sống chả cần daemon**, bạn sẽ thấy nó thật sự quá thông minh cho một vé lên tàu tận hưởng thế giới này rồi._
 
 **_Làm sao để mời tụi này lên tàu? Làm theo mình nhé!_**
 
-:::tip[Lưu ý] 
 
 **_Hướng dẫn dưới đây, dành riêng cho hệ điều hành Ubuntu._**
 
 _Bạn có thể xem hướng dẫn cho các distro Linux khác tại **[đây](https://podman.io/docs/installation#installing-on-linux)**._
 
-:::
-
-```bash title="Install Podman"
-# Ubuntu 20.10 and newer
+<Shell code={`# Ubuntu 20.10 and newer
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get -y install podman
-```
+`} />
 
 _Sau khi mời tụi nó lên tàu, chúng ta sẽ khám phá chúng như cái cách chúng ta khám phá Docker vậy._
 
-```bash title="Getting started with Podman"
-# Gán thuộc tính alias - thay thế các câu lệnh Docker và ứng dụng cho Podman
-alias docker=podman 
+<Shell code={`# Gán thuộc tính alias - thay thế các câu lệnh Docker và ứng dụng cho Podman
+alias docker=podman
 podman images # Lấy toàn bộ bản ảnh của Podman
 podman run -dit ubuntu # Chạy container từ bản ảnh Ubuntu
-podman ps # Lấy danh sách container 
+podman ps # Lấy danh sách container
 podman attach <container_name> # Truy cập vào container
-```
+`} />
 
-![Run](../img/image6.png)
+![Run](../../../../public/images/posts/2024/03-22-TechBlog-04/image6.png)
 
-![Attach](../img/image7.png)
+![Attach](../../../../public/images/posts/2024/03-22-TechBlog-04/image7.png)
 
 _Thật sự, ngay cả bản thân mình cũng chưa từng quen biết đàn hải cẩu này, nhưng vì tụi nó quá dễ thương và quá là đỉnh cao, nên mình đã quyết định mời tụi nó lên tàu cùng mình. Điều này giúp mình có thêm nhiều trải nghiệm mới, cũng như hiểu rõ hơn về thế giới container. **Còn bạn, bạn sẽ chọn ai?**_
 

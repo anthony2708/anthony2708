@@ -1,0 +1,21 @@
+---
+// filepath: src/components/Shell.astro
+import fs from "node:fs/promises";
+
+const { code, file } = Astro.props;
+
+// Load code from file if 'file' prop is provided
+let shellCode = code;
+if (file) {
+  try {
+    shellCode = await fs.readFile(file, "utf-8");
+  } catch (e) {
+    shellCode = `# Error: Could not load file "${file}"`;
+  }
+}
+---
+<pre class="shell-block">
+  <code>
+    {shellCode}
+  </code>
+</pre>
