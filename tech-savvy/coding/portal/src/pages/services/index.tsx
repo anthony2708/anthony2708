@@ -25,7 +25,7 @@ export default class Services extends Component<{}, {}> {
                         <div className={styles.buttons}>
                             <Link
                                 className="button button--secondary button--lg"
-                                to="/docs/guide">
+                                to="https://spoo.me/f5lshB">
                                 Hướng dẫn - Guide
                             </Link>
                         </div>
