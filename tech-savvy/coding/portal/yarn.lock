@@ -4121,12 +4121,12 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/blobs@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.0.tgz#aee6c6e5b667869dd22d3fee4714a7e515d5f420"
-  integrity sha512-+sECjk88bi+USJ89XmiwWJOrJ5m7qgajhmUYzb1kD25NLZN9AxfewlHlnm2T5iIB9wEZ0XqSr65ycqWxX4SE1A==
+"@netlify/blobs@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.1.tgz#86c189a4cb964869d145985fe6ba7631d9eaf97a"
+  integrity sha512-Mbf5WkJlbR5nWA8LgA9CH+dVg7yKxoRXr1jfl1CdzEsRAVIJROPCTXGUYI5N7Q6vk/py0fVLbEie+N9d7eYVdw==
   dependencies:
-    "@netlify/dev-utils" "3.2.0"
+    "@netlify/dev-utils" "3.2.1"
     "@netlify/runtime-utils" "2.1.0"
 
 "@netlify/blobs@9.1.5":
@@ -4302,6 +4302,26 @@
     uuid "^11.1.0"
     write-file-atomic "^5.0.1"
 
+"@netlify/dev-utils@3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@netlify/dev-utils/-/dev-utils-3.2.1.tgz#58eaf396c030c0fd217b6076626129a8a9e69dc6"
+  integrity sha512-a96wZheD3duD20aEJXBIui73GewRIcKwsXyzyFyerrsDffQjaWFuWxU9fnVSiunl6UVrvpBjWMJRGkCv4zf2KQ==
+  dependencies:
+    "@whatwg-node/server" "^0.10.0"
+    ansis "^4.1.0"
+    chokidar "^4.0.1"
+    decache "^4.6.2"
+    dot-prop "9.0.0"
+    env-paths "^3.0.0"
+    find-up "7.0.0"
+    image-size "^2.0.2"
+    js-image-generator "^1.0.4"
+    lodash.debounce "^4.0.8"
+    parse-gitignore "^2.0.0"
+    semver "^7.7.2"
+    uuid "^11.1.0"
+    write-file-atomic "^5.0.1"
+
 "@netlify/edge-bundler@14.0.6":
   version "14.0.6"
   resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-14.0.6.tgz#99bd8808b70197572e71a2eab73566f74c62d6ab"
@@ -4358,13 +4378,13 @@
     cpy "^11.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.5.tgz#407d5420304586cbaca9c0d2af25996e32c1be9e"
-  integrity sha512-yJuK3dEIPauruTmDRKZcNKlDOnggBy14StCJp7u4QYlcVD5cxP0p0HPByaidvj3mXrqEDUR4mYWYfGZXqCyeCg==
+"@netlify/functions@^4.1.6":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.6.tgz#f04c275db8d95cb7a3f09308013d73fb2eca79bf"
+  integrity sha512-I4GWR7uQGIAVKUc3P2ki+hHEwWk2S7tu9INrEKyJlxFj1leRvQ3CoWVFrXVcrx07oJsyy3cEDtaQecXSqwV4Mw==
   dependencies:
-    "@netlify/blobs" "10.0.0"
-    "@netlify/dev-utils" "3.2.0"
+    "@netlify/blobs" "10.0.1"
+    "@netlify/dev-utils" "3.2.1"
     "@netlify/serverless-functions-api" "2.1.1"
     "@netlify/zip-it-and-ship-it" "^12.1.4"
     cron-parser "^4.9.0"
@@ -15500,7 +15520,7 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.5, semver@^7.3.8, semver@^7.5.3, semver@^7.6.0:
+semver@^7.3.5, semver@^7.3.8, semver@^7.5.3, semver@^7.6.0, semver@^7.7.2:
   version "7.7.2"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
   integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
