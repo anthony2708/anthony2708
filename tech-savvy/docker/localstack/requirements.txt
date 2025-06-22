@@ -1,5 +1,5 @@
 anyio==4.9.0
-cachetools==6.0.0
+cachetools==6.1.0
 certifi==2025.6.15
 cffi==1.17.1
 charset-normalizer==3.4.2
@@ -25,7 +25,7 @@ psutil==7.0.0
 pyaes==1.6.1
 pyasn1==0.6.1
 pycparser==2.22
-Pygments==2.19.1
+Pygments==2.19.2
 python-dotenv==1.1.0
 # python-jose==3.3.0
 PyYAML==6.0.2
