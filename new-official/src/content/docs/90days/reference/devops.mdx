@@ -4,6 +4,40 @@ sidebar:
   order: 2
 ---
 
-_Nội dung của Tài liệu tham khảo Giai đoạn 1 đã được chuyển sang đường dẫn 
-**[này](https://portal.builetuananh.name.vn/docs/90days/reference/stage1)**.
-Mời quý vị và các bạn đón xem._
+import { Tabs, TabItem, LinkButton } from '@astrojs/starlight/components';
+import Day2 from "./chunks/_day2.md";
+import Day3 from "./chunks/_day3.md";
+import Day4 from "./chunks/_day4.md";
+import Day5 from "./chunks/_day5.md";
+import Day6 from "./chunks/_day6.md";
+
+Đây là những tài liệu liên quan đến hành trình của giai đoạn đầu tiên. 
+
+_Mình cũng luôn sẵn sàng tiếp nhận thêm những nguồn tài liệu khác từ mọi người, để giúp bản thân 
+và cộng đồng có thêm kiến thức vững chắc hơn về DevOps._
+
+<Tabs>
+  <TabItem label="D2">
+    <Day2 />
+  </TabItem>
+  <TabItem label="D3">
+    <Day3 />
+  </TabItem>
+  <TabItem label="D4">
+    <Day4 />
+  </TabItem>
+  <TabItem label="D5">
+    <Day5 />
+  </TabItem>
+  <TabItem label="D6">
+    <Day6 />
+  </TabItem>
+</Tabs>
+
+_Nếu bạn đã xem qua hết những tài liệu mình để phía trên, hãy chuyển sang ngày tiếp theo để tiếp tục hành trình 
+nếu như bạn tin rằng đây chính là hành trình bạn muốn theo đuổi nhé._
+
+<LinkButton
+  href="/90days/golang"
+  icon="open-book"
+>Giai đoạn 2 - Golang</LinkButton>

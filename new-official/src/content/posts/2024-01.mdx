@@ -12,7 +12,7 @@ categories: ["Tech Blog"]
 
 import FirstPost from "../../chunks/2024/03-22-TechBlog-04/_p1.md";
 import SecondPost from "../../chunks/2024/03-22-TechBlog-04/_p2.md";
-import ThirdPost from "../../chunks/2024/03-22-TechBlog-04/_p3.mdx";
+import ThirdPost from "../../chunks/2024/03-22-TechBlog-04/_p3.md";
 
 Kính chào quý độc giả, đây là bài thứ tư của **Tech Blog** xuất hiện trở lại trên website này.
 Ngày hôm nay, rất nhiều nội dung thú vị sẽ được chia sẻ tại chiếc Tech Blog này. Với tựa đề
@@ -31,6 +31,31 @@ từng phần của bài viết.
   <ThirdPost />
 </NewTab>
 </NewTabs>
+
+### Phụ lục Phần 3: Điều khiển Podman
+
+**_Hướng dẫn dưới đây, dành riêng cho hệ điều hành Ubuntu._**
+
+_Bạn có thể xem hướng dẫn cho các distro Linux khác tại **[đây](https://podman.io/docs/installation#installing-on-linux)**._
+
+```bash title="Install Podman on Ubuntu"
+# Ubuntu 20.10 and newer
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get -y install podman
+```
+
+_Sau khi mời tụi nó lên tàu, chúng ta sẽ khám phá chúng như cái cách chúng ta khám phá Docker vậy._
+
+```bash title="Podman Commands"
+# Gán thuộc tính alias - thay thế các câu lệnh Docker và ứng dụng cho Podman
+alias docker=podman
+podman images # Lấy toàn bộ bản ảnh của Podman
+podman run -dit ubuntu # Chạy container từ bản ảnh Ubuntu
+podman ps # Lấy danh sách container
+podman attach <container_name> # Truy cập vào container
+```
+![Run](../../../public/images/posts/2024/03-22-TechBlog-04/image6.png)
+![Attach](../../../public/images/posts/2024/03-22-TechBlog-04/image7.png)
 
 ### Tổng kết bài viết
 

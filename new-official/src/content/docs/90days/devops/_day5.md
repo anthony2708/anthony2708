@@ -4,7 +4,7 @@ _Xin chào mọi người, cuối cùng chúng ta đến chặng 5 - chặng áp
 ổn" nhưng cũng nhiều niềm vui này. Ngay bây giờ chúng ta sẽ đến ngay với chiếc vòng lặp DevOps mà mình đã chia sẻ với mọi người
 ở phần đầu của hành trình này._
 
-![DevOps](../../../public/90days/devops.png)
+![DevOps](../../../../assets/90days/devops.png)
 
 _Bài này sẽ ít tấu hài hơn, vì đơn giản đây là lúc mà chúng ta cần những thứ chuyên sâu hơn. **Nào, bắt đầu thôi!**_
 
@@ -27,7 +27,7 @@ _Một điều nên nhớ là nhóm phát triển phần mềm giờ đây đang
 tuyệt vời để cùng nhau tìm ra giải pháp phù hợp với tất cả mọi người trước khi mọi thứ "**chệch khỏi đường ray**" và khiến 
 dự án bị "**vỡ tổ ong**"._
 
-![Project](../../../public/90days/devops/project.webp)
+![Project](../../../../assets/90days/devops/project.webp)
 
 > **Nguồn**: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/8cum89/starting_a_new_project/)
 
@@ -37,7 +37,7 @@ _Ở giai đoạn này, các kỹ sư DevOps sẽ **không trực tiếp tham gi
 họ sẽ đưa ra các ý kiến đóng góp để hỗ trợ các lập trình viên có được cái nhìn tổng quan nhất về cơ sở hạ tầng của ứng dụng, 
 cũng như các dịch vụ sẽ cung cấp cho người dùng đầu cuối và **cách sử dụng sao cho hợp lý**._
 
-![Repeat](../../../public/90days/devops/repeat.jpg)
+![Repeat](../../../../assets/90days/devops/repeat.jpg)
 
 > **Nguồn**: [QuoteFancy](https://quotefancy.com/quote/4050451/eat-sleep-code-repeat-Wallpaper)
 
@@ -47,7 +47,7 @@ _**Đến lúc DevOps ra tay**, chúng ta sẽ sử dụng mã nguồn đã có 
 sử dụng mà chúng ta có thể sẽ chuyển mã, biên dịch hoặc thậm chí là xây dựng một **mẫu Docker (image)** từ mã nguồn. Dù như 
 thế nào đi nữa, chúng ta vẫn sẽ sử dụng các **CI/CD pipeline (quy trình)** cho giai đoạn này._
 
-![Docker](../../../public/90days/devops/docker.webp)
+![Docker](../../../../assets/90days/devops/docker.webp)
 
 > **Nguồn**: [Docker](https://www.docker.com/community/open-source/)
 
@@ -64,7 +64,7 @@ bởi lẽ, mục đích chính của việc này nhằm giúp giảm lỗi và 
 1. _**Không có lỗi mới** phát sinh trong quá trình vận hành phiên bản mới._
 2. _Phiên bản mới **không tác động** đến các tính năng đang vận hành bình thường._
 
-![Edge](../../../public/90days/devops/edgecase.webp)
+![Edge](../../../../assets/90days/devops/edgecase.webp)
 
 > **Nguồn**: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/oxq5no/edge_cases_be_like/)
 
@@ -78,7 +78,7 @@ _Mã nguồn có thể được lưu trữ ở bất kỳ đâu, chẳng hạn n
 tập tin **.exe** hay **Docker image** đã được lưu giữ trong **sổ đăng ký (registry)** hoặc **kho lưu trữ (repository)** và 
 có thể truy cập được từ máy chủ sản xuất trong quá trình triển khai._
 
-![Git](../../../public/90days/devops/git_and_github_logo.png)
+![Git](../../../../assets/90days/devops/git_and_github_logo.png)
 
 > **Nguồn**: [Python for Undergraduate Engineers](https://pythonforundergradengineers.com/git-and-github-for-undergrad-engineers.html)
 
@@ -87,7 +87,7 @@ có thể truy cập được từ máy chủ sản xuất trong quá trình tri
 _Cuối cùng, chúng ta triển khai ứng dụng lên **môi trường sản xuất (production)**. Chỉ đến lúc này, doanh nghiệp mới có thể 
 nhận ra giá trị từ thời gian, công sức và sự tận tuỵ mà Nhóm DevOps và Nhóm phát triển đã đưa vào sản phẩm._
 
-![Deploy](../../../public/90days/devops/deploymeme.jpg)
+![Deploy](../../../../assets/90days/devops/deploymeme.jpg)
 
 > **Nguồn**: [Jason St-Cyr](https://jasonstcyr.com/2016/12/24/twelfth-day-of-christmas-deployment-memes/)
 
@@ -98,7 +98,7 @@ và cân bằng tải** cho hệ thống theo các khung giờ nhất định tr
 quan tâm, đó chính là xây **hệ thống cảnh báo (bằng tay hoặc tự động)** các sự kiện liên quan từ môi trường chính đến nhóm 
 Vận hành, và các doanh nghiệp thường được khuyến khích sẽ thực hiện tự động hóa để giảm chi phí và tăng hiệu quả._
 
-![Board](../../../public/90days/devops/releases.png)
+![Board](../../../../assets/90days/devops/releases.png)
 
 > **Nguồn**: [Jira](https://www.atlassian.com/software/jira.com)
 
@@ -108,7 +108,7 @@ _Đây là giai đoạn cuối cùng của một chu trình. Các chỉ số nh�
 biệt là **nhật trình (logs)**, là những thứ vũ khí quan trọng nhất giúp các thành viên của nhóm Phát triển biết được thực sự
 điều gì đang diễn ra và **khắc phục sự cố, mở rộng quy mô** hệ thống tự động hoặc khi cần thiết._
 
-![Monitor](../../../public/90days/devops/monitor.png)
+![Monitor](../../../../assets/90days/devops/monitor.png)
 
 > **Nguồn**: [Netdata](https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes/overview)
 
@@ -117,13 +117,13 @@ biệt là **nhật trình (logs)**, là những thứ vũ khí quan trọng nh�
 _Chu trình hoàn thành, chúng ta sẽ **quay lại từ đầu** bắt đầu bằng việc lên kế hoạch và lặp lại toàn bộ vòng lặp này hằng
 ngày/tuần/tháng cho những bản phát hành/cập nhật tiếp theo._
 
-![Again](../../../public/90days/devops/again.jpg)
+![Again](../../../../assets/90days/devops/again.jpg)
 
 > **Nguồn**: [Jason St-Cyr](https://jasonstcyr.com/2016/12/24/twelfth-day-of-christmas-deployment-memes/)
 
 ### Tự động hóa - Liên tục 
 
-![Again](../../../public/90days/devops/automation.png)
+![Again](../../../../assets/90days/devops/automation.png)
 
 > **Nguồn**: [LinearB](https://linearb.io/blog/what-is-continuous-merge)
 

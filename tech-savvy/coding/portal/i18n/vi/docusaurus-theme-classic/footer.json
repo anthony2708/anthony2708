@@ -1,8 +1,4 @@
 {
-  "link.item.label.Giới thiệu cá nhân": {
-    "message": "Giới thiệu cá nhân",
-    "description": "The label of footer link with label=Giới thiệu cá nhân linking to https://linkedin.com/in/anthony2708"
-  },
   "copyright": {
     "message": "Copyright © 2025 Anthony Bùi Lê Tuấn Anh. Dựng với ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",
     "description": "The footer copyright"

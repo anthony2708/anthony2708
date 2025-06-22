@@ -8,7 +8,7 @@ của vòng đời này, từ khi ứng dụng được phát triển cho đến
 Tất nhiên, chúng ta sẽ dừng chân ở đây khá lâu, và di chuyển tới lui chỗ này rất nhiều lần, nhưng không vì thế mà nơi đây
 trở nên **kém hấp dẫn hơn** với du khách thập phương mỗi lần ghé thăm và **thay đổi cách trải nghiệm** của riêng mình._ 
 
-![Destination](../../../public/90days/devops/destination.webp)
+![Destination](../../../../assets/90days/devops/destination.webp)
 
 > **Nguồn**: [Reddit](https://www.reddit.com/r/memes/comments/xi7eq6/i_hate_how_some_people_actually_take_the_new/)
 
@@ -20,7 +20,7 @@ _Hãy tưởng tượng bạn đang bắt đầu phát triển một ứng dụn
 thu hút sự ủng hộ và hàng triệu đô la từ hàng chục triệu con người đang chờ đợi ngoài kia (**nghe có vẻ xa vời ở hiện tại, 
 vì khá nhiều đơn vị đã thất bại ê chề rồi**)._ 🤣
 
-![Social Media](../../../public/90days/devops/social.jpg)
+![Social Media](../../../../assets/90days/devops/social.jpg)
 
 > **Nguồn**: [ContentStudio Blog](https://blog.contentstudio.io/social-media-meme/)
 
@@ -61,7 +61,7 @@ khỏi việc phải thực hiện các bước của quy trình một cách th�
 giúp tăng tốc độ phát triển, tạo ra nhiều tính năng mới hơn thay vì sa lầy vào việc kiểm lỗi, làm chậm quá trình phát hành các
 phiên bản mới theo mô hình **thác nước** truyền thống. Bởi nếu theo thác nước truyền thống, **kịch bản sẽ như thế này**:_
 
-![Waterfall Disaster](../../../public/90days/devops/waterfall.jpg)
+![Waterfall Disaster](../../../../assets/90days/devops/waterfall.jpg)
 
 > **Nguồn**: [Markus Gärtner](https://www.shino.de/2010/08/28/waterfall-in-theory-or-why-blaming-doesnt-help-at-all/)
 
@@ -82,7 +82,7 @@ Việc này cho phép việc triển khai ứng dụng nhanh chóng và hiệu q
 _Nắm rõ các quá trình thực sự rất quan trọng, bởi lẽ có thể bạn sẽ mua các ứng dụng từ bên thứ ba ngày hôm nay, nhưng bạn có 
 chắc sẽ **làm điều tương tự vào ngày mai?** Hay nếu ngày mai bạn nhảy việc, **thì sao? Bạn sẽ làm gì tiếp theo?**_
 
-![Job Hopping](../../../public/90days/devops/hopper.webp)
+![Job Hopping](../../../../assets/90days/devops/hopper.webp)
 
 > **Nguồn**: [9GAG](https://9gag.com/gag/a1P4z92)
 
@@ -101,7 +101,7 @@ này và đảm bảo ứng dụng luôn ở trong trạng thái "**sẵn sàng 
 
 _Hãy tưởng tượng khi sử dụng Kubernetes, **việc này sẽ xảy ra**:_
 
-![K8s](../../../public/90days/devops/k8s.jpg)
+![K8s](../../../../assets/90days/devops/k8s.jpg)
 
 > **Nguồn**: [Dev Community](https://dev.to/willvelida/introduction-to-azure-kubernetes-service-2a1)
 
@@ -134,7 +134,7 @@ mọi thay đổi hệ thống không gây ra thiệt hại đáng kể về m�
 _Hãy tưởng tượng, vào một ngày đẹp trời, bạn nhận được một **hoá đơn điện toán đám mây** như thế này, bạn sẽ có góc nhìn rõ nét
 hơn từ chính ý kiến trên:_
 
-![AWS](../../../public/90days/devops/aws.webp)
+![AWS](../../../../assets/90days/devops/aws.webp)
 
 > **Nguồn**: [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/w4eo12/using_aws/)
 

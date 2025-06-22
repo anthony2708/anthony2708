@@ -96,7 +96,7 @@ export default defineConfig({
 	  },{
         label: '90 ngày DevOps',
         items: [
-          { label: 'Giới thiệu', link: '/90days' },
+          { label: 'Trang nhà', link: '/90days' },
           { label: 'Ngày 0 - Khởi đầu', link: '/90days/day0' },
           {
               label: 'Ngày 1 - Giới thiệu',

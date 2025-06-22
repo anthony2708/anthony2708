@@ -5,7 +5,7 @@ chúng ta lại tiếp tục với ngày thứ tư. Lần này chúng ta sẽ gh
 so sánh sự khác biệt giữa hai trường phái khác nhau: **DevOps** và **Agile**. Thế rốt cuộc thì Agile nó khác DevOps chỗ nào, 
 mà tại sao mình lại phải đi tham quan nó chứ? **Phải chăng có một điều bí ẩn nào đang chờ đón mọi người?**_
 
-![Choose One](../../../public/90days/devops/chooseone.jpg)
+![Choose One](../../../../assets/90days/devops/chooseone.jpg)
 
 > **Nguồn**: [Linkedin](https://www.linkedin.com/posts/romanoroth_devops-meme-activity-7044941114901954560-chy6/)
 
@@ -13,7 +13,7 @@ mà tại sao mình lại phải đi tham quan nó chứ? **Phải chăng có m�
 
 ### Ấn tượng ban đầu 🛤
 
-![Agile](../../../public/90days/devops/agiledeadlines.webp)
+![Agile](../../../../assets/90days/devops/agiledeadlines.webp)
 
 > **Nguồn**: [9GAG](https://9gag.com/gag/aA0zrqZ)
 
@@ -27,7 +27,7 @@ sai lệch** giữa các bộ phận._
 
 ### Phi thường làm nên khác biệt 🏕
 
-![Not same](../../../public/90days/devops/agile-devops-meme2.jpg)
+![Not same](../../../../assets/90days/devops/agile-devops-meme2.jpg)
 
 > **Nguồn**: [Oracle Base](https://oracle-base.com/blog/2016/02/05/do-you-even-agile-devops-bruh/)
 
@@ -52,7 +52,7 @@ một phần của nhóm Agile._
 
 _Agile có nhiều bộ khung khác nhau để đạt sự linh hoạt và minh bạch, với một đường đi được vạch sẵn như hình dưới._
 
-![Agile](../../../public/90days/devops/agile.png)
+![Agile](../../../../assets/90days/devops/agile.png)
 
 > **Nguồn**: [IWConnect](https://iwconnect.com/are-you-ready-to-use-kanban/)
 
@@ -79,7 +79,7 @@ này chỉ là một **bộ khung để biến tấu** sao cho phù hợp với 
 hình ảnh đối lập của **một đạo diễn và một biên kịch** - một người muốn mọi thứ phải theo đúng **tiến trình** của chương trình, 
 còn một người lại chủ trương **sáng tạo nội dung** dựa trên kịch bản để giúp chương trình trở nên đáng theo dõi hơn._
 
-![Movie](../../../public/90days/devops/movie.webp)
+![Movie](../../../../assets/90days/devops/movie.webp)
 
 > **Nguồn**: [Reddit](https://www.reddit.com/r/memes/comments/md3nkm/there_are_more_people_who_made_a_movie_than_the/?rdt=41685)
 
@@ -102,7 +102,7 @@ có sự khác biệt nhưng cả hai nơi vẫn có những điểm chung mà c
 
 ### Combo hoàn hảo cho một ngày diệu kỳ 🗃
 
-![Combination](../../../public/90days/devops/differences.jpg)
+![Combination](../../../../assets/90days/devops/differences.jpg)
 
 > **Nguồn**: [Netsmartz](https://netsmartz.com/blog/difference-between-agile-and-devops/)
 

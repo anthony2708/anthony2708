@@ -197,10 +197,10 @@ const config: Config = {
         {
           title: "Trang chủ",
           items: [
-            {
-              label: "Giới thiệu cá nhân",
-              href: "https://linkedin.com/in/anthony2708",
-            },
+            // {
+            //   label: "Giới thiệu cá nhân",
+            //   href: "",
+            // },
             // {
             //   label: "Collab Station",
             //   to: "/station"

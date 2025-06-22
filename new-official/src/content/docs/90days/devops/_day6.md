@@ -21,7 +21,7 @@ theo như ghi nhận trong một video (**sẽ được chia sẻ ở mục Tài
 
 _Dưới đây là một mô hình mẫu, sử dụng AWS được mình dựng trong quá trình thực hiện **Khóa luận tốt nghiệp vào năm 2023**._
 
-![AWS](../../../public/90days/devops/aws.png)
+![AWS](../../../../assets/90days/devops/aws.png)
 
 ### Mua hàng xong rồi - Về mở Netflix và ... xem nhé 💽
 
@@ -37,7 +37,7 @@ không giật màn hình và các tính năng được truy cập đơn giản**
 _Nhóm Phát triển tại Netflix đã tự động xây dựng mã nguồn thành các **bản dựng có thể triển khai trực tiếp**, tích hợp 
 trở lại vào cơ sở hạ tầng của Netflix bằng các **nền tảng web có thể tùy biến thông minh**._
 
-![Netflix](../../../public/90days/devops/netflix.png)
+![Netflix](../../../../assets/90days/devops/netflix.png)
 
 > **Nguồn**: [GeeksForGeeks](https://www.geeksforgeeks.org/system-design-netflix-a-complete-architecture/)
 
