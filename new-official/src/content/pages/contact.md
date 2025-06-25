@@ -1,5 +1,5 @@
 ---
-title: "Liên hệ"
-meta_title: ""
+title: "Gửi góp ý"
+meta_title: "Gửi góp ý"
 draft: false
 ---

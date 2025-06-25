@@ -9,35 +9,12 @@
       "url": "/about"
     },
     {
-      "name": "Liên hệ",
-      "url": "/contact"
+      "name": "90 ngày DevOps",
+      "url": "/90days"
     },
     {
-      "name": "Trang",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Tác giả",
-          "url": "/authors"
-        },
-        {
-          "name": "Danh mục",
-          "url": "/categories"
-        },
-        {
-          "name": "Thẻ",
-          "url": "/tags"
-        },
-        {
-          "name": "Mẫu",
-          "url": "/elements"
-        },
-        {
-          "name": "Chính sách bảo vệ",
-          "url": "/privacy-policy"
-        }
-      ]
+      "name": "Dịch vụ",
+      "url": "https://portal.builetuananh.name.vn"
     }
   ],
   "footer": [
@@ -46,16 +23,16 @@
       "url": "/about"
     },
     {
-      "name": "Liên hệ",
-      "url": "/contact"
+      "name": "90 ngày DevOps",
+      "url": "/90days"
     },
     {
-      "name": "Mẫu",
-      "url": "/elements"
+      "name": "Dịch vụ",
+      "url": "https://portal.builetuananh.name.vn"
     },
     {
-      "name": "Chính sách bảo vệ",
-      "url": "/privacy-policy"
+      "name": "Về giao diện cũ",
+      "url": "https://old.builetuananh.name.vn"
     }
   ]
 }
