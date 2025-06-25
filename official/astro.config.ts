@@ -12,7 +12,7 @@ import starlightCoolerCredit from 'starlight-cooler-credit'
 // https://astro.build/config
 export default defineConfig({
   // base: 'anthony2708',
-  site: 'https://www.builetuananh.name.vn',
+  site: 'https://old.builetuananh.name.vn',
   image: {
 	service: passthroughImageService(),
   },
@@ -47,7 +47,7 @@ export default defineConfig({
 					}, 
 					{
 						label: "Thử nghiệm Giao diện 2026",
-						link: 'https://beta.builetuananh.name.vn',
+						link: 'https://www.builetuananh.name.vn',
 					}
 				]
 			},
