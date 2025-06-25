@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Trang chủ | Anthony Bùi Lê Tuấn Anh",
-    "base_url": "https://beta.builetuananh.name.vn",
+    "base_url": "https://www.builetuananh.name.vn",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
