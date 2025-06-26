@@ -19,6 +19,10 @@
   @apply p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4;
 }
 
+.dark .nav-link {
+  @apply text-darkmode-text-dark;
+}
+
 .nav-dropdown-list {
   @apply z-10 rounded-lg bg-white px-6 py-3 shadow transition;
 }

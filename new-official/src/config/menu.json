@@ -27,12 +27,12 @@
       "url": "/90days"
     },
     {
-      "name": "Dịch vụ",
+      "name": "Portal/Station",
       "url": "https://portal.builetuananh.name.vn"
     },
     {
-      "name": "Về giao diện cũ",
-      "url": "https://old.builetuananh.name.vn"
+      "name": "Trạng thái hệ thống",
+      "url": "https://status.builetuananh.name.vn"
     }
   ]
 }

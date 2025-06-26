@@ -6,6 +6,10 @@ body {
   @apply bg-body font-primary font-normal leading-relaxed text-text;
 }
 
+.dark body {
+  @apply bg-darkmode-body text-darkmode-text;
+}
+
 h1,
 h2,
 h3,
@@ -13,6 +17,10 @@ h4,
 h5,
 h6 {
   @apply font-primary font-bold leading-tight text-dark;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  @apply text-darkmode-text-dark;
 }
 
 h1,
