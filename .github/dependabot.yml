@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/official" # Location of package manifests
+    directory: "/new-official" # Location of package manifests
     schedule:
       day: "sunday"
       interval: "weekly"
@@ -35,8 +35,8 @@ updates:
       day: "sunday"
       interval: "weekly"
 
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "tech-savvy/coding/portal" # Location of package manifests
-    schedule:
-      day: "sunday"
-      interval: "weekly"
+  # - package-ecosystem: "npm" # See documentation for possible values
+  #   directory: "tech-savvy/coding/portal" # Location of package manifests
+  #   schedule:
+  #     day: "sunday"
+  #     interval: "weekly"
