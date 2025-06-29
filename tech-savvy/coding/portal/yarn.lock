@@ -4121,10 +4121,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/blobs@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.1.tgz#86c189a4cb964869d145985fe6ba7631d9eaf97a"
-  integrity sha512-Mbf5WkJlbR5nWA8LgA9CH+dVg7yKxoRXr1jfl1CdzEsRAVIJROPCTXGUYI5N7Q6vk/py0fVLbEie+N9d7eYVdw==
+"@netlify/blobs@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.2.tgz#547102cf25c0679b7e4a8a571220ba25525df8bb"
+  integrity sha512-KGw91EKZ997MdK/HkjwgzZi1ni4B3XwYjrwnUoCb5E3JYt/P7aVYZ1O8G39VwVnaggyemd99TOnEkNaI9iPJiw==
   dependencies:
     "@netlify/dev-utils" "3.2.1"
     "@netlify/runtime-utils" "2.1.0"
@@ -4378,15 +4378,15 @@
     cpy "^11.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^4.1.6":
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.6.tgz#f04c275db8d95cb7a3f09308013d73fb2eca79bf"
-  integrity sha512-I4GWR7uQGIAVKUc3P2ki+hHEwWk2S7tu9INrEKyJlxFj1leRvQ3CoWVFrXVcrx07oJsyy3cEDtaQecXSqwV4Mw==
+"@netlify/functions@^4.1.8":
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.8.tgz#7e06f6554a2c006d241a9ba32249d08b34bfce7b"
+  integrity sha512-ep96+sNLuwNt5SnnusOX8Nx3BwYs02OQfNP9QIxvpt36GXPjK25XOFAQux89fzsLWTie2plxcof61cNGYmb8dw==
   dependencies:
-    "@netlify/blobs" "10.0.1"
+    "@netlify/blobs" "10.0.2"
     "@netlify/dev-utils" "3.2.1"
-    "@netlify/serverless-functions-api" "2.1.1"
-    "@netlify/zip-it-and-ship-it" "^12.1.4"
+    "@netlify/serverless-functions-api" "2.1.2"
+    "@netlify/zip-it-and-ship-it" "^12.1.5"
     cron-parser "^4.9.0"
     decache "^4.6.2"
     extract-zip "^2.0.1"
@@ -4535,12 +4535,12 @@
   resolved "https://registry.yarnpkg.com/@netlify/runtime-utils/-/runtime-utils-2.1.0.tgz#0a828ab5e26c139fd72eee0f0d25d66d9d718bc1"
   integrity sha512-z1h+wjB7IVYUsFZsuIYyNxiw5WWuylseY+eXaUDHBxNeLTlqziy+lz03QkR67CUR4Y790xGIhaHV00aOR2KAtw==
 
-"@netlify/serverless-functions-api@2.1.1", "@netlify/serverless-functions-api@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-2.1.1.tgz#ebfaed9684ce865a4e367dd05aa0fc4cfd700c73"
-  integrity sha512-MNYfEmZC6F7ZExOrB/Hrfkif7JW2Cbid9y5poTFEJ6rcAhCLQB8lo0SGlQrFXgKvXowXB14IjpOubaQu2zsyfg==
+"@netlify/serverless-functions-api@2.1.2", "@netlify/serverless-functions-api@^2.1.1", "@netlify/serverless-functions-api@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@netlify/serverless-functions-api/-/serverless-functions-api-2.1.2.tgz#b9526d49783b9d2ebe94cd79f3768a7c215f9508"
+  integrity sha512-uEFA0LAcBGd3+fgDSLkTTsrgyooKqu8mN/qA+F/COS2A7NFWRcLFnjVKH/xZhxq+oQkrSa+XPS9qj2wgQosiQw==
 
-"@netlify/zip-it-and-ship-it@12.1.4", "@netlify/zip-it-and-ship-it@^12.1.4":
+"@netlify/zip-it-and-ship-it@12.1.4":
   version "12.1.4"
   resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-12.1.4.tgz#f21c0031ca8a4925ca517c17b13470bb23b6200d"
   integrity sha512-/wM1c0iyym/7SlowbgqTuu/+tJS8CDDs4vLhSizKntFl3VOeDVX0kr9qriH9wA2hYstwGSuHsEgEAnKdMcDBOg==
@@ -4549,6 +4549,45 @@
     "@babel/types" "7.27.6"
     "@netlify/binary-info" "^1.0.0"
     "@netlify/serverless-functions-api" "^2.1.1"
+    "@vercel/nft" "0.29.4"
+    archiver "^7.0.0"
+    common-path-prefix "^3.0.0"
+    copy-file "^11.0.0"
+    es-module-lexer "^1.0.0"
+    esbuild "0.25.5"
+    execa "^8.0.0"
+    fast-glob "^3.3.3"
+    filter-obj "^6.0.0"
+    find-up "^7.0.0"
+    is-builtin-module "^3.1.0"
+    is-path-inside "^4.0.0"
+    junk "^4.0.0"
+    locate-path "^7.0.0"
+    merge-options "^3.0.4"
+    minimatch "^9.0.0"
+    normalize-path "^3.0.0"
+    p-map "^7.0.0"
+    path-exists "^5.0.0"
+    precinct "^12.0.0"
+    require-package-name "^2.0.1"
+    resolve "^2.0.0-next.1"
+    semver "^7.3.8"
+    tmp-promise "^3.0.2"
+    toml "^3.0.0"
+    unixify "^1.0.0"
+    urlpattern-polyfill "8.0.2"
+    yargs "^17.0.0"
+    zod "^3.23.8"
+
+"@netlify/zip-it-and-ship-it@^12.1.5":
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-12.2.0.tgz#e6a06280a2d494f5f19749db2557906004f5de27"
+  integrity sha512-64tKrE4bGGh/uChrCKQ1g6rDmY+Jl95bh+GGeP1mzIOcXmZHFja8sWMyaKv8iOxIiPdaJCQuhadSmE4ATUDVFg==
+  dependencies:
+    "@babel/parser" "^7.22.5"
+    "@babel/types" "7.27.6"
+    "@netlify/binary-info" "^1.0.0"
+    "@netlify/serverless-functions-api" "^2.1.2"
     "@vercel/nft" "0.29.4"
     archiver "^7.0.0"
     common-path-prefix "^3.0.0"
