@@ -20,7 +20,7 @@
 }
 
 .dark .nav-link {
-  @apply text-darkmode-text-dark;
+  @apply text-darkmode-text-dark transition hover:text-primary;
 }
 
 .nav-dropdown-list {

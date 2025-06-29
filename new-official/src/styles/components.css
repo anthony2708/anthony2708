@@ -59,6 +59,10 @@
   }
 }
 
+.dark .social-icons-simple a {
+  @apply block p-3 text-darkmode-text-dark transition hover:text-primary;
+}
+
 .social-share {
   @apply space-x-1;
   li {

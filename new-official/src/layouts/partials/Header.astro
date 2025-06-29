@@ -29,7 +29,7 @@ const { main }: { main: NavigationLink[] } = menu;
     <label
       id="show-button"
       for="nav-toggle"
-      class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden dark:text-darkmode-text"
+      class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden dark:text-darkmode-text-dark"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Open</title>
@@ -39,13 +39,13 @@ const { main }: { main: NavigationLink[] } = menu;
     <label
       id="hide-button"
       for="nav-toggle"
-      class="order-2 hidden cursor-pointer items-center text-black md:order-1 dark:text-darkmode-text"
+      class="order-2 hidden cursor-pointer items-center text-black md:order-1 dark:text-darkmode-text-dark"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Close</title>
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-          transform="rotate(45 10 10)"></polygon>
+          transform="rotate(45 10 10)" />
       </svg>
     </label>
     <!-- /navbar toggler -->
@@ -86,19 +86,12 @@ const { main }: { main: NavigationLink[] } = menu;
         ))
       }
     </ul>
+    
     <div class="order-1 ml-auto flex md:order-2 md:ml-0">
-      <a
-        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark dark:text-darkmode-text transition hover:text-primary md:mr-0"
-        href="/search"
-        title="seach"
-        aria-label="seach"
-      >
-        <IoSearch />
-      </a>
-      <button
+       <button
     id="dark-toggle"
     type="button"
-    class="p-2 rounded text-xl"
+    class="p-2 rounded text-xl hover:text-primary"
     aria-label="Toggle dark mode"
     title="Toggle dark mode"
   >
@@ -121,7 +114,16 @@ const { main }: { main: NavigationLink[] } = menu;
     </g>
   </svg>
   </button>
+      <a
+        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark dark:text-darkmode-text-dark transition hover:text-primary md:mr-0"
+        href="/search"
+        title="search"
+        aria-label="search"
+      >
+        <IoSearch />
+      </a>
     </div>
+    
   </nav>
 </header>
 <script>

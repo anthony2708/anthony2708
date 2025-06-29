@@ -5,7 +5,7 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/new_logo.png",
+    "logo": "/images/new_logo_nobg.png",
     "logo_width": "175",
     "logo_height": "175",
     "logo_text": "Station"
@@ -18,7 +18,7 @@
 
   "metadata": {
     "meta_author": "Anthony Bùi Lê Tuấn Anh",
-    "meta_image": "/images/new_logo.png",
+    "meta_image": "/images/new_logo_nobg.png",
     "meta_description": "Trang chủ - Anthony Bùi Lê Tuấn Anh"
   },
 
