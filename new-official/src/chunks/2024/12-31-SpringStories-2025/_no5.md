@@ -12,7 +12,7 @@ _**Bạn nghĩ gì về vị Tết?** Đó có thể là mùi hương của bán
 
 ![Hanoi](../../../../public/images/posts/2024/12-31-SpringStories-2025/SpringStories14.jpg)
 
-> **Nguồn**: [VTC News](https://vtcnews.vn/nhung-chiec-xe-hoa-cho-mua-xuan-tren-pho-ha-noi-ngay-giap-tet-ar736506.html)
+- **Nguồn**: [VTC News](https://vtcnews.vn/nhung-chiec-xe-hoa-cho-mua-xuan-tren-pho-ha-noi-ngay-giap-tet-ar736506.html)
 
 _Ở đó, mọi người tất bật sắm sửa, không khí trở nên trong lành hơn, nhịp sống cũng trôi chậm hơn hẳn..._
 

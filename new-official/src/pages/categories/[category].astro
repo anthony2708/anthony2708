@@ -30,7 +30,10 @@ const title = humanize(category || "");
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Bài viết từ danh mục</p>
-      <h1 class="h2 mb-16 text-center text-primary">{title}</h1>
+      <h1 class="h2 mb-8 text-center text-primary">{title}</h1>
+      <div class="flex justify-center">
+        <a href='/categories' class="btn btn-primary text-white py-2 mb-8">Các danh mục khác</a>
+      </div>
       <Posts posts={sortedPosts} fluid={false} />
     </div>
   </div>
