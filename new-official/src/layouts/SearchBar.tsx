@@ -5,7 +5,7 @@ import { humanize, slugify } from "@/lib/utils/textConverter";
 import Fuse from "fuse.js";
 import { useEffect, useRef, useState } from "react";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
-const { summary_length } = config.settings;
+// const { summary_length } = config.settings;
 
 export type SearchItem = {
   slug: string;

@@ -14,7 +14,7 @@
     },
     {
       "name": "Dịch vụ",
-      "url": "https://portal.builetuananh.name.vn"
+      "url": "/services"
     }
   ],
   "footer": [
@@ -27,8 +27,8 @@
       "url": "/90days"
     },
     {
-      "name": "Portal/Station",
-      "url": "https://portal.builetuananh.name.vn"
+      "name": "Cổng dịch vụ",
+      "url": "/services"
     },
     {
       "name": "Trạng thái hệ thống",
