@@ -39,5 +39,6 @@ src/assets/code/pkg/
 go.work
 go.work.sum
 
-# Color file
+# Color file & Netlify configuration
 python.py
+.netlify/

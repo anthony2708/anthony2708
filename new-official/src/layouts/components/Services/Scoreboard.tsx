@@ -11,24 +11,24 @@ export default class Scoreboard extends Component<{id: string, data: any}, {  }>
             return (
                 <>
                     <div className="container">
-                        <h1 className="text-center">Scoreboard</h1>
+                        <h6 className="text-center mt-5">Scoreboard</h6>
                     </div>
-                    <div className="container">
-                        <table>
+                    <div className="container table-responsive text-center">
+                        <table className="table min-w-full table-striped table-bordered mt-5 mx-auto">
                             <thead>
                                 <tr>
-                                    <th>Learner ID</th>
-                                    <th>Full Name</th>
-                                    <th>Progress 1</th>
-                                    <th>Progress 2</th>
-                                    <th>Progress 3</th>
-                                    <th>Progress 4</th>
-                                    <th>Progress 5</th>
-                                    <th>Test 1</th>
-                                    <th>Test 2</th>
-                                    <th>Test 3</th>
-                                    <th>Test 4</th>
-                                    <th>Test 5</th>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>P1</th>
+                                    <th>P2</th>
+                                    <th>P3</th>
+                                    <th>P4</th>
+                                    <th>P5</th>
+                                    <th>T1</th>
+                                    <th>T2</th>
+                                    <th>T3</th>
+                                    <th>T4</th>
+                                    <th>T5</th>
                                     <th>Final</th>
                                 </tr>
                             </thead>
@@ -57,24 +57,24 @@ export default class Scoreboard extends Component<{id: string, data: any}, {  }>
             return (
                 <>
                    <div className="container">
-                        <h1 className="text-center">Scoreboard</h1>
+                        <h6 className="text-center mt-5">Scoreboard</h6>
                     </div>
-                    <div className="container">
-                        <table>
+                    <div className="container text-center">
+                        <table className="table min-w-full table-striped table-bordered mt-5">
                             <thead>
                                 <tr>
-                                    <th>Learner ID</th>
-                                    <th>Full Name</th>
-                                    <th>Progress 1</th>
-                                    <th>Progress 2</th>
-                                    <th>Progress 3</th>
-                                    <th>Progress 4</th>
-                                    <th>Progress 5</th>
-                                    <th>Test 1</th>
-                                    <th>Test 2</th>
-                                    <th>Test 3</th>
-                                    <th>Test 4</th>
-                                    <th>Test 5</th>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>P1</th>
+                                    <th>P2</th>
+                                    <th>P3</th>
+                                    <th>P4</th>
+                                    <th>P5</th>
+                                    <th>T1</th>
+                                    <th>T2</th>
+                                    <th>T3</th>
+                                    <th>T4</th>
+                                    <th>T5</th>
                                     <th>Final</th>
                                 </tr>
                             </thead>

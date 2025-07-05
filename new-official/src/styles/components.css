@@ -193,3 +193,26 @@
 footer p a {
   @apply transition-all duration-200 hover:text-white;
 }
+
+/* table */
+
+.table-responsive {
+  @apply overflow-x-auto;
+}
+
+.table-striped {
+  tbody tr:nth-child(odd) {
+    @apply bg-light;
+  }
+}
+
+.table-bordered {
+  @apply border border-border;
+  th, td {
+    @apply border border-border;
+  }
+}
+
+.dark .table-bordered td {
+  @apply text-darkmode-text-dark bg-darkmode-body;
+}

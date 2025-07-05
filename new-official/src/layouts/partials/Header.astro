@@ -18,6 +18,21 @@ export interface NavigationLink {
 const { main }: { main: NavigationLink[] } = menu;
 ---
 
+<head>
+  <script>
+    // Set initial theme class as early as possible to avoid FOUC
+    (function() {
+      try {
+        const theme = localStorage.theme;
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
 <header class="header pt-6">
   <nav class="navbar container">
     <!-- logo -->
@@ -89,13 +104,14 @@ const { main }: { main: NavigationLink[] } = menu;
     
     <div class="order-1 ml-auto flex md:order-2 md:ml-0">
        <button
-    id="dark-toggle"
-    type="button"
-    class="p-2 rounded text-xl hover:text-primary"
-    aria-label="Toggle dark mode"
-    title="Toggle dark mode"
-  >
-    <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  id="dark-toggle"
+  type="button"
+  class="p-2 rounded text-xl text-dark dark:text-darkmode-text-dark bg-light dark:bg-darkmode-body hover:text-primary dark:hover:text-primary"
+  aria-label="Toggle dark mode"
+  title="Toggle dark mode"
+>
+  <!-- SVG icon -->
+   <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <g class="sun">
       <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" fill="none"/>
       <g stroke="currentColor" stroke-width="2">
@@ -113,7 +129,9 @@ const { main }: { main: NavigationLink[] } = menu;
       <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" fill="currentColor"/>
     </g>
   </svg>
-  </button>
+</button>
+    
+
       <a
         class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark dark:text-darkmode-text-dark transition hover:text-primary md:mr-0"
         href="/search"
