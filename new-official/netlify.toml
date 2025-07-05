@@ -5,6 +5,13 @@ command = "yarn build"
 [[headers]]
 for = "/*" # This defines which paths this specific [[headers]] block will cover.
 
+[[redirects]]
+    from = '/api/score'
+    to = 'www.builetuananh.name.vn/api/score'
+    status = 200
+    force = true
+    headers = {X-From = "Netlify"}
+
 [headers.values]
 X-Frame-Options = "DENY"
 X-XSS-Protection = "1; mode=block"

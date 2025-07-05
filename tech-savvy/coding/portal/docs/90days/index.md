@@ -13,5 +13,5 @@ của series 90 ngày cùng DevOps._
 
 <Link
   className="button button--primary button--lg"
-  href="https://beta.builetuananh.name.vn/90days"
+  href="https://www.builetuananh.name.vn/90days"
 >Tiếp tục hành trình</Link>

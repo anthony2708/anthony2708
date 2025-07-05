@@ -1,12 +1,12 @@
 import { Component } from "react";
 import Layout from "@theme/Layout";
-import MDXContent from "@theme/MDXContent"
+// import MDXContent from "@theme/MDXContent"
 import axios from "axios";
 import clsx from "clsx";
 import styles from "../../css/index.module.css";
 import custom from "../../css/YoutubeFeatures.module.css";
-import CoursesAnnouncement from '../../components/Courses/_announcement.mdx';
-import CoursesScoreboard from "../../components/Courses/Scoreboard";
+// import CoursesAnnouncement from '../../components/Courses/_announcement.mdx';
+// import CoursesScoreboard from "../../components/Courses/Scoreboard";
 import CourseFeatures from "../../components/Courses/Features";
 
 export default class Courses extends Component<{}, { id: string, data: any }> {
@@ -37,7 +37,7 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                     <div className="container">
                         <h1 className="hero__title">English L&T</h1>
                         <p className="hero__subtitle">English Language Teaching & Learning System</p>
-                        <form onSubmit={this.handleSubmit.bind(this)}>
+                        {/* <form onSubmit={this.handleSubmit.bind(this)}>
                             <label>
                                 <input className={custom.url} type="text"
                                     placeholder="Please enter your ID to check the score." minLength={6}
@@ -48,12 +48,12 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                                 <input className="button button--secondary button--lg" type="submit"
                                     value="🔍 Search" />
                             </div>
-                        </form>
+                        </form> */}
                     </div>
                 </header>
                 {/* End of Header */}
                 <main>
-                    <div className="container">
+                    {/* <div className="container">
                         <CoursesScoreboard data={this.state.data} id={this.state.id} />
                     </div>
                     <div className="container">
@@ -62,6 +62,9 @@ export default class Courses extends Component<{}, { id: string, data: any }> {
                                 <CoursesAnnouncement />
                             </div>
                         </MDXContent>
+                    </div> */}
+                    <div className="container">
+                        <p> Dịch vụ đang trong quá trình bảo trì, vui lòng quay lại sau.</p>
                     </div>
                     <div className="container">
                         <CourseFeatures />

@@ -1,0 +1,14 @@
+---
+import Base from "@/layouts/Base.astro";
+import English from "@/layouts/components/English.tsx";
+---
+
+<Base title={`English L&T`}>
+    <section class="section">
+        <div class="container">
+            <h1 class="page-heading mb-10">English L&T</h1>
+            <p class="text-center">English Language Teaching & Learning System</p>
+            <English client:load />
+        </div>
+    </section>
+</Base>

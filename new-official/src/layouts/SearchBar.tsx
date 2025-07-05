@@ -1,5 +1,5 @@
 import React from "react";
-import config from "@/config/config.json";
+// import config from "@/config/config.json";
 import dateFormat from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
 import Fuse from "fuse.js";
