@@ -7,7 +7,7 @@ for = "/*" # This defines which paths this specific [[headers]] block will cover
 
 [[redirects]]
     from = '/api/score'
-    to = 'portal.builetuananh.name.vn/api/score'
+    to = 'https://portal.builetuananh.name.vn/api/score'
     status = 200
     force = true
     headers = {X-From = "Netlify"}
