@@ -32,6 +32,17 @@ const { main }: { main: NavigationLink[] } = menu;
       } catch (e) {}
     })();
   </script>
+  <script>
+    // Re-apply theme on bfcache restore (Safari, Brave, etc.)
+    window.addEventListener('pageshow', function() {
+      const theme = localStorage.theme;
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    });
+  </script>
 </head>
 <header class="header pt-6">
   <nav class="navbar container">
