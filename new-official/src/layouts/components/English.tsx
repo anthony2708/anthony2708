@@ -1,6 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import axios from "axios";
+import Scoreboard from "./Services/Scoreboard";
 
 export default class English extends Component<{}, {id: string, data: any, loading: boolean}> {
     constructor(props: {} | Readonly<{}>) {
@@ -63,9 +64,11 @@ export default class English extends Component<{}, {id: string, data: any, loadi
                         </div>
                     )}
                     {!this.state.loading && this.state.data && this.state.data !== "loading" && (
-                        <div className="mt-5">
+                        <div className="container">
                             {/* Render your result here */}
-                            <pre>{JSON.stringify(this.state.data, null, 2)}</pre>
+                            <div className="text-center">
+                                <Scoreboard id={this.state.id} data={this.state.data} />
+                            </div>
                         </div>
                     )}
                 </div>
