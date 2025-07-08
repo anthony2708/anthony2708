@@ -17,8 +17,9 @@
       "@/helpers/*": ["./src/layouts/helpers/*"],
       "@/partials/*": ["./src/layouts/partials/*"],
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["astro/client", "@astrojs/mdx"],
   },
-  "include": [".astro/types.d.ts", "**/*.ts", "**/*.tsx", "**/*.astro"],
+  "include": [".astro/types.d.ts", "**/*.ts", "**/*.tsx", "**/*.astro", "**/*.mdx", "**/*.md", "**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }

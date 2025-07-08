@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import axios from "axios";
-import Scoreboard from "./Services/Scoreboard";
+import Scoreboard from "./Scoreboard";
 
 export default class English extends Component<{}, {id: string, data: any, loading: boolean}> {
     constructor(props: {} | Readonly<{}>) {

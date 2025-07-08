@@ -1,6 +1,11 @@
 ---
 import Base from "@/layouts/Base.astro";
-import English from "@/layouts/components/English.tsx";
+import English from "@/layouts/components/Services/English/English.tsx";
+import Announcements from "@/layouts/components/Services/English/courses/_p1.md";
+import Alert from "@/layouts/components/Services/English/courses/_p3.mdx";
+import Schedule from "@/layouts/components/Services/English/courses/_p2.mdx";
+
+// Announcements is an MDX component and should be used directly
 ---
 
 <Base title={`English L&T`}>
@@ -9,6 +14,23 @@ import English from "@/layouts/components/English.tsx";
             <h1 class="page-heading mb-10">English L&T</h1>
             <p class="text-center">English Language Teaching & Learning System</p>
             <English client:load />
+        </div>
+    </section>
+    <section class="section">
+        <div class="container mt-5">
+            <h3 class="page-heading mb-10">Bảng thông báo</h3>
+        </div>
+        <div class="container mt-5">
+            <h4 class="text-center mb-10">Tài liệu tham khảo</h4>
+            <Announcements />
+        </div>
+        <div class="container mt-5">
+            <h4 class="text-center mb-10">Thông báo chiêu sinh</h4>
+            <Schedule />
+        </div>
+        <div class="container mt-5">
+            <h4 class="text-center mb-10">Đường dẫn nộp bài</h4>
+            <Alert />
         </div>
     </section>
 </Base>
