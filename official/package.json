@@ -1,31 +1,20 @@
 {
   "name": "official",
-  "type": "module",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/starlight": "^0.34.4",
-    "@astrojs/starlight-tailwind": "^3.0.1",
-    "@astrojs/tailwind": "^6.0.2",
-    "astro": "^5.10.1",
-    "sharp": "^0.34.2",
-    "starlight-blog": "^0.24.0",
-    "starlight-cooler-credit": "^0.4.0",
-    "starlight-image-zoom": "^0.12.0",
-    "starlight-sidebar-topics": "^0.6.0",
-    "starlight-theme-catppuccin": "^2.0.0",
-    "starlight-videos": "^0.3.0",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.8.3"
-  },
-  "homepage": "https://old.builetuananh.name.vn",
+  "description": "A project for Vuejs testing",
+  "version": "2.0.0",
   "license": "MIT",
-  "packageManager": "yarn@1.22.22"
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "sass-embedded": "^1.89.2",
+    "vue": "^3.5.17",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  }
 }
