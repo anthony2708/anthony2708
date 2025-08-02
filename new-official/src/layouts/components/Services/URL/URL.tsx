@@ -15,9 +15,10 @@ export default class URL extends Component<{}, { url: string, data: any, loading
 
     async handleSubmit(event: { preventDefault: () => void }) {
         event.preventDefault();
+        this.setState({ data: "loading", loading: true });
         try {
             const res = await axios.post('/api/url', { data: { url: this.state.url } });
-            this.setState({ data: res.data });
+            this.setState({ data: res.data, loading: false });
         } catch (error) {
             if (error instanceof Error) {
                 this.setState({ data: error.message, loading: false });
@@ -34,7 +35,7 @@ export default class URL extends Component<{}, { url: string, data: any, loading
                         <form onSubmit={this.handleSubmit.bind(this)}>
                             <input
                                 className="form-input w-full text-center mt-5"
-                                type="text"
+                                type="url"
                                 value={this.state.url}
                                 onChange={this.handleChange.bind(this)}
                                 placeholder="Please enter your URL to shorten."

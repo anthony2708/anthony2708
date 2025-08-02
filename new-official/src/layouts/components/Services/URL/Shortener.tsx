@@ -9,7 +9,7 @@ export default class Shortener extends Component<{ url: string, data: any }, {}>
         if (this.props.data.status == 200)
             return (
                 <>
-                    <h3 className="text-center mt-5">Địa chỉ rút gọn: <a href={this.props.data.message}>{this.props.data.message}</a></h3>
+                    <h6 className="text-center mt-5">Địa chỉ rút gọn: <a href={this.props.data.message}>{this.props.data.message}</a></h6>
                 </>
             );
         else
