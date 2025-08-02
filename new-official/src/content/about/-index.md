@@ -5,24 +5,20 @@ image: "/images/anthony.jpg"
 draft: false
 
 what_i_do:
-  title: "Dịch vụ Giá trị gia tăng"
+  title: "Services Portal"
   items:
   
-  - title: "Email DNS"
-    description: "Hỗ trợ thiết lập các bản ghi DNS: SPF, DKIM, DMARC cho các tên miền, phục vụ gửi thư điện tử."
-    url: "https://www.fiverr.com/s/ak82oXW"
+  - title: "URL Shortener"
+    description: "Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác dễ dàng hơn."
+    url: "/services/url"
   
-  - title: "Helpdesk"
-    description: "Hỗ trợ kỹ thuật, cài đặt và khắc phục cho các vấn đề liên quan đến máy tính, dịch vụ, ứng dụng."
-    url: "https://www.fiverr.com/s/kLvNbNw"
+  - title: "English L&T"
+    description: "Dịch vụ dạy và học tiếng Anh trực tuyến, phục vụ nhu cầu của GV và HV."
+    url: "/services/courses"
 
-  - title: "OpenVPN"
-    description: "Hỗ trợ cài đặt OpenVPN cho máy chủ trực tiếp hoặc qua Docker, phục vụ truy cập dịch vụ từ xa."
-    url: "https://www.fiverr.com/s/WEmxdqQ"
-
-  - title: "Server Admin"
-    description: "Quản trị máy chủ Linux, Windows, cài đặt và cấu hình các dịch vụ: Web, Mail, DNS, VPN, Proxy, Firewall…"
-    url: "https://www.fiverr.com/s/zW2qlGe"
+  - title: "Images Gallery"
+    description: "Dịch vụ lưu trữ ảnh trực tuyến, giúp ghi lại những khoảnh khắc tuyệt đẹp."
+    url: "https://portal.builetuananh.name.vn/services/gallery"
 
 ---
 

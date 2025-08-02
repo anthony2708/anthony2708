@@ -1,0 +1,14 @@
+---
+import Base from "@/layouts/Base.astro";
+import URL from "@/layouts/components/Services/URL/URL.tsx";
+---
+
+<Base title={`URL Shortener`}>
+    <section class="section">
+        <div class="container">
+            <h1 class="page-heading mb-10">URL Shortener</h1>
+            <p class="text-center">Công cụ rút gọn địa chỉ URL</p>
+            <URL client:load />
+        </div>
+    </section>
+</Base>

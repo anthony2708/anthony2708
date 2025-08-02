@@ -75,7 +75,7 @@ function Notice({
             />
           </svg>
         )}
-        <p className="my-0 ml-1.5 text-dark dark:text-darkmode-text-dark">{humanize(type)}</p>
+        <p className="my-0 ml-1.5 text-dark">{humanize(type)}</p>
       </div>
       <div className="notice-body">{children}</div>
     </div>

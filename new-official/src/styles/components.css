@@ -59,10 +59,6 @@
   }
 }
 
-.dark .social-icons-simple a {
-  @apply block p-3 text-darkmode-text-dark transition hover:text-primary;
-}
-
 .social-share {
   @apply space-x-1;
   li {
@@ -76,14 +72,6 @@
 /* content style */
 .content {
   @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:rounded-lg prose-blockquote:border-primary prose-blockquote:bg-light prose-blockquote:px-7 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:leading-8 prose-pre:px-6 prose-pre:py-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
-}
-
-/* content style for dark mode */
-.dark .content {
-  @apply prose-invert;
-  @apply prose-headings:text-darkmode-text-dark;
-  @apply prose-blockquote:border-darkmode-text-dark;
-  @apply prose-blockquote:bg-darkmode-body;
 }
 
 /* tab */
@@ -133,7 +121,7 @@
 }
 
 .accordion-content {
-  @apply max-h-0 overflow-hidden px-8 py-0 dark:text-black;
+  @apply max-h-0 overflow-hidden px-8 py-0;
 }
 
 .accordion.active .accordion-icon {
@@ -211,8 +199,4 @@ footer p a {
   th, td {
     @apply border border-border;
   }
-}
-
-.dark .table-bordered td {
-  @apply text-darkmode-text-dark bg-darkmode-body;
 }

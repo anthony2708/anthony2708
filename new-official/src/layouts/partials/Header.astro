@@ -29,7 +29,7 @@ const { main }: { main: NavigationLink[] } = menu;
     <label
       id="show-button"
       for="nav-toggle"
-      class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden dark:text-darkmode-text-dark"
+      class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Open</title>
@@ -39,7 +39,7 @@ const { main }: { main: NavigationLink[] } = menu;
     <label
       id="hide-button"
       for="nav-toggle"
-      class="order-2 hidden cursor-pointer items-center text-black md:order-1 dark:text-darkmode-text-dark"
+      class="order-2 hidden cursor-pointer items-center text-black md:order-1"
     >
       <svg class="h-6 fill-current" viewBox="0 0 20 20">
         <title>Menu Close</title>
@@ -88,34 +88,8 @@ const { main }: { main: NavigationLink[] } = menu;
     </ul>
     
     <div class="order-1 ml-auto flex md:order-2 md:ml-0">
-       <button
-    id="dark-toggle"
-    type="button"
-    class="p-2 rounded text-xl hover:text-primary"
-    aria-label="Toggle dark mode"
-    title="Toggle dark mode"
-  >
-    <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <g class="sun">
-      <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" fill="none"/>
-      <g stroke="currentColor" stroke-width="2">
-        <line x1="12" y1="1" x2="12" y2="3"/>
-        <line x1="12" y1="21" x2="12" y2="23"/>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-        <line x1="1" y1="12" x2="3" y2="12"/>
-        <line x1="21" y1="12" x2="23" y2="12"/>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
-      </g>
-    </g>
-    <g class="moon" style="display:none">
-      <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" fill="currentColor"/>
-    </g>
-  </svg>
-  </button>
       <a
-        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark dark:text-darkmode-text-dark transition hover:text-primary md:mr-0"
+        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
         href="/search"
         title="search"
         aria-label="search"
@@ -126,53 +100,3 @@ const { main }: { main: NavigationLink[] } = menu;
     
   </nav>
 </header>
-<script>
-  // Set initial theme on page load
-  function applyThemeFromStorage() {
-    const theme = localStorage.theme;
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else if (theme === 'light') {
-      document.documentElement.classList.remove('dark');
-    }
-    updateIcon();
-  }
-
-  // Update the icon based on current theme
-function updateIcon() {
-  const icon = document.getElementById('dark-icon');
-  if (!icon) return;
-  const sun = icon.querySelector('.sun') as HTMLElement | null;
-  const moon = icon.querySelector('.moon') as HTMLElement | null;
-  const isDark = document.documentElement.classList.contains('dark');
-  if (sun && moon) {
-    sun.style.display = isDark ? 'none' : '';
-    moon.style.display = isDark ? '' : 'none';
-  }
-}
-
-  // Toggle theme and save preference
-  function toggleTheme() {
-    const isDark = document.documentElement.classList.toggle('dark');
-    localStorage.theme = isDark ? 'dark' : 'light';
-    updateIcon();
-  }
-
-  // Setup event listeners after DOM is ready
-  window.addEventListener('DOMContentLoaded', () => {
-    applyThemeFromStorage();
-    const btn = document.getElementById('dark-toggle');
-    if (btn) {
-      btn.addEventListener('click', toggleTheme);
-    }
-  });
-
-  // Also update icon if navigating via client-side routing (Astro islands, SPA, etc.)
-  document.addEventListener('astro:after-swap', () => {
-    applyThemeFromStorage();
-    const btn = document.getElementById('dark-toggle');
-    if (btn) {
-      btn.addEventListener('click', toggleTheme);
-    }
-  });
-</script>

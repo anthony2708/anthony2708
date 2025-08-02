@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
                 giáo viên và học viên.
             </Translate>
         ),
-        link: "https://www.builetuananh.name.vn/services/english"
+        link: "https://www.builetuananh.name.vn/services/courses"
     },
     {
         title: "Images Gallery",
