@@ -36,9 +36,7 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.js",
-        },
+        docs: false,
         blog: false,
         // blog: {
         //   showReadingTime: true,
@@ -74,76 +72,76 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      "@easyops-cn/docusaurus-search-local",
-      {
-        language: ["vi", "en"],
-        hashed: true,
-        searchResultLimits: 5,
-        searchBarShortcutHint: false,
-        // highlightSearchTermsOnTargetPage: true,
-      },
-    ],[
-      '@docusaurus/plugin-pwa',
-      {
-        // debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/favicon/ET_Logo.jpg',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(255, 237, 174)',
-          },
-          {
-            tagName: 'meta',
-            name: 'mobile-web-app-capable',
-            content: 'yes',
-          },
-          {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
-          },
-          {
-            tagName: 'link',
-            rel: 'apple-touch-icon',
-            href: '/img/favicon/ET_Logo.jpg',
-          },
-          {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/img/favicon/ET_Logo.jpg',
-            color: 'rgb(255, 237, 174)',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-TileImage',
-            content: '/img/favicon/favicon.jpg',
-          },
-          {
-            tagName: 'meta',
-            name: 'msapplication-TileColor',
-            content: '#000',
-          },
-        ],
-      },
-    ]
-  ],
+  // plugins: [
+    // [
+    // //   "@easyops-cn/docusaurus-search-local",
+    // //   {
+    // //     language: ["vi", "en"],
+    // //     hashed: true,
+    // //     searchResultLimits: 5,
+    // //     searchBarShortcutHint: false,
+    // //     // highlightSearchTermsOnTargetPage: true,
+    // //   },
+    // // ],[
+    // //   '@docusaurus/plugin-pwa',
+    // //   {
+    // //     // debug: true,
+    // //     offlineModeActivationStrategies: [
+    // //       'appInstalled',
+    // //       'standalone',
+    // //       'queryString',
+    // //     ],
+    // //     pwaHead: [
+    // //       {
+    // //         tagName: 'link',
+    // //         rel: 'icon',
+    // //         href: '/img/favicon/ET_Logo.jpg',
+    // //       },
+    // //       {
+    // //         tagName: 'link',
+    // //         rel: 'manifest',
+    // //         href: '/manifest.json', // your PWA manifest
+    // //       },
+    // //       {
+    // //         tagName: 'meta',
+    // //         name: 'theme-color',
+    // //         content: 'rgb(255, 237, 174)',
+    // //       },
+    // //       {
+    // //         tagName: 'meta',
+    // //         name: 'mobile-web-app-capable',
+    // //         content: 'yes',
+    // //       },
+    // //       {
+    // //         tagName: 'meta',
+    // //         name: 'apple-mobile-web-app-status-bar-style',
+    // //         content: '#000',
+    // //       },
+    // //       {
+    // //         tagName: 'link',
+    // //         rel: 'apple-touch-icon',
+    // //         href: '/img/favicon/ET_Logo.jpg',
+    // //       },
+    // //       {
+    // //         tagName: 'link',
+    // //         rel: 'mask-icon',
+    // //         href: '/img/favicon/ET_Logo.jpg',
+    // //         color: 'rgb(255, 237, 174)',
+    // //       },
+    // //       {
+    // //         tagName: 'meta',
+    // //         name: 'msapplication-TileImage',
+    // //         content: '/img/favicon/favicon.jpg',
+    // //       },
+    // //       {
+    // //         tagName: 'meta',
+    // //         name: 'msapplication-TileColor',
+    // //         content: '#000',
+    // //       },
+    // //     ],
+    // //   },
+    // ]
+  // ],
 
   themeConfig: {
     navbar: {
@@ -153,86 +151,86 @@ const config: Config = {
         alt: "Logo",
         src: "img/favicon/ET_Logo.jpg",
       },
-      items: [
-        {
-          type: "localeDropdown",
-          position: "right",
-        },
-        {
-          label: "Trang chủ",
-          href: "https://www.builetuananh.name.vn",
-          position: "left",
-        },
-        // {
-        //   label: "Station",
-        //   to: "/station",
-        //   position: "left",
-        // },
-        {
-          label: "Dịch vụ",
-          position: "left",
-          href: "https://www.builetuananh.name.vn/about",
-        },
-      ],
+      // items: [
+      //   {
+      //     type: "localeDropdown",
+      //     position: "right",
+      //   },
+      //   // {
+      //   //   label: "Trang chủ",
+      //   //   href: "https://www.builetuananh.name.vn",
+      //   //   position: "left",
+      //   // },
+      //   // {
+      //   //   label: "Station",
+      //   //   to: "/station",
+      //   //   position: "left",
+      //   // },
+      //   // {
+      //   //   label: "Dịch vụ",
+      //   //   position: "left",
+      //   //   href: "https://www.builetuananh.name.vn/about",
+      //   // },
+      // ],
     },
-    announcementBar: {
-      id: "announcement-bar",
-      content:
-        // "⭐ <b>Thông báo</b>: Quốc tang Nguyên Chủ tịch nước Trần Đức Lương (Từ ngày 24-25/05/2025) (State Funeral for former President Tran Duc Luong from May 24-25, 2025) ⭐",
-        "⭐ <b>Thông báo</b>: Theo dõi series 90 ngày DevOps trên website <b>www.builetuananh.name.vn</b> (Catch up with 90Days on our official website.) ⭐",
-      backgroundColor: "#a4e4dc",
-      textColor: "#222",
-      // backgroundColor: "#222",
-      // textColor: "#fff",
-      isCloseable: false,
-    },
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
+    // announcementBar: {
+    //   id: "announcement-bar",
+    //   content:
+    //     // "⭐ <b>Thông báo</b>: Quốc tang Nguyên Chủ tịch nước Trần Đức Lương (Từ ngày 24-25/05/2025) (State Funeral for former President Tran Duc Luong from May 24-25, 2025) ⭐",
+    //     "⭐ <b>Thông báo</b>: Theo dõi series 90 ngày DevOps trên website <b>www.builetuananh.name.vn</b> (Catch up with 90Days on our official website.) ⭐",
+    //   backgroundColor: "#a4e4dc",
+    //   textColor: "#222",
+    //   // backgroundColor: "#222",
+    //   // textColor: "#fff",
+    //   isCloseable: false,
+    // },
+    // docs: {
+    //   sidebar: {
+    //     hideable: true,
+    //   },
+    // },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Trang chủ",
-          items: [
+      // links: [
+        // {
+          // title: "Trang chủ",
+          // items: [
             // {
-            //   label: "Giới thiệu cá nhân",
-            //   href: "",
+              // label: "Giới thiệu cá nhân",
+              // href: "",
             // },
             // {
-            //   label: "Collab Station",
-            //   to: "/station"
+              // label: "Collab Station",
+              // to: "/station"
             // },
-            {
-              label: "Tài liệu tham khảo",
-              href: "https://shorturl.at/kduuJ",
-            },
-            {
-              label: "Về website chính thức",
-              href: "https://www.builetuananh.name.vn"
-            }
-          ],
-        },
-        {
-          title: "Cổng dịch vụ",
-          items: [
-            {
-              label: "URL Shortener",
-              href: "https://www.builetuananh.name.vn/services/url",
-            },
-            {
-              label: "English L&T",
-              href: "https://www.builetuananh.name.vn/services/courses",
-            },
-            {
-              label: "Kho lưu trữ ảnh",
-              href: "https://www.builetuananh.name.vn/services/gallery",
-            },
-          ]
-        },
-      ],
+            // {
+              // label: "Tài liệu tham khảo",
+              // href: "https://shorturl.at/kduuJ",
+            // },
+            // {
+              // label: "Về website chính thức",
+              // href: "https://www.builetuananh.name.vn"
+            // }
+          // ],
+        // },
+        // {
+          // title: "Cổng dịch vụ",
+          // items: [
+            // {
+              // label: "URL Shortener",
+              // href: "https://www.builetuananh.name.vn/services/url",
+            // },
+            // {
+              // label: "English L&T",
+              // href: "https://www.builetuananh.name.vn/services/courses",
+            // },
+            // {
+              // label: "Kho lưu trữ ảnh",
+              // href: "https://www.builetuananh.name.vn/services/gallery",
+            // },
+          // ]
+        // },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },
     prism: {
