@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác.
             </Translate>
         ),
-        link: "/services/url"
+        link: "https://www.builetuananh.name.vn/services/url"
     },
     {
         title: "English L&T",
@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
                 Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp.
             </Translate>
         ),
-        link: "/services/gallery"
+        link: "https://www.builetuananh.name.vn/services/gallery"
     }
 ]
 

@@ -171,7 +171,7 @@ const config: Config = {
         {
           label: "Dịch vụ",
           position: "left",
-          to: "/services",
+          href: "https://www.builetuananh.name.vn/about",
         },
       ],
     },
@@ -220,15 +220,15 @@ const config: Config = {
           items: [
             {
               label: "URL Shortener",
-              to: "/services/url",
+              href: "https://www.builetuananh.name.vn/services/url",
             },
             {
               label: "English L&T",
-              to: "/services/courses",
+              href: "https://www.builetuananh.name.vn/services/courses",
             },
             {
               label: "Kho lưu trữ ảnh",
-              to: "/services/gallery",
+              href: "https://www.builetuananh.name.vn/services/gallery",
             },
           ]
         },

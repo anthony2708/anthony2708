@@ -1,0 +1,136 @@
+---
+import Base from "@/layouts/Base.astro";
+import { Image } from 'astro:assets';
+import Image1 from "../../images/1.jpg";
+import Image2 from "../../images/2.jpg";
+import Image3 from "../../images/3.jpg";
+import Image4 from "../../images/4.jpg"; 
+import Image5 from "../../images/5.jpg";
+import Image6 from "../../images/6.jpg";
+import Image7 from "../../images/7.jpg";
+import Image8 from "../../images/8.jpg";
+import Image9 from "../../images/9.jpg";
+import Image10 from "../../images/10.jpg";
+import Image11 from "../../images/11.jpg";
+import Image12 from "../../images/12.jpg";
+import Image13 from "../../images/13.jpg";
+import Image14 from "../../images/14.jpg";
+import Image15 from "../../images/15.jpg";
+import Image16 from "../../images/16.jpg";
+import Image17 from "../../images/17.jpg";
+import Image18 from "../../images/18.jpg";
+import Image19 from "../../images/19.jpg";
+import Image20 from "../../images/20.jpg";
+
+const images = [
+    {
+        image: Image1,
+        description: "Tho Huynh"
+    },
+    {
+        image: Image2,
+        description: "Tin Vo"
+    },
+    {
+        image: Image3,
+        description: "Tin and Loc"
+    },
+    {
+        image: Image4,
+        description: "Myself"
+    },
+    {
+        image: Image5,
+        description: "My family"
+    },
+    {
+        image: Image6,
+        description: "With Vy"
+    },
+    {
+        image: Image7,
+        description: "The big 4"
+    },
+    {
+        image: Image8,
+        description: "With my lovely An"
+    },
+    {
+        image: Image9,
+        description: "Khoa Pham"
+    },
+    {
+        image: Image10,
+        description: "With sweet Khanh"
+    },
+    {
+        image: Image11,
+        description: "With Ngan"
+    },
+    {
+        image: Image12,
+        description: "Thuan Nguyen"
+    },
+    {
+        image: Image13,
+        description: "When Tin goes back"
+    },
+    {
+        image: Image19,
+        description: "An idol..."
+    },
+    {
+        image: Image15,
+        description: "The Baby Thanh"
+    },
+    {
+        image: Image14,
+        description: "Vy Pham and me"
+    },
+    {
+        image: Image16,
+        description: "The gifts"
+    },
+    {
+        image: Image17,
+        description: "The 3 of us"
+    },
+    {
+        image: Image20,
+        description: "My memorable moment"
+    },
+    {
+        image: Image18,
+        description: "With Tuyet"
+    },
+]
+---
+
+<Base title="Images Gallery">
+    <section class="section">
+        <div class="container">
+            <h1 class="page-heading mb-10">Images Gallery</h1>
+            <p class="text-center">Kho lưu trữ ảnh từ VNUHCM-ITUS</p>
+            <div class="justify-center text-center my-10">
+                <a href="https://drive.google.com/drive/folders/1WrUQBzT5piurWyWmtOloK8y4Hl8ffHEx?usp=sharingX" 
+                   class="btn btn-primary text-white py-2">Xem trọn vẹn</a>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row justify-center gy-3 text-center">
+                {
+                    images.map((item) => (
+                        <div class="lg:col-3 md:col-4 sm:col-6">
+                            <div class="img-cover mb-4">
+                                <Image src={item.image} alt={item.description} class="w-full rounded-lg"/>
+                            </div>
+                            {/* <p>{item.description}</p> */}
+                        </div>
+                    ))
+                }
+            </div>
+        </div>
+    </section>
+</Base>

@@ -18,7 +18,7 @@ what_i_do:
 
   - title: "Images Gallery"
     description: "Dịch vụ lưu trữ ảnh trực tuyến, giúp ghi lại những khoảnh khắc tuyệt đẹp."
-    url: "https://portal.builetuananh.name.vn/services/gallery"
+    url: "/services/gallery"
 
 ---
 
