@@ -1,106 +1,85 @@
 ---
 import Base from "@/layouts/Base.astro";
-import { Image } from 'astro:assets';
-import Image1 from "../../images/1.jpg";
-import Image2 from "../../images/2.jpg";
-import Image3 from "../../images/3.jpg";
-import Image4 from "../../images/4.jpg"; 
-import Image5 from "../../images/5.jpg";
-import Image6 from "../../images/6.jpg";
-import Image7 from "../../images/7.jpg";
-import Image8 from "../../images/8.jpg";
-import Image9 from "../../images/9.jpg";
-import Image10 from "../../images/10.jpg";
-import Image11 from "../../images/11.jpg";
-import Image12 from "../../images/12.jpg";
-import Image13 from "../../images/13.jpg";
-import Image14 from "../../images/14.jpg";
-import Image15 from "../../images/15.jpg";
-import Image16 from "../../images/16.jpg";
-import Image17 from "../../images/17.jpg";
-import Image18 from "../../images/18.jpg";
-import Image19 from "../../images/19.jpg";
-import Image20 from "../../images/20.jpg";
 
 const images = [
     {
-        image: Image1,
+        image: "/images/graduation/1.jpg",
         description: "Tho Huynh"
     },
     {
-        image: Image2,
+        image: "/images/graduation/2.jpg",
         description: "Tin Vo"
     },
     {
-        image: Image3,
+        image: "/images/graduation/3.jpg",
         description: "Tin and Loc"
     },
     {
-        image: Image4,
+        image: "/images/graduation/4.jpg",
         description: "Myself"
     },
     {
-        image: Image5,
+        image: "/images/graduation/5.jpg",
         description: "My family"
     },
     {
-        image: Image6,
+        image: "/images/graduation/6.jpg",
         description: "With Vy"
     },
     {
-        image: Image7,
+        image: "/images/graduation/7.jpg",
         description: "The big 4"
     },
     {
-        image: Image8,
+        image: "/images/graduation/8.jpg",
         description: "With my lovely An"
     },
     {
-        image: Image9,
+        image: "/images/graduation/9.jpg",
         description: "Khoa Pham"
     },
     {
-        image: Image10,
+        image: "/images/graduation/10.jpg",
         description: "With sweet Khanh"
     },
     {
-        image: Image11,
+        image: "/images/graduation/11.jpg",
         description: "With Ngan"
     },
     {
-        image: Image12,
+        image: "/images/graduation/12.jpg",
         description: "Thuan Nguyen"
     },
     {
-        image: Image13,
+        image: "/images/graduation/13.jpg",
         description: "When Tin goes back"
     },
     {
-        image: Image19,
+        image: "/images/graduation/19.jpg",
         description: "An idol..."
     },
     {
-        image: Image15,
+        image: "/images/graduation/15.jpg",
         description: "The Baby Thanh"
     },
     {
-        image: Image14,
+        image: "/images/graduation/14.jpg",
         description: "Vy Pham and me"
     },
     {
-        image: Image16,
+        image: "/images/graduation/16.jpg",
         description: "The gifts"
     },
     {
-        image: Image17,
+        image: "/images/graduation/17.jpg",
         description: "The 3 of us"
     },
     {
-        image: Image20,
+        image: "/images/graduation/20.jpg",
         description: "My memorable moment"
     },
     {
-        image: Image18,
+        image: "/images/graduation/18.jpg",
         description: "With Tuyet"
     },
 ]
@@ -124,7 +103,7 @@ const images = [
                     images.map((item) => (
                         <div class="lg:col-3 md:col-4 sm:col-6">
                             <div class="img-cover mb-4">
-                                <Image src={item.image} alt={item.description} class="w-full rounded-lg"/>
+                                <img src={item.image} alt={item.description} class="w-full rounded-lg"/>
                             </div>
                             {/* <p>{item.description}</p> */}
                         </div>
