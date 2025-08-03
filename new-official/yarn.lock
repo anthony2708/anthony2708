@@ -1393,12 +1393,12 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/blobs@10.0.7":
-  version "10.0.7"
-  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.7.tgz#c92a597a4d1184b18f7c2fbbc9586c2b8d78157e"
-  integrity sha512-kvkq04TLRNkEwBOwoLwnfw9Bud8KF5HjHNgCuQVNkkHL9f1S/MZDdiKgpbs/fKo6fSNctxOzHUVCN3jFEvmVZg==
+"@netlify/blobs@10.0.8", "@netlify/blobs@^10.0.1":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.8.tgz#bae926cbb437b7c3d5147a10a787efac3c549f00"
+  integrity sha512-zvMCtMfek7f+ky8jB3mR5zQE4ai94/SisOvQZJ+7kOfKn7poY027WnG4ngcogCQmOMQLSScvzGheojN5HjenCQ==
   dependencies:
-    "@netlify/dev-utils" "4.1.0"
+    "@netlify/dev-utils" "4.1.1"
     "@netlify/runtime-utils" "2.1.0"
 
 "@netlify/blobs@9.1.6":
@@ -1407,14 +1407,6 @@
   integrity sha512-RR3t5fv7CkGVJiylOTLf/YaHPyrcWmhHW3zX3EK/9UQsnTi8jPxP7B2nyjgRjAx5S4YTzJQP+FmbQlGKdogALQ==
   dependencies:
     "@netlify/dev-utils" "3.2.0"
-    "@netlify/runtime-utils" "2.1.0"
-
-"@netlify/blobs@^10.0.1":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@netlify/blobs/-/blobs-10.0.3.tgz#cf16f5e7eb57932762e59a61b35a2c240e88b70a"
-  integrity sha512-edfIKZTkKMKU00/L7u86jR14RrV7NyJBtxSEWLdtY1t2sxFprJgVJNIqPWXPF/LRvTCfNqmvyxkLvB2mbPA0aQ==
-  dependencies:
-    "@netlify/dev-utils" "3.2.2"
     "@netlify/runtime-utils" "2.1.0"
 
 "@netlify/build-info@10.0.7":
@@ -1575,39 +1567,18 @@
     uuid "^11.1.0"
     write-file-atomic "^5.0.1"
 
-"@netlify/dev-utils@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@netlify/dev-utils/-/dev-utils-3.2.2.tgz#d82a687ee6be4add8dad5cff6f9d70f8d8e8196f"
-  integrity sha512-ECz/xEaqhAPUoFkeC2Ofpky1HBEKwPCsAL66iK/dLFHUFs39SC3y6Bn5QY76DzONmt+RjWmoYkSIEhJ1xAWHfA==
+"@netlify/dev-utils@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@netlify/dev-utils/-/dev-utils-4.1.1.tgz#6a7c6fe9a4a72dc6d727721c91f5611e54943f99"
+  integrity sha512-Y3kVGxynxi/Lz42bi20A+PQ0vh25zVjbGnQWZQUTwLzQozEIeokCgUWskPvlhs6btheLZyzUjqGuhUCymOoD1g==
   dependencies:
     "@whatwg-node/server" "^0.10.0"
     ansis "^4.1.0"
     chokidar "^4.0.1"
     decache "^4.6.2"
     dot-prop "9.0.0"
+    empathic "^2.0.0"
     env-paths "^3.0.0"
-    find-up "7.0.0"
-    image-size "^2.0.2"
-    js-image-generator "^1.0.4"
-    lodash.debounce "^4.0.8"
-    parse-gitignore "^2.0.0"
-    semver "^7.7.2"
-    tmp-promise "^3.0.3"
-    uuid "^11.1.0"
-    write-file-atomic "^5.0.1"
-
-"@netlify/dev-utils@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/dev-utils/-/dev-utils-4.1.0.tgz#bb39d37377a50edde829201cf1148aa1b8efcf19"
-  integrity sha512-ftDT7G2IKCwcjULat/I5fbWwqgXhcJ1Vw7Xmda23qNLYhL9YxHn1FvIe10oHZuR/0ZHIUULuvOmswLdeoC6hqQ==
-  dependencies:
-    "@whatwg-node/server" "^0.10.0"
-    ansis "^4.1.0"
-    chokidar "^4.0.1"
-    decache "^4.6.2"
-    dot-prop "9.0.0"
-    env-paths "^3.0.0"
-    find-up "7.0.0"
     image-size "^2.0.2"
     js-image-generator "^1.0.4"
     lodash.debounce "^4.0.8"
@@ -1669,13 +1640,13 @@
     cpy "^11.0.0"
     path-exists "^5.0.0"
 
-"@netlify/functions@^4.1.15":
-  version "4.1.15"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.1.15.tgz#1ed77a3da59e2959c522f68c48c52eb1acc26217"
-  integrity sha512-kR3wq64Zw45UFZ78c7Q/adA3Jkamhju4OfydJ0DrR++TbzI19ijxCmimaJvmMgrAuKtZ2n8+JqGtLavt2MmdUA==
+"@netlify/functions@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-4.2.1.tgz#7a8ecb62a3e48f421bb2e75932f5a964f8edc4e5"
+  integrity sha512-FhwXULPeD9qbUdWxtD9AUjV5GEjB93fqLhl0N4KZAf00i1Ec0t3WmCJ4j5bCbnETxXEkTOYhhUBHZi2BAFQSgw==
   dependencies:
-    "@netlify/blobs" "10.0.7"
-    "@netlify/dev-utils" "4.1.0"
+    "@netlify/blobs" "10.0.8"
+    "@netlify/dev-utils" "4.1.1"
     "@netlify/types" "2.0.2"
     "@netlify/zip-it-and-ship-it" "^14.1.0"
     cron-parser "^4.9.0"
@@ -4784,6 +4755,11 @@ emoji-regex@^9.2.2:
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
+
+empathic@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/empathic/-/empathic-2.0.0.tgz#71d3c2b94fad49532ef98a6c34be0386659f6131"
+  integrity sha512-i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA==
 
 enabled@2.0.x:
   version "2.0.0"
