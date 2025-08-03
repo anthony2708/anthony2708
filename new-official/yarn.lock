@@ -175,23 +175,14 @@
     fast-xml-parser "^5.2.0"
     kleur "^4.1.5"
 
-"@astrojs/sitemap@^3.3.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.4.0.tgz#3eaad704eb4ed2e0420e8b81546420dffabb159b"
-  integrity sha512-C5m/xsKvRSILKM3hy47n5wKtTQtJXn8epoYuUmCCstaE9XBt20yInym3Bz2uNbEiNfv11bokoW0MqeXPIvjFIQ==
+"@astrojs/sitemap@^3.3.0", "@astrojs/sitemap@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.4.2.tgz#f44e8fe3d855000106cf86b18f2e97ead8339ad0"
+  integrity sha512-wfN2dZzdkto6yaMtOFa/J9gc60YE3wl3rgSBoNJ+MU3lJVUMsDY9xf9uAVi8Mp/zEQKFDSJlQzBvqQUpw0Hf6g==
   dependencies:
     sitemap "^8.0.0"
     stream-replace-string "^2.0.0"
-    zod "^3.24.2"
-
-"@astrojs/sitemap@^3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.4.1.tgz#681ab9ca5470021f3b628726b971c5b9ad0333ad"
-  integrity sha512-VjZvr1e4FH6NHyyHXOiQgLiw94LnCVY4v06wN/D0gZKchTMkg71GrAHJz81/huafcmavtLkIv26HnpfDq6/h/Q==
-  dependencies:
-    sitemap "^8.0.0"
-    stream-replace-string "^2.0.0"
-    zod "^3.24.2"
+    zod "^3.24.4"
 
 "@astrojs/starlight@^0.35.1":
   version "0.35.1"
@@ -11419,15 +11410,10 @@ zod-to-ts@^1.2.0:
   resolved "https://registry.yarnpkg.com/zod-to-ts/-/zod-to-ts-1.2.0.tgz#873a2fd8242d7b649237be97e0c64d7954ae0c51"
   integrity sha512-x30XE43V+InwGpvTySRNz9kB7qFU8DlyEy7BsSTCHPH1R0QasMmHWZDCzYm6bVXtj/9NNJAZF3jW8rzFvH5OFA==
 
-zod@^3.23.8:
-  version "3.25.74"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.74.tgz#9368a3986fe756bd94b9a5baad9919660ff3f250"
-  integrity sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==
-
-zod@^3.24.2:
-  version "3.25.45"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.45.tgz#f4915644fc614baaad027d3c2b127375d9d62b23"
-  integrity sha512-kv1swJBZqv98NQibL0oVvkQE8rXT+6qGNM1FpZkFcJG2jnz4vbtu48bgaitp85CaBPLSKXibrEsU7MzJoVoZAA==
+zod@^3.23.8, zod@^3.24.2, zod@^3.24.4:
+  version "3.25.76"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
+  integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
 
 zwitch@^2.0.0, zwitch@^2.0.4:
   version "2.0.4"
