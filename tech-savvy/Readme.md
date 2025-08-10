@@ -15,39 +15,13 @@ A folder for all the tech-savvy people out there. This foloder contains all the 
 |__ .../
 |__ .../
 |__ tech-savvy/
-    ├── .github/
-    │   ├── ISSUE_TEMPLATE/ # All templates for issues
-    │   ├── workflows/ # All workflows for Github Actions
-    │   └── bitbucket-pipelines.yml # Bitbucket Pipelines configuration file for the Graduation Thesis
-    │   └── CODE_OF_CONDUCT.md # Code of Conduct file
-    │   └── CONTRIBUTING.md # Contributing file
-    │   └── dependabot.yml # Dependabot configuration file
-    ├── graduation/ # All files for the Graduation Thesis
-    │   ├── aws/ # All files for the webapp
-    │   ├── includes/ # All files for the states management
-    │   └── scripts/ # All files for the automation scripts
-    ├── assets/ # All files for references (not used for Graduation Thesis)
-    │   ├── else/
-    │   ├── THPTQG/
     ├── .gitignore # Git ignore file
-    ├── coding/ # All files for the coding practice
-    |   ├── portal/ # All files for the Portal website
-    │   ├── golang/ # All files for the Golang practice
-    │   ├── python/ # All files for the Python practice
-    |   ├── react-games/ # All files for the React 2048 game old webapp
-    ├── docker/ # All files for the Docker practice
-    │   ├── localstack/ # All files for the LocalStack project
-    │   ├── moodle/ # All files for the Moodle project
+    ├── old/ # Old project files
+    |   ├── assets/ # Old miscellaneous assets
+    │   ├── coding/ # Old coding practices
+    |   ├── graduation/ # Old files for the Graduation Thesis
+    |   ├── workflows/ # Old workflows previously used by Github
+    │   ├── python.py # A file to analyze the color scheme (RGB)
     ├── LICENSE # License file
     └── Readme.md # This file
-```
-
-## Notices
-
-Before working with this repository, please make sure that you have installed all the
-dependencies with latest versions. To check if anything is not working,
-run this script **at the root folder of this repository**:
-
-```bash
-bash graduation/scripts/dependencies.sh
 ```
