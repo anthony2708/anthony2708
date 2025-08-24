@@ -14,7 +14,7 @@
     "@astrojs/mdx": "^4.3.3",
     "@astrojs/react": "4.3.0",
     "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.4.2",
+    "@astrojs/sitemap": "^3.5.1",
     "@astrojs/starlight": "^0.35.2",
     "@justinribeiro/lite-youtube": "^1.8.2",
     "@netlify/functions": "^4.2.1",
