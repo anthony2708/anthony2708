@@ -14,7 +14,7 @@
     </tr>
     <tr>
       <td>📅 DOB</td>
-      <td>Aug 27th, 2001 (23)</td>
+      <td>Aug 27th, 2001 (24)</td>
     </tr>
     <tr>
       <td>🏡 Hometown</td>
