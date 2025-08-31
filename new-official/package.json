@@ -19,7 +19,7 @@
     "@justinribeiro/lite-youtube": "^1.8.2",
     "@netlify/functions": "^4.2.2",
     "@tailwindcss/vite": "^4.1.12",
-    "astro": "^5.13.3",
+    "astro": "^5.13.5",
     "astro-auto-import": "^0.4.4",
     "astro-expressive-code": "^0.41.3",
     "astro-font": "^1.1.0",
