@@ -1,0 +1,4 @@
+- [Ansible là gì](https://www.youtube.com/watch?v=1id6ERvfozo)
+- [Ansible 101 - Tập 1 - Giới thiệu Ansible](https://www.youtube.com/watch?v=goclfp6a2IQ)
+- [NetworkChuck - Bạn phải học Ansible ngay bây giờ!](https://www.youtube.com/watch?v=5hycyr-8EKs&t=955s)
+- [Hướng dẫn đầy đủ về Ansible](https://www.youtube.com/playlist?list=PLnFWJCugpwfzTlIJ-JtuATD2MBBD7_m3u)

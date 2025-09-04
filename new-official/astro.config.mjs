@@ -132,8 +132,11 @@ export default defineConfig({
           {
               label: 'Giai đoạn 7 - Bộ chứa và Ảo hóa',
               link: '/90days/containers',
+          },
+          {
+              label: 'Giai đoạn 8 - 13',
+              link: '/90days/others',
               badge: { text: 'Mới', variant: 'tip' },
-              // badge: { text: 'Chưa hoàn thiện', variant: 'caution' },
           },
           {
               label: 'Tài liệu tham khảo',

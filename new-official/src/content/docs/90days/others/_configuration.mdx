@@ -1,0 +1,109 @@
+import { Steps } from '@astrojs/starlight/components';
+
+## Giai đoạn 10 - Quản lý cấu hình
+
+_Ái chà, cũng lâu rồi không quay lại viết một chút về hành trình 90 ngày của mình. Hôm nay mình sẽ kể tiếp nghe
+câu chuyện về **quản lý cấu hình** - một vấn đề đan xen với giai đoạn số 8 của chúng ta._ 
+
+_Quản lý cấu hình là một phần quan trọng, bao gồm **bảo trì ứng dụng, hệ thống và máy chủ** sao cho chúng đạt **trạng thái
+như mong muốn**. Sự giao thoa với **Cơ sở hạ tầng dưới dạng mã (IaC)** là rất lớn, nó nằm ở chỗ nếu Terraform giúp chúng ta
+khởi tạo hạ tầng thì các công cụ quản lý cấu hình sẽ giúp chúng ta **duy trì và quản lý** hạ tầng đó._
+
+_Quản lý cấu hình đảm bảo việc thay đổi diễn ra **có kiểm soát**._
+
+### Khi nào cần quản lý cấu hình?
+
+> **_Chuyện gì sẽ xảy ra nếu hệ thống gặp sự cố sập hoàn toàn do bị cháy?_**
+
+_Chuyện dập lửa và khôi phục dữ liệu sẽ là đơn giản nếu chỉ có một máy chủ._
+
+> **_Nhưng nếu có hàng trăm, hàng nghìn máy chủ thì sao?_**
+
+**_Đó là lúc chúng ta cần đến quản lý cấu hình._**
+
+### Các công cụ quản lý cấu hình phổ biến
+
+![config](../../../../assets/others/config.png)
+
+_Okay, bây giờ chúng ta sẽ đi phân tích một số công cụ thường dùng trong quản lý cấu hình nhé._
+
+#### Chef
+
+_Như một vị đầu bếp, Chef là một công cụ mã nguồn mở được phát triển bởi OpsCode được viết bằng **Ruby và Erlang**,
+bao gồm các thuật ngữ như **Recipes (Công thức)** và **Cookbooks (Sách nấu ăn)** giúp xác định mã cấu hình cho hệ thống._
+
+- _Chef đảm bảo cấu hình được áp dụng nhất quán trong mọi môi trường, ở mọi quy mô lớn với cơ sở hạ tầng tự động hóa._
+- _Chef phù hợp nhất cho các tổ chức có cơ sở hạ tầng không đồng nhất và đang tìm kiếm các giải pháp hoàn thiện._
+- **_Lợi ích_**: 
+  - _Có sẵn một bộ sưu tập lớn các recipes_
+  - _Tích hợp tốt với Git, cung cấp khả năng kiểm soát phiên bản mạnh mẽ_
+- **_Nhược điểm_**:
+  - _Phải học rất nhiều và cần một lượng thời gian đáng kể để làm quen._
+  - _Máy chủ chính không có nhiều quyền kiểm soát._
+- _**Kiến trúc**: Chủ/Khách_
+- _**Mức độ dễ dàng thiết lập**: Trung bình_
+- _**Ngôn ngữ cấu hình**: **Thủ tục (Procedural)** - Chỉ định cách thực hiện tác vụ_
+
+#### Puppet
+
+_Puppet là công cụ quản lý cấu hình hỗ trợ triển khai tự động, được xây dựng bằng **Ruby** và sử dụng **DSL** để viết bảng kê khai._
+
+- _Puppet cũng hoạt động tốt với cơ sở hạ tầng không đồng nhất, tập trung vào khả năng mở rộng._
+- **_Lợi ích_**
+    - _Cộng đồng hỗ trợ lớn._
+    - _Cơ chế báo cáo được viết rất tốt._
+- **_Nhược điểm_**
+    - _Các nhiệm vụ nâng cao yêu cầu kiến thức về ngôn ngữ Ruby._
+    - _Máy chủ chính không có nhiều quyền kiểm soát._
+- _**Kiến trúc**: Chủ/Khách_
+- _**Mức độ dễ dàng thiết lập**: Trung bình_
+- _**Ngôn ngữ cấu hình**: **Khai báo (Declarative)** - Chỉ định những việc cần làm_
+
+#### Ansible
+
+_Ansible là một công cụ giúp tự động hóa việc quản lý cấu hình, triển khai và điều phối ngay cả trên điện toán đám mây. Cốt lõi của 
+Ansible là **sách hướng dẫn (playbooks)** được viết bằng **YAML**._
+
+- _Ansible hoạt động tốt khi các môi trường tập trung vào việc khởi động và chạy mọi thứ một cách nhanh chóng._
+- _Hoạt động trên playbook cung cấp hướng dẫn cho máy chủ._
+- **_Lợi ích_**:
+  - _Không cần cài trình giám sát (agent) trên các nút từ xa._
+  - _YAML rất dễ học._
+- **_Nhược điểm_**:
+  - _Tốc độ thực hiện thường kém hơn các công cụ khác (Chỉ nhanh hơn làm thủ công)_
+  - _YAML không mạnh bằng Ruby về mặt cấu hình_
+- _**Kiến trúc**: Chỉ máy khách_
+- _**Mức độ dễ dàng thiết lập**: Rất dễ_
+- _**Ngôn ngữ cấu hình**: **Thủ tục (Procedural)** - Chỉ định cách thực hiện tác vụ_
+
+#### SaltStack
+
+_SaltStack là một công cụ dựa trên dòng lệnh giúp tự động hóa việc quản lý cấu hình và thực thi từ xa. SaltStack viết bằng **Python** 
+trong khi các hướng dẫn được viết bằng **YAML** hoặc **DSL**._
+
+- _Hoàn hảo cho các môi trường ưu tiên khả năng mở rộng và khả năng phục hồi._
+- **_Lợi ích_**:
+  - _Dễ sử dụng khi thiết lập và chạy._
+  - _Cơ chế báo cáo tốt._
+- **_Nhược điểm_**:
+  - _Giai đoạn thiết lập ban đầu rất khó khăn._
+  - _Giao diện người dùng web mới kém phát triển hơn nhiều so với các giao diện người dùng khác._
+- _**Kiến trúc**: Chủ/Khách_
+- _**Mức độ dễ dàng thiết lập**: Trung bình_
+- _**Ngôn ngữ cấu hình**: **Khai báo (Declarative)** - Chỉ định những việc cần làm_
+
+### Cái nào phù hợp nhất?
+
+_Nếu đem so sánh cả bốn công cụ trên, có lẽ Ansible chính là thứ dễ tiếp cận nhất. Nếu đem Ansible so sánh với Terraform:_
+
+|                | Ansible                   | Terraform                                                        |
+| -------------- | --------------------------| ---------------------------------------------------------------- |
+| Phân loại      | Công cụ quản lý cấu hình  | Công cụ điều phối                                                |
+| Cơ sở hạ tầng  | Có thể thay đổi (mutable) | Không thể thay đổi (immutable)                                   |
+| Ngôn ngữ       | Thủ tục                   | Khai báo                                                        |
+| Cung cấp cấu hình | Một phần (Máy ảo, Mạng, Lưu trữ) | Rộng rãi (Máy ảo, Mạng, Lưu trữ)                |
+| Đóng gói và khuôn mẫu  | Hỗ trợ đầy đủ | Hỗ trợ một phần |
+| Quản lý vòng đời | Không   | Có        |
+
+_Đó là những gì chúng ta cần biết về quản lý cấu hình. Ở giai đoạn tiếp theo, chúng ta sẽ tìm hiểu về Quy trình Tích hợp và Triển khai liên tục (CI/CD) 
+Còn bây giờ, xin chào tạm biệt mọi người!_
