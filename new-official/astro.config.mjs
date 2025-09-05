@@ -136,7 +136,6 @@ export default defineConfig({
           {
               label: 'Giai đoạn 8 - 13',
               link: '/90days/others',
-              badge: { text: 'Mới', variant: 'tip' },
           },
           {
               label: 'Tài liệu tham khảo',

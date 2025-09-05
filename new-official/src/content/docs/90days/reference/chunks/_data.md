@@ -1,0 +1,5 @@
+- [Sao lưu và phục hồi trong Kubernetes trở nên đơn giản hơn!](https://www.youtube.com/watch?v=01qcYSck1c4&t=217s)
+- [Sao lưu, nâng cấp và dịch chuyển trong Kubernetes - với Velero](https://www.youtube.com/watch?v=zybLTQER0yY)
+- [7 mô hình Cơ sở dữ liệu](https://www.youtube.com/watch?v=W2Z7fbCLSTw&t=520s)
+- [Sao lưu và phục hồi sau thảm hoạ - điểm khác biệt là gì?](https://www.youtube.com/watch?v=07EHsPuKXc0)
+- [Veeam - Tính cơ động và di động trên cả đám mây](https://www.youtube.com/watch?v=hDBlTdzE6Us&t=3s)
