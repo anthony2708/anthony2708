@@ -85,14 +85,16 @@ const { title, description, meta_title, image } = entry.data;
             </div>
             <div class="col-12">
               <label class="mb-2 block" for="subject">Tiêu đề</label>
-              <input class="form-input w-full" name="subject" type="text" />
+              <input class="form-input w-full" name="_subject" type="text" />
             </div>
             <div class="col-12">
               <label class="mb-2 block" for="message"
                 >Nội dung <span class="text-red-600">*</span></label
               >
-              <textarea class="form-textarea w-full" required rows="4"></textarea>
+              <textarea class="form-textarea w-full" required rows="4" name="message"></textarea>
             </div>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_template" value="table">
             <div class="col-12">
               <button class="btn btn-primary mt-2">Gửi ngay</button>
             </div>
