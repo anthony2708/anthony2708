@@ -97,6 +97,7 @@ const { title, description, meta_title, image } = entry.data;
             <input type="text" name="_honey" style="display:none">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_url" value="https://www.builetuananh.name.vn/contact">
+            <input type="hidden" name="_next" value="https://www.builetuananh.name.vn/thankyou">
             <div class="col-12">
               <button class="btn btn-primary mt-2">Gửi ngay</button>
             </div>
@@ -111,33 +112,3 @@ const { title, description, meta_title, image } = entry.data;
     </div>
   </section>
 </Base>
-<!-- <script>    
-  document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('contact-form') as HTMLFormElement | null;
-    if (form) {
-      form.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        const data = Object.fromEntries(formData.entries());
-        try {
-          const response = await fetch('https://formsubmit.co/ajax/builetuananh2708@gmail.com', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify(data),
-          });
-          if (response.ok) {
-            const result = await response.json().then((data) => data);
-            console.log(result.data);
-            window.location.href = 'https://www.builetuananh.name.vn/thankyou';
-          } else {
-            const errorData = await response.json();
-            alert(`Submission failed: ${errorData.error || 'Unknown error'}`);
-          }
-        } catch (error) {
-          console.error('Submission error:', error);
-          alert('Có lỗi xảy ra. Vui lòng thử lại sau.');
-        }
-      });
-    }
-  });
-</script> -->
