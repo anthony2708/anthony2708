@@ -19,6 +19,13 @@ for = "/*" # This defines which paths this specific [[headers]] block will cover
     force = true
     headers = {X-From = "Netlify"}
 
+[[redirects]]
+    from = '/api/contact'
+    to = '/.netlify/functions/contact'
+    status = 200
+    force = true
+    headers = {X-From = "Netlify"}
+
 [functions]
     directory = "api"
 
