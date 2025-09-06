@@ -46,10 +46,8 @@ const handler: Handler = async (event: HandlerEvent) => {
 
         // Redirect to thank you page on success
         return {
-            statusCode: 303,
-            headers: {
-                Location: "/thankyou",
-            },
+            statusCode: 200,
+            data: JSON.stringify(response)
         }
 
     // Handle errors
