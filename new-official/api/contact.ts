@@ -5,6 +5,19 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const handler: Handler = async (event: HandlerEvent) => {
+    // Handle CORS preflight requests
+    if (event.httpMethod === 'OPTIONS') {
+      return {
+        statusCode: 200,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Headers': 'Content-Type',
+          'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        },
+        body: 'OK',
+      };
+    }
+
     // Only allow POST requests
     if (event.httpMethod !== "POST") {
       return {
