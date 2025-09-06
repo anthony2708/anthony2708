@@ -19,10 +19,12 @@ const handler: Handler = async (event: HandlerEvent) => {
 
     // Parse form data
     const params = new URLSearchParams(event.body ?? "");
-    const formData = {};
+    const formData: { [key: string]: string } = {};
     for (const [key, value] of params.entries()) {
         formData[key] = value;
     }
+
+    formData._next = "https://www.builetuananh.name.vn/thankyou";
 
     // Send data to the external API
     try {
@@ -32,13 +34,16 @@ const handler: Handler = async (event: HandlerEvent) => {
           body: JSON.stringify(formData),
         });
 
+        const result = await response.json();
+
         // Handle non-200 responses
         if (!response.ok) {
-            console.error('API call failed:', response.status);
+            console.error('API call failed:', result);
+            const status = typeof result === "object" && result !== null && "status" in result ? (result as any).status : response.status;
             return {
-                statusCode: response.status,
+                statusCode: status,
                 body: JSON.stringify({
-                    status: response.status,
+                    status: status,
                     message: "Gửi thông tin liên hệ không thành công.",
                 }),
             };
@@ -46,12 +51,15 @@ const handler: Handler = async (event: HandlerEvent) => {
 
         // Redirect to thank you page on success
         return {
-            statusCode: 200,
-            data: JSON.stringify(response)
+            statusCode: 303,
+            headers: {
+                location: "https://www.builetuananh.name.vn/thankyou"
+            }
         }
 
     // Handle errors
   } catch (error) {
+        console.error('Error during API call:', error);
         return {
             statusCode: 500,
             body: JSON.stringify({
