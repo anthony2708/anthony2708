@@ -23,7 +23,7 @@
   },
 
   "params": {
-    "contact_form_action": "/api/contact",
+    "contact_form_action": "/.netlify/functions/contact",
     "copyright": "© Bản quyền thuộc về [Anthony Bùi Lê Tuấn Anh](https://www.builetuananh.name.vn). Thực hiện năm 2025"
   },
 
