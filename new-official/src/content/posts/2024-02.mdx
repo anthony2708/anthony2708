@@ -1,169 +1,36 @@
 ---
-title: "Chuyện mùa phượng vĩ"
-meta_title: "Chuyện mùa phượng vĩ"
-description: "Câu chuyện vui về ngành Công nghệ thông tin trong mùa hè 2024"
-date: 2025-08-05T19:00:00+07:00
-image: "/images/posts/2024/06-08-TechBlog-05/image9.jpg"
+title: "Tản văn The Collab Team - Số 3"
+meta_title: "Tản văn The Collab Team - Số 3"
+description: "Tổng hợp các bài viết 7-9 của series Tản văn The Collab Team"
+date: 2024-03-26T19:00:00+07:00
+image: "/images/posts/2024/03-26-Random-03/image2.png"
+categories: ["The Collab Team"]
+authors: ["Nguyễn Ngọc Khánh Phương"]
+tags: ["Collab"]
 draft: false
-authors: ["Bùi Lê Tuấn Anh"]
-tags: ["Tech"]
-categories: ["Tech Blog"]
 ---
 
-import FirstPost from "../../chunks/2024/06-08-TechBlog-05/_p1.md";
-import SecondPost from "../../chunks/2024/06-08-TechBlog-05/_p2.md";
+import FirstPost from "../../chunks/2024/03-26-Random-03/_no1.md";
+import SecondPost from "../../chunks/2024/03-26-Random-03/_no2.md";
+import ThirdPost from "../../chunks/2024/03-26-Random-03/_no3.md";
+import Views from "../../chunks/partials/_collab2.md";
 
-Kính chào quý độc giả, đây là bài thứ năm của **Tech Blog** xuất hiện trở lại trên website này.
-Ngày hôm nay, rất nhiều nội dung thú vị sẽ được chia sẻ tại chiếc Tech Blog này. Với tựa đề
-**Chuyện mùa phượng vĩ**, đây sẽ là những câu chuyện được tổng hợp lại dưới góc nhìn hài hước
-và dễ hiểu nhất về những vấn đề khác nhau diễn ra từ đầu năm đến nay. Mời quý vị chuyển sang các 
-thẻ khác nhau ứng với từng phần của bài viết.
+Chào mừng các bạn quay lại với **The Collab Team** cùng chuyên mục Tản văn...
+
+Từ ngày **_14/09/2022_**, **The Collab Team** sẽ cho ra mắt chuyên mục **_Tản văn_** - một chuyên mục hoàn toàn mới.
+Đây là nơi gửi gắm những dòng tâm trạng của các thành viên trong Team. Và bây giờ, hãy cùng đến với những dòng tâm tình
+của số thứ ba, nơi xuất hiện của những gương mặt mới và những cảm xúc mới...
 
 <NewTabs client:load>
-  <NewTab name="P1">
+  <NewTab name="Kỳ 1">
     <FirstPost />
   </NewTab>
-  <NewTab name="P2">
+  <NewTab name="Kỳ 2">
     <SecondPost />
+  </NewTab>
+  <NewTab name="Kỳ 3">
+    <ThirdPost />
   </NewTab>
 </NewTabs>
 
-### Phụ lục Phần 1: Thuật toán Luhn
-
-_Thuật toán này được một kỹ sư của IBM tên là **Hans Peter Luhn** tạo ra nhằm mục đích tạo sinh mã định danh cho nhiều loại giấy tờ khác nhau. Thuật toán này đựợc cấp bằng sáng chế số 2.950.048 tại Mỹ vào ngày **23/08/1960**, và được đưa vào chuẩn **ISO/IEC 7812-1** dùng rộng rãi trong thời điểm hiện nay._
-
-_Thuật toán này được sử dụng ở các loại giấy tờ như: **Thẻ tín dụng**, mã IMEI (định danh điện thoại), **số Bảo hiểm xã hội** Canada (Gia Nã Đại) và Hy Lạp, **số căn cước công dân** của Nam Phi, Israel (Do Thái), Thụy Điển, ..._
-
-![Luhn](../../../public/images/posts/2024/06-08-TechBlog-05/image4.png)
-
-- **Nguồn**: [TechTarget](https://www.techtarget.com/searchsecurity/definition/LUHN-formula)
-
-_Dưới đây là mã giả của thuật toán này cũng như một số mã nguồn mẫu bằng các ngôn ngữ khác nhau, thu thập từ **[Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)**. Mọi người cũng có thể đọc bài viết này để hiểu thêm cách thuật toán hoạt động._
-
-#### Mã giả thuật toán
-```bash title="Pseudocode.txt"
-# Pseudo code for the algorithm
-
-function isValid(cardNumber[1..length])
-    sum := 0
-    parity := length mod 2
-    for i from 1 to length do
-        if i mod 2 != parity then
-            sum := sum + cardNumber[i]
-        elseif cardNumber[i] > 4 then
-            sum := sum + 2 * cardNumber[i] - 9
-        else
-            sum := sum + 2 * cardNumber[i]
-        end if
-    end for
-    return cardNumber[length] == (10 - (sum mod 10))
-end function
-```
-
-#### Mã nguồn ngôn ngữ C#
-```csharp title="luhn.cs"
-// Csharp version
-
-bool IsValidLuhn(in int[] digits)
-{
-    int check_digit = 0;
-    for (int i = digits.Length - 2; i >= 0; --i)
-        check_digit += ((i & 1) is 0) switch
-        {
-            true  => digits[i] > 4 ? digits[i] * 2 - 9 : digits[i] * 2,
-            false => digits[i]
-        };
-
-    return (10 - (check_digit % 10)) % 10 == digits.Last();
-}
-```
-
-#### Mã nguồn ngôn ngữ Java
-```java title="luhn.java"
-// Java version
-
-public static boolean isValidLuhn(String number) {
-    int n = number.length();
-    int total = 0;
-    boolean even = true;
-    // iterate from right to left, double every 'even' value
-    for (int i = n - 2; i >= 0; i--) {
-        int digit = number.charAt(i) - '0';
-        if (digit < 0 || digit > 9) {
-            // value may only contain digits
-            return false;
-        }
-        if (even) {
-            digit <<= 1; // double value
-        }
-        even = !even;
-        total += digit > 9 ? digit - 9 : digit;
-    }
-    int checksum = number.charAt(n - 1) - '0';
-    return (total + checksum) % 10 == 0;
-}
-
-```
-
-#### Mã nguồn ngôn ngữ TypeScript
-```tsx title="luhn.tsx"
-// TypeScript version
-
-function luhnCheck(input: number): boolean {
-  const number = input.toString();
-  const digits = number.replace(/\D/g, '').split('').map(Number);
-  let sum = 0;
-  let isSecond = false;
-  for (let i = digits.length - 1; i >= 0; i--) {
-    let digit = digits[i];
-    if (isSecond) {
-      digit *= 2;
-      if (digit > 9) {
-        digit -= 9;
-      }
-    }
-    sum += digit;
-    isSecond = !isSecond;
-  }
-  return sum % 10 === 0;
-}
-```
-
-#### Mã nguồn ngôn ngữ Python
-```python title="luhn.py"
-# Python version
-
-class LuhnAlgorithm:
-    """Class to validate a number using Luhn algorithm.
-    
-    Args:
-        input_value (str): The input value to validate.
-
-    returns:
-        bool: True if the number is valid, False otherwise.        
-    """
-    def __init__(self, input_value: str) -> None:
-        self.input_value = input_value.replace(' ', '')
-    
-    def last_digit_and_remaining_numbers(self) -> tuple:
-        """ Returns the last digit and the remaining numbers """
-        return int(self.input_value[-1]), self.input_value[:-1]
-    
-    def __checksum(self) -> int:
-        last_digit, remaining_numbers = self.last_digit_and_remaining_numbers()
-        nums = [int(num) if idx % 2 != 0 else int(num) * 2 if int(num) * 2 <= 9 \
-                else int(num) * 2 % 10 + int(num) * 2 // 10 \
-                    for idx, num in enumerate(remaining_numbers)]
-
-        return (sum(nums) + last_digit) % 10 == 0
-    
-    def verify(self) -> bool:
-        """Verify a number using Luhn algorithm."""            
-        return self.__checksum()
-```
-
-
-### Tổng kết bài viết
-
-Vừa rồi là toàn bộ bài đăng số 5 của series **Tech Blog**. Mời quý độc giả theo dõi các bài đăng
-tiếp theo và đóng góp ý kiến cũng trên website này. Trân trọng cảm ơn và kính chào 👋.
+<Views />
