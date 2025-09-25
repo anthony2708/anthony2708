@@ -1,0 +1,44 @@
+---
+const notifications = [
+  { text: "🎉 Giao diện mới, đầy hứng khởi cùng Station" },
+  { text: "♾ 90 ngày cùng DevOps đã trở lại tại đây!", url: "/90days" },
+  { text: "🌍 New English feed for international updates, availble here on Station!", url: "/english" },
+  { text: "📮 Gửi góp ý chưa bao giờ đơn giản đến thế, bấm vào đây này!", url: "/contact" },
+];
+---
+<style>
+  @keyframes ticker-scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .ticker-content {
+    animation: ticker-scroll 30s linear infinite;
+    will-change: transform;
+  }
+
+  .ticker-content:hover {
+    animation-play-state: paused;
+  }
+</style>
+
+<div class="w-full overflow-hidden whitespace-nowrap bg-[#01AD9F] text-white text-base font-medium py-3 px-4 sticky top-0 z-50">
+  <div class="ticker-content inline-block pl-full">
+    {notifications.map(({ text, url }) => (
+      url ? (
+        <a
+          href={url}
+          class="inline-block mr-8 text-white no-underline focus:outline-none"
+        >
+          {text}
+        </a>
+      ) : (
+        <span class="inline-block mr-8">{text}</span>
+      )
+    ))}
+  </div>
+</div>
