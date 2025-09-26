@@ -36,7 +36,7 @@
       <td>📮 Contact</td>
       <td>
         <ul>
-          <li>Social:
+          <li>
             <a href="https://www.facebook.com/buile.tuananh"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/facebook.svg"></a>
             <a href="https://www.instagram.com/yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg"></a>
             <a href="https://www.github.com/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg"></a>
