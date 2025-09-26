@@ -6,8 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format": "prettier -w .",
-    "netlify": "netlify"
+    "format": "prettier -w ."
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -46,7 +45,6 @@
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "dotenv": "^17.2.2",
-    "netlify-cli": "^23.5.0",
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
