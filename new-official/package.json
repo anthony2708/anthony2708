@@ -16,7 +16,7 @@
     "@astrojs/sitemap": "^3.5.1",
     "@astrojs/starlight": "^0.35.2",
     "@justinribeiro/lite-youtube": "^1.8.2",
-    "@netlify/functions": "^4.2.5",
+    "@netlify/functions": "^4.2.6",
     "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.13.9",
     "astro-auto-import": "^0.4.4",
