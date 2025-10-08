@@ -3,6 +3,16 @@ import fetch from "node-fetch";
 import dotenv from "dotenv";
 
 dotenv.config();
+// Allowed origin – replace with your frontend domain in production
+const allowedOrigin : string = process.env.ALLOWED_ORIGIN ?? "*";
+
+// Common headers used in all responses
+const corsHeaders = {
+  "Access-Control-Allow-Origin": allowedOrigin,
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+};
+
 const history: { [key: string]: number } = {};
 
 const rateLimit = (ip: string, timeout: number = 1000): boolean => {
@@ -24,6 +34,15 @@ const checkUrl = (string: string): boolean => {
 };
 
 const handler: Handler = async (event: HandlerEvent) => {
+  // ✅ Handle preflight request
+  if (event.httpMethod === "OPTIONS") {
+    return {
+      statusCode: 204,
+      headers: corsHeaders,
+      body: "", // No content for OPTIONS
+    };
+  }
+
   try {
     if (rateLimit(event.headers["client-ip"] || "") == true) {
       return {
@@ -79,6 +98,7 @@ const handler: Handler = async (event: HandlerEvent) => {
       if (data.short_url != undefined) {
         return {
           statusCode: 200,
+          headers: corsHeaders,
           body: JSON.stringify({
             status: 200,
             message: decodeURIComponent(data.short_url),
@@ -87,6 +107,7 @@ const handler: Handler = async (event: HandlerEvent) => {
       } else {
         return {
           statusCode: 404,
+          headers: corsHeaders,
           body: JSON.stringify({
             status: 404,
             message:
@@ -99,6 +120,7 @@ const handler: Handler = async (event: HandlerEvent) => {
   catch (error) {
     return {
       statusCode: 404,
+      headers: corsHeaders,
       body: JSON.stringify({
         status: 404,
         error: typeof error === "object" && error !== null && "message" in error ? (error as { message: string }).message : String(error),

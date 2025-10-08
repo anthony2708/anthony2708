@@ -2,7 +2,9 @@ import React from "react";
 import { Component } from "react";
 import axios from "axios";
 import Shortener from "./Shortener";
+import dotenv from "dotenv";
 
+dotenv.config();
 export default class URL extends Component<{}, { url: string, data: any, loading: boolean }> {
     constructor(props: {} | Readonly<{}>) {
         super(props);
@@ -17,7 +19,13 @@ export default class URL extends Component<{}, { url: string, data: any, loading
         event.preventDefault();
         this.setState({ data: "loading", loading: true });
         try {
-            const res = await axios.post('/api/url', { data: { url: this.state.url } });
+            const res = await axios.post(`${process.env.PUBLIC_BACKEND_URL}/url`, { 
+                data: { 
+                    url: this.state.url 
+                }},{
+                headers: {
+                    'Content-Type': 'application/json',
+                },});
             this.setState({ data: res.data, loading: false });
         } catch (error) {
             if (error instanceof Error) {
