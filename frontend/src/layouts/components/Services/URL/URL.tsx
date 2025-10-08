@@ -2,9 +2,9 @@ import React from "react";
 import { Component } from "react";
 import axios from "axios";
 import Shortener from "./Shortener";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
-dotenv.config();
+// dotenv.config();
 export default class URL extends Component<{}, { url: string, data: any, loading: boolean }> {
     constructor(props: {} | Readonly<{}>) {
         super(props);
@@ -19,7 +19,8 @@ export default class URL extends Component<{}, { url: string, data: any, loading
         event.preventDefault();
         this.setState({ data: "loading", loading: true });
         try {
-            const res = await axios.post(`${process.env.PUBLIC_BACKEND_URL}/url`, { 
+            const backend = import.meta.env.PUBLIC_BACKEND_URL;
+            const res = await axios.post(`${backend}/url`, { 
                 data: { 
                     url: this.state.url 
                 }},{

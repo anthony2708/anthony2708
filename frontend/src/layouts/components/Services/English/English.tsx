@@ -2,9 +2,9 @@ import React from "react";
 import { Component } from "react";
 import axios from "axios";
 import Scoreboard from "./Scoreboard";
-import dotenv from "dotenv"
+// import dotenv from "dotenv"
 
-dotenv.config();
+// dotenv.config();
 
 export default class English extends Component<{}, {id: string, data: any, loading: boolean}> {
     constructor(props: {} | Readonly<{}>) {
@@ -24,7 +24,8 @@ export default class English extends Component<{}, {id: string, data: any, loadi
         event.preventDefault();
         this.setState({ data: "loading", loading: true });
         try {
-            const res = await axios.post(`${process.env.PUBLIC_BACKEND_URL}/score`, { 
+            const backend = import.meta.env.PUBLIC_BACKEND_URL;
+            const res = await axios.post(`${backend}/score`, { 
                 data: { 
                     id: this.state.id 
                 }},{
