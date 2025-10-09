@@ -1,0 +1,4 @@
+/score         /.netlify/functions/score  200
+/url           /.netlify/functions/url    200
+/.well-known/* /.well-known/:splat        200
+/*             /index.html                200
