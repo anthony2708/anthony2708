@@ -21,10 +21,10 @@
 
        - name: Install dependencies
          run: yarn install --frozen-lockfile
-         working-directory: fronend
+         working-directory: frontend
 
        - name: Test build website
          run: yarn build
-         working-directory: fronend
+         working-directory: frontend
          env:
           PUBLIC_BACKEND_URL: 'https://api.builetuananh.name.vn'
