@@ -4957,10 +4957,10 @@ starlight-cooler-credit@^0.4.0:
   dependencies:
     change-case "^5.4.4"
 
-starlight-image-zoom@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.13.0.tgz#d8607d7352dca6809e5d7231aaeb586c82d635a0"
-  integrity sha512-7K/7gshnKooYd4ePy5vtyv1jFoFVNUb8IoXWDcnY69+nxvmLATNrmOzD2M4TJ/aKynPSBSM6j9ia4s/PPy/JGA==
+starlight-image-zoom@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.13.2.tgz#a49ec550dc5243c1edbc08edce095019f84a535a"
+  integrity sha512-fDJrx+UZXhkbhEeXKoRogTKAYtrYVJPw6wmSUI3nHUTA0vuRM6EI//2Z8bzv3Ecvz0pHKD1vAxtS01mLyessBA==
   dependencies:
     mdast-util-mdx-jsx "^3.1.3"
     rehype-raw "^7.0.0"
