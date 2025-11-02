@@ -4929,10 +4929,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-starlight-cooler-credit@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.4.0.tgz#48d2d53b6a47c14f2da08da14d026bb4f26898ec"
-  integrity sha512-f2BYcZ9NpBcykzJWpC6/aTXDM6X0ztz25ZBexGhU1hI8R1HvlDJwpYPw4bKQUSaI1+pWyaarbehodouh9B7ekw==
+starlight-cooler-credit@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.4.1.tgz#54551a35177143ef13525823aa279bc8d972ee23"
+  integrity sha512-XXfheeUWSBidS6aJMB1aksn3Zl+kBpMjmuZDFoiHzeCqzjGeTfgYz2AGo/eRNIXOkJlmk4wpUoD29xCtnrmn1A==
   dependencies:
     change-case "^5.4.4"
 
