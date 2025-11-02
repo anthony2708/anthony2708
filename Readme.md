@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td><b>IT Helpdesk Engineer<b></td>
+      <td><b>N/A<b></td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td><b>The Five Group Pty Ltd, Australia<b></td>
+      <td><b>N/A<b></td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>
