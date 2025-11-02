@@ -18,7 +18,7 @@
     </tr>
     <tr>
       <td>🏡 Hometown</td>
-      <td>Hoa Thanh Town, Tay Ninh Province, Vietnam</td>
+      <td>Long Hoa Ward, Tay Ninh Province, Vietnam</td>
     </tr>
     <tr>
       <td>📗 Current Title</td>
