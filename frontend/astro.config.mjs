@@ -54,6 +54,7 @@ export default defineConfig({
   expressiveCode(),
   mdx(), 
   starlight({
+  customCss: ["./src/styles/starlight-plugin.css"],  
   plugins: [
     starlightCoolerCredit({
           // credit: 'Made with ❤️ by Anthony Bùi Lê Tuấn Anh',

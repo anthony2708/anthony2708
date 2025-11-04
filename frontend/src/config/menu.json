@@ -13,18 +13,14 @@
       "url": "/90days"
     },
     {
-      "name": "English",
-      "url": "/english"
+      "name": "Cửa hàng",
+      "url": "/store"
     }
   ],
   "footer": [
     {
-      "name": "Giới thiệu",
-      "url": "/about"
-    },
-    {
-      "name": "90 ngày DevOps",
-      "url": "/90days"
+      "name": "Điều khoản dịch vụ",
+      "url": "/#"
     },
     {
       "name": "Trạng thái hệ thống",

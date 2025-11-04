@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --sl-font: 'Inter', sans-serif;
+}
+
+/* Normal color: Ocean */
+/* Dark mode colors. */
+/* :root {
+	--sl-color-accent-low: #00273d;
+	--sl-color-accent: #0071a7;
+	--sl-color-accent-high: #92d1fe;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #e7eff2;
+	--sl-color-gray-2: #c2ccd0;
+	--sl-color-gray-3: #92a6ad;
+	--sl-color-gray-4: #495c62;
+	--sl-color-gray-5: #2a3b41;
+	--sl-color-gray-6: #182a2f;
+	--sl-color-black: #121a1c;
+} */
+/* Light mode colors. */
+/* :root[data-theme='light'] {
+	--sl-color-accent-low: #b0deff;
+	--sl-color-accent: #005580;
+	--sl-color-accent-high: #003653;
+	--sl-color-white: #121a1c;
+	--sl-color-gray-1: #182a2f;
+	--sl-color-gray-2: #2a3b41;
+	--sl-color-gray-3: #495c62;
+	--sl-color-gray-4: #7b8f96;
+	--sl-color-gray-5: #bac4c8;
+	--sl-color-gray-6: #e7eff2;
+	--sl-color-gray-7: #f3f7f9;
+	--sl-color-black: #ffffff;
+} */
+
+
+/* Lunar New Year: Pink (Peach blossom - Contrast AAA */
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #3a1528;
+	--sl-color-accent: #b3257a;
+	--sl-color-accent-high: #eab8cf;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eaefee;
+	--sl-color-gray-2: #c6cbcb;
+	--sl-color-gray-3: #9da6a5;
+	--sl-color-gray-4: #515a59;
+	--sl-color-gray-5: #323a39;
+	--sl-color-gray-6: #212928;
+	--sl-color-black: #151919;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f1cbdb;
+	--sl-color-accent: #9b0066;
+	--sl-color-accent-high: #541839;
+	--sl-color-white: #151919;
+	--sl-color-gray-1: #212928;
+	--sl-color-gray-2: #323a39;
+	--sl-color-gray-3: #515a59;
+	--sl-color-gray-4: #848e8d;
+	--sl-color-gray-5: #bec3c3;
+	--sl-color-gray-6: #eaefee;
+	--sl-color-gray-7: #f5f7f6;
+	--sl-color-black: #ffffff;
+}
+
+
+/* State Funeral: Black (Black - Contrast AAA) */
+/* Dark mode colors. */
+/* :root {
+	--sl-color-accent-low: #242423;
+	--sl-color-accent: #6c6967;
+	--sl-color-accent-high: #c9c8c7;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eeeeed;
+	--sl-color-gray-2: #c8c8c8;
+	--sl-color-gray-3: #a4a4a4;
+	--sl-color-gray-4: #585858;
+	--sl-color-gray-5: #383838;
+	--sl-color-gray-6: #272727;
+	--sl-color-black: #181818;
+} */
+/* Light mode colors. */
+/* :root[data-theme='light'] {
+	--sl-color-accent-low: #d7d7d6;
+	--sl-color-accent: #504e4c;
+	--sl-color-accent-high: #333231;
+	--sl-color-white: #181818;
+	--sl-color-gray-1: #272727;
+	--sl-color-gray-2: #383838;
+	--sl-color-gray-3: #585858;
+	--sl-color-gray-4: #8b8b8b;
+	--sl-color-gray-5: #c2c2c2;
+	--sl-color-gray-6: #eeeeed;
+	--sl-color-gray-7: #f6f6f6;
+	--sl-color-black: #ffffff;
+} */
