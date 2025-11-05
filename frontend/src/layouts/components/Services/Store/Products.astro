@@ -1,12 +1,14 @@
 ---
 import {Image} from "astro:assets"
-import image1 from "../../../../../public/images/posts/placeholder/01.jpg"
-import image2 from "../../../../../public/images/posts/placeholder/02.jpg"
-import image3 from "../../../../../public/images/posts/placeholder/03.jpg"
-import image4 from "../../../../../public/images/posts/placeholder/04.jpg"
-import image5 from "../../../../../public/images/posts/placeholder/05.jpg"
-import image6 from "../../../../../public/images/posts/placeholder/06.jpg"
-import image7 from "../../../../../public/images/posts/placeholder/07.jpg"
+import image1 from "../../../../../public/images/books/ember.jpg"
+import image2 from "../../../../../public/images/books/venice.jpg"
+import image3 from "../../../../../public/images/books/toad.jpg"
+import image4 from "../../../../../public/images/books/bonding.jpg"
+import image5 from "../../../../../public/images/books/believe.png"
+import image6 from "../../../../../public/images/books/grammar.jpg"
+import image7 from "../../../../../public/images/books/paris.jpg"
+import image8 from "../../../../../public/images/books/oxford.jpg"
+import image9 from "../../../../../public/images/books/cricket.jpg"
 
 const products = [
     {
@@ -32,7 +34,7 @@ const products = [
     },
     {
         url: "#",
-        title: "Tạo dựng quan hệ thật đơn giản",
+        title: "Thật đơn giản tạo dựng quan hệ",
         subtitle: "Steven D'Souza - mới 100%",
         // price: "39.000 VND",
         price: "Liên hệ",
@@ -49,7 +51,7 @@ const products = [
     {
         url: "#",
         title: "Understanding and using English Grammar",
-        subtitle: "Sách cũ - còn nguyên vẹn 100%",
+        subtitle: "Sách học tiếng Anh - còn nguyên vẹn 100%",
         // price: "65.000 VND",
         price: "Liên hệ",
         image: image6
@@ -68,7 +70,7 @@ const products = [
         subtitle: "Dương Thuỵ - mới 100%",
         // price: "98.000 VND",
         price: "Liên hệ",
-        image: image1
+        image: image8
     },
     {
         url: "#",
@@ -76,7 +78,7 @@ const products = [
         subtitle: "Tô Hoài - mới 100%",
         // price: "65.000 VND",
         price: "Liên hệ",
-        image: image2
+        image: image9
     },
 ]
 ---
@@ -88,13 +90,14 @@ const products = [
     {
       products.map((product) => (
         <figure class="relative ">
-          <a href={product.url} aria-hidden="true" class="absolute inset-0" />
-          <Image
-            width="500"
-            height="500"
+          {/* <a href={product.url} aria-hidden="true" class="absolute inset-0" /> */}
+          <Image 
+            loading="eager"
+            width="800"
+            height="800"
             alt={product.title}
             src={product.image}
-            class="w-full rounded-3xl shadow aspect-12/9 object-cover object-center"
+            class="w-full rounded-3xl shadow aspect-3/4 object-cover object-center"
           />
           <div class="mt-2 flex justify-between px-6">
             <div>

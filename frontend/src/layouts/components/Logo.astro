@@ -21,6 +21,7 @@ const {
   {
     src || logo ? (
       <Image
+        loading="eager"
         width={logo_width.replace("px", "") * 2}
         height={logo_height.replace("px", "") * 2}
         src={src ? src : logo}

@@ -59,9 +59,9 @@ export default defineConfig({
     starlightCoolerCredit({
           // credit: 'Made with ❤️ by Anthony Bùi Lê Tuấn Anh',
           credit: {
-            title: '© Copyright 2025',
+            title: '© Copyright 2026',
             href: 'https://www.builetuananh.name.vn',
-            description: 'Bản quyền thuộc về Bùi Lê Tuấn Anh. Thực hiện năm 2025',
+            description: 'Bản quyền thuộc về Bùi Lê Tuấn Anh. Thực hiện năm 2026.',
           }
         }),
     starlightImageZoom({
