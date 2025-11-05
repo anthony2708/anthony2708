@@ -1,0 +1,65 @@
+[
+    {
+        "slug": "nv001",
+        "title": "The City of Ember",
+        "subtitle": "Sách cũ - còn nguyên vẹn 100%",
+        "price": "175.000 VND",
+        "image": "/images/books/ember.jpg"
+    },
+    {
+        "slug": "eng001",
+        "title": "The Merchant of Venice",
+        "subtitle": "Sách học tiếng Anh - nguyên vẹn 100%",
+        "price": "29.000 VND",
+        "image": "/images/books/venice.jpg"
+    },
+    {
+        "slug": "eng002",
+        "title": "The Stealing Toad",
+        "subtitle": "Sách học tiếng Anh - nguyên vẹn 100%",
+        "price": "10.000 VND",
+        "image": "/images/books/toad.jpg"
+    },
+    {
+        "slug": "self001",
+        "title": "Thật đơn giản tạo dựng quan hệ",
+        "subtitle": "Steven D'Souza - mới 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/bonding.jpg"
+    },
+    {
+        "slug": "self002",
+        "title": "Tin vào chính mình",
+        "subtitle": "Louise L.Hay - mới 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/believe.png"
+    },
+    {
+        "slug": "eng003",
+        "title": "Understanding and using English Grammar",
+        "subtitle": "Sách học tiếng Anh - còn nguyên vẹn 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/grammar.jpg"
+    },
+    {
+        "slug": "nv002",
+        "title": "Paris Through Close Eyes",
+        "subtitle": "Dương Thuỵ - mới 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/paris.jpg"
+    },
+    {
+        "slug": "nv003",
+        "title": "Beloved Oxford",
+        "subtitle": "Dương Thuỵ - mới 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/oxford.jpg"
+    },
+    {
+        "slug": "vn001",
+        "title": "Dế mèn, chim gáy, bồ nông",
+        "subtitle": "Tô Hoài - mới 100%",
+        "price": "Liên hệ",
+        "image": "/images/books/cricket.jpg"
+    }
+]

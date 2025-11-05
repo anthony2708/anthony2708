@@ -1,0 +1,68 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "@/layouts/Base.astro"
+import jsonProducts from "@/layouts/components/Services/Store/store.json"
+import {Image} from "astro:assets"
+import { markdownify } from "@/lib/utils/textConverter";
+
+// Overloading GetStaticPaths
+export const getStaticPaths: GetStaticPaths = async () => {
+  return jsonProducts.map(product => ({
+    params: {slug: product.slug},
+    props: {product: product}
+  }));
+};
+
+
+// Defining interface
+interface Product {
+  slug: string,
+  title: string,
+  subtitle: string,
+  price: string
+  image: string
+}
+
+interface Props {
+  product: Product
+}
+
+
+const {product} = Astro.props;
+
+---
+
+
+
+<Base>
+
+    <section class="section">
+    <div class="container">
+      <div class="row md:gx-4">
+        <div class="sm:col-5 md:col-4">
+          {
+            product.image && (
+              <div class="img-cover mb-8">
+                <Image
+                  src={product.image}
+                  width={295}
+                  height={395}
+                  alt={product.title}
+                  class="rounded-lg w-full"
+                />
+              </div>
+            )
+          }
+        </div>
+        <div class="sm:col-7 md:col-8">
+          <h1 set:html={markdownify(product.title)} class="h3 mb-8" />
+
+          <div class="content">
+            <!-- <Content /> -->
+          </div>
+          <a href="#" class="btn btn-primary text-white py-2">Đặt hàng</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
