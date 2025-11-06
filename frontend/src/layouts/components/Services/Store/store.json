@@ -3,63 +3,117 @@
         "slug": "nv001",
         "title": "The City of Ember",
         "subtitle": "Sách cũ - còn nguyên vẹn 100%",
+        "description": "Thành phố than hồng – bộ truyện phiêu lưu viễn tưởng bán chạy nhất New York Times, hơn 3,5 triệu bản, được chuyển thể thành phim. Đây là quyển sách đầu tiên trong bộ bốn quyển.",
+        "longtext": "Xoay quanh câu chuyện về Ember, thành phố cuối cùng của nhân loại trong lòng đất, nơi ánh sáng nhân tạo duy trì sự sống đã bắt đầu tắt dần sau 200 năm, Lina và Doon – hai người bạn dũng cảm, phát hiện ra những manh mối bí mật từ bản đồ cổ và bắt đầu hành trình giải mã để cứu lấy thành phố trước khi màn đêm vĩnh viễn bao trùm. Câu chuyện mang đến thông điệp sâu sắc về niềm hy vọng, trí tuệ, sự can đảm và khát vọng sinh tồn. ",
+        "number": 1,
         "price": "175.000 VND",
-        "image": "/images/books/ember.jpg"
+        "image": "/images/books/ember.jpg",
+        "vendor": "Random House Children's Books",
+        "year": 2004,
+        "isbn": "9780375822742"
     },
     {
         "slug": "eng001",
         "title": "The Merchant of Venice",
         "subtitle": "Sách học tiếng Anh - nguyên vẹn 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "29.000 VND",
-        "image": "/images/books/venice.jpg"
+        "image": "/images/books/venice.jpg",
+        "vendor": "Nhà xuất bản Văn hoá Sài Gòn",
+        "year": 2009,
+        "isbn": ""
     },
     {
         "slug": "eng002",
         "title": "The Stealing Toad",
         "subtitle": "Sách học tiếng Anh - nguyên vẹn 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "10.000 VND",
-        "image": "/images/books/toad.jpg"
+        "image": "/images/books/toad.jpg",
+        "vendor": "Nhà xuất bản Tổng hợp TP. Hồ Chí Minh",
+        "year": 2006,
+        "isbn": ""
     },
     {
         "slug": "self001",
-        "title": "Thật đơn giản tạo dựng quan hệ",
+        "title": "Tạo dựng quan hệ - Thật đơn giản",
         "subtitle": "Steven D'Souza - mới 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/bonding.jpg"
+        "image": "/images/books/bonding.jpg",
+        "vendor": "Nhà xuất bản Lao động - Xã hội",
+        "year": 2009,
+        "isbn": ""
     },
     {
         "slug": "self002",
         "title": "Tin vào chính mình",
         "subtitle": "Louise L.Hay - mới 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/believe.png"
+        "image": "/images/books/believe.png",
+        "vendor": "Nhà xuất bản Trẻ",
+        "year": 2008,
+        "isbn": ""
     },
     {
         "slug": "eng003",
         "title": "Understanding and using English Grammar",
         "subtitle": "Sách học tiếng Anh - còn nguyên vẹn 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/grammar.jpg"
+        "image": "/images/books/grammar.jpg",
+        "vendor": "Nhà xuất bản Thanh niên",
+        "year": 2000,
+        "isbn": "0139436146"
     },
     {
         "slug": "nv002",
         "title": "Paris Through Close Eyes",
         "subtitle": "Dương Thuỵ - mới 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/paris.jpg"
+        "image": "/images/books/paris.jpg",
+        "vendor": "Nhà xuất bản Trẻ",
+        "year": 2014,
+        "isbn": "9786041025042"
     },
     {
         "slug": "nv003",
         "title": "Beloved Oxford",
         "subtitle": "Dương Thuỵ - mới 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/oxford.jpg"
+        "image": "/images/books/oxford.jpg",
+        "vendor": "Nhà xuất bản Trẻ",
+        "year": 2015,
+        "isbn": "9786041003644"
     },
     {
         "slug": "vn001",
         "title": "Dế mèn, chim gáy, bồ nông",
         "subtitle": "Tô Hoài - mới 100%",
+        "description": "",
+        "longtext": "",
+        "number": 1,
         "price": "Liên hệ",
-        "image": "/images/books/cricket.jpg"
+        "image": "/images/books/cricket.jpg",
+        "vendor": "Nhà xuất bản Kim Đồng",
+        "year": 2007,
+        "isbn": ""
     }
 ]

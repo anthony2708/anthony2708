@@ -1,9 +1,9 @@
 ---
-import type { GetStaticPaths } from "astro";
 import Base from "@/layouts/Base.astro"
 import jsonProducts from "@/layouts/components/Services/Store/store.json"
-import {Image} from "astro:assets"
+import Order from "@/layouts/components/Services/Store/Order.astro"
 import { markdownify } from "@/lib/utils/textConverter";
+import type { GetStaticPaths } from "astro";
 
 // Overloading GetStaticPaths
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -19,8 +19,14 @@ interface Product {
   slug: string,
   title: string,
   subtitle: string,
+  description: string,
+  longtext: string,
+  number: Number,
   price: string
-  image: string
+  image: string,
+  vendor: string,
+  year: Number,
+  isbn: string
 }
 
 interface Props {
@@ -29,13 +35,11 @@ interface Props {
 
 
 const {product} = Astro.props;
-
 ---
 
 
 
-<Base>
-
+<Base title={product.title}>
     <section class="section">
     <div class="container">
       <div class="row md:gx-4">
@@ -43,7 +47,8 @@ const {product} = Astro.props;
           {
             product.image && (
               <div class="img-cover mb-8">
-                <Image
+                <img
+                  loading="eager"
                   src={product.image}
                   width={295}
                   height={395}
@@ -56,11 +61,21 @@ const {product} = Astro.props;
         </div>
         <div class="sm:col-7 md:col-8">
           <h1 set:html={markdownify(product.title)} class="h3 mb-8" />
-
-          <div class="content">
-            <!-- <Content /> -->
-          </div>
-          <a href="#" class="btn btn-primary text-white py-2">Đặt hàng</a>
+          <h6 class="text-md mb-4">{product.subtitle}</h6>
+          <h4 class="text-md text-teal-600 mb-8">{product.price}</h4>
+          <p class="text-md mb-2">Tình trạng: Còn <b class="text-lg text-orange-600">{product.number}</b> quyển</p>
+          <p class="text-md mb-2">ISBN: <b>{product.isbn? product.isbn : "Chưa có thông tin"}</b></p>
+          <p class="text-md mb-2">Năm xuất bản: <b>{product.year? product.year : "Chưa có thông tin"}</b></p>
+          <p class="text-md mb-2">Nhà xuất bản: <b>{product.vendor? product.vendor : "Chưa có thông tin"}</b></p>
+          <Order/>
+        </div>
+        <div class="content">
+          <h2> Giới thiệu sách</h2>
+          <i>{product.description ? product.description : "Chưa có mô tả"}</i>
+          <!-- Line break -->
+          <br><br> 
+          <!-- End of line break -->
+          <i>{product.longtext ? product.longtext : ""}</i>
         </div>
       </div>
     </div>
