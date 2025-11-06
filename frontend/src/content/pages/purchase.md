@@ -11,7 +11,7 @@ draft: false
 
 _Nội dung chưa khả dụng, vui lòng quay lại sau._
 
-_Nếu có bất kỳ thắc mắc về tình trạng sách, xin quý khách **dừng việc đặt hàng** đôi chút, và **sử dụng biểu mẫu [này](./contact)** để trao đổi thêm với quản lý cửa hàng._
+_Nếu có bất kỳ thắc mắc về tình trạng sách, xin quý khách **dừng việc đặt hàng** đôi chút, và **sử dụng biểu mẫu [này](https://www.builetuananh.name.vn/contact)** để trao đổi thêm với quản lý cửa hàng._
 
 **_Xin trân trọng cảm ơn!_**
 
