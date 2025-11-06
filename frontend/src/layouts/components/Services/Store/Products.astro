@@ -1,5 +1,6 @@
 ---
 import jsonProducts from "./store.json"
+import {Image}from "astro:assets"
 const products = jsonProducts
 ---
 
@@ -10,9 +11,9 @@ const products = jsonProducts
     {
       products.map((product) => (
         <figure class="relative ">
-          <a href=`/store/${product.slug}` aria-hidden="true" class="absolute inset-0" />
-          <img
-            loading="eager"
+          <a href={`/store/${product.slug}`} target="_blank" aria-label="image" aria-hidden="true" class="absolute inset-0" />
+          <Image
+            loading="lazy"
             width="800"
             height="800"
             alt={product.title}
