@@ -11,7 +11,7 @@ const products = jsonProducts
     {
       products.map((product) => (
         <figure class="relative ">
-          <a href={`/store/${product.slug}`} target="_blank" aria-label="image" aria-hidden="true" class="absolute inset-0" />
+          <a href={`/store/${product.slug}`} aria-label="image" aria-hidden="true" class="absolute inset-0" />
           <Image
             loading="lazy"
             width="800"
@@ -27,7 +27,7 @@ const products = jsonProducts
                 {product.subtitle}
               </p>
             </div>
-            <b class="text-base text-teal-600">{product.price}</b>
+            <b class="text-base text-teal-600">{product.number > 0? product.price : "Hết hàng"}</b>
           </div>
         </figure>
       ))

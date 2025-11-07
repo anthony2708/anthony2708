@@ -21,11 +21,13 @@ interface Product {
   subtitle: string,
   description: string,
   longtext: string,
-  number: Number,
+  number: number,
   price: string
   image: string,
   vendor: string,
-  year: Number,
+  year: number,
+  size: string,
+  pages: number,
   isbn: string
 }
 
@@ -62,12 +64,21 @@ const {product} = Astro.props;
         <div class="sm:col-7 md:col-8">
           <h1 set:html={markdownify(product.title)} class="h3 mb-8" />
           <h6 class="text-md mb-4">{product.subtitle}</h6>
-          <h4 class="text-md text-teal-600 mb-8">{product.price}</h4>
-          <p class="text-md mb-2">Tình trạng: Còn <b class="text-lg text-orange-600">{product.number}</b> quyển</p>
+          <h4 class="text-md text-teal-600 mb-8">
+            {product.number > 0 ? product.price : "Hết hàng"}
+          </h4>
+          <p class="text-md mb-2">
+            Tình trạng: {product.number > 0 ? <>Còn <b class="text-lg text-orange-600">{product.number}</b> quyển</> : "Ngừng kinh doanh"}
+          </p>
+          <p class="text-md mb-2">Số trang: <b>{product.pages}</b></p>
+          <p class="text-md mb-2">Kich thước: <b>{product.size}</b></p>
           <p class="text-md mb-2">ISBN: <b>{product.isbn? product.isbn : "Chưa có thông tin"}</b></p>
           <p class="text-md mb-2">Năm xuất bản: <b>{product.year? product.year : "Chưa có thông tin"}</b></p>
           <p class="text-md mb-2">Nhà xuất bản: <b>{product.vendor? product.vendor : "Chưa có thông tin"}</b></p>
           <Order/>
+          <div class="flex justify-center flex-wrap gap-3 mt-4">
+            <a class="px-4.5 font-medium h-9 text-md bg-gray-200 text-base-900 rounded-full flex items-center justify-center hover:bg-gray-300 duration-300 w-fit" href="https://www.builetuananh.name.vn/store">Quay về cửa hàng</a>
+          </div>
         </div>
         <div class="content">
           <h2> Giới thiệu sách</h2>
