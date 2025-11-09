@@ -657,17 +657,17 @@
   dependencies:
     langium "3.3.1"
 
-"@netlify/functions@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.0.1.tgz#93a503db7ceb0550126e06d2a6bfa36e1c3653ca"
-  integrity sha512-olCwsnp0GDpjSYPfWrtUIvOsZcrRta6lxwZWfl3XxucXOw5AcGDKSqKGRElzyyZoRA8OXVh5B5NHj5Jd4PRx+A==
+"@netlify/functions@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.1.0.tgz#c11159b4eae3b91854bf96359717f4d708c1e320"
+  integrity sha512-LZtiQtf/QzPHIeNDZuIBxx04kmU7lCipWqZ26ejX7mYSB3yj2wvpZfF49kD8B8FoKTydSvgFmBpIcCO5FvpEXA==
   dependencies:
-    "@netlify/types" "2.1.0"
+    "@netlify/types" "2.2.0"
 
-"@netlify/types@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-2.1.0.tgz#7f2ffc4f56d53481535d919f70f1057ff20af074"
-  integrity sha512-ktUb5d58pt1lQGXO5E9S0F1ljM0g+CoQuGTVII0IxBc0apmPq5RI0o3OWLY7U3ZERRiYTg5UfjiMihBEzuZsuw==
+"@netlify/types@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-2.2.0.tgz#ea9ee1001c944fe9543161cccd8876e85d2a4c06"
+  integrity sha512-XOWlZ2wPpdRKkAOcQbjIf/Qz7L4RjcSVINVNQ9p3F6U8V6KSEOsB3fPrc6Ly8EOeJioHUepRPuzHzJE/7V5EsA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
