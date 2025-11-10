@@ -1,7 +1,7 @@
 ---
-title: "Đặt hàng"
-meta_title: "Đặt hàng - Purchase your Order!"
-description: "Trang cung cấp biểu mẫu đặt sách dành cho khách hàng."
+title: "Lấy báo giá"
+meta_title: "Lấy báo giá - Request a PO"
+description: "Trang cung cấp hướng dẫn đặt sách dành cho khách hàng."
 draft: false
 ---
 
@@ -11,7 +11,7 @@ draft: false
 
 _Nội dung chưa khả dụng, vui lòng quay lại sau._
 
-_Nếu có bất kỳ thắc mắc về tình trạng sách, xin quý khách **dừng việc đặt hàng** đôi chút, và **sử dụng biểu mẫu [này](https://www.builetuananh.name.vn/contact)** để trao đổi thêm với quản lý cửa hàng._
+_Nếu có bất kỳ thắc mắc về tình trạng sách, xin quý khách **dừng việc lấy báo giá** đôi chút, và **sử dụng biểu mẫu [này](https://www.builetuananh.name.vn/contact)** để trao đổi thêm với quản lý cửa hàng._
 
 **_Xin trân trọng cảm ơn!_**
 
