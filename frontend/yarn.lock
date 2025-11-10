@@ -129,10 +129,10 @@
     unist-util-visit "^5.0.0"
     vfile "^6.0.3"
 
-"@astrojs/mdx@^4.3.7":
-  version "4.3.7"
-  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-4.3.7.tgz#a6cb6e2c05af037e8abdc6049be342f35210158c"
-  integrity sha512-5SRmvMyT/UMWaU2eoD+htnXtE2mUZZEH2K/nEzhuEy+iCsOSuS/DUry59WuKUJRQETi1mgJFdNR4dZLJHYVuRA==
+"@astrojs/mdx@^4.3.10":
+  version "4.3.10"
+  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-4.3.10.tgz#641c177954653e555706b26d027265274327eaf2"
+  integrity sha512-2T5+XIr7PMqMeXhRofXY5NlY4lA0Km+wkfsqmr9lq5KXUHpGlKPQ9dlDZJP9E/CtljJyEBNS17zq66LrIJ1tiQ==
   dependencies:
     "@astrojs/markdown-remark" "6.3.8"
     "@mdx-js/mdx" "^3.1.1"
@@ -140,7 +140,7 @@
     es-module-lexer "^1.7.0"
     estree-util-visit "^2.0.0"
     hast-util-to-html "^9.0.5"
-    kleur "^4.1.5"
+    picocolors "^1.1.1"
     rehype-raw "^7.0.0"
     remark-gfm "^4.0.1"
     remark-smartypants "^3.0.2"
@@ -155,22 +155,22 @@
   dependencies:
     prismjs "^1.30.0"
 
-"@astrojs/react@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-4.4.0.tgz#e789e02c1537f89c49934f8a6812ef564e5ce57a"
-  integrity sha512-RzblkVImAFdV1C0AWsSWzS70Z0FMtW2p0XXkNYu3QePfyVJta3JIy8m8jY8271etaCZtpFjsE2UaiHGZIBm6nw==
+"@astrojs/react@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-4.4.2.tgz#343e0c895a8cb6aede5d857b59e02139a1ac191e"
+  integrity sha512-1tl95bpGfuaDMDn8O3x/5Dxii1HPvzjvpL2YTuqOOrQehs60I2DKiDgh1jrKc7G8lv+LQT5H15V6QONQ+9waeQ==
   dependencies:
     "@vitejs/plugin-react" "^4.7.0"
     ultrahtml "^1.6.0"
-    vite "^6.3.6"
+    vite "^6.4.1"
 
-"@astrojs/rss@^4.0.12":
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-4.0.12.tgz#ce3505a184232b59b596dbb77e496ca8b1b00fd2"
-  integrity sha512-O5yyxHuDVb6DQ6VLOrbUVFSm+NpObulPxjs6XT9q3tC+RoKbN4HXMZLpv0LvXd1qdAjzVgJ1NFD+zKHJNDXikw==
+"@astrojs/rss@^4.0.13":
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-4.0.13.tgz#195672f2d9d1f17bb8c0532d4bd8e119a42d4842"
+  integrity sha512-ugW4DmGn8kgfl8/qecU3EcKCAuEBrZqY7eYfa6at0sY7HGEwRdzsOafLE437RwDMP2ZuxfKnCNABs99YVhX0kg==
   dependencies:
-    fast-xml-parser "^5.2.0"
-    kleur "^4.1.5"
+    fast-xml-parser "^5.3.0"
+    picocolors "^1.1.1"
 
 "@astrojs/sitemap@^3.3.0":
   version "3.4.0"
@@ -190,10 +190,10 @@
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/starlight@^0.36.1":
-  version "0.36.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.36.1.tgz#f875554c28e086a6ea15c0dd8acba55325e1d48d"
-  integrity sha512-Fmt8mIsAIZN18Y4YQDI6p521GsYGe4hYxh9jWmz0pHBXnS5J7Na3TSXNya4eyIymCcKkuiKFbs7b/knsdGVYPg==
+"@astrojs/starlight@^0.36.2":
+  version "0.36.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.36.2.tgz#629adafd18ed0e0e86de34f9d916151ec105ec68"
+  integrity sha512-QR8NfO7+7DR13kBikhQwAj3IAoptLLNs9DkyKko2M2l3PrqpcpVUnw1JBJ0msGDIwE6tBbua2UeBND48mkh03w==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -1961,10 +1961,10 @@ astro-font@^1.1.0:
   resolved "https://registry.yarnpkg.com/astro-font/-/astro-font-1.1.0.tgz#5daef75eacf7f22fdf15855c02fcdf22d8951054"
   integrity sha512-hj1A0MkaJTeaArBpf1m9s4Nxu1Bn9h0QiEPeR9Dfjle25pT4CH4higzuadWzCRSvhGO2SzbM11YwZEF+cmLDxg==
 
-astro@^5.15.3:
-  version "5.15.3"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.15.3.tgz#f63d937f74a2cdd2cedef931e746166a97264ead"
-  integrity sha512-wUO/isJrcUoduRoKacKB9jpO6TxTlPV1zw8UqQx39jSNY7z9IxusJAiib3AiNvqK+dCWhqXx+OnExCCwELmcUw==
+astro@^5.15.4:
+  version "5.15.4"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.15.4.tgz#447fc96328820a1750933704f334083ebcdd8b0b"
+  integrity sha512-0g/68hLHEJZF2nYUcZM5O0kOnzCsCIf8eA9+0jfBAxp4ycujrIHRgIOdZCFKL9GoTsn8AypWbziypH5aEIF+aA==
   dependencies:
     "@astrojs/compiler" "^2.12.2"
     "@astrojs/internal-helpers" "0.7.4"
@@ -2665,10 +2665,10 @@ fast-uri@^3.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.0.6.tgz#88f130b77cfaea2378d56bf970dea21257a68748"
   integrity sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==
 
-fast-xml-parser@^5.2.0:
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.2.5.tgz#4809fdfb1310494e341098c25cb1341a01a9144a"
-  integrity sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==
+fast-xml-parser@^5.3.0:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.3.1.tgz#94055e8f53e471064e3e47ca4c441d1b46229c4b"
+  integrity sha512-jbNkWiv2Ec1A7wuuxk0br0d0aTMUtQ4IkL+l/i1r9PRf6pLXjDgsBsWwO+UyczmQlnehi4Tbc8/KIvxGQe+I/A==
   dependencies:
     strnum "^2.1.0"
 
@@ -5297,7 +5297,7 @@ vfile@^6.0.0, vfile@^6.0.2, vfile@^6.0.3:
     "@types/unist" "^3.0.0"
     vfile-message "^4.0.0"
 
-vite@^6.3.6, vite@^6.4.1:
+vite@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/vite/-/vite-6.4.1.tgz#afbe14518cdd6887e240a4b0221ab6d0ce733f96"
   integrity sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==
