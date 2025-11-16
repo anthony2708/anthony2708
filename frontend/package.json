@@ -31,7 +31,7 @@
     "react-icons": "^5.5.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
-    "sharp": "^0.34.4",
+    "sharp": "^0.34.5",
     "starlight-cooler-credit": "^0.4.1",
     "starlight-image-zoom": "^0.13.2",
     "vite": "^7.1.12"
