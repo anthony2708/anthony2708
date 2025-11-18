@@ -12,6 +12,7 @@ categories: ["Tech Blog"]
 
 import FirstPost from "../../chunks/2024/06-08-TechBlog-05/_p1.md";
 import SecondPost from "../../chunks/2024/06-08-TechBlog-05/_p2.md";
+import ThirdPost from "../../chunks/2024/06-08-TechBlog-05/_p3.md";
 
 Kính chào quý độc giả, đây là bài thứ năm của **Tech Blog** xuất hiện trở lại trên website này.
 Ngày hôm nay, rất nhiều nội dung thú vị sẽ được chia sẻ tại chiếc Tech Blog này. Với tựa đề
@@ -26,9 +27,12 @@ thẻ khác nhau ứng với từng phần của bài viết.
   <NewTab name="P2">
     <SecondPost />
   </NewTab>
+  <NewTab name="P3">
+    <ThirdPost />
+  </NewTab>
 </NewTabs>
 
-### Phụ lục Phần 1: Thuật toán Luhn
+<Accordion client:load title="Phụ lục Phần 1: Thuật toán Luhn">
 
 _Thuật toán này được một kỹ sư của IBM tên là **Hans Peter Luhn** tạo ra nhằm mục đích tạo sinh mã định danh cho nhiều loại giấy tờ khác nhau. Thuật toán này đựợc cấp bằng sáng chế số 2.950.048 tại Mỹ vào ngày **23/08/1960**, và được đưa vào chuẩn **ISO/IEC 7812-1** dùng rộng rãi trong thời điểm hiện nay._
 
@@ -40,10 +44,9 @@ _Thuật toán này được sử dụng ở các loại giấy tờ như: **Th�
 
 _Dưới đây là mã giả của thuật toán này cũng như một số mã nguồn mẫu bằng các ngôn ngữ khác nhau, thu thập từ **[Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)**. Mọi người cũng có thể đọc bài viết này để hiểu thêm cách thuật toán hoạt động._
 
-#### Mã giả thuật toán
-```bash title="Pseudocode.txt"
-# Pseudo code for the algorithm
 
+**Mã giả (để thiết lập cơ chế)**
+```bash title="Pseudocode.txt"
 function isValid(cardNumber[1..length])
     sum := 0
     parity := length mod 2
@@ -60,10 +63,8 @@ function isValid(cardNumber[1..length])
 end function
 ```
 
-#### Mã nguồn ngôn ngữ C#
-```csharp title="luhn.cs"
-// Csharp version
-
+**Mã nguồn ứng dụng C#**
+```cs title="luhn.cs"
 bool IsValidLuhn(in int[] digits)
 {
     int check_digit = 0;
@@ -78,10 +79,8 @@ bool IsValidLuhn(in int[] digits)
 }
 ```
 
-#### Mã nguồn ngôn ngữ Java
+**Mã nguồn ứng dụng Java**
 ```java title="luhn.java"
-// Java version
-
 public static boolean isValidLuhn(String number) {
     int n = number.length();
     int total = 0;
@@ -105,10 +104,8 @@ public static boolean isValidLuhn(String number) {
 
 ```
 
-#### Mã nguồn ngôn ngữ TypeScript
+**Mã nguồn ứng dụng TypeScript**
 ```tsx title="luhn.tsx"
-// TypeScript version
-
 function luhnCheck(input: number): boolean {
   const number = input.toString();
   const digits = number.replace(/\D/g, '').split('').map(Number);
@@ -128,11 +125,9 @@ function luhnCheck(input: number): boolean {
   return sum % 10 === 0;
 }
 ```
+**Mã nguồn ứng dụng Python**
 
-#### Mã nguồn ngôn ngữ Python
 ```python title="luhn.py"
-# Python version
-
 class LuhnAlgorithm:
     """Class to validate a number using Luhn algorithm.
     
@@ -161,6 +156,48 @@ class LuhnAlgorithm:
         """Verify a number using Luhn algorithm."""            
         return self.__checksum()
 ```
+</Accordion>
+
+<Accordion client:load title="Mã nguồn Phần 3: Dockerfile và CI/CD">
+
+_Dưới đây là các bản ảnh gốc được sử dụng._
+
+```dockerfile title="Dockerfile"
+FROM cgr.dev/chainguard/node:latest
+
+FROM cgr.dev/chainguard/wolfi-base:latest
+
+FROM cgr.dev/chainguard/nginx:latest
+```
+_Còn đây là một phần cấu hình CI/CD - tức **luồng tự động xử lý dựng bản ảnh**
+trên Github của mình._ 
+
+
+```yml title="Docker.yml"
+
+...
+      - name: Build and push images to ghcr
+        id: push
+        uses: docker/build-push-action@v6
+        with:
+          context: 2025/vite-react-template
+          file: 2025/Dockerfile
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          push: true
+          pull: true
+          sbom: true
+          provenance: mode=max
+          cache-from: type=gha
+          cache-to: type=gha, mode=max
+          platforms: linux/amd64, linux/arm64
+...
+
+```
+
+_Xem trọn vẹn mọi thứ ở đường dẫn **[này](https://github.com/anthony2708/dockerfile-contest/)**_
+
+</Accordion>
 
 
 ### Tổng kết bài viết
