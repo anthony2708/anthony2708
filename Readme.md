@@ -53,8 +53,8 @@
 
 ### 💻 Github Statistics
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=anthony2708&count_private=true&show_icons=true&theme=dracula" alt="anthony2708" /></p>
+<p align="center"><img src="https://stats.builetuananh.name.vn/api?username=anthony2708&count_private=true&show_icons=true&theme=dracula" alt="anthony2708" /></p>
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anthony2708&layout=compact&langs_count=10&card_width=445&theme=dracula" alt="Language Stats" /></p>
+<p align="center"><img src="https://stats.builetuananh.name.vn/api/top-langs/?username=anthony2708&layout=compact&langs_count=10&card_width=445&theme=dracula" alt="Language Stats" /></p>
 
 <p align="center"><img src="https://nirzak-streak-stats.vercel.app?user=anthony2708&theme=city-lights&hide_border=true" alt="GitHub Streak" /></p>
