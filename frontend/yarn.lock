@@ -56,6 +56,33 @@
     vscode-html-languageservice "^5.5.2"
     vscode-uri "^3.1.0"
 
+"@astrojs/markdown-remark@6.3.10":
+  version "6.3.10"
+  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-6.3.10.tgz#75b8ce7398eec483006de8d76c604cc6ff841606"
+  integrity sha512-kk4HeYR6AcnzC4QV8iSlOfh+N8TZ3MEStxPyenyCtemqn8IpEATBFMTJcfrNW32dgpt6MY3oCkMM/Tv3/I4G3A==
+  dependencies:
+    "@astrojs/internal-helpers" "0.7.5"
+    "@astrojs/prism" "3.3.0"
+    github-slugger "^2.0.0"
+    hast-util-from-html "^2.0.3"
+    hast-util-to-text "^4.0.2"
+    import-meta-resolve "^4.2.0"
+    js-yaml "^4.1.1"
+    mdast-util-definitions "^6.0.0"
+    rehype-raw "^7.0.0"
+    rehype-stringify "^10.0.1"
+    remark-gfm "^4.0.1"
+    remark-parse "^11.0.0"
+    remark-rehype "^11.1.2"
+    remark-smartypants "^3.0.2"
+    shiki "^3.19.0"
+    smol-toml "^1.5.2"
+    unified "^11.0.5"
+    unist-util-remove-position "^5.0.0"
+    unist-util-visit "^5.0.0"
+    unist-util-visit-parents "^6.0.2"
+    vfile "^6.0.3"
+
 "@astrojs/markdown-remark@6.3.2", "@astrojs/markdown-remark@^6.3.1":
   version "6.3.2"
   resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-6.3.2.tgz#b85bab36bc92bd9426e75f2efcbdfde26fad57d8"
@@ -129,12 +156,12 @@
     unist-util-visit "^5.0.0"
     vfile "^6.0.3"
 
-"@astrojs/mdx@^4.3.12":
-  version "4.3.12"
-  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-4.3.12.tgz#003ca73e610432f55b001925a89810555deefc0d"
-  integrity sha512-pL3CVPtuQrPnDhWjy7zqbOibNyPaxP4VpQS8T8spwKqKzauJ4yoKyNkVTD8jrP7EAJHmBhZ7PTmUGZqOpKKp8g==
+"@astrojs/mdx@^4.3.13":
+  version "4.3.13"
+  resolved "https://registry.yarnpkg.com/@astrojs/mdx/-/mdx-4.3.13.tgz#a7f6ad87df991ac7f5f9a2d26d1ad07eb3426476"
+  integrity sha512-IHDHVKz0JfKBy3//52JSiyWv089b7GVSChIXLrlUOoTLWowG3wr2/8hkaEgEyd/vysvNQvGk+QhysXpJW5ve6Q==
   dependencies:
-    "@astrojs/markdown-remark" "6.3.9"
+    "@astrojs/markdown-remark" "6.3.10"
     "@mdx-js/mdx" "^3.1.1"
     acorn "^8.15.0"
     es-module-lexer "^1.7.0"
@@ -190,10 +217,10 @@
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/starlight@^0.37.0":
-  version "0.37.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.0.tgz#11b6531d75c28c512c58fdd6ef44b0fdb76f6c4b"
-  integrity sha512-1AlaEjYYRO+5o6P5maPUBQZr6Q3wtuhMQTmsDQExI07wJVwe7EC2wGhXnFo+jpCjwHv/Bdg33PQheY4UhMj01g==
+"@astrojs/starlight@^0.37.1":
+  version "0.37.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.1.tgz#7eaece5fbf05c51b9d0111f79a3ccc45ec850ba4"
+  integrity sha512-STNsR5PaDoiW4IgcX17Fp42FfyqwuweWPts/EWEMcFPAeg9Nvpu3UvVCorasYrgfJgaJTeydsOV++0ACA1KYDA==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -698,10 +725,10 @@
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 
-"@expressive-code/core@^0.41.3":
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.41.3.tgz#f6c57df5a4360dc68ffbeb18890fbc2850217812"
-  integrity sha512-9qzohqU7O0+JwMEEgQhnBPOw5DtsQRBXhW++5fvEywsuX44vCGGof1SL5OvPElvNgaWZ4pFZAFSlkNOkGyLwSQ==
+"@expressive-code/core@^0.41.4":
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.41.4.tgz#d895c6dbfe53a78aade24d526817de796f4af09f"
+  integrity sha512-4eDiyq3hI3vJ0KnwIqonh9evy9p8aNixsf5wwnvDWcoPfYU3LGB6Nkb6WDdYS4z52tODCvN5gMRy1DtRopcxXg==
   dependencies:
     "@ctrl/tinycolor" "^4.0.4"
     hast-util-select "^6.0.2"
@@ -720,12 +747,12 @@
   dependencies:
     "@expressive-code/core" "^0.41.2"
 
-"@expressive-code/plugin-frames@^0.41.3":
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.41.3.tgz#d0362ca9810e6eb366e6cf172031843636054c4e"
-  integrity sha512-rFQtmf/3N2CK3Cq/uERweMTYZnBu+CwxBdHuOftEmfA9iBE7gTVvwpbh82P9ZxkPLvc40UMhYt7uNuAZexycRQ==
+"@expressive-code/plugin-frames@^0.41.4":
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.41.4.tgz#51f72197ebe470463ac8b4ea9eb231e0794b9d0d"
+  integrity sha512-W9jZW8LsPS8fW5T5CQyXUyyCrMxb7qfl6oxlLZB1rW74qM572Id4CWEXOM/7fFDcd1pW2fUxMoGzJMh0T2Awhg==
   dependencies:
-    "@expressive-code/core" "^0.41.3"
+    "@expressive-code/core" "^0.41.4"
 
 "@expressive-code/plugin-shiki@^0.41.2":
   version "0.41.2"
@@ -735,12 +762,12 @@
     "@expressive-code/core" "^0.41.2"
     shiki "^3.2.2"
 
-"@expressive-code/plugin-shiki@^0.41.3":
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.41.3.tgz#00665e981e540b548ad1c6271464a0246e8721a8"
-  integrity sha512-RlTARoopzhFJIOVHLGvuXJ8DCEme/hjV+ZnRJBIxzxsKVpGPW4Oshqg9xGhWTYdHstTsxO663s0cdBLzZj9TQA==
+"@expressive-code/plugin-shiki@^0.41.4":
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.41.4.tgz#cb7050b835beb22a4ed53e048b6c0e45e492370f"
+  integrity sha512-zOc0tfWISODHnnpfRJyssTvSWVVe+gj08GcFYiR2a6M8fKF1w5CJkpgf7tTvnoUTuVmL1DHRmiQFUnpGjtRGog==
   dependencies:
-    "@expressive-code/core" "^0.41.3"
+    "@expressive-code/core" "^0.41.4"
     shiki "^3.2.2"
 
 "@expressive-code/plugin-text-markers@^0.41.2":
@@ -750,12 +777,12 @@
   dependencies:
     "@expressive-code/core" "^0.41.2"
 
-"@expressive-code/plugin-text-markers@^0.41.3":
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.3.tgz#713e09621042014d1919e82f302cd276bd326512"
-  integrity sha512-SN8tkIzDpA0HLAscEYD2IVrfLiid6qEdE9QLlGVSxO1KEw7qYvjpbNBQjUjMr5/jvTJ7ys6zysU2vLPHE0sb2g==
+"@expressive-code/plugin-text-markers@^0.41.4":
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.4.tgz#d416b94000055bd7a8903bc92389f63eaccac7e5"
+  integrity sha512-lGqbjtIuiY+UZ+z61kKIJAZtF7H5xoT8lkxANmeoVaat+H47O5A+rr5WLmD45ezprO/NTogxHsaMfqRCuQ4vlw==
   dependencies:
-    "@expressive-code/core" "^0.41.3"
+    "@expressive-code/core" "^0.41.4"
 
 "@img/colour@^1.0.0":
   version "1.0.0"
@@ -1549,6 +1576,16 @@
     "@types/hast" "^3.0.4"
     hast-util-to-html "^9.0.5"
 
+"@shikijs/core@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-3.20.0.tgz#ccb9f687de1a236247d8f306cc193dde35f51688"
+  integrity sha512-f2ED7HYV4JEk827mtMDwe/yQ25pRiXZmtHjWF8uzZKuKiEsJR7Ce1nuQ+HhV9FzDcbIo4ObBCD9GPTzNuy9S1g==
+  dependencies:
+    "@shikijs/types" "3.20.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
+    hast-util-to-html "^9.0.5"
+
 "@shikijs/core@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-3.4.2.tgz#da400c642d05b8af17120e99ecbfc38f6406ac43"
@@ -1577,6 +1614,15 @@
     "@shikijs/vscode-textmate" "^10.0.2"
     oniguruma-to-es "^4.3.3"
 
+"@shikijs/engine-javascript@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/engine-javascript/-/engine-javascript-3.20.0.tgz#b0a40ea401b2dc167b14ed924979081c7f920650"
+  integrity sha512-OFx8fHAZuk7I42Z9YAdZ95To6jDePQ9Rnfbw9uSRTSbBhYBp1kEOKv/3jOimcj3VRUKusDYM6DswLauwfhboLg==
+  dependencies:
+    "@shikijs/types" "3.20.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    oniguruma-to-es "^4.3.4"
+
 "@shikijs/engine-javascript@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@shikijs/engine-javascript/-/engine-javascript-3.4.2.tgz#14688441e058fa9d6b98e9f48c607344b7d2ae2f"
@@ -1602,6 +1648,14 @@
     "@shikijs/types" "3.15.0"
     "@shikijs/vscode-textmate" "^10.0.2"
 
+"@shikijs/engine-oniguruma@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/engine-oniguruma/-/engine-oniguruma-3.20.0.tgz#4b476a8dff29561dfd9af1ba2edb4c378d3bee06"
+  integrity sha512-Yx3gy7xLzM0ZOjqoxciHjA7dAt5tyzJE3L4uQoM83agahy+PlW244XJSrmJRSBvGYELDhYXPacD4R/cauV5bzQ==
+  dependencies:
+    "@shikijs/types" "3.20.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+
 "@shikijs/engine-oniguruma@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@shikijs/engine-oniguruma/-/engine-oniguruma-3.4.2.tgz#e8187f86b1f58b9bc2544994de2cc769ba44d1f8"
@@ -1624,6 +1678,13 @@
   dependencies:
     "@shikijs/types" "3.15.0"
 
+"@shikijs/langs@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/langs/-/langs-3.20.0.tgz#5dcfdeb9eb2d5f811144ca606553a4d8a6a667d5"
+  integrity sha512-le+bssCxcSHrygCWuOrYJHvjus6zhQ2K7q/0mgjiffRbkhM4o1EWu2m+29l0yEsHDbWaWPNnDUTRVVBvBBeKaA==
+  dependencies:
+    "@shikijs/types" "3.20.0"
+
 "@shikijs/langs@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@shikijs/langs/-/langs-3.4.2.tgz#1d37272dac923c08789e1c8249f73384ae5ef59a"
@@ -1645,6 +1706,13 @@
   dependencies:
     "@shikijs/types" "3.15.0"
 
+"@shikijs/themes@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/themes/-/themes-3.20.0.tgz#9b030fe81fcd0a8b7941131ef14c274b4c6451a8"
+  integrity sha512-U1NSU7Sl26Q7ErRvJUouArxfM2euWqq1xaSrbqMu2iqa+tSp0D1Yah8216sDYbdDHw4C8b75UpE65eWorm2erQ==
+  dependencies:
+    "@shikijs/types" "3.20.0"
+
 "@shikijs/themes@3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@shikijs/themes/-/themes-3.4.2.tgz#05ef9d924c73ba841e2209e918642aa385b91da7"
@@ -1664,6 +1732,14 @@
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/@shikijs/types/-/types-3.15.0.tgz#4e025b4dea98e1603243b1f00677854e07e5eda1"
   integrity sha512-BnP+y/EQnhihgHy4oIAN+6FFtmfTekwOLsQbRw9hOKwqgNy8Bdsjq8B05oAt/ZgvIWWFrshV71ytOrlPfYjIJw==
+  dependencies:
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
+
+"@shikijs/types@3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/types/-/types-3.20.0.tgz#b1fbacba2e1e38d31e3f869309fff216a5d27126"
+  integrity sha512-lhYAATn10nkZcBQ0BlzSbJA3wcmL5MXUUF8d2Zzon6saZDlToKaiRX60n2+ZaHJCmXEcZRWNzn+k9vplr8Jhsw==
   dependencies:
     "@shikijs/vscode-textmate" "^10.0.2"
     "@types/hast" "^3.0.4"
@@ -2180,12 +2256,12 @@ astro-expressive-code@^0.41.1:
   dependencies:
     rehype-expressive-code "^0.41.2"
 
-astro-expressive-code@^0.41.3:
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.41.3.tgz#1751ffa19246c31aff31f543d7e23b53cb4c5c78"
-  integrity sha512-u+zHMqo/QNLE2eqYRCrK3+XMlKakv33Bzuz+56V1gs8H0y6TZ0hIi3VNbIxeTn51NLn+mJfUV/A0kMNfE4rANw==
+astro-expressive-code@^0.41.4:
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.41.4.tgz#7296ca927295bcc0c05e197487696a3c90643205"
+  integrity sha512-LK6EcK/hIHfOSo9zqapzu4CbTC0YBtMOVdvWjInpB2SgYtxiF22aZDqdpejN8J28mWPqPLQwSqdl2lWuirNXmw==
   dependencies:
-    rehype-expressive-code "^0.41.3"
+    rehype-expressive-code "^0.41.4"
 
 astro-font@^1.1.0:
   version "1.1.0"
@@ -2930,15 +3006,15 @@ expressive-code@^0.41.2:
     "@expressive-code/plugin-shiki" "^0.41.2"
     "@expressive-code/plugin-text-markers" "^0.41.2"
 
-expressive-code@^0.41.3:
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.41.3.tgz#b54fa23c8776b9db57ced80e4172169c5af74627"
-  integrity sha512-YLnD62jfgBZYrXIPQcJ0a51Afv9h8VlWqEGK9uU2T5nL/5rb8SnA86+7+mgCZe5D34Tff5RNEA5hjNVJYHzrFg==
+expressive-code@^0.41.4:
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.41.4.tgz#eabbcc51f1fa5d686b034985c9ba01810003a910"
+  integrity sha512-A9aFLhgqLkL6VSfqYkPqkJVMtA90/bhCLmUO7L3/a1xWISNMcHoCS6d6i8ePwi8HvHr3xRLswHTNt6NheTjdXA==
   dependencies:
-    "@expressive-code/core" "^0.41.3"
-    "@expressive-code/plugin-frames" "^0.41.3"
-    "@expressive-code/plugin-shiki" "^0.41.3"
-    "@expressive-code/plugin-text-markers" "^0.41.3"
+    "@expressive-code/core" "^0.41.4"
+    "@expressive-code/plugin-frames" "^0.41.4"
+    "@expressive-code/plugin-shiki" "^0.41.4"
+    "@expressive-code/plugin-text-markers" "^0.41.4"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -4519,6 +4595,15 @@ oniguruma-to-es@^4.3.3:
     regex "^6.0.1"
     regex-recursion "^6.0.2"
 
+oniguruma-to-es@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/oniguruma-to-es/-/oniguruma-to-es-4.3.4.tgz#0b909d960faeb84511c979b1f2af64e9bc37ce34"
+  integrity sha512-3VhUGN3w2eYxnTzHn+ikMI+fp/96KoRSVK9/kMTcFqj1NRDh2IhQCKvYxDnWePKRXY/AqH+Fuiyb7VHSzBjHfA==
+  dependencies:
+    oniguruma-parser "^0.12.1"
+    regex "^6.0.1"
+    regex-recursion "^6.0.2"
+
 p-limit@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-6.2.0.tgz#c254d22ba6aeef441a3564c5e6c2f2da59268a0f"
@@ -4730,10 +4815,10 @@ radix3@^1.1.2:
   resolved "https://registry.yarnpkg.com/radix3/-/radix3-1.1.2.tgz#fd27d2af3896c6bf4bcdfab6427c69c2afc69ec0"
   integrity sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==
 
-react-dom@^19.2.1:
-  version "19.2.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.1.tgz#ce3527560bda4f997e47d10dab754825b3061f59"
-  integrity sha512-ibrK8llX2a4eOskq1mXKu/TGZj9qzomO+sNfO98M6d9zIPOEhlBkMkBUBLd1vgS0gQsLDBzA+8jJBVXDnfHmJg==
+react-dom@^19.2.3:
+  version "19.2.3"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.3.tgz#f0b61d7e5c4a86773889fcc1853af3ed5f215b17"
+  integrity sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==
   dependencies:
     scheduler "^0.27.0"
 
@@ -4747,10 +4832,10 @@ react-refresh@^0.17.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
   integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
-react@^19.2.1:
-  version "19.2.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.2.1.tgz#8600fa205e58e2e807f6ef431c9f6492591a2700"
-  integrity sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==
+react@^19.2.3:
+  version "19.2.3"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.3.tgz#d83e5e8e7a258cf6b4fe28640515f99b87cd19b8"
+  integrity sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==
 
 readdirp@^4.0.1:
   version "4.1.2"
@@ -4823,12 +4908,12 @@ rehype-expressive-code@^0.41.2:
   dependencies:
     expressive-code "^0.41.2"
 
-rehype-expressive-code@^0.41.3:
-  version "0.41.3"
-  resolved "https://registry.yarnpkg.com/rehype-expressive-code/-/rehype-expressive-code-0.41.3.tgz#ddf4849ebfa551a64973ecd681f18a5753623d0e"
-  integrity sha512-8d9Py4c/V6I/Od2VIXFAdpiO2kc0SV2qTJsRAaqSIcM9aruW4ASLNe2kOEo1inXAAkIhpFzAHTc358HKbvpNUg==
+rehype-expressive-code@^0.41.4:
+  version "0.41.4"
+  resolved "https://registry.yarnpkg.com/rehype-expressive-code/-/rehype-expressive-code-0.41.4.tgz#a678626103c99936ffe656c0a92ed0431f394faa"
+  integrity sha512-qEUKfh/Aw9VZSUCXnJef41o7lpfnhXmQdXTkP2ZWGibSk4SoJVJ4ra1xN1t+hL1rp0d0GPKZ1CpM3q6bjV0xbg==
   dependencies:
-    expressive-code "^0.41.3"
+    expressive-code "^0.41.4"
 
 rehype-format@^5.0.0:
   version "5.0.1"
@@ -5257,6 +5342,20 @@ shiki@^3.15.0:
     "@shikijs/vscode-textmate" "^10.0.2"
     "@types/hast" "^3.0.4"
 
+shiki@^3.19.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-3.20.0.tgz#1eb8669857373d74e90822e03663a86b5b1f9a24"
+  integrity sha512-kgCOlsnyWb+p0WU+01RjkCH+eBVsjL1jOwUYWv0YDWkM2/A46+LDKVs5yZCUXjJG6bj4ndFoAg5iLIIue6dulg==
+  dependencies:
+    "@shikijs/core" "3.20.0"
+    "@shikijs/engine-javascript" "3.20.0"
+    "@shikijs/engine-oniguruma" "3.20.0"
+    "@shikijs/langs" "3.20.0"
+    "@shikijs/themes" "3.20.0"
+    "@shikijs/types" "3.20.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
+
 shiki@^3.2.1, shiki@^3.2.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/shiki/-/shiki-3.4.2.tgz#da773af493461a5b1806878fb47af828bee0b265"
@@ -5432,10 +5531,15 @@ svgo@^4.0.0:
     picocolors "^1.1.1"
     sax "^1.4.1"
 
-tailwindcss@4.1.17, tailwindcss@^4.1.17:
+tailwindcss@4.1.17:
   version "4.1.17"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.1.17.tgz#e6dcb7a9c60cef7522169b5f207ffec2fd652286"
   integrity sha512-j9Ee2YjuQqYT9bbRTfTZht9W/ytp5H+jJpZKiYdP/bpnXARAuELt9ofP0lPnmHjbga7SNQIxdTAXCmtKVYjN+Q==
+
+tailwindcss@^4.1.18:
+  version "4.1.18"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.1.18.tgz#f488ba47853abdb5354daf9679d3e7791fc4f4e3"
+  integrity sha512-4+Z+0yiYyEtUVCScyfHCxOYP06L5Ne+JiHhY2IjR2KWMIWhJOYZKLSGZaP5HkZ8+bY0cxfzwDE5uOmzFXyIwxw==
 
 tapable@^2.2.0:
   version "2.2.2"
