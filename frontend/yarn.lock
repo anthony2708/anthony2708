@@ -710,10 +710,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.25.5.tgz#7fc114af5f6563f19f73324b5d5ff36ece0803d1"
   integrity sha512-TXv6YnJ8ZMVdX+SXWVBo/0p8LTcrUYngpWjvm91TMjjBQii7Oz11Lw5lbDV5Y0TzuhSJHwiH4hEtC1I42mMS0g==
 
-"@expressive-code/core@^0.41.2":
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.41.2.tgz#b8bca4c1fb7f552ad722c73ca81accbbd9fe259f"
-  integrity sha512-AJW5Tp9czbLqKMzwudL9Rv4js9afXBxkSGLmCNPq1iRgAYcx9NkTPJiSNCesjKRWoVC328AdSu6fqrD22zDgDg==
+"@expressive-code/core@^0.41.5":
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.41.5.tgz#611972efa7c5decec9f113cdd2a370bb056ffa0b"
+  integrity sha512-II5TEy5eOoXiqPwqtpSqwamUd7lZS3YH3ofxR1ZyQMmygqORZn8/7SzgfF8G0kB7uKCBzFZT6RgKgCuHcJuPpA==
   dependencies:
     "@ctrl/tinycolor" "^4.0.4"
     hast-util-select "^6.0.2"
@@ -725,64 +725,27 @@
     unist-util-visit "^5.0.0"
     unist-util-visit-parents "^6.0.1"
 
-"@expressive-code/core@^0.41.4":
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/@expressive-code/core/-/core-0.41.4.tgz#d895c6dbfe53a78aade24d526817de796f4af09f"
-  integrity sha512-4eDiyq3hI3vJ0KnwIqonh9evy9p8aNixsf5wwnvDWcoPfYU3LGB6Nkb6WDdYS4z52tODCvN5gMRy1DtRopcxXg==
+"@expressive-code/plugin-frames@^0.41.5":
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.41.5.tgz#9255eb50a34c73177c8bdf82cdbbd4820af0df86"
+  integrity sha512-qU0cvAQGfRLX7XwGf3/+hqIVmAc/mNNTlqVLR0iBfJF6EKvtP3R7/uAlPrAxnxQxn0meTazCz8D+PsPyOpHKrQ==
   dependencies:
-    "@ctrl/tinycolor" "^4.0.4"
-    hast-util-select "^6.0.2"
-    hast-util-to-html "^9.0.1"
-    hast-util-to-text "^4.0.1"
-    hastscript "^9.0.0"
-    postcss "^8.4.38"
-    postcss-nested "^6.0.1"
-    unist-util-visit "^5.0.0"
-    unist-util-visit-parents "^6.0.1"
+    "@expressive-code/core" "^0.41.5"
 
-"@expressive-code/plugin-frames@^0.41.2":
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.41.2.tgz#b664df6530da07f084384dd7d9d4ac13aa05f658"
-  integrity sha512-pfy0hkJI4nbaONjmksFDcuHmIuyPTFmi1JpABe4q2ajskiJtfBf+WDAL2pg595R9JNoPrrH5+aT9lbkx2noicw==
+"@expressive-code/plugin-shiki@^0.41.5":
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.41.5.tgz#e850a5451d4d974687cf1831667ca0a20ae08252"
+  integrity sha512-gw6OWvnmDmvcKJ5AZSzl2VkuixJMQ/zWSwPLFNzitqCa8aPfIFunb0K8IIOsE43LELgOWkie9lRFspOxwDVwrg==
   dependencies:
-    "@expressive-code/core" "^0.41.2"
-
-"@expressive-code/plugin-frames@^0.41.4":
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-frames/-/plugin-frames-0.41.4.tgz#51f72197ebe470463ac8b4ea9eb231e0794b9d0d"
-  integrity sha512-W9jZW8LsPS8fW5T5CQyXUyyCrMxb7qfl6oxlLZB1rW74qM572Id4CWEXOM/7fFDcd1pW2fUxMoGzJMh0T2Awhg==
-  dependencies:
-    "@expressive-code/core" "^0.41.4"
-
-"@expressive-code/plugin-shiki@^0.41.2":
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.41.2.tgz#b2706be62212ddb97013dc0f6898ef468681e4aa"
-  integrity sha512-xD4zwqAkDccXqye+235BH5bN038jYiSMLfUrCOmMlzxPDGWdxJDk5z4uUB/aLfivEF2tXyO2zyaarL3Oqht0fQ==
-  dependencies:
-    "@expressive-code/core" "^0.41.2"
+    "@expressive-code/core" "^0.41.5"
     shiki "^3.2.2"
 
-"@expressive-code/plugin-shiki@^0.41.4":
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-shiki/-/plugin-shiki-0.41.4.tgz#cb7050b835beb22a4ed53e048b6c0e45e492370f"
-  integrity sha512-zOc0tfWISODHnnpfRJyssTvSWVVe+gj08GcFYiR2a6M8fKF1w5CJkpgf7tTvnoUTuVmL1DHRmiQFUnpGjtRGog==
+"@expressive-code/plugin-text-markers@^0.41.5":
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.5.tgz#4b4a3b02289398a5c4fa93657d265a7f395aab30"
+  integrity sha512-0DSiTsjWFEz6/iuLOGNNy2GaeCW41OwnVJMKx1tS+XKeQxAL89UkZP3egWNzxjWNHNMzEv3ZWWWYqbonEQlv/Q==
   dependencies:
-    "@expressive-code/core" "^0.41.4"
-    shiki "^3.2.2"
-
-"@expressive-code/plugin-text-markers@^0.41.2":
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.2.tgz#581ee78df8b9acc70e76526f3a0644efe9eea4b8"
-  integrity sha512-JFWBz2qYxxJOJkkWf96LpeolbnOqJY95TvwYc0hXIHf9oSWV0h0SY268w/5N3EtQaD9KktzDE+VIVwb9jdb3nw==
-  dependencies:
-    "@expressive-code/core" "^0.41.2"
-
-"@expressive-code/plugin-text-markers@^0.41.4":
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.4.tgz#d416b94000055bd7a8903bc92389f63eaccac7e5"
-  integrity sha512-lGqbjtIuiY+UZ+z61kKIJAZtF7H5xoT8lkxANmeoVaat+H47O5A+rr5WLmD45ezprO/NTogxHsaMfqRCuQ4vlw==
-  dependencies:
-    "@expressive-code/core" "^0.41.4"
+    "@expressive-code/core" "^0.41.5"
 
 "@img/colour@^1.0.0":
   version "1.0.0"
@@ -2249,19 +2212,12 @@ astro-auto-import@^0.4.5:
     "@types/node" "^18.0.0"
     acorn "^8.8.0"
 
-astro-expressive-code@^0.41.1:
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.41.2.tgz#5de3c27c15abfddb016ac2c632b0d6d03b08b651"
-  integrity sha512-HN0jWTnhr7mIV/2e6uu4PPRNNo/k4UEgTLZqbp3MrHU+caCARveG2yZxaZVBmxyiVdYqW5Pd3u3n2zjnshixbw==
+astro-expressive-code@^0.41.1, astro-expressive-code@^0.41.5:
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.41.5.tgz#0b4805b65d828beea94bb5340bbdfd28fd2f01ec"
+  integrity sha512-6jfABbPO0fkRD1ROAPBQtJR2p7gjbmk/GjfblOpo5Z7F+gwhL7+s8bEhLz9GdW10yfbn+gJvwEf7f9Lu2clh2A==
   dependencies:
-    rehype-expressive-code "^0.41.2"
-
-astro-expressive-code@^0.41.4:
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/astro-expressive-code/-/astro-expressive-code-0.41.4.tgz#7296ca927295bcc0c05e197487696a3c90643205"
-  integrity sha512-LK6EcK/hIHfOSo9zqapzu4CbTC0YBtMOVdvWjInpB2SgYtxiF22aZDqdpejN8J28mWPqPLQwSqdl2lWuirNXmw==
-  dependencies:
-    rehype-expressive-code "^0.41.4"
+    rehype-expressive-code "^0.41.5"
 
 astro-font@^1.1.0:
   version "1.1.0"
@@ -2996,25 +2952,15 @@ eventemitter3@^5.0.1:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.1.tgz#53f5ffd0a492ac800721bb42c66b841de96423c4"
   integrity sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==
 
-expressive-code@^0.41.2:
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.41.2.tgz#f57b784fac2aa89cd85144823637afcc71feaaf0"
-  integrity sha512-aLZiZaqorRtNExtGpUjK9zFH9aTpWeoTXMyLo4b4IcuXfPqtLPPxhRm/QlPb8QqIcMMXnSiGRHSFpQfX0m7HJw==
+expressive-code@^0.41.5:
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.41.5.tgz#b4314033494d24cb383dafc32e03fd773f3045ea"
+  integrity sha512-iXl9BgDogQgzgE/WRSrcyU8upOcRZrXPMiu6tegEHML57YLQ65S0E3/sjAXmMZy0GXoPs60s9jbwoMo/mdEQOg==
   dependencies:
-    "@expressive-code/core" "^0.41.2"
-    "@expressive-code/plugin-frames" "^0.41.2"
-    "@expressive-code/plugin-shiki" "^0.41.2"
-    "@expressive-code/plugin-text-markers" "^0.41.2"
-
-expressive-code@^0.41.4:
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/expressive-code/-/expressive-code-0.41.4.tgz#eabbcc51f1fa5d686b034985c9ba01810003a910"
-  integrity sha512-A9aFLhgqLkL6VSfqYkPqkJVMtA90/bhCLmUO7L3/a1xWISNMcHoCS6d6i8ePwi8HvHr3xRLswHTNt6NheTjdXA==
-  dependencies:
-    "@expressive-code/core" "^0.41.4"
-    "@expressive-code/plugin-frames" "^0.41.4"
-    "@expressive-code/plugin-shiki" "^0.41.4"
-    "@expressive-code/plugin-text-markers" "^0.41.4"
+    "@expressive-code/core" "^0.41.5"
+    "@expressive-code/plugin-frames" "^0.41.5"
+    "@expressive-code/plugin-shiki" "^0.41.5"
+    "@expressive-code/plugin-text-markers" "^0.41.5"
 
 extend-shallow@^2.0.1:
   version "2.0.1"
@@ -4901,19 +4847,12 @@ regex@^6.0.1:
   dependencies:
     regex-utilities "^2.3.0"
 
-rehype-expressive-code@^0.41.2:
-  version "0.41.2"
-  resolved "https://registry.yarnpkg.com/rehype-expressive-code/-/rehype-expressive-code-0.41.2.tgz#9ebdee54c451df6358b71e503c575c7fa45ffd13"
-  integrity sha512-vHYfWO9WxAw6kHHctddOt+P4266BtyT1mrOIuxJD+1ELuvuJAa5uBIhYt0OVMyOhlvf57hzWOXJkHnMhpaHyxw==
+rehype-expressive-code@^0.41.5:
+  version "0.41.5"
+  resolved "https://registry.yarnpkg.com/rehype-expressive-code/-/rehype-expressive-code-0.41.5.tgz#08e5e235b77c6818dddc9e98b234e6b8d6ca2e83"
+  integrity sha512-SzKJyu7heDpkt+XE/AqeWsYMSMocE/5mpJXD6CMgstqJHSE9bxGNcLp3zL9Wne3M5iBsS4GJyOD2syV77kRveA==
   dependencies:
-    expressive-code "^0.41.2"
-
-rehype-expressive-code@^0.41.4:
-  version "0.41.4"
-  resolved "https://registry.yarnpkg.com/rehype-expressive-code/-/rehype-expressive-code-0.41.4.tgz#a678626103c99936ffe656c0a92ed0431f394faa"
-  integrity sha512-qEUKfh/Aw9VZSUCXnJef41o7lpfnhXmQdXTkP2ZWGibSk4SoJVJ4ra1xN1t+hL1rp0d0GPKZ1CpM3q6bjV0xbg==
-  dependencies:
-    expressive-code "^0.41.4"
+    expressive-code "^0.41.5"
 
 rehype-format@^5.0.0:
   version "5.0.1"
