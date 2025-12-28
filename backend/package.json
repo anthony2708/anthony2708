@@ -8,7 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@netlify/functions": "^5.1.1",
+    "@netlify/functions": "^5.1.2",
     "@slidev/cli": "^52.11.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
