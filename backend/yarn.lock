@@ -650,10 +650,10 @@
   dependencies:
     langium "3.3.1"
 
-"@netlify/functions@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.1.1.tgz#ed8f65c7341dac06cdcb7e3b57da54bc189402e4"
-  integrity sha512-64TvwQkAFpYb3QqYemPYDqWi1xMbYOBfg70bhy23iahWf+F9TJgOOnAVUOk5fMWGN/fk9bZG5ROc+cm32whh+g==
+"@netlify/functions@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.1.2.tgz#a18a141c989f3c5e6963d5d4c0613f106854ae0c"
+  integrity sha512-tpPiLSkQatuexH8AdAZ8RlALvT7ixOE9VhvpkzQGNvihcms8hzmvUDuSxQa7UneTj/sHsdirnXmnJ+nmf+Nx/w==
   dependencies:
     "@netlify/types" "2.3.0"
 
