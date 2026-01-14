@@ -181,19 +181,19 @@
     stream-replace-string "^2.0.0"
     zod "^3.24.2"
 
-"@astrojs/sitemap@^3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.6.0.tgz#e9a83abb96df6c7e89be301b07adce032e49a96f"
-  integrity sha512-4aHkvcOZBWJigRmMIAJwRQXBS+ayoP5z40OklTXYXhUDhwusz+DyDl+nSshY6y9DvkVEavwNcFO8FD81iGhXjg==
+"@astrojs/sitemap@^3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.6.1.tgz#dd1ec3498a7715b405fe67aaf409d14b0cc2ea59"
+  integrity sha512-+o+TbxXqQJAOd+HxCjz/5RdAMrRFGjeuO+U6zddUuTO59WqMqXnsc8uveRiEr2Ff+3McZiEne7iG4J5cnuI6kA==
   dependencies:
-    sitemap "^8.0.0"
+    sitemap "^8.0.2"
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/starlight@^0.37.1":
-  version "0.37.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.1.tgz#7eaece5fbf05c51b9d0111f79a3ccc45ec850ba4"
-  integrity sha512-STNsR5PaDoiW4IgcX17Fp42FfyqwuweWPts/EWEMcFPAeg9Nvpu3UvVCorasYrgfJgaJTeydsOV++0ACA1KYDA==
+"@astrojs/starlight@^0.37.2":
+  version "0.37.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.2.tgz#5b20dc3af2e9f5db6f579bdc4b5415af7ee0210b"
+  integrity sha512-DGeaaKizwxHDsz72FdxyIBZ32eY8OdUoH6b757BGZlLEDq82O4uipFWoh+kz7+aKg1QoFu/rDq6fqtw+58tpRQ==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -5269,10 +5269,10 @@ sass-formatter@^0.7.6:
   dependencies:
     suf-log "^2.5.3"
 
-sass@^1.97.1:
-  version "1.97.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.1.tgz#f36e492baf8ccdd08d591b58d3d8b53ea35ab905"
-  integrity sha512-uf6HoO8fy6ClsrShvMgaKUn14f2EHQLQRtpsZZLeU/Mv0Q1K5P0+x2uvH6Cub39TVVbWNSrraUhDAoFph6vh0A==
+sass@^1.97.2:
+  version "1.97.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.2.tgz#e515a319092fd2c3b015228e3094b40198bff0da"
+  integrity sha512-y5LWb0IlbO4e97Zr7c3mlpabcbBtS+ieiZ9iwDooShpFKWXf62zz5pEPdwrLYm+Bxn1fnbwFGzHuCLSA9tBmrw==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
@@ -5440,6 +5440,16 @@ sitemap@^8.0.0:
     "@types/sax" "^1.2.1"
     arg "^5.0.0"
     sax "^1.2.4"
+
+sitemap@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-8.0.2.tgz#27bddb5fc2c61a1cf8f0194674cd89d762c9f5ae"
+  integrity sha512-LwktpJcyZDoa0IL6KT++lQ53pbSrx2c9ge41/SeLTyqy2XUNA6uR4+P9u5IVo5lPeL2arAcOKn1aZAxoYbCKlQ==
+  dependencies:
+    "@types/node" "^17.0.5"
+    "@types/sax" "^1.2.1"
+    arg "^5.0.0"
+    sax "^1.4.1"
 
 smol-toml@^1.3.1:
   version "1.3.4"
@@ -5874,10 +5884,10 @@ vite@^6.4.1:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vite@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-7.3.0.tgz#066c7a835993a66e82004eac3e185d0d157fd658"
-  integrity sha512-dZwN5L1VlUBewiP6H9s2+B3e3Jg96D0vzN+Ry73sOefebhYr9f94wwkMNN/9ouoU8pV1BqA1d1zGk8928cx0rg==
+vite@^7.3.1:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-7.3.1.tgz#7f6cfe8fb9074138605e822a75d9d30b814d6507"
+  integrity sha512-w+N7Hifpc3gRjZ63vYBXA56dvvRlNWRczTdmCBBa+CotUzAPf5b7YMdMR/8CQoeYE5LX3W4wj6RYTgonm1b9DA==
   dependencies:
     esbuild "^0.27.0"
     fdir "^6.5.0"
