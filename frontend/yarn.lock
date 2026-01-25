@@ -172,19 +172,10 @@
     fast-xml-parser "^5.3.0"
     piccolore "^0.1.3"
 
-"@astrojs/sitemap@^3.3.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.4.0.tgz#3eaad704eb4ed2e0420e8b81546420dffabb159b"
-  integrity sha512-C5m/xsKvRSILKM3hy47n5wKtTQtJXn8epoYuUmCCstaE9XBt20yInym3Bz2uNbEiNfv11bokoW0MqeXPIvjFIQ==
-  dependencies:
-    sitemap "^8.0.0"
-    stream-replace-string "^2.0.0"
-    zod "^3.24.2"
-
-"@astrojs/sitemap@^3.6.1":
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.6.1.tgz#dd1ec3498a7715b405fe67aaf409d14b0cc2ea59"
-  integrity sha512-+o+TbxXqQJAOd+HxCjz/5RdAMrRFGjeuO+U6zddUuTO59WqMqXnsc8uveRiEr2Ff+3McZiEne7iG4J5cnuI6kA==
+"@astrojs/sitemap@^3.3.0", "@astrojs/sitemap@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.7.0.tgz#26ffe9b2f51e2720e5e96f358ecc20f4d87f7218"
+  integrity sha512-+qxjUrz6Jcgh+D5VE1gKUJTA3pSthuPHe6Ao5JCxok794Lewx8hBFaWHtOnN0ntb2lfOf7gvOi9TefUswQ/ZVA==
   dependencies:
     sitemap "^8.0.2"
     stream-replace-string "^2.0.0"
@@ -5211,11 +5202,6 @@ sass@^1.97.2:
   optionalDependencies:
     "@parcel/watcher" "^2.4.1"
 
-sax@^1.2.4:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-1.4.1.tgz#44cc8988377f126304d3b3fc1010c733b929ef0f"
-  integrity sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==
-
 sax@^1.4.1:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.4.3.tgz#fcebae3b756cdc8428321805f4b70f16ec0ab5db"
@@ -5361,16 +5347,6 @@ sisteransi@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
-
-sitemap@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-8.0.0.tgz#eb6ea48f95787cd680b83683c555d6f6b5a903fd"
-  integrity sha512-+AbdxhM9kJsHtruUF39bwS/B0Fytw6Fr1o4ZAIAEqA6cke2xcoO2GleBw9Zw7nRzILVEgz7zBM5GiTJjie1G9A==
-  dependencies:
-    "@types/node" "^17.0.5"
-    "@types/sax" "^1.2.1"
-    arg "^5.0.0"
-    sax "^1.2.4"
 
 sitemap@^8.0.2:
   version "8.0.2"
@@ -6093,11 +6069,6 @@ zod-to-ts@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/zod-to-ts/-/zod-to-ts-1.2.0.tgz#873a2fd8242d7b649237be97e0c64d7954ae0c51"
   integrity sha512-x30XE43V+InwGpvTySRNz9kB7qFU8DlyEy7BsSTCHPH1R0QasMmHWZDCzYm6bVXtj/9NNJAZF3jW8rzFvH5OFA==
-
-zod@^3.24.2:
-  version "3.25.45"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.45.tgz#f4915644fc614baaad027d3c2b127375d9d62b23"
-  integrity sha512-kv1swJBZqv98NQibL0oVvkQE8rXT+6qGNM1FpZkFcJG2jnz4vbtu48bgaitp85CaBPLSKXibrEsU7MzJoVoZAA==
 
 zod@^3.25.76:
   version "3.25.76"
