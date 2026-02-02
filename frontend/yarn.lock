@@ -164,12 +164,12 @@
     ultrahtml "^1.6.0"
     vite "^6.4.1"
 
-"@astrojs/rss@^4.0.14":
-  version "4.0.14"
-  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-4.0.14.tgz#2d932a32bbaf6752224bec89e695eb6151712170"
-  integrity sha512-KCe1imDcADKOOuO/wtKOMDO/umsBD6DWF+94r5auna1jKl5fmlK9vzf+sjA3EyveXA/FoB3khtQ/u/tQgETmTw==
+"@astrojs/rss@^4.0.15":
+  version "4.0.15"
+  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-4.0.15.tgz#7884adaf52da45e747175e5e225e18ce7e08743d"
+  integrity sha512-uXO/k6AhRkIDXmRoc6xQpoPZrimQNUmS43X4+60yunfuMNHtSRN5e/FiSi7NApcZqmugSMc5+cJi8ovqgO+qIg==
   dependencies:
-    fast-xml-parser "^5.3.0"
+    fast-xml-parser "^5.3.3"
     piccolore "^0.1.3"
 
 "@astrojs/sitemap@^3.3.0":
@@ -190,10 +190,10 @@
     stream-replace-string "^2.0.0"
     zod "^3.25.76"
 
-"@astrojs/starlight@^0.37.4":
-  version "0.37.4"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.4.tgz#db34459c48e288e85e80565660757a3d9020f93c"
-  integrity sha512-ygPGDgRd9nCcNgaYMNN7UeAMAkDOR1ibv3ps3xEz+cuvKG3CRLd19UwdB+Gyz1tbkyfjPWPkFKNhLwNybro8Tw==
+"@astrojs/starlight@^0.37.5":
+  version "0.37.5"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.37.5.tgz#9231d917b1b64d2d4dcaf0a7152c23f1d1565dbf"
+  integrity sha512-+pC2pgy0iR9Ucl1P4CE0jyfsoNKcUSB2RIoBwm4UnyyhtlaEjoSU7MZwa5IJkzS9sBgIbLbLgYVbkC4tHN8rkQ==
   dependencies:
     "@astrojs/markdown-remark" "^6.3.1"
     "@astrojs/mdx" "^4.2.3"
@@ -2048,10 +2048,10 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.3.tgz#c1e305d15a52a3e508d54dca770d202cb63abf2c"
   integrity sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==
 
-"@types/react@^19.2.9":
-  version "19.2.9"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.9.tgz#84ec7669742bb3e7e2e8d6a5258d95ead7764200"
-  integrity sha512-Lpo8kgb/igvMIPeNV2rsYKTgaORYdO1XGVZ4Qz3akwOj0ySGYMPlQWa8BaLn0G63D1aSaAQ5ldR06wCpChQCjA==
+"@types/react@^19.2.10":
+  version "19.2.10"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.10.tgz#f3ea799e6b4cebad6dfd231c238fc9de7652e2d2"
+  integrity sha512-WPigyYuGhgZ/cTPRXB2EwUw+XvsRA3GqHlsP4qteqrnnjDrApbS7MxcGr/hke5iUoeB7E/gQtrs9I37zAJ0Vjw==
   dependencies:
     csstype "^3.2.2"
 
@@ -2292,10 +2292,10 @@ astro-font@^1.1.0:
   resolved "https://registry.yarnpkg.com/astro-font/-/astro-font-1.1.0.tgz#5daef75eacf7f22fdf15855c02fcdf22d8951054"
   integrity sha512-hj1A0MkaJTeaArBpf1m9s4Nxu1Bn9h0QiEPeR9Dfjle25pT4CH4higzuadWzCRSvhGO2SzbM11YwZEF+cmLDxg==
 
-astro@^5.16.15:
-  version "5.16.15"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-5.16.15.tgz#ad224ce12e1eb402fc5495ab4ad4261291004007"
-  integrity sha512-+X1Z0NTi2pa5a0Te6h77Dgc44fYj63j1yx6+39Nvg05lExajxSq7b1Uj/gtY45zoum8fD0+h0nak+DnHighs3A==
+astro@^5.17.1:
+  version "5.17.1"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-5.17.1.tgz#c645a6344538407d19c69ac365e7f9e8360e54ea"
+  integrity sha512-oD3tlxTaVWGq/Wfbqk6gxzVRz98xa/rYlpe+gU2jXJMSD01k6sEDL01ZlT8mVSYB/rMgnvIOfiQQ3BbLdN237A==
   dependencies:
     "@astrojs/compiler" "^2.13.0"
     "@astrojs/internal-helpers" "0.7.5"
@@ -2368,10 +2368,10 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.13.2:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.2.tgz#9ada120b7b5ab24509553ec3e40123521117f687"
-  integrity sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==
+axios@^1.13.4:
+  version "1.13.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.4.tgz#15d109a4817fb82f73aea910d41a2c85606076bc"
+  integrity sha512-1wVkUaAO6WyaYtCkcYCOx12ZgpGf9Zif+qXa4n+oYzK558YryKqiL6UWwd5DqiH3VRW0GYhTZQ/vlgJrCoNQlg==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
@@ -3090,10 +3090,10 @@ fast-uri@^3.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.0.6.tgz#88f130b77cfaea2378d56bf970dea21257a68748"
   integrity sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==
 
-fast-xml-parser@^5.3.0:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.3.1.tgz#94055e8f53e471064e3e47ca4c441d1b46229c4b"
-  integrity sha512-jbNkWiv2Ec1A7wuuxk0br0d0aTMUtQ4IkL+l/i1r9PRf6pLXjDgsBsWwO+UyczmQlnehi4Tbc8/KIvxGQe+I/A==
+fast-xml-parser@^5.3.3:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.3.4.tgz#06f39aafffdbc97bef0321e626c7ddd06a043ecf"
+  integrity sha512-EFd6afGmXlCx8H8WTZHhAoDaWaGyuIBoZJ2mknrNxug+aZKjkp0a0dlars9Izl+jF+7Gu1/5f/2h68cQpe0IiA==
   dependencies:
     strnum "^2.1.0"
 
@@ -4828,10 +4828,10 @@ radix3@^1.1.2:
   resolved "https://registry.yarnpkg.com/radix3/-/radix3-1.1.2.tgz#fd27d2af3896c6bf4bcdfab6427c69c2afc69ec0"
   integrity sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==
 
-react-dom@^19.2.3:
-  version "19.2.3"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.3.tgz#f0b61d7e5c4a86773889fcc1853af3ed5f215b17"
-  integrity sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==
+react-dom@^19.2.4:
+  version "19.2.4"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.4.tgz#6fac6bd96f7db477d966c7ec17c1a2b1ad8e6591"
+  integrity sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==
   dependencies:
     scheduler "^0.27.0"
 
@@ -4845,10 +4845,10 @@ react-refresh@^0.17.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
   integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
-react@^19.2.3:
-  version "19.2.3"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.2.3.tgz#d83e5e8e7a258cf6b4fe28640515f99b87cd19b8"
-  integrity sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==
+react@^19.2.4:
+  version "19.2.4"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.4.tgz#438e57baa19b77cb23aab516cf635cd0579ee09a"
+  integrity sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==
 
 readdirp@^4.0.1:
   version "4.1.2"
