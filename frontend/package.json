@@ -12,7 +12,7 @@
     "@astrojs/check": "^0.9.7",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/react": "^5.0.0",
-    "@astrojs/rss": "^4.0.15",
+    "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/starlight": "^0.37.7",
     "@justinribeiro/lite-youtube": "^1.9.0",
