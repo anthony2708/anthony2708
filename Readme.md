@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td><b>N/A<b></td>
+      <td><b>Application Support Engineer<b></td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td><b>N/A<b></td>
+      <td><b>EmbedIT Vietnam<b></td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>
@@ -57,4 +57,4 @@
 
 <p align="center"><img src="https://stats.builetuananh.name.vn/api/top-langs/?username=anthony2708&layout=compact&langs_count=10&card_width=445&theme=dracula" alt="Language Stats" /></p>
 
-<p align="center"><img src="https://nirzak-streak-stats.vercel.app?user=anthony2708&theme=city-lights&hide_border=true" alt="GitHub Streak" /></p>
+<p align="center"><img src="https://github-readme-streak-stats-vijaypur.vercel.app?user=anthony2708&theme=city-lights&hide_border=true" alt="GitHub Streak" /></p>
