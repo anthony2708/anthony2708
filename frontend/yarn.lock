@@ -3531,7 +3531,7 @@ mdast-util-mdx-expression@^2.0.0:
     mdast-util-from-markdown "^2.0.0"
     mdast-util-to-markdown "^2.0.0"
 
-mdast-util-mdx-jsx@^3.0.0, mdast-util-mdx-jsx@^3.1.3:
+mdast-util-mdx-jsx@^3.0.0, mdast-util-mdx-jsx@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz#fd04c67a2a7499efb905a8a5c578dddc9fdada0d"
   integrity sha512-lj/z8v0r6ZtsN/cGNNtemmmfoLAFZnjMbNyLzBafjzikOM+glrjNHPlf6lQDOTccj9n5b0PPihEBbhneMyGs1Q==
@@ -4876,15 +4876,15 @@ starlight-cooler-credit@^0.5.0:
   dependencies:
     change-case "^5.4.4"
 
-starlight-image-zoom@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.13.2.tgz#a49ec550dc5243c1edbc08edce095019f84a535a"
-  integrity sha512-fDJrx+UZXhkbhEeXKoRogTKAYtrYVJPw6wmSUI3nHUTA0vuRM6EI//2Z8bzv3Ecvz0pHKD1vAxtS01mLyessBA==
+starlight-image-zoom@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.14.1.tgz#20c99f6d0acc889e10ae5ef889e0b04a46213c92"
+  integrity sha512-HFY+/779bq65tiEgiQVk8XIH6HPP34PTxWDmdlIo9pwidLyJUUrSH030/1Iu/r+KjAD7W/jpPWjC8Nkn7+uPhw==
   dependencies:
-    mdast-util-mdx-jsx "^3.1.3"
+    mdast-util-mdx-jsx "^3.2.0"
     rehype-raw "^7.0.0"
-    unist-util-visit "^5.0.0"
-    unist-util-visit-parents "^6.0.1"
+    unist-util-visit "^5.1.0"
+    unist-util-visit-parents "^6.0.2"
 
 stream-replace-string@^2.0.0:
   version "2.0.0"
@@ -5147,15 +5147,7 @@ unist-util-visit-children@^3.0.0:
   dependencies:
     "@types/unist" "^3.0.0"
 
-unist-util-visit-parents@^6.0.0, unist-util-visit-parents@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-6.0.1.tgz#4d5f85755c3b8f0dc69e21eca5d6d82d22162815"
-  integrity sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==
-  dependencies:
-    "@types/unist" "^3.0.0"
-    unist-util-is "^6.0.0"
-
-unist-util-visit-parents@^6.0.2:
+unist-util-visit-parents@^6.0.0, unist-util-visit-parents@^6.0.1, unist-util-visit-parents@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz#777df7fb98652ce16b4b7cd999d0a1a40efa3a02"
   integrity sha512-goh1s1TBrqSqukSc8wrjwWhL0hiJxgA8m4kFxGlQ+8FYQ3C/m11FcTs4YYem7V664AhHVvgoQLk890Ssdsr2IQ==
