@@ -135,10 +135,10 @@
     stream-replace-string "^2.0.0"
     zod "^4.3.6"
 
-"@astrojs/starlight@^0.38.2":
-  version "0.38.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.38.2.tgz#db78625c6c29d897632bb85c70b6bd5449ccae73"
-  integrity sha512-7AsrvG4EsXUmJT5uqiXJN4oZqKaY0wc/Ip7C6/zGnShHRVoTAA4jxeYIZ3wqbqA6zv4cnp9qk31vB2m2dUcmfg==
+"@astrojs/starlight@^0.38.4":
+  version "0.38.4"
+  resolved "https://registry.yarnpkg.com/@astrojs/starlight/-/starlight-0.38.4.tgz#b9569c0e923c3f26961d37b885dbdf799e12e9a3"
+  integrity sha512-TGFIr2aVC+gcZCPQzJOO4ZnA/yL3jRnsUDcKlVdEhxhxaOQnWr9lZ9MRScg9zU6uh3HVeZAmmjkLCdTlHdcaZA==
   dependencies:
     "@astrojs/markdown-remark" "^7.0.0"
     "@astrojs/mdx" "^5.0.0"
