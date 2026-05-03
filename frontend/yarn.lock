@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@astrojs/check@^0.9.8":
-  version "0.9.8"
-  resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.9.8.tgz#d70dcab429a91cc830ded9bfadc716ec0ebd6983"
-  integrity sha512-LDng8446QLS5ToKjRHd3bgUdirvemVVExV7nRyJfW2wV36xuv7vDxwy5NWN9zqeSEDgg0Tv84sP+T3yEq+Zlkw==
+"@astrojs/check@^0.9.9":
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.9.9.tgz#2609f8b030b61a524c54bf801cb6cd4790ed7892"
+  integrity sha512-A5UW8uIuErLWEoRQvzgXpO1gTjUFtK8r7nU2Z7GewAMxUb7bPvpk11qaKKgxqXlHJWlAvaaxy+Xg28A6bmQ1Tg==
   dependencies:
-    "@astrojs/language-server" "^2.16.5"
+    "@astrojs/language-server" "^2.16.7"
     chokidar "^4.0.3"
     kleur "^4.1.5"
     yargs "^17.7.2"
@@ -36,10 +36,10 @@
   dependencies:
     picomatch "^4.0.4"
 
-"@astrojs/language-server@^2.16.5":
-  version "2.16.6"
-  resolved "https://registry.yarnpkg.com/@astrojs/language-server/-/language-server-2.16.6.tgz#ce7b101178e65509f79486a27d970f0808b457d7"
-  integrity sha512-N990lu+HSFiG57owR0XBkr02BYMgiLCshLf+4QG4v6jjSWkBeQGnzqi+E1L08xFPPJ7eEeXnxPXGLaVv5pa4Ug==
+"@astrojs/language-server@^2.16.7":
+  version "2.16.7"
+  resolved "https://registry.yarnpkg.com/@astrojs/language-server/-/language-server-2.16.7.tgz#4b6e7eb8243610fd578679a457d4e1ab59d5e118"
+  integrity sha512-b64bWT74Vq/ORcSqW7TdIjjpB6hcl+Ei/lMANIUaAGlLPiYNtPTRI/j2tzvugT+LoVwfJtE2Ukq/t2OGCyEtfQ==
   dependencies:
     "@astrojs/compiler" "^2.13.1"
     "@astrojs/yaml2ts" "^0.2.3"
@@ -49,7 +49,7 @@
     "@volar/language-server" "~2.4.28"
     "@volar/language-service" "~2.4.28"
     muggle-string "^0.4.1"
-    tinyglobby "^0.2.15"
+    tinyglobby "^0.2.16"
     volar-service-css "0.0.70"
     volar-service-emmet "0.0.70"
     volar-service-html "0.0.70"
@@ -5065,6 +5065,14 @@ tinyglobby@^0.2.15:
   dependencies:
     fdir "^6.5.0"
     picomatch "^4.0.3"
+
+tinyglobby@^0.2.16:
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.16.tgz#1c3b7eb953fce42b226bc5a1ee06428281aff3d6"
+  integrity sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==
+  dependencies:
+    fdir "^6.5.0"
+    picomatch "^4.0.4"
 
 to-regex-range@^5.0.1:
   version "5.0.1"
