@@ -10,18 +10,18 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/mdx": "^5.0.6",
     "@astrojs/react": "^5.0.4",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/starlight": "^0.38.4",
     "@justinribeiro/lite-youtube": "^1.9.0",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.1.8",
+    "astro": "^6.1.10",
     "astro-auto-import": "^0.5.1",
-    "astro-expressive-code": "^0.41.7",
+    "astro-expressive-code": "^0.42.0",
     "astro-font": "^1.1.0",
-    "axios": "^1.15.2",
+    "axios": "^1.16.0",
     "date-fns": "^4.1.0",
     "fuse.js": "^7.3.0",
     "gray-matter": "^4.0.3",
@@ -32,9 +32,9 @@
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "sharp": "^0.34.5",
-    "starlight-cooler-credit": "^0.5.0",
+    "starlight-cooler-credit": "^0.6.0",
     "starlight-image-zoom": "^0.14.1",
-    "vite": "^8.0.10"
+    "vite": "^8.0.13"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.11",
@@ -43,13 +43,13 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "dotenv": "^17.4.2",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.14",
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "sass": "^1.99.0",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3"
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
   },
   "packageManager": "yarn@1.22.22",
   "homepage": "https://www.builetuananh.name.vn"
