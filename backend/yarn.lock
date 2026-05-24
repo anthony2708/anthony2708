@@ -603,17 +603,17 @@
   dependencies:
     "@tybys/wasm-util" "^0.10.1"
 
-"@netlify/functions@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.2.1.tgz#d5f8a7e1d55338abd2bd87b0b1b624baa96da813"
-  integrity sha512-F1CCXeWC/4E/mj8La38WwFJ6oyymTBeIWYO87nyjN0L8mvb0tugcMsu+V6QkUllMtnBezdM0ApCaY+eWGmnj+g==
+"@netlify/functions@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-5.2.2.tgz#211c973e95a256511eb7cf1c810395c2d3eb9f63"
+  integrity sha512-gnAV+Cjtr15dbEFaq3PxY7J8Gq3ui+R/iDV+mu6NIU8reeEvLerLHklFimipvGrbymNIkyrgOfniqqoFJr2+0A==
   dependencies:
-    "@netlify/types" "2.6.0"
+    "@netlify/types" "2.7.0"
 
-"@netlify/types@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-2.6.0.tgz#f5927882d0fac98ed3198060933cf3ed435818d0"
-  integrity sha512-yD20EizHJDQxajJ66Vo8RTwLwR2jMNVxufPG8MHd2AScX8jW4z0VPnnJHArq2GYPFTFZRHmiAhDrXr5m8zof6w==
+"@netlify/types@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-2.7.0.tgz#feda4e8705d03ba375c5b8568dd8e7cef5ca21f8"
+  integrity sha512-mQeuJR1MJFnqZqJQ74B3WyP6oe2wC41VL/VAWzDj1lgdYDdlwLjFiXyHSziYH9L2cdkjGhiZ+7wdH/uUDuYryg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
