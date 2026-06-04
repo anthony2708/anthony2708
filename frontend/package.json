@@ -22,7 +22,7 @@
     "astro-expressive-code": "^0.42.0",
     "astro-font": "^1.1.0",
     "axios": "^1.16.0",
-    "date-fns": "^4.3.0",
+    "date-fns": "^4.4.0",
     "fuse.js": "^7.3.0",
     "gray-matter": "^4.0.3",
     "marked": "^18.0.4",
