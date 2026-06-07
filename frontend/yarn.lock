@@ -2087,10 +2087,10 @@ astro-font@^1.1.0:
   resolved "https://registry.yarnpkg.com/astro-font/-/astro-font-1.1.0.tgz#5daef75eacf7f22fdf15855c02fcdf22d8951054"
   integrity sha512-hj1A0MkaJTeaArBpf1m9s4Nxu1Bn9h0QiEPeR9Dfjle25pT4CH4higzuadWzCRSvhGO2SzbM11YwZEF+cmLDxg==
 
-astro@^6.4.2:
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-6.4.2.tgz#ee46138de79f9a6a81a62569b2b9db4a8d90506e"
-  integrity sha512-8H89CH2dKL5SCU99OCqdU9BGjmPkSJqaPurywj5XMo7eMFGUFD3vsNhdEKnEh4mK4LgGje3/QDTTSIIGst0G0Q==
+astro@^6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-6.4.4.tgz#2078aaf981be8ef72e7df3705094884c2755e1dd"
+  integrity sha512-hVe8tq3lqt/Dr0UyB//yUmQSlHMTU8scTiF/vQddQVahLE4TTaSdH5H0nb7OvRcwo0UmlAO8DWYar4jNaS7H+A==
   dependencies:
     "@astrojs/compiler" "^4.0.0"
     "@astrojs/internal-helpers" "0.10.0"
@@ -2106,7 +2106,7 @@ astro@^6.4.2:
     clsx "^2.1.1"
     common-ancestor-path "^2.0.0"
     cookie "^1.1.1"
-    devalue "^5.6.3"
+    devalue "^5.8.1"
     diff "^8.0.3"
     dset "^3.1.4"
     es-module-lexer "^2.0.0"
@@ -2460,7 +2460,7 @@ detect-libc@^2.1.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad"
   integrity sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==
 
-devalue@^5.6.3, devalue@^5.6.4:
+devalue@^5.6.4, devalue@^5.8.1:
   version "5.8.1"
   resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.8.1.tgz#f27290d3a324e2eb20c2714369b01b8ec4de4c61"
   integrity sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==
