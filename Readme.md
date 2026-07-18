@@ -22,11 +22,11 @@
     </tr>
     <tr>
       <td>📗 Current Title</td>
-      <td><b>Application Support Engineer<b></td>
+      <td><b>N/A<b></td>
     </tr>
     <tr>
       <td>💻 Company</td>
-      <td><b>EmbedIT Vietnam<b></td>
+      <td><b>N/A<b></td>
     </tr>
     <tr>
       <td>🏫 Previous Uni</td>
@@ -42,6 +42,7 @@
             <a href="https://www.github.com/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg"></a>
             <a href="https://www.linkedin.com/in/anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg"></a>
             <a href="https://www.youtube.com/@yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg"></a>
+            <a href="https://www.tiktok.com/@yourlove.anthony2708"><img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/tiktok.svg"></a>
           </li>
           <li>Website: <a href="https://www.builetuananh.name.vn/">https://www.builetuananh.name.vn</a></li>
           <li>Telephone: <a href="tel:+84937826135">(+84/0) 937-826-135</a> (available in VN only)</li>

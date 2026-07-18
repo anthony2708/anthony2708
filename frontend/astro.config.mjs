@@ -80,7 +80,7 @@ export default defineConfig({
         {icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/anthony2708/'},
         {icon: 'github', label: 'Github', href: 'https://github.com/anthony2708'},
         {icon: 'youtube', label: 'Youtube', href: 'https://www.youtube.com/@yourlove.anthony2708'},
-        {icon: 'bitbucket', label: 'Bitbucket', href: 'https://bitbucket.org/19120163/'},
+        {icon: 'tiktok', label: 'Tiktok', href: 'https://tiktok.com/@yourlove.anthony2708'},
         {icon: 'email', label: 'Email', href: 'mailto:builetuananh2708@gmail.com'},
         {icon: 'phone', label: 'Phone', href: 'tel:+84937826135'},
 	  ],
