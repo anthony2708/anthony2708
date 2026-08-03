@@ -256,12 +256,12 @@
   dependencies:
     prismjs "^1.30.0"
 
-"@astrojs/react@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-6.0.1.tgz#9d57b4bfcb8043b945a7ca67cfb42382d484f2ff"
-  integrity sha512-Afs1sEm72P2plDnrOGxmIteJ7bjx/VqxlcaQLNip5eHJ5tIvKUORQetC9UKcvgwKnj51t60HWl5mOANkOsWs4w==
+"@astrojs/react@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-6.0.2.tgz#c57dd9885a74b117d31c6a02239cf1e1a0fa0ba7"
+  integrity sha512-Fvv2UqS7ajFL2Yjd5s4s5PcCBCSSfks4r04rbCHZO5z4pUPwCygV2ketI+iC+1P/sdHANLV3tgDL1wjzty4cJg==
   dependencies:
-    "@astrojs/internal-helpers" "0.10.1"
+    "@astrojs/internal-helpers" "0.10.2"
     "@vitejs/plugin-react" "^5.2.0"
     devalue "^5.8.1"
     ultrahtml "^1.6.0"
