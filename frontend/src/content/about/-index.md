@@ -21,6 +21,6 @@ what_i_do:
 
 ---
 
-_Hiện tại trang web đang trong giai đoạn tái cơ cấu lại._
+_Từ ngày 20/07/2026, các nội dung đăng tải chính thức có "ngôi nhà mới"._
 
 _Mời quý độc giả chuyển vùng sang trang web mới để theo dõi các bài đăng của chúng tôi._

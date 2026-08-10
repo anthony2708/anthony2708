@@ -38,7 +38,7 @@
 
 /* Lunar New Year: Pink (Peach blossom - Contrast AAA */
 /* Dark mode colors. */
-:root {
+/* :root {
 	--sl-color-accent-low: #3a1528;
 	--sl-color-accent: #b3257a;
 	--sl-color-accent-high: #eab8cf;
@@ -52,7 +52,7 @@
 	--sl-color-black: #151919;
 }
 /* Light mode colors. */
-:root[data-theme='light'] {
+/* :root[data-theme='light'] {
 	--sl-color-accent-low: #f1cbdb;
 	--sl-color-accent: #9b0066;
 	--sl-color-accent-high: #541839;
@@ -65,12 +65,12 @@
 	--sl-color-gray-6: #eaefee;
 	--sl-color-gray-7: #f5f7f6;
 	--sl-color-black: #ffffff;
-}
+} */
 
 
 /* State Funeral: Black (Black - Contrast AAA) */
 /* Dark mode colors. */
-/* :root {
+:root {
 	--sl-color-accent-low: #242423;
 	--sl-color-accent: #6c6967;
 	--sl-color-accent-high: #c9c8c7;
@@ -82,9 +82,9 @@
 	--sl-color-gray-5: #383838;
 	--sl-color-gray-6: #272727;
 	--sl-color-black: #181818;
-} */
+}
 /* Light mode colors. */
-/* :root[data-theme='light'] {
+:root[data-theme='light'] {
 	--sl-color-accent-low: #d7d7d6;
 	--sl-color-accent: #504e4c;
 	--sl-color-accent-high: #333231;
@@ -97,4 +97,4 @@
 	--sl-color-gray-6: #eeeeed;
 	--sl-color-gray-7: #f6f6f6;
 	--sl-color-black: #ffffff;
-} */
+}
