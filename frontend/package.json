@@ -14,7 +14,7 @@
     "@astrojs/react": "^6.0.2",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/starlight": "^0.41.7",
+    "@astrojs/starlight": "^0.41.9",
     "@justinribeiro/lite-youtube": "^1.9.0",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.2.1",
