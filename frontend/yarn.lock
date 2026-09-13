@@ -1842,10 +1842,10 @@ acorn-jsx@^5.0.0:
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
 
-acorn@^8.0.0, acorn@^8.16.0, acorn@^8.17.0:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.17.0.tgz#1785adb84faf8d8add10369b93826fc2bd08f1fe"
-  integrity sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==
+acorn@^8.0.0, acorn@^8.16.0, acorn@^8.18.0:
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.18.0.tgz#4faf01b2d6d326bfeed97aea1f52220b5f4c1940"
+  integrity sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==
 
 agent-base@6:
   version "6.0.2"
@@ -1926,12 +1926,12 @@ astring@^1.8.0:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.9.0.tgz#cc73e6062a7eb03e7d19c22d8b0b3451fd9bfeef"
   integrity sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==
 
-astro-auto-import@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/astro-auto-import/-/astro-auto-import-0.5.2.tgz#a817679e9f4db3eb3534fa59eb982ca342b63b73"
-  integrity sha512-C7sxtj0nK4F7AiafNoS8lY/JyqW6/JlnkXTdNIT6CKroV/p4m5j6dkpKEAXZf/7Z+SeDcmAlWI6G1nVMssRRPQ==
+astro-auto-import@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/astro-auto-import/-/astro-auto-import-0.6.0.tgz#b6d9f6ea8df8588c4aacb0903ec893a753500960"
+  integrity sha512-ru98hrmIZcLvNIcQWtGHKlYE2C+5+8dp86vGnDiGpdmqcFcG/Tn7uNVGhF1CUkvxNRtE+YZhmWTD94lnxY++rA==
   dependencies:
-    acorn "^8.17.0"
+    acorn "^8.18.0"
 
 astro-expressive-code@^0.44.0, astro-expressive-code@^0.44.2:
   version "0.44.2"
