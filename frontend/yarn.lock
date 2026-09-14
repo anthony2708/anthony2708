@@ -161,16 +161,6 @@
     unist-util-visit-parents "^6.0.2"
     vfile "^6.0.3"
 
-"@astrojs/markdown-satteri@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/markdown-satteri/-/markdown-satteri-0.4.0.tgz#59e269071e76aecae664b9a673d4914663f1647c"
-  integrity sha512-wykOOW9KsUVcZweOpY/CeXpdKcCKZy6fQbdcteWFuI75+sQCiqxYM7VKsGa5b+aGl3cYQscFY37rsbbyal5MRw==
-  dependencies:
-    "@astrojs/internal-helpers" "0.11.0"
-    "@astrojs/prism" "4.0.2"
-    github-slugger "^2.0.0"
-    satteri "^0.10.3"
-
 "@astrojs/markdown-satteri@0.4.1", "@astrojs/markdown-satteri@^0.4.0":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@astrojs/markdown-satteri/-/markdown-satteri-0.4.1.tgz#2e78bb088a2edf8f41fb063b84bedee2a8fe12e6"
@@ -1881,14 +1871,14 @@ astro-font@^1.2.0:
   resolved "https://registry.yarnpkg.com/astro-font/-/astro-font-1.2.0.tgz#0aecb586b4a68a450ee41d81c6313ab571da915a"
   integrity sha512-Jcgag+vUQQIlw/RBMrQ+lsDc+m0Weyjke3+ilK9lWIJVkTn24jUKBS0FE7Zi+ojDMVSyasJ8HEmHzKizJL3SkA==
 
-astro@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-7.3.1.tgz#4ef703a2faaedde4ff790ef880315fa2e780a8d4"
-  integrity sha512-A/bJYHtc6n0UAdROY9W948fW6lX0pnUA+JWKW+IGCXRyDIGN2MsXC0OlS8onZGJjr+sv8htemwOc9W5PBRXCkw==
+astro@^7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-7.3.2.tgz#2274a94ca43acb37014f1fc50517ae3cce55a1a4"
+  integrity sha512-ysTcdpGP61XZpHoMRYC/CK19DQ94qkBvzXMtXEo0gEqPNkmOU/Tv++CtWmzaI4nF2Ck8RXFdiWvdlTWa2oOr9w==
   dependencies:
     "@astrojs/compiler-rs" "^0.4.0"
     "@astrojs/internal-helpers" "0.11.0"
-    "@astrojs/markdown-satteri" "0.4.0"
+    "@astrojs/markdown-satteri" "0.4.1"
     "@astrojs/telemetry" "3.3.3"
     "@capsizecss/unpack" "^4.0.0"
     "@clack/prompts" "^1.1.0"
