@@ -714,17 +714,17 @@
     "@modelcontextprotocol/core" "2.0.0"
     zod "^4.2.0"
 
-"@netlify/functions@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-6.0.0.tgz#4982472ed73c6bd5360a6efd8694feb22d0510bb"
-  integrity sha512-Pee+FoFnAtdejTkl62a7mZxj6Wx4eqVNuYyDc5T4XPJN9GaAWaUf4cZQFlf2m4Fqq0HoghjtcPKo+BZviVPPKA==
+"@netlify/functions@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-6.0.2.tgz#29c20a01cc0aebc4028bc9f45ca9faad0cef4cb9"
+  integrity sha512-JqbPgAOt2GAwzCEitdEWAHOn6AkZ0Rna401wdAyuDIBiDv9M03b3Cu5mGH7/eHOmIXfZIcN1pG35flHjfu6asQ==
   dependencies:
-    "@netlify/types" "3.0.0"
+    "@netlify/types" "3.2.0"
 
-"@netlify/types@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-3.0.0.tgz#80e6a3d399b681e32b1f4ef2b75937e748ff3a65"
-  integrity sha512-zRCidsQgI4CZWrZB/kmwdPf0QbSNljakfNSLizFvrsSA3UcUrTWSBNMVKmZnob92/8ESeUN0ewXLOlffJU+ATQ==
+"@netlify/types@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/types/-/types-3.2.0.tgz#2e98eeadf4d04d32b2e91c8826e7ec0a474809e5"
+  integrity sha512-PVvY1EEN9i2Er0LQoiyNG7i/BnwnttLuZqIkBnhL2Jrcj3P5N/NcGkv1i20MJ2ngNGSPQcT7tagDmF3V6BsdWg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
