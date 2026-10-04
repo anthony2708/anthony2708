@@ -2130,11 +2130,6 @@ ccount@^2.0.0:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-2.0.1.tgz#17a3bf82302e0870d6da43a01311a8bc02a3ecf5"
   integrity sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==
 
-change-case@^5.4.4:
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/change-case/-/change-case-5.4.4.tgz#0d52b507d8fb8f204343432381d1a6d7bff97a02"
-  integrity sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==
-
 character-entities-html4@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/character-entities-html4/-/character-entities-html4-2.1.0.tgz#1f1adb940c971a4b22ba39ddca6b618dc6e56b2b"
@@ -4871,12 +4866,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-starlight-cooler-credit@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.6.0.tgz#6603fa6077ca7a0dfeeadf490b8f80f6bb506867"
-  integrity sha512-BqxoZPTI+s+ZoZnWqpJCHfl+nWDmqObyb7i/piYDdNMjkPRsuerLoRbf1oiz5vWjux/lqr4gSvLWoF56VwKTdg==
-  dependencies:
-    change-case "^5.4.4"
+starlight-cooler-credit@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.7.0.tgz#365f1c181372c6bbab546e5817a6875403b287a7"
+  integrity sha512-77AyNU5Bbxup1c6abX5rOAA+L3jod18INTOgf33MvF128+lrddnmA3V2MvQzF7goluhcO8u6nC7G2KtZ43++nA==
 
 starlight-image-zoom@^0.16.0:
   version "0.16.0"
