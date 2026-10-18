@@ -4410,10 +4410,10 @@ starlight-cooler-credit@^0.7.0:
   resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.7.0.tgz#365f1c181372c6bbab546e5817a6875403b287a7"
   integrity sha512-77AyNU5Bbxup1c6abX5rOAA+L3jod18INTOgf33MvF128+lrddnmA3V2MvQzF7goluhcO8u6nC7G2KtZ43++nA==
 
-starlight-image-zoom@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.16.0.tgz#48c9bf697eb45003b664fbc0342b13eb4a3087e3"
-  integrity sha512-N/mZ1Jwu+1JRQ9MqJjdj69UXiVpfDd3k6i78ZIuht1aZGceVC0wOcqCPASZ6VNmUoELlMXLz9n0xtAyBIfmA8A==
+starlight-image-zoom@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/starlight-image-zoom/-/starlight-image-zoom-0.16.2.tgz#11d4b38c7dae946c45bb37fc516ff5cbdfc94ca2"
+  integrity sha512-TF3TGjkb3d8hsYE5Hr09vTVAG0SsozNGQRy0Xy29zHqxNZVorrnE7CsddO98M6NA1KbKg4p2sNrCq59COLL80A==
   dependencies:
     mdast-util-mdx-jsx "^3.2.0"
     rehype-raw "^7.0.0"
