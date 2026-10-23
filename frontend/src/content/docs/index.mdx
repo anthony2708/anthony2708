@@ -1,5 +1,5 @@
 ---
-title: Anthony Bùi Lê Tuấn Anh
+title: Profile
 description: Một chuyên viên công nghệ vào ban ngày, giáo viên dạy tiếng Anh ban đêm
 template: doc
 slug: /
@@ -14,3 +14,25 @@ hero:
 banner:
   content: Từ 26/10/2026, trang web chính thức chuyển sang giao diện mới!
 ---
+
+import { Card, CardGrid, LinkButton } from '@astrojs/starlight/components';
+
+## Thông tin chi tiết
+
+<CardGrid stagger>
+	<Card title="Điều khoản cung cấp dịch vụ" icon="approve-check-circle">
+		_Khung điều khoản dành cho người dùng khi sử dụng dịch vụ hay truy cập trên trang web này._
+    
+    <LinkButton href="/policy">Xem điều khoản</LinkButton>
+	</Card>
+	<Card title="Theo dõi trạng thái" icon="analytics">
+		_Bạn thấy lỗi khi truy cập các dịch vụ của trang web? Cập nhật qua hệ thống giám sát mới._
+    
+    <LinkButton href="https://status.builetuananh.name.vn">Mở hệ thống</LinkButton>
+	</Card>
+	<Card title="Gửi góp ý" icon="comment">
+		_Bạn có góp ý cho chủ trang web? Hay bạn muốn mua sách? Truy cập vào biểu mẫu để đăng ký!_
+    
+    <LinkButton href="/contact">Điền biểu mẫu</LinkButton>
+	</Card>
+</CardGrid>
