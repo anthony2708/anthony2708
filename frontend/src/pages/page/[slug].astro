@@ -1,25 +1,25 @@
 ---
-// import config from "@/config/config.json";
+import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 // import Pagination from "@/layouts/components/Pagination.astro";
 // import Posts from "@/layouts/Posts.astro";
-// import { getSinglePage } from "@/lib/contentParser.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
 // import { sortByDate } from "@/lib/utils/sortFunctions";
 
-// export async function getStaticPaths() {
-//   const posts = await getSinglePage("posts");
-//   const totalPages = Math.ceil(posts.length / config.settings.pagination);
-//   const paths = [];
+export async function getStaticPaths() {
+  const posts = await getSinglePage("posts");
+  const totalPages = Math.ceil(posts.length / config.settings.pagination);
+  const paths = [];
 
-//   for (let i = 1; i < totalPages; i++) {
-//     paths.push({
-//       params: {
-//         slug: (i + 1).toString(),
-//       },
-//     });
-//   }
-//   return paths;
-// }
+  for (let i = 1; i < totalPages; i++) {
+    paths.push({
+      params: {
+        slug: (i + 1).toString(),
+      },
+    });
+  }
+  return paths;
+}
 
 // const { slug } = Astro.params;
 // const posts = await getSinglePage("posts");
