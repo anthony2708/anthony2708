@@ -70,7 +70,7 @@ export default defineConfig({
   ],  
   title: "Anthony Bùi Lê Tuấn Anh",
   logo: {
-    src: './public/images/new_logo.png',
+    src: './public/images/old/new_logo.png',
     replacesTitle: true
   },
   favicon: '/images/favicon.ico',
