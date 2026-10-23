@@ -1,5 +1,5 @@
 ---
-import Share from "@/components/Share.astro";
+// import Share from "@/components/Share.astro";
 // import SimilarPosts from "@/components/SimilarPosts.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
@@ -110,12 +110,12 @@ const { title, description, authors, categories, image, date, tags } =
               ))
             }
           </ul>
-          <Share
+          <!-- <Share
             className="social-share mb-4"
             title={title}
             description={description}
             slug={post.id}
-          />
+          /> -->
         </div>
       </div>
     </article>

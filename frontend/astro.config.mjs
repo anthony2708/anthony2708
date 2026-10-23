@@ -70,10 +70,10 @@ export default defineConfig({
   ],  
   title: "Anthony Bùi Lê Tuấn Anh",
   logo: {
-    src: './public/ET_Logo.png',
+    src: './public/images/new_logo.png',
     replacesTitle: true
   },
-  favicon: '/favicon.png',
+  favicon: '/images/favicon.ico',
   social: [
         {icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/buile.tuananh'},
         {icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/yourlove.anthony2708/'},
@@ -86,18 +86,31 @@ export default defineConfig({
 	  ],
   //  expressiveCode: false,
    defaultLocale: 'root',
-       locales: {
-          root: {
-              label: 'Việt ngữ',
-              lang: 'vi'
-          }
-       },
+   locales: {
+      root: {
+          label: 'Việt ngữ',
+          lang: 'vi'
+      }
+   },
    disable404Route: true, 
    sidebar: [
-  {
-        label: 'Trở về Trang chủ',
+    {
+        label: 'Trang chủ',
         link: '/',
-	  },{
+	  },
+    {
+        label: 'Blog',
+        link: 'https://builetuananh.substack.com'
+    },
+    {
+        label: 'Cửa hàng',
+        link: '/store'
+    },
+    {
+        label: 'Slides',
+        link: 'https://api.builetuananh.name.vn'
+    },
+    {
         label: '90 ngày DevOps',
         items: [
           { label: 'Trang nhà', link: '/90days' },
