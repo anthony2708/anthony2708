@@ -4,7 +4,7 @@
      branches:
        - main
      paths:
-       - "frontend/**"
+       - "website/**"
      # Review gh actions docs if you want to further define triggers, paths, etc
      # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
  jobs:
@@ -17,14 +17,12 @@
          with:
            node-version: 22
            cache: yarn
-           cache-dependency-path: frontend/yarn.lock
+           cache-dependency-path: website/yarn.lock
 
        - name: Install dependencies
          run: yarn install --frozen-lockfile
-         working-directory: frontend
+         working-directory: website
 
        - name: Test build website
          run: yarn build
-         working-directory: frontend
-         env:
-          PUBLIC_BACKEND_URL: 'https://api.builetuananh.name.vn'
+         working-directory: website

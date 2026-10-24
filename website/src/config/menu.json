@@ -1,0 +1,34 @@
+{
+  "main": [
+    {
+      "name": "Trang chủ",
+      "url": "/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://builetuananh.substack.com"
+    },
+    {
+      "name": "90 ngày DevOps",
+      "url": "/90days"
+    },
+    {
+      "name": "Cửa hàng",
+      "url": "/store"
+    },
+    {
+      "name": "Slides",
+      "url": "/slides"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Điều khoản dịch vụ",
+      "url": "/policy"
+    },
+    {
+      "name": "Trạng thái hệ thống",
+      "url": "https://status.builetuananh.name.vn"
+    }
+  ]
+}

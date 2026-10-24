@@ -1,0 +1,10 @@
+{
+  "name": "slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /slides/ --out ../public/slides",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  }
+}
