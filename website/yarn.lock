@@ -7002,10 +7002,10 @@ pptxgenjs@^4.0.1:
     image-size "^1.2.1"
     jszip "^3.10.1"
 
-prettier-plugin-astro@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-1.0.1.tgz#5e09f95af496296de23da11c211e428dd65cf50e"
-  integrity sha512-FKLtmNgyAoUbUixxmgkyO9ZMjEWCpHgMLtci8IakhCIzr8b+ML9YssBqsMfNoDdd/iE27BixwBZSq2amWDwpFQ==
+prettier-plugin-astro@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-1.1.1.tgz#d819431f90c3f5dd61d0dfbfe3838796ff4b209b"
+  integrity sha512-ykymNFOinCFXY4z4yF0978GgAvg6GRtrzCYg3+R1Nv/dndACwuEsSrUpHkJohER9FiwYMPKuYT38FbjCLmwu9A==
   dependencies:
     "@astrojs/compiler-rs" "^0.4.0"
     "@prettier/parse-srcset" "^3.1.0"
