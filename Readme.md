@@ -58,4 +58,4 @@
 
 <p align="center"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=anthony2708&layout=compact&langs_count=10&card_width=445&theme=dracula" alt="Language Stats" /></p>
 
-<p align="center"><img src="https://github-readme-stats-fast.vercel.app/api/streak?username=anthony2708&theme=dracula" alt="GitHub Streak" /></p>
+<p align="center"><img src="https://streak-stats.demolab.com?user=anthony2708&theme=dracula&locale=vi&date_format=j%2Fn%5B%2FY%5D" alt="GitHub Streak" /></p>
