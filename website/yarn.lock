@@ -272,10 +272,10 @@
   dependencies:
     prismjs "^1.30.0"
 
-"@astrojs/react@^7.1.1":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-7.1.1.tgz#7830f8de2678d5b267c0f25b1c6c52ead8babd81"
-  integrity sha512-jHan8UuXzFEbzcmsjCRrepm9Xc5XRz+Jt57MjfE568tbOEoDKVzeMuHf9YO0Y4hHwROX8iJmLzaiT3Yr5W0UbQ==
+"@astrojs/react@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-7.1.2.tgz#75068fb07a321e7093e55bd9e990b8663e6e64b6"
+  integrity sha512-lHzxxZdei/SXf1tShY0M0zWkbDs4FA79qnNPIDMYD0Bz5m6iY1bmRRVTQ+EEFsnFWefFoPX5A+NK3Nn8Ywdltw==
   dependencies:
     "@astrojs/internal-helpers" "0.13.0"
     "@vitejs/plugin-react" "^6.1.2"
