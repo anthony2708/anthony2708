@@ -37,7 +37,7 @@
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "sharp": "^0.35.5",
-    "starlight-cooler-credit": "^0.7.0",
+    "starlight-cooler-credit": "^0.7.1",
     "starlight-image-zoom": "^0.16.2",
     "vite": "^8.3.4",
     "vite-plugin-static-copy": "^4.1.1",
