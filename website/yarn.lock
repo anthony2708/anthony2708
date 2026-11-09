@@ -7471,10 +7471,10 @@ srvx@^1.0.6:
   resolved "https://registry.yarnpkg.com/srvx/-/srvx-1.0.7.tgz#804498e7455799a6f4d4e068de76dcda3a415484"
   integrity sha512-8h30Qy2cpYkcXgByHNpV4+jp609bU3ic7MqnfyLQ2Fpa8BgjIaI2zfsDKAIbwm8DcYDrCLqm5izF5KeL2nxdvg==
 
-starlight-cooler-credit@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.7.0.tgz#365f1c181372c6bbab546e5817a6875403b287a7"
-  integrity sha512-77AyNU5Bbxup1c6abX5rOAA+L3jod18INTOgf33MvF128+lrddnmA3V2MvQzF7goluhcO8u6nC7G2KtZ43++nA==
+starlight-cooler-credit@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/starlight-cooler-credit/-/starlight-cooler-credit-0.7.1.tgz#48d2145fcc0716dd6d9a748f059e53743eae2da1"
+  integrity sha512-ZxfO994CXH2d9bq+2EjSwr0yvaksD4y2I+1ID2eEXKr1arx05xx6YblFZtVkN/W+rmXHvz4sTNtyrJFZDAlIRg==
 
 starlight-image-zoom@^0.16.2:
   version "0.16.2"
