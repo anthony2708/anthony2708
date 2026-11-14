@@ -23,7 +23,7 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@tailwindcss/vite": "^4.3.4",
-    "astro": "^7.4.4",
+    "astro": "^7.4.7",
     "astro-auto-import": "^0.6.0",
     "astro-expressive-code": "^0.44.2",
     "astro-font": "^1.2.0",
